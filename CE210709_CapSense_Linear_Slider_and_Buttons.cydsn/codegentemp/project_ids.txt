@@ -1,0 +1,9 @@
+C:\Users\michael.machate\Desktop\CY8CKIT-145 Code Example\CE210709_CapSense_Linear_Slider_and_Buttons\CE210709_EZ-BLE_Peripheral.cydsn\CE210709_EZ-BLE_Peripheral.cyprj|53b0fdf2-2949-4ee9-a03b-d2f42d7b105d
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|90b722bd-a9f3-43c2-96ec-9a780bcc53ee
+C:\Users\michael.machate\Documents\PSoC Creator\4.2\Downloads ( 4.2).cylib\Downloads ( 4.2).cyprj|2d3ebbe7-66cd-4f09-b7ba-90664f82b82c
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|2ae0b7b7-008c-45f7-9e1a-d2f5b2b32991
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|b7a73606-db8c-4d01-bdf9-79ff52d689ad
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|d4f2a4f9-95cc-45dd-9984-685e2c043f46
+C:\Users\michael.machate\Desktop\CY8CKIT-145 Code Example\CE210709_CapSense_Linear_Slider_and_Buttons\CE210709_CapSense_Linear_Slider_and_Buttons.cydsn\CE210709_CapSense_Linear_Slider_and_Buttons.cyprj|08719dca-3d57-4287-8467-b6687ad5b9b6
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\dev\psoc4\PSoC4AnalogDevice\psoc4arch.cydsn\psoc4arch.cyprj|405c75d1-5b06-426c-a352-2df0dd5b3b8c
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\default\CyReferenceLibrary\CyReferenceLibrary.cylib\CyReferenceLibrary.cyprj|c9157c90-80bf-4e7f-a773-24b1d5c80973

@@ -1,0 +1,3937 @@
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\cctIS3p0.s 			page 1
+
+
+   1              		.syntax unified
+   2              		.cpu cortex-m0plus
+   3              		.fpu softvfp
+   4              		.eabi_attribute 20, 1
+   5              		.eabi_attribute 21, 1
+   6              		.eabi_attribute 23, 3
+   7              		.eabi_attribute 24, 1
+   8              		.eabi_attribute 25, 1
+   9              		.eabi_attribute 26, 1
+  10              		.eabi_attribute 30, 1
+  11              		.eabi_attribute 34, 0
+  12              		.eabi_attribute 18, 4
+  13              		.thumb
+  14              		.syntax unified
+  15              		.file	"SmartIO_Port2.c"
+  16              		.text
+  17              	.Ltext0:
+  18              		.cfi_sections	.debug_frame
+  19              		.section	.text.SmartIO_Port2_Init,"ax",%progbits
+  20              		.align	2
+  21              		.global	SmartIO_Port2_Init
+  22              		.code	16
+  23              		.thumb_func
+  24              		.type	SmartIO_Port2_Init, %function
+  25              	SmartIO_Port2_Init:
+  26              	.LFB0:
+  27              		.file 1 "Generated_Source\\PSoC4\\SmartIO_Port2.c"
+   1:Generated_Source\PSoC4/SmartIO_Port2.c **** /*******************************************************************************
+   2:Generated_Source\PSoC4/SmartIO_Port2.c **** * \file SmartIO_Port2.c
+   3:Generated_Source\PSoC4/SmartIO_Port2.c **** * \version 1.10
+   4:Generated_Source\PSoC4/SmartIO_Port2.c **** *
+   5:Generated_Source\PSoC4/SmartIO_Port2.c **** * \brief
+   6:Generated_Source\PSoC4/SmartIO_Port2.c **** *  This file provides the  API for the SmartIO Component.
+   7:Generated_Source\PSoC4/SmartIO_Port2.c **** *
+   8:Generated_Source\PSoC4/SmartIO_Port2.c **** *******************************************************************************
+   9:Generated_Source\PSoC4/SmartIO_Port2.c **** * Copyright 2016, Cypress Semiconductor Corporation. All rights reserved.
+  10:Generated_Source\PSoC4/SmartIO_Port2.c **** * You may use this file only in accordance with the license, terms, conditions,
+  11:Generated_Source\PSoC4/SmartIO_Port2.c **** * disclaimers, and limitations in the end user license agreement accompanying
+  12:Generated_Source\PSoC4/SmartIO_Port2.c **** * the software package with which this file was provided.
+  13:Generated_Source\PSoC4/SmartIO_Port2.c **** *******************************************************************************/
+  14:Generated_Source\PSoC4/SmartIO_Port2.c **** 
+  15:Generated_Source\PSoC4/SmartIO_Port2.c **** #include "SmartIO_Port2.h"
+  16:Generated_Source\PSoC4/SmartIO_Port2.c **** 
+  17:Generated_Source\PSoC4/SmartIO_Port2.c **** /* Initialization global variable */
+  18:Generated_Source\PSoC4/SmartIO_Port2.c **** uint8 SmartIO_Port2_initVar = 0u;
+  19:Generated_Source\PSoC4/SmartIO_Port2.c **** 
+  20:Generated_Source\PSoC4/SmartIO_Port2.c **** /* Clock configuration */
+  21:Generated_Source\PSoC4/SmartIO_Port2.c **** static uint32 SmartIO_Port2_clkConfig = 0u;
+  22:Generated_Source\PSoC4/SmartIO_Port2.c **** 
+  23:Generated_Source\PSoC4/SmartIO_Port2.c **** /**
+  24:Generated_Source\PSoC4/SmartIO_Port2.c **** * \addtogroup group_functions
+  25:Generated_Source\PSoC4/SmartIO_Port2.c **** * \{
+  26:Generated_Source\PSoC4/SmartIO_Port2.c **** */
+  27:Generated_Source\PSoC4/SmartIO_Port2.c **** 
+  28:Generated_Source\PSoC4/SmartIO_Port2.c **** /*******************************************************************************
+  29:Generated_Source\PSoC4/SmartIO_Port2.c **** * Function Name: SmartIO_Port2_Init
+  30:Generated_Source\PSoC4/SmartIO_Port2.c **** ****************************************************************************//**
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\cctIS3p0.s 			page 2
+
+
+  31:Generated_Source\PSoC4/SmartIO_Port2.c **** *
+  32:Generated_Source\PSoC4/SmartIO_Port2.c **** * \brief Initializes the component as specified in the Configuration dialog.
+  33:Generated_Source\PSoC4/SmartIO_Port2.c **** *
+  34:Generated_Source\PSoC4/SmartIO_Port2.c **** * This function can also be used to reinitialize the component to the settings 
+  35:Generated_Source\PSoC4/SmartIO_Port2.c **** * as specified in the Configuration dialog.
+  36:Generated_Source\PSoC4/SmartIO_Port2.c **** *
+  37:Generated_Source\PSoC4/SmartIO_Port2.c **** * \funcusage
+  38:Generated_Source\PSoC4/SmartIO_Port2.c **** *  \snippet SmartIO_Port2_SUT.c usage_SmartIO_Port2_Init
+  39:Generated_Source\PSoC4/SmartIO_Port2.c **** *******************************************************************************/
+  40:Generated_Source\PSoC4/SmartIO_Port2.c **** void SmartIO_Port2_Init(void)
+  41:Generated_Source\PSoC4/SmartIO_Port2.c **** {
+  28              		.loc 1 41 0
+  29              		.cfi_startproc
+  30              		@ args = 0, pretend = 0, frame = 0
+  31              		@ frame_needed = 0, uses_anonymous_args = 0
+  32              		@ link register save eliminated.
+  42:Generated_Source\PSoC4/SmartIO_Port2.c ****     /* Must disable the block before configuring */
+  43:Generated_Source\PSoC4/SmartIO_Port2.c ****     SmartIO_Port2_Disable();
+  33              		.loc 1 43 0
+  34 0000 154A     		ldr	r2, .L2
+  35 0002 1368     		ldr	r3, [r2]
+  36 0004 5B00     		lsls	r3, r3, #1
+  37 0006 5B08     		lsrs	r3, r3, #1
+  38 0008 1360     		str	r3, [r2]
+  44:Generated_Source\PSoC4/SmartIO_Port2.c ****     /* Save the clock configuration */
+  45:Generated_Source\PSoC4/SmartIO_Port2.c ****     SmartIO_Port2_clkConfig = SmartIO_Port2_INIT_CLOCK_SRC;
+  39              		.loc 1 45 0
+  40 000a F821     		movs	r1, #248
+  41 000c 4901     		lsls	r1, r1, #5
+  42 000e 134B     		ldr	r3, .L2+4
+  43 0010 1960     		str	r1, [r3]
+  46:Generated_Source\PSoC4/SmartIO_Port2.c ****     /* General control */
+  47:Generated_Source\PSoC4/SmartIO_Port2.c ****     SmartIO_Port2_CTL = SmartIO_Port2_INIT_CTL_CONFIG;
+  44              		.loc 1 47 0
+  45 0012 134B     		ldr	r3, .L2+8
+  46 0014 1360     		str	r3, [r2]
+  48:Generated_Source\PSoC4/SmartIO_Port2.c ****     /* Synchronization control */
+  49:Generated_Source\PSoC4/SmartIO_Port2.c ****     SmartIO_Port2_SYNC_CTL = SmartIO_Port2_INIT_SYNC_CONFIG;
+  47              		.loc 1 49 0
+  48 0016 0022     		movs	r2, #0
+  49 0018 124B     		ldr	r3, .L2+12
+  50 001a 1A60     		str	r2, [r3]
+  50:Generated_Source\PSoC4/SmartIO_Port2.c ****     /* LUT input selection */
+  51:Generated_Source\PSoC4/SmartIO_Port2.c ****     SmartIO_Port2_LUT_CONGIG_BASE.lutSel[SmartIO_Port2_LUT0] = SmartIO_Port2_INIT_LUT0_SEL_CONFIG;
+  51              		.loc 1 51 0
+  52 001c 124B     		ldr	r3, .L2+16
+  53 001e 1349     		ldr	r1, .L2+20
+  54 0020 1960     		str	r1, [r3]
+  52:Generated_Source\PSoC4/SmartIO_Port2.c ****     SmartIO_Port2_LUT_CONGIG_BASE.lutSel[SmartIO_Port2_LUT1] = SmartIO_Port2_INIT_LUT1_SEL_CONFIG;
+  55              		.loc 1 52 0
+  56 0022 5960     		str	r1, [r3, #4]
+  53:Generated_Source\PSoC4/SmartIO_Port2.c ****     SmartIO_Port2_LUT_CONGIG_BASE.lutSel[SmartIO_Port2_LUT2] = SmartIO_Port2_INIT_LUT2_SEL_CONFIG;
+  57              		.loc 1 53 0
+  58 0024 9960     		str	r1, [r3, #8]
+  54:Generated_Source\PSoC4/SmartIO_Port2.c ****     SmartIO_Port2_LUT_CONGIG_BASE.lutSel[SmartIO_Port2_LUT3] = SmartIO_Port2_INIT_LUT3_SEL_CONFIG;
+  59              		.loc 1 54 0
+  60 0026 D960     		str	r1, [r3, #12]
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\cctIS3p0.s 			page 3
+
+
+  55:Generated_Source\PSoC4/SmartIO_Port2.c ****     SmartIO_Port2_LUT_CONGIG_BASE.lutSel[SmartIO_Port2_LUT4] = SmartIO_Port2_INIT_LUT4_SEL_CONFIG;
+  61              		.loc 1 55 0
+  62 0028 1961     		str	r1, [r3, #16]
+  56:Generated_Source\PSoC4/SmartIO_Port2.c ****     SmartIO_Port2_LUT_CONGIG_BASE.lutSel[SmartIO_Port2_LUT5] = SmartIO_Port2_INIT_LUT5_SEL_CONFIG;
+  63              		.loc 1 56 0
+  64 002a 1148     		ldr	r0, .L2+24
+  65 002c 5861     		str	r0, [r3, #20]
+  57:Generated_Source\PSoC4/SmartIO_Port2.c ****     SmartIO_Port2_LUT_CONGIG_BASE.lutSel[SmartIO_Port2_LUT6] = SmartIO_Port2_INIT_LUT6_SEL_CONFIG;
+  66              		.loc 1 57 0
+  67 002e 9961     		str	r1, [r3, #24]
+  58:Generated_Source\PSoC4/SmartIO_Port2.c ****     SmartIO_Port2_LUT_CONGIG_BASE.lutSel[SmartIO_Port2_LUT7] = SmartIO_Port2_INIT_LUT7_SEL_CONFIG;
+  68              		.loc 1 58 0
+  69 0030 D961     		str	r1, [r3, #28]
+  59:Generated_Source\PSoC4/SmartIO_Port2.c ****     /* LUT control */
+  60:Generated_Source\PSoC4/SmartIO_Port2.c ****     SmartIO_Port2_LUT_CONGIG_BASE.lutCtl[SmartIO_Port2_LUT0] = SmartIO_Port2_INIT_LUT0_CTL_CONFIG;
+  70              		.loc 1 60 0
+  71 0032 8021     		movs	r1, #128
+  72 0034 1962     		str	r1, [r3, #32]
+  61:Generated_Source\PSoC4/SmartIO_Port2.c ****     SmartIO_Port2_LUT_CONGIG_BASE.lutCtl[SmartIO_Port2_LUT1] = SmartIO_Port2_INIT_LUT1_CTL_CONFIG;
+  73              		.loc 1 61 0
+  74 0036 5A62     		str	r2, [r3, #36]
+  62:Generated_Source\PSoC4/SmartIO_Port2.c ****     SmartIO_Port2_LUT_CONGIG_BASE.lutCtl[SmartIO_Port2_LUT2] = SmartIO_Port2_INIT_LUT2_CTL_CONFIG;
+  75              		.loc 1 62 0
+  76 0038 9A62     		str	r2, [r3, #40]
+  63:Generated_Source\PSoC4/SmartIO_Port2.c ****     SmartIO_Port2_LUT_CONGIG_BASE.lutCtl[SmartIO_Port2_LUT3] = SmartIO_Port2_INIT_LUT3_CTL_CONFIG;
+  77              		.loc 1 63 0
+  78 003a DA62     		str	r2, [r3, #44]
+  64:Generated_Source\PSoC4/SmartIO_Port2.c ****     SmartIO_Port2_LUT_CONGIG_BASE.lutCtl[SmartIO_Port2_LUT4] = SmartIO_Port2_INIT_LUT4_CTL_CONFIG;
+  79              		.loc 1 64 0
+  80 003c 1A63     		str	r2, [r3, #48]
+  65:Generated_Source\PSoC4/SmartIO_Port2.c ****     SmartIO_Port2_LUT_CONGIG_BASE.lutCtl[SmartIO_Port2_LUT5] = SmartIO_Port2_INIT_LUT5_CTL_CONFIG;
+  81              		.loc 1 65 0
+  82 003e 1A39     		subs	r1, r1, #26
+  83 0040 5963     		str	r1, [r3, #52]
+  66:Generated_Source\PSoC4/SmartIO_Port2.c ****     SmartIO_Port2_LUT_CONGIG_BASE.lutCtl[SmartIO_Port2_LUT6] = SmartIO_Port2_INIT_LUT6_CTL_CONFIG;
+  84              		.loc 1 66 0
+  85 0042 9963     		str	r1, [r3, #56]
+  67:Generated_Source\PSoC4/SmartIO_Port2.c ****     SmartIO_Port2_LUT_CONGIG_BASE.lutCtl[SmartIO_Port2_LUT7] = SmartIO_Port2_INIT_LUT7_CTL_CONFIG;
+  86              		.loc 1 67 0
+  87 0044 DA63     		str	r2, [r3, #60]
+  68:Generated_Source\PSoC4/SmartIO_Port2.c ****     /* Turn off the DU */
+  69:Generated_Source\PSoC4/SmartIO_Port2.c ****     SmartIO_Port2_DU_SEL = SmartIO_Port2_INIT_DU_SEL;
+  88              		.loc 1 69 0
+  89 0046 0B4B     		ldr	r3, .L2+28
+  90 0048 1A60     		str	r2, [r3]
+  70:Generated_Source\PSoC4/SmartIO_Port2.c ****     SmartIO_Port2_DU_CTL = SmartIO_Port2_INIT_DU_CTL;
+  91              		.loc 1 70 0
+  92 004a 0821     		movs	r1, #8
+  93 004c FF31     		adds	r1, r1, #255
+  94 004e 0A4B     		ldr	r3, .L2+32
+  95 0050 1960     		str	r1, [r3]
+  71:Generated_Source\PSoC4/SmartIO_Port2.c ****     SmartIO_Port2_DATA = SmartIO_Port2_INIT_DU_DATA_REG;
+  96              		.loc 1 71 0
+  97 0052 0A4B     		ldr	r3, .L2+36
+  98 0054 1A60     		str	r2, [r3]
+  72:Generated_Source\PSoC4/SmartIO_Port2.c **** }
+  99              		.loc 1 72 0
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\cctIS3p0.s 			page 4
+
+
+ 100              		@ sp needed
+ 101 0056 7047     		bx	lr
+ 102              	.L3:
+ 103              		.align	2
+ 104              	.L2:
+ 105 0058 00000540 		.word	1074069504
+ 106 005c 00000000 		.word	.LANCHOR0
+ 107 0060 5F1F0000 		.word	8031
+ 108 0064 10000540 		.word	1074069520
+ 109 0068 20000540 		.word	1074069536
+ 110 006c 11111100 		.word	1118481
+ 111 0070 090B0900 		.word	592649
+ 112 0074 C0000540 		.word	1074069696
+ 113 0078 C4000540 		.word	1074069700
+ 114 007c F0000540 		.word	1074069744
+ 115              		.cfi_endproc
+ 116              	.LFE0:
+ 117              		.size	SmartIO_Port2_Init, .-SmartIO_Port2_Init
+ 118              		.section	.text.SmartIO_Port2_Start,"ax",%progbits
+ 119              		.align	2
+ 120              		.global	SmartIO_Port2_Start
+ 121              		.code	16
+ 122              		.thumb_func
+ 123              		.type	SmartIO_Port2_Start, %function
+ 124              	SmartIO_Port2_Start:
+ 125              	.LFB1:
+  73:Generated_Source\PSoC4/SmartIO_Port2.c **** 
+  74:Generated_Source\PSoC4/SmartIO_Port2.c **** 
+  75:Generated_Source\PSoC4/SmartIO_Port2.c **** /*******************************************************************************
+  76:Generated_Source\PSoC4/SmartIO_Port2.c **** * Function Name: SmartIO_Port2_Start
+  77:Generated_Source\PSoC4/SmartIO_Port2.c **** ****************************************************************************//**
+  78:Generated_Source\PSoC4/SmartIO_Port2.c **** *
+  79:Generated_Source\PSoC4/SmartIO_Port2.c **** * \brief Invokes SmartIO_Port2_Init() and SmartIO_Port2_Enable().
+  80:Generated_Source\PSoC4/SmartIO_Port2.c **** *  
+  81:Generated_Source\PSoC4/SmartIO_Port2.c **** * After this function call, the component is initialized to specified values
+  82:Generated_Source\PSoC4/SmartIO_Port2.c **** * in the Configuration dialog and is then enabled.
+  83:Generated_Source\PSoC4/SmartIO_Port2.c **** *
+  84:Generated_Source\PSoC4/SmartIO_Port2.c **** * If calling this function after calling SmartIO_Port2_Stop(), the fabric
+  85:Generated_Source\PSoC4/SmartIO_Port2.c **** * will set the clock configuration as specified before calling Stop().
+  86:Generated_Source\PSoC4/SmartIO_Port2.c **** *
+  87:Generated_Source\PSoC4/SmartIO_Port2.c **** * \globalvars
+  88:Generated_Source\PSoC4/SmartIO_Port2.c **** *  SmartIO_Port2_initVar - used to check initial configuration, modified
+  89:Generated_Source\PSoC4/SmartIO_Port2.c **** *  on first function call.
+  90:Generated_Source\PSoC4/SmartIO_Port2.c **** *
+  91:Generated_Source\PSoC4/SmartIO_Port2.c **** * \funcusage
+  92:Generated_Source\PSoC4/SmartIO_Port2.c **** *  \snippet SmartIO_Port2_SUT.c usage_SmartIO_Port2_Start
+  93:Generated_Source\PSoC4/SmartIO_Port2.c **** *******************************************************************************/
+  94:Generated_Source\PSoC4/SmartIO_Port2.c **** void SmartIO_Port2_Start(void)
+  95:Generated_Source\PSoC4/SmartIO_Port2.c **** {
+ 126              		.loc 1 95 0
+ 127              		.cfi_startproc
+ 128              		@ args = 0, pretend = 0, frame = 0
+ 129              		@ frame_needed = 0, uses_anonymous_args = 0
+ 130 0000 10B5     		push	{r4, lr}
+ 131              		.cfi_def_cfa_offset 8
+ 132              		.cfi_offset 4, -8
+ 133              		.cfi_offset 14, -4
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\cctIS3p0.s 			page 5
+
+
+  96:Generated_Source\PSoC4/SmartIO_Port2.c ****     uint32 regVal;
+  97:Generated_Source\PSoC4/SmartIO_Port2.c ****     
+  98:Generated_Source\PSoC4/SmartIO_Port2.c ****     if (0u == SmartIO_Port2_initVar)
+ 134              		.loc 1 98 0
+ 135 0002 0E4B     		ldr	r3, .L7
+ 136 0004 1B79     		ldrb	r3, [r3, #4]
+ 137 0006 002B     		cmp	r3, #0
+ 138 0008 05D1     		bne	.L5
+  99:Generated_Source\PSoC4/SmartIO_Port2.c ****     {
+ 100:Generated_Source\PSoC4/SmartIO_Port2.c ****         SmartIO_Port2_Init();
+ 139              		.loc 1 100 0
+ 140 000a FFF7FEFF 		bl	SmartIO_Port2_Init
+ 141              	.LVL0:
+ 101:Generated_Source\PSoC4/SmartIO_Port2.c ****         SmartIO_Port2_initVar = 1u; /* Component was initialized */
+ 142              		.loc 1 101 0
+ 143 000e 0122     		movs	r2, #1
+ 144 0010 0A4B     		ldr	r3, .L7
+ 145 0012 1A71     		strb	r2, [r3, #4]
+ 146 0014 0BE0     		b	.L6
+ 147              	.L5:
+ 102:Generated_Source\PSoC4/SmartIO_Port2.c ****     }
+ 103:Generated_Source\PSoC4/SmartIO_Port2.c ****     else
+ 104:Generated_Source\PSoC4/SmartIO_Port2.c ****     {
+ 105:Generated_Source\PSoC4/SmartIO_Port2.c ****         /* Restore the component settings if Stop() was called */
+ 106:Generated_Source\PSoC4/SmartIO_Port2.c ****         if ((SmartIO_Port2_CTL & SmartIO_Port2_FABRIC_MASK) == 0u)
+ 148              		.loc 1 106 0
+ 149 0016 0A4B     		ldr	r3, .L7+4
+ 150 0018 1B68     		ldr	r3, [r3]
+ 151 001a 002B     		cmp	r3, #0
+ 152 001c 07DB     		blt	.L6
+ 107:Generated_Source\PSoC4/SmartIO_Port2.c ****         {
+ 108:Generated_Source\PSoC4/SmartIO_Port2.c ****             /* Clear the pipeline bit and clear the clock field */            
+ 109:Generated_Source\PSoC4/SmartIO_Port2.c ****             regVal = SmartIO_Port2_CTL & SmartIO_Port2_PIPELINE_DISABLE & SmartIO_Port2_CLOCK_CLEAR
+ 153              		.loc 1 109 0
+ 154 001e 0849     		ldr	r1, .L7+4
+ 155 0020 0A68     		ldr	r2, [r1]
+ 156 0022 084B     		ldr	r3, .L7+8
+ 157 0024 1340     		ands	r3, r2
+ 158              	.LVL1:
+ 110:Generated_Source\PSoC4/SmartIO_Port2.c ****             /* Restore the clock settings */
+ 111:Generated_Source\PSoC4/SmartIO_Port2.c ****             SmartIO_Port2_CTL = regVal | SmartIO_Port2_clkConfig;
+ 159              		.loc 1 111 0
+ 160 0026 054A     		ldr	r2, .L7
+ 161 0028 1268     		ldr	r2, [r2]
+ 162 002a 1343     		orrs	r3, r2
+ 163              	.LVL2:
+ 164 002c 0B60     		str	r3, [r1]
+ 165              	.L6:
+ 112:Generated_Source\PSoC4/SmartIO_Port2.c ****         }
+ 113:Generated_Source\PSoC4/SmartIO_Port2.c ****     }
+ 114:Generated_Source\PSoC4/SmartIO_Port2.c ****     SmartIO_Port2_Enable();
+ 166              		.loc 1 114 0
+ 167 002e 044A     		ldr	r2, .L7+4
+ 168 0030 1368     		ldr	r3, [r2]
+ 169 0032 8021     		movs	r1, #128
+ 170 0034 0906     		lsls	r1, r1, #24
+ 171 0036 0B43     		orrs	r3, r1
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\cctIS3p0.s 			page 6
+
+
+ 172 0038 1360     		str	r3, [r2]
+ 115:Generated_Source\PSoC4/SmartIO_Port2.c **** }
+ 173              		.loc 1 115 0
+ 174              		@ sp needed
+ 175 003a 10BD     		pop	{r4, pc}
+ 176              	.L8:
+ 177              		.align	2
+ 178              	.L7:
+ 179 003c 00000000 		.word	.LANCHOR0
+ 180 0040 00000540 		.word	1074069504
+ 181 0044 FFE0FFFD 		.word	-33562369
+ 182              		.cfi_endproc
+ 183              	.LFE1:
+ 184              		.size	SmartIO_Port2_Start, .-SmartIO_Port2_Start
+ 185              		.section	.text.SmartIO_Port2_Stop,"ax",%progbits
+ 186              		.align	2
+ 187              		.global	SmartIO_Port2_Stop
+ 188              		.code	16
+ 189              		.thumb_func
+ 190              		.type	SmartIO_Port2_Stop, %function
+ 191              	SmartIO_Port2_Stop:
+ 192              	.LFB2:
+ 116:Generated_Source\PSoC4/SmartIO_Port2.c **** 
+ 117:Generated_Source\PSoC4/SmartIO_Port2.c **** 
+ 118:Generated_Source\PSoC4/SmartIO_Port2.c **** /*******************************************************************************
+ 119:Generated_Source\PSoC4/SmartIO_Port2.c **** * Function Name: SmartIO_Port2_Stop
+ 120:Generated_Source\PSoC4/SmartIO_Port2.c **** ****************************************************************************//**
+ 121:Generated_Source\PSoC4/SmartIO_Port2.c **** *
+ 122:Generated_Source\PSoC4/SmartIO_Port2.c **** * \brief The routing fabric is bypassed and the block is powered down.
+ 123:Generated_Source\PSoC4/SmartIO_Port2.c **** *
+ 124:Generated_Source\PSoC4/SmartIO_Port2.c **** * This function saves the clock configuration before powering down. Calling
+ 125:Generated_Source\PSoC4/SmartIO_Port2.c **** * Start() will enable the block and restore the clock setting.
+ 126:Generated_Source\PSoC4/SmartIO_Port2.c **** * 
+ 127:Generated_Source\PSoC4/SmartIO_Port2.c **** * \globalvars
+ 128:Generated_Source\PSoC4/SmartIO_Port2.c **** *  SmartIO_Port2_clkConfig - used to save the clock configuration.
+ 129:Generated_Source\PSoC4/SmartIO_Port2.c **** *
+ 130:Generated_Source\PSoC4/SmartIO_Port2.c **** * \funcusage
+ 131:Generated_Source\PSoC4/SmartIO_Port2.c **** *  \snippet SmartIO_Port2_SUT.c usage_SmartIO_Port2_Stop
+ 132:Generated_Source\PSoC4/SmartIO_Port2.c **** *******************************************************************************/
+ 133:Generated_Source\PSoC4/SmartIO_Port2.c **** void SmartIO_Port2_Stop(void)
+ 134:Generated_Source\PSoC4/SmartIO_Port2.c **** {
+ 193              		.loc 1 134 0
+ 194              		.cfi_startproc
+ 195              		@ args = 0, pretend = 0, frame = 0
+ 196              		@ frame_needed = 0, uses_anonymous_args = 0
+ 197              		@ link register save eliminated.
+ 135:Generated_Source\PSoC4/SmartIO_Port2.c ****     uint32 regVal;
+ 136:Generated_Source\PSoC4/SmartIO_Port2.c ****     
+ 137:Generated_Source\PSoC4/SmartIO_Port2.c ****     /* Disable the block */
+ 138:Generated_Source\PSoC4/SmartIO_Port2.c ****     SmartIO_Port2_Disable();
+ 198              		.loc 1 138 0
+ 199 0000 084B     		ldr	r3, .L10
+ 200 0002 1A68     		ldr	r2, [r3]
+ 201 0004 5200     		lsls	r2, r2, #1
+ 202 0006 5208     		lsrs	r2, r2, #1
+ 203 0008 1A60     		str	r2, [r3]
+ 139:Generated_Source\PSoC4/SmartIO_Port2.c ****     /* Save the clock setting */
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\cctIS3p0.s 			page 7
+
+
+ 140:Generated_Source\PSoC4/SmartIO_Port2.c ****     SmartIO_Port2_clkConfig = SmartIO_Port2_CTL & SmartIO_Port2_CLOCK_MASK;
+ 204              		.loc 1 140 0
+ 205 000a 1968     		ldr	r1, [r3]
+ 206 000c F822     		movs	r2, #248
+ 207 000e 5201     		lsls	r2, r2, #5
+ 208 0010 0A40     		ands	r2, r1
+ 209 0012 0549     		ldr	r1, .L10+4
+ 210 0014 0A60     		str	r2, [r1]
+ 141:Generated_Source\PSoC4/SmartIO_Port2.c ****     /* Clear the clock source */
+ 142:Generated_Source\PSoC4/SmartIO_Port2.c ****     regVal = SmartIO_Port2_CTL & SmartIO_Port2_CLOCK_CLEAR;
+ 211              		.loc 1 142 0
+ 212 0016 1968     		ldr	r1, [r3]
+ 213 0018 044A     		ldr	r2, .L10+8
+ 214 001a 0A40     		ands	r2, r1
+ 215              	.LVL3:
+ 143:Generated_Source\PSoC4/SmartIO_Port2.c ****     /* Enable the pipeline and set the clock source to const zero */
+ 144:Generated_Source\PSoC4/SmartIO_Port2.c ****     SmartIO_Port2_CTL = regVal | SmartIO_Port2_PIPELINE_ENABLE | SmartIO_Port2_CLOCK_CONST_ZERO;
+ 216              		.loc 1 144 0
+ 217 001c 0449     		ldr	r1, .L10+12
+ 218 001e 0A43     		orrs	r2, r1
+ 219              	.LVL4:
+ 220 0020 1A60     		str	r2, [r3]
+ 145:Generated_Source\PSoC4/SmartIO_Port2.c **** }
+ 221              		.loc 1 145 0
+ 222              		@ sp needed
+ 223 0022 7047     		bx	lr
+ 224              	.L11:
+ 225              		.align	2
+ 226              	.L10:
+ 227 0024 00000540 		.word	1074069504
+ 228 0028 00000000 		.word	.LANCHOR0
+ 229 002c FFE0FFFF 		.word	-7937
+ 230 0030 00140002 		.word	33559552
+ 231              		.cfi_endproc
+ 232              	.LFE2:
+ 233              		.size	SmartIO_Port2_Stop, .-SmartIO_Port2_Stop
+ 234              		.section	.text.SmartIO_Port2_SetBypass,"ax",%progbits
+ 235              		.align	2
+ 236              		.global	SmartIO_Port2_SetBypass
+ 237              		.code	16
+ 238              		.thumb_func
+ 239              		.type	SmartIO_Port2_SetBypass, %function
+ 240              	SmartIO_Port2_SetBypass:
+ 241              	.LFB3:
+ 146:Generated_Source\PSoC4/SmartIO_Port2.c **** 
+ 147:Generated_Source\PSoC4/SmartIO_Port2.c **** 
+ 148:Generated_Source\PSoC4/SmartIO_Port2.c **** /*******************************************************************************
+ 149:Generated_Source\PSoC4/SmartIO_Port2.c **** * Function Name: SmartIO_Port2_SetBypass
+ 150:Generated_Source\PSoC4/SmartIO_Port2.c **** ****************************************************************************//**
+ 151:Generated_Source\PSoC4/SmartIO_Port2.c **** *
+ 152:Generated_Source\PSoC4/SmartIO_Port2.c **** * \brief Bypasses channels on a bit by bit basis. 
+ 153:Generated_Source\PSoC4/SmartIO_Port2.c **** *
+ 154:Generated_Source\PSoC4/SmartIO_Port2.c **** * Bypassed channels behave as if the SmartIO component was not present for 
+ 155:Generated_Source\PSoC4/SmartIO_Port2.c **** * those particular channels. 
+ 156:Generated_Source\PSoC4/SmartIO_Port2.c **** *  
+ 157:Generated_Source\PSoC4/SmartIO_Port2.c **** * <b>Note</b> This function impacts all channels on the port. It will write
+ 158:Generated_Source\PSoC4/SmartIO_Port2.c **** * over the bypass configuration of all the channels. 
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\cctIS3p0.s 			page 8
+
+
+ 159:Generated_Source\PSoC4/SmartIO_Port2.c **** *
+ 160:Generated_Source\PSoC4/SmartIO_Port2.c **** * \param portChannel
+ 161:Generated_Source\PSoC4/SmartIO_Port2.c **** *  The channel location to be bypassed on the port. If the bit value is 0, 
+ 162:Generated_Source\PSoC4/SmartIO_Port2.c **** *  the channel is not bypassed; if the bit value is 1, the channel is bypassed.
+ 163:Generated_Source\PSoC4/SmartIO_Port2.c **** *  Valid options are documented in \ref channelConst. These should be ORed
+ 164:Generated_Source\PSoC4/SmartIO_Port2.c **** *  to configure multiple bypass channels.
+ 165:Generated_Source\PSoC4/SmartIO_Port2.c **** * 
+ 166:Generated_Source\PSoC4/SmartIO_Port2.c **** * \sideeffect
+ 167:Generated_Source\PSoC4/SmartIO_Port2.c **** *  This function disables the block for reconfiguration. During this time,
+ 168:Generated_Source\PSoC4/SmartIO_Port2.c **** *  all signals on the port will be bypassed. All peripheral and gpio signals
+ 169:Generated_Source\PSoC4/SmartIO_Port2.c **** *  must be stopped or properly handled to account for the bypass state.
+ 170:Generated_Source\PSoC4/SmartIO_Port2.c **** *
+ 171:Generated_Source\PSoC4/SmartIO_Port2.c **** * \funcusage
+ 172:Generated_Source\PSoC4/SmartIO_Port2.c **** *  \snippet SmartIO_Port2_SUT.c usage_SmartIO_Port2_SetBypass
+ 173:Generated_Source\PSoC4/SmartIO_Port2.c **** *******************************************************************************/
+ 174:Generated_Source\PSoC4/SmartIO_Port2.c **** void SmartIO_Port2_SetBypass(uint32 portChannel)
+ 175:Generated_Source\PSoC4/SmartIO_Port2.c **** {   
+ 242              		.loc 1 175 0
+ 243              		.cfi_startproc
+ 244              		@ args = 0, pretend = 0, frame = 0
+ 245              		@ frame_needed = 0, uses_anonymous_args = 0
+ 246              		@ link register save eliminated.
+ 247              	.LVL5:
+ 176:Generated_Source\PSoC4/SmartIO_Port2.c ****     uint32 regVal;
+ 177:Generated_Source\PSoC4/SmartIO_Port2.c ****     
+ 178:Generated_Source\PSoC4/SmartIO_Port2.c ****     /* Must disable the block before configuring */
+ 179:Generated_Source\PSoC4/SmartIO_Port2.c ****     SmartIO_Port2_Disable();
+ 248              		.loc 1 179 0
+ 249 0000 084B     		ldr	r3, .L13
+ 250 0002 1A68     		ldr	r2, [r3]
+ 251 0004 5200     		lsls	r2, r2, #1
+ 252 0006 5208     		lsrs	r2, r2, #1
+ 253 0008 1A60     		str	r2, [r3]
+ 180:Generated_Source\PSoC4/SmartIO_Port2.c ****     /* Configure the bypass settings of the SmartIO pins */
+ 181:Generated_Source\PSoC4/SmartIO_Port2.c ****     regVal = SmartIO_Port2_CTL & SmartIO_Port2_BYPASS_CLEAR;
+ 254              		.loc 1 181 0
+ 255 000a 1A68     		ldr	r2, [r3]
+ 256 000c FF21     		movs	r1, #255
+ 257 000e 8A43     		bics	r2, r1
+ 258              	.LVL6:
+ 182:Generated_Source\PSoC4/SmartIO_Port2.c ****     SmartIO_Port2_CTL = regVal | (((uint32)(portChannel << CYFLD_PRGIO_PRT_BYPASS__OFFSET))
+ 183:Generated_Source\PSoC4/SmartIO_Port2.c ****                                     & SmartIO_Port2_BYPASS_MASK);
+ 259              		.loc 1 183 0
+ 260 0010 0840     		ands	r0, r1
+ 261              	.LVL7:
+ 182:Generated_Source\PSoC4/SmartIO_Port2.c ****     SmartIO_Port2_CTL = regVal | (((uint32)(portChannel << CYFLD_PRGIO_PRT_BYPASS__OFFSET))
+ 262              		.loc 1 182 0
+ 263 0012 1043     		orrs	r0, r2
+ 264 0014 1860     		str	r0, [r3]
+ 184:Generated_Source\PSoC4/SmartIO_Port2.c ****     /* Re-enable the block */
+ 185:Generated_Source\PSoC4/SmartIO_Port2.c ****     SmartIO_Port2_Enable();
+ 265              		.loc 1 185 0
+ 266 0016 1A68     		ldr	r2, [r3]
+ 267              	.LVL8:
+ 268 0018 8021     		movs	r1, #128
+ 269 001a 0906     		lsls	r1, r1, #24
+ 270 001c 0A43     		orrs	r2, r1
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\cctIS3p0.s 			page 9
+
+
+ 271 001e 1A60     		str	r2, [r3]
+ 186:Generated_Source\PSoC4/SmartIO_Port2.c **** }
+ 272              		.loc 1 186 0
+ 273              		@ sp needed
+ 274 0020 7047     		bx	lr
+ 275              	.L14:
+ 276 0022 C046     		.align	2
+ 277              	.L13:
+ 278 0024 00000540 		.word	1074069504
+ 279              		.cfi_endproc
+ 280              	.LFE3:
+ 281              		.size	SmartIO_Port2_SetBypass, .-SmartIO_Port2_SetBypass
+ 282              		.section	.text.SmartIO_Port2_ClockSelect,"ax",%progbits
+ 283              		.align	2
+ 284              		.global	SmartIO_Port2_ClockSelect
+ 285              		.code	16
+ 286              		.thumb_func
+ 287              		.type	SmartIO_Port2_ClockSelect, %function
+ 288              	SmartIO_Port2_ClockSelect:
+ 289              	.LFB4:
+ 187:Generated_Source\PSoC4/SmartIO_Port2.c **** 
+ 188:Generated_Source\PSoC4/SmartIO_Port2.c **** 
+ 189:Generated_Source\PSoC4/SmartIO_Port2.c **** /*******************************************************************************
+ 190:Generated_Source\PSoC4/SmartIO_Port2.c **** * Function Name: SmartIO_Port2_ClockSelect
+ 191:Generated_Source\PSoC4/SmartIO_Port2.c **** ****************************************************************************//**
+ 192:Generated_Source\PSoC4/SmartIO_Port2.c **** *
+ 193:Generated_Source\PSoC4/SmartIO_Port2.c **** * \brief Selects the component clock source.
+ 194:Generated_Source\PSoC4/SmartIO_Port2.c **** *
+ 195:Generated_Source\PSoC4/SmartIO_Port2.c **** * The clock selection impacts the reset behavior of the component and low power
+ 196:Generated_Source\PSoC4/SmartIO_Port2.c **** * operation. Refer to the Functional Description section of the component
+ 197:Generated_Source\PSoC4/SmartIO_Port2.c **** * datasheet for more information.
+ 198:Generated_Source\PSoC4/SmartIO_Port2.c **** *
+ 199:Generated_Source\PSoC4/SmartIO_Port2.c **** * \param clockSrc
+ 200:Generated_Source\PSoC4/SmartIO_Port2.c **** *  The component clock source. Valid options are documented in \ref clockConst.
+ 201:Generated_Source\PSoC4/SmartIO_Port2.c **** * 
+ 202:Generated_Source\PSoC4/SmartIO_Port2.c **** * \sideeffect
+ 203:Generated_Source\PSoC4/SmartIO_Port2.c **** *  This function disables the block for reconfiguration. During this time,
+ 204:Generated_Source\PSoC4/SmartIO_Port2.c **** *  all signals on the port will be bypassed. All peripheral and gpio signals
+ 205:Generated_Source\PSoC4/SmartIO_Port2.c **** *  must be stopped or properly handled to account for the bypass state.
+ 206:Generated_Source\PSoC4/SmartIO_Port2.c **** *
+ 207:Generated_Source\PSoC4/SmartIO_Port2.c **** * \funcusage
+ 208:Generated_Source\PSoC4/SmartIO_Port2.c **** *  \snippet SmartIO_Port2_SUT.c usage_SmartIO_Port2_ClockSelect
+ 209:Generated_Source\PSoC4/SmartIO_Port2.c **** *******************************************************************************/
+ 210:Generated_Source\PSoC4/SmartIO_Port2.c **** void SmartIO_Port2_ClockSelect(uint32 clockSrc)
+ 211:Generated_Source\PSoC4/SmartIO_Port2.c **** {
+ 290              		.loc 1 211 0
+ 291              		.cfi_startproc
+ 292              		@ args = 0, pretend = 0, frame = 0
+ 293              		@ frame_needed = 0, uses_anonymous_args = 0
+ 294              		@ link register save eliminated.
+ 295              	.LVL9:
+ 212:Generated_Source\PSoC4/SmartIO_Port2.c ****     uint32 regVal;
+ 213:Generated_Source\PSoC4/SmartIO_Port2.c ****     
+ 214:Generated_Source\PSoC4/SmartIO_Port2.c ****     /* Must disable the block before configuring */
+ 215:Generated_Source\PSoC4/SmartIO_Port2.c ****     SmartIO_Port2_Disable();
+ 296              		.loc 1 215 0
+ 297 0000 094B     		ldr	r3, .L16
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\cctIS3p0.s 			page 10
+
+
+ 298 0002 1A68     		ldr	r2, [r3]
+ 299 0004 5200     		lsls	r2, r2, #1
+ 300 0006 5208     		lsrs	r2, r2, #1
+ 301 0008 1A60     		str	r2, [r3]
+ 216:Generated_Source\PSoC4/SmartIO_Port2.c ****     /* Configure the clock source */
+ 217:Generated_Source\PSoC4/SmartIO_Port2.c ****     regVal = SmartIO_Port2_CTL & SmartIO_Port2_CLOCK_CLEAR;
+ 302              		.loc 1 217 0
+ 303 000a 1968     		ldr	r1, [r3]
+ 304 000c 074A     		ldr	r2, .L16+4
+ 305 000e 1140     		ands	r1, r2
+ 306              	.LVL10:
+ 218:Generated_Source\PSoC4/SmartIO_Port2.c ****     SmartIO_Port2_CTL = regVal | (((uint32)(clockSrc << CYFLD_PRGIO_PRT_CLOCK_SRC__OFFSET) 
+ 307              		.loc 1 218 0
+ 308 0010 0002     		lsls	r0, r0, #8
+ 309              	.LVL11:
+ 219:Generated_Source\PSoC4/SmartIO_Port2.c ****                                     & SmartIO_Port2_CLOCK_MASK));
+ 310              		.loc 1 219 0
+ 311 0012 F822     		movs	r2, #248
+ 312 0014 5201     		lsls	r2, r2, #5
+ 313 0016 1040     		ands	r0, r2
+ 218:Generated_Source\PSoC4/SmartIO_Port2.c ****     SmartIO_Port2_CTL = regVal | (((uint32)(clockSrc << CYFLD_PRGIO_PRT_CLOCK_SRC__OFFSET) 
+ 314              		.loc 1 218 0
+ 315 0018 0843     		orrs	r0, r1
+ 316 001a 1860     		str	r0, [r3]
+ 220:Generated_Source\PSoC4/SmartIO_Port2.c ****     /* Re-enable the block */
+ 221:Generated_Source\PSoC4/SmartIO_Port2.c ****     SmartIO_Port2_Enable();
+ 317              		.loc 1 221 0
+ 318 001c 1A68     		ldr	r2, [r3]
+ 319 001e 8021     		movs	r1, #128
+ 320              	.LVL12:
+ 321 0020 0906     		lsls	r1, r1, #24
+ 322 0022 0A43     		orrs	r2, r1
+ 323 0024 1A60     		str	r2, [r3]
+ 222:Generated_Source\PSoC4/SmartIO_Port2.c **** }
+ 324              		.loc 1 222 0
+ 325              		@ sp needed
+ 326 0026 7047     		bx	lr
+ 327              	.L17:
+ 328              		.align	2
+ 329              	.L16:
+ 330 0028 00000540 		.word	1074069504
+ 331 002c FFE0FFFF 		.word	-7937
+ 332              		.cfi_endproc
+ 333              	.LFE4:
+ 334              		.size	SmartIO_Port2_ClockSelect, .-SmartIO_Port2_ClockSelect
+ 335              		.section	.text.SmartIO_Port2_HoldOverride,"ax",%progbits
+ 336              		.align	2
+ 337              		.global	SmartIO_Port2_HoldOverride
+ 338              		.code	16
+ 339              		.thumb_func
+ 340              		.type	SmartIO_Port2_HoldOverride, %function
+ 341              	SmartIO_Port2_HoldOverride:
+ 342              	.LFB5:
+ 223:Generated_Source\PSoC4/SmartIO_Port2.c **** 
+ 224:Generated_Source\PSoC4/SmartIO_Port2.c **** 
+ 225:Generated_Source\PSoC4/SmartIO_Port2.c **** /*******************************************************************************
+ 226:Generated_Source\PSoC4/SmartIO_Port2.c **** * Function Name: SmartIO_Port2_HoldOverride
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\cctIS3p0.s 			page 11
+
+
+ 227:Generated_Source\PSoC4/SmartIO_Port2.c **** ****************************************************************************//**
+ 228:Generated_Source\PSoC4/SmartIO_Port2.c **** *
+ 229:Generated_Source\PSoC4/SmartIO_Port2.c **** * \brief Controls the port's chip hibernate mode override. 
+ 230:Generated_Source\PSoC4/SmartIO_Port2.c **** *
+ 231:Generated_Source\PSoC4/SmartIO_Port2.c **** * This function should be used when the block is desired to be operational
+ 232:Generated_Source\PSoC4/SmartIO_Port2.c **** * during chip deep-sleep or hibernate mode. The override functionality allows 
+ 233:Generated_Source\PSoC4/SmartIO_Port2.c **** * the port with SmartIO component to be operational during these modes. When
+ 234:Generated_Source\PSoC4/SmartIO_Port2.c **** * in chip active/sleep modes, the hold override functionality should be disabled.
+ 235:Generated_Source\PSoC4/SmartIO_Port2.c **** *
+ 236:Generated_Source\PSoC4/SmartIO_Port2.c **** * \param ovCtrl
+ 237:Generated_Source\PSoC4/SmartIO_Port2.c **** *  Hold override control. Valid options are documented in \ref hldOvrConst.
+ 238:Generated_Source\PSoC4/SmartIO_Port2.c **** * 
+ 239:Generated_Source\PSoC4/SmartIO_Port2.c **** * \sideeffect
+ 240:Generated_Source\PSoC4/SmartIO_Port2.c **** *  This function disables the block for reconfiguration. During this time,
+ 241:Generated_Source\PSoC4/SmartIO_Port2.c **** *  all signals on the port will be bypassed. All peripheral and gpio signals
+ 242:Generated_Source\PSoC4/SmartIO_Port2.c **** *  must be stopped or properly handled to account for the bypass state.
+ 243:Generated_Source\PSoC4/SmartIO_Port2.c **** *
+ 244:Generated_Source\PSoC4/SmartIO_Port2.c **** * \funcusage
+ 245:Generated_Source\PSoC4/SmartIO_Port2.c **** *  \snippet SmartIO_Port2_SUT.c usage_SmartIO_Port2_HoldOverride
+ 246:Generated_Source\PSoC4/SmartIO_Port2.c **** *******************************************************************************/
+ 247:Generated_Source\PSoC4/SmartIO_Port2.c **** void SmartIO_Port2_HoldOverride(uint32 ovCtrl)
+ 248:Generated_Source\PSoC4/SmartIO_Port2.c **** {
+ 343              		.loc 1 248 0
+ 344              		.cfi_startproc
+ 345              		@ args = 0, pretend = 0, frame = 0
+ 346              		@ frame_needed = 0, uses_anonymous_args = 0
+ 347              		@ link register save eliminated.
+ 348              	.LVL13:
+ 249:Generated_Source\PSoC4/SmartIO_Port2.c ****     /* Must disable the block before configuring */
+ 250:Generated_Source\PSoC4/SmartIO_Port2.c ****     SmartIO_Port2_Disable();
+ 349              		.loc 1 250 0
+ 350 0000 0C4A     		ldr	r2, .L21
+ 351 0002 1368     		ldr	r3, [r2]
+ 352 0004 5B00     		lsls	r3, r3, #1
+ 353 0006 5B08     		lsrs	r3, r3, #1
+ 354 0008 1360     		str	r3, [r2]
+ 251:Generated_Source\PSoC4/SmartIO_Port2.c ****     /* Set hold override mode */
+ 252:Generated_Source\PSoC4/SmartIO_Port2.c ****     if (ovCtrl == SmartIO_Port2_OVCTRL_ENABLE)
+ 355              		.loc 1 252 0
+ 356 000a 0128     		cmp	r0, #1
+ 357 000c 05D1     		bne	.L19
+ 253:Generated_Source\PSoC4/SmartIO_Port2.c ****     {
+ 254:Generated_Source\PSoC4/SmartIO_Port2.c ****         SmartIO_Port2_CTL |= SmartIO_Port2_HLD_OVR_SMARTIO;
+ 358              		.loc 1 254 0
+ 359 000e 1368     		ldr	r3, [r2]
+ 360 0010 8021     		movs	r1, #128
+ 361 0012 4904     		lsls	r1, r1, #17
+ 362 0014 0B43     		orrs	r3, r1
+ 363 0016 1360     		str	r3, [r2]
+ 364 0018 04E0     		b	.L20
+ 365              	.L19:
+ 255:Generated_Source\PSoC4/SmartIO_Port2.c ****     }    
+ 256:Generated_Source\PSoC4/SmartIO_Port2.c ****     else
+ 257:Generated_Source\PSoC4/SmartIO_Port2.c ****     {
+ 258:Generated_Source\PSoC4/SmartIO_Port2.c ****         SmartIO_Port2_CTL &= SmartIO_Port2_HLD_OVR_HSIOM;
+ 366              		.loc 1 258 0
+ 367 001a 064A     		ldr	r2, .L21
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\cctIS3p0.s 			page 12
+
+
+ 368 001c 1168     		ldr	r1, [r2]
+ 369 001e 064B     		ldr	r3, .L21+4
+ 370 0020 0B40     		ands	r3, r1
+ 371 0022 1360     		str	r3, [r2]
+ 372              	.L20:
+ 259:Generated_Source\PSoC4/SmartIO_Port2.c ****     }
+ 260:Generated_Source\PSoC4/SmartIO_Port2.c ****     /* Re-enable the block */
+ 261:Generated_Source\PSoC4/SmartIO_Port2.c ****     SmartIO_Port2_Enable();
+ 373              		.loc 1 261 0
+ 374 0024 034A     		ldr	r2, .L21
+ 375 0026 1368     		ldr	r3, [r2]
+ 376 0028 8021     		movs	r1, #128
+ 377 002a 0906     		lsls	r1, r1, #24
+ 378 002c 0B43     		orrs	r3, r1
+ 379 002e 1360     		str	r3, [r2]
+ 262:Generated_Source\PSoC4/SmartIO_Port2.c **** }
+ 380              		.loc 1 262 0
+ 381              		@ sp needed
+ 382 0030 7047     		bx	lr
+ 383              	.L22:
+ 384 0032 C046     		.align	2
+ 385              	.L21:
+ 386 0034 00000540 		.word	1074069504
+ 387 0038 FFFFFFFE 		.word	-16777217
+ 388              		.cfi_endproc
+ 389              	.LFE5:
+ 390              		.size	SmartIO_Port2_HoldOverride, .-SmartIO_Port2_HoldOverride
+ 391              		.section	.text.SmartIO_Port2_IoSyncMode,"ax",%progbits
+ 392              		.align	2
+ 393              		.global	SmartIO_Port2_IoSyncMode
+ 394              		.code	16
+ 395              		.thumb_func
+ 396              		.type	SmartIO_Port2_IoSyncMode, %function
+ 397              	SmartIO_Port2_IoSyncMode:
+ 398              	.LFB6:
+ 263:Generated_Source\PSoC4/SmartIO_Port2.c **** 
+ 264:Generated_Source\PSoC4/SmartIO_Port2.c **** 
+ 265:Generated_Source\PSoC4/SmartIO_Port2.c **** /*******************************************************************************
+ 266:Generated_Source\PSoC4/SmartIO_Port2.c **** * Function Name: SmartIO_Port2_IoSyncMode
+ 267:Generated_Source\PSoC4/SmartIO_Port2.c **** ****************************************************************************//**
+ 268:Generated_Source\PSoC4/SmartIO_Port2.c **** *
+ 269:Generated_Source\PSoC4/SmartIO_Port2.c **** * \brief Controls synchronization of signals coming from I/O Pin. 
+ 270:Generated_Source\PSoC4/SmartIO_Port2.c **** *
+ 271:Generated_Source\PSoC4/SmartIO_Port2.c **** * The synchronization is performed using the component clock. Synchronization 
+ 272:Generated_Source\PSoC4/SmartIO_Port2.c **** * should not be used if the component is configured to operate in asynchronous
+ 273:Generated_Source\PSoC4/SmartIO_Port2.c **** * mode.
+ 274:Generated_Source\PSoC4/SmartIO_Port2.c **** *
+ 275:Generated_Source\PSoC4/SmartIO_Port2.c **** * <b>Note</b> This function impacts all gpio terminals on the port. It will 
+ 276:Generated_Source\PSoC4/SmartIO_Port2.c **** * write over the synchronization configuration of all the gpio terminals. 
+ 277:Generated_Source\PSoC4/SmartIO_Port2.c **** *
+ 278:Generated_Source\PSoC4/SmartIO_Port2.c **** * \param portTerm
+ 279:Generated_Source\PSoC4/SmartIO_Port2.c **** *  The terminal location on the port. If the bit value is 0, the terminal is
+ 280:Generated_Source\PSoC4/SmartIO_Port2.c **** *  not synchronized; if the bit value is 1, the terminal is synchronized.
+ 281:Generated_Source\PSoC4/SmartIO_Port2.c **** *  Valid options are documented in \ref termConst. These should be ORed to 
+ 282:Generated_Source\PSoC4/SmartIO_Port2.c **** *  configure multiple terminals.
+ 283:Generated_Source\PSoC4/SmartIO_Port2.c **** * 
+ 284:Generated_Source\PSoC4/SmartIO_Port2.c **** * \sideeffect
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\cctIS3p0.s 			page 13
+
+
+ 285:Generated_Source\PSoC4/SmartIO_Port2.c **** *  This function disables the block for reconfiguration. During this time,
+ 286:Generated_Source\PSoC4/SmartIO_Port2.c **** *  all signals on the port will be bypassed. All peripheral and gpio signals
+ 287:Generated_Source\PSoC4/SmartIO_Port2.c **** *  must be stopped or properly handled to account for the bypass state.
+ 288:Generated_Source\PSoC4/SmartIO_Port2.c **** *
+ 289:Generated_Source\PSoC4/SmartIO_Port2.c **** * \funcusage
+ 290:Generated_Source\PSoC4/SmartIO_Port2.c **** *  \snippet SmartIO_Port2_SUT.c usage_SmartIO_Port2_IoSyncMode
+ 291:Generated_Source\PSoC4/SmartIO_Port2.c **** *******************************************************************************/
+ 292:Generated_Source\PSoC4/SmartIO_Port2.c **** void SmartIO_Port2_IoSyncMode(uint32 portTerm)
+ 293:Generated_Source\PSoC4/SmartIO_Port2.c **** {
+ 399              		.loc 1 293 0
+ 400              		.cfi_startproc
+ 401              		@ args = 0, pretend = 0, frame = 0
+ 402              		@ frame_needed = 0, uses_anonymous_args = 0
+ 403              	.LVL14:
+ 404 0000 10B5     		push	{r4, lr}
+ 405              		.cfi_def_cfa_offset 8
+ 406              		.cfi_offset 4, -8
+ 407              		.cfi_offset 14, -4
+ 294:Generated_Source\PSoC4/SmartIO_Port2.c ****     uint32 regVal;
+ 295:Generated_Source\PSoC4/SmartIO_Port2.c ****     
+ 296:Generated_Source\PSoC4/SmartIO_Port2.c ****     /* Must disable the block before configuring */
+ 297:Generated_Source\PSoC4/SmartIO_Port2.c ****     SmartIO_Port2_Disable();
+ 408              		.loc 1 297 0
+ 409 0002 094A     		ldr	r2, .L24
+ 410 0004 1368     		ldr	r3, [r2]
+ 411 0006 5B00     		lsls	r3, r3, #1
+ 412 0008 5B08     		lsrs	r3, r3, #1
+ 413 000a 1360     		str	r3, [r2]
+ 298:Generated_Source\PSoC4/SmartIO_Port2.c ****     /* Configure the IO synchronization */
+ 299:Generated_Source\PSoC4/SmartIO_Port2.c ****     regVal = SmartIO_Port2_SYNC_CTL & SmartIO_Port2_IO_SYNC_CLEAR;
+ 414              		.loc 1 299 0
+ 415 000c 0749     		ldr	r1, .L24+4
+ 416 000e 0B68     		ldr	r3, [r1]
+ 417 0010 FF24     		movs	r4, #255
+ 418 0012 A343     		bics	r3, r4
+ 419              	.LVL15:
+ 300:Generated_Source\PSoC4/SmartIO_Port2.c ****     SmartIO_Port2_SYNC_CTL = regVal | (((uint32)(portTerm << CYFLD_PRGIO_PRT_IO_SYNC_EN__OFFSET))
+ 301:Generated_Source\PSoC4/SmartIO_Port2.c ****                                          & SmartIO_Port2_IO_SYNC_MASK);
+ 420              		.loc 1 301 0
+ 421 0014 2040     		ands	r0, r4
+ 422              	.LVL16:
+ 300:Generated_Source\PSoC4/SmartIO_Port2.c ****     SmartIO_Port2_SYNC_CTL = regVal | (((uint32)(portTerm << CYFLD_PRGIO_PRT_IO_SYNC_EN__OFFSET))
+ 423              		.loc 1 300 0
+ 424 0016 1843     		orrs	r0, r3
+ 425 0018 0860     		str	r0, [r1]
+ 302:Generated_Source\PSoC4/SmartIO_Port2.c ****     /* Re-enable the block */
+ 303:Generated_Source\PSoC4/SmartIO_Port2.c ****     SmartIO_Port2_Enable();
+ 426              		.loc 1 303 0
+ 427 001a 1368     		ldr	r3, [r2]
+ 428              	.LVL17:
+ 429 001c 8021     		movs	r1, #128
+ 430 001e 0906     		lsls	r1, r1, #24
+ 431 0020 0B43     		orrs	r3, r1
+ 432 0022 1360     		str	r3, [r2]
+ 304:Generated_Source\PSoC4/SmartIO_Port2.c **** }
+ 433              		.loc 1 304 0
+ 434              		@ sp needed
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\cctIS3p0.s 			page 14
+
+
+ 435 0024 10BD     		pop	{r4, pc}
+ 436              	.L25:
+ 437 0026 C046     		.align	2
+ 438              	.L24:
+ 439 0028 00000540 		.word	1074069504
+ 440 002c 10000540 		.word	1074069520
+ 441              		.cfi_endproc
+ 442              	.LFE6:
+ 443              		.size	SmartIO_Port2_IoSyncMode, .-SmartIO_Port2_IoSyncMode
+ 444              		.section	.text.SmartIO_Port2_ChipSyncMode,"ax",%progbits
+ 445              		.align	2
+ 446              		.global	SmartIO_Port2_ChipSyncMode
+ 447              		.code	16
+ 448              		.thumb_func
+ 449              		.type	SmartIO_Port2_ChipSyncMode, %function
+ 450              	SmartIO_Port2_ChipSyncMode:
+ 451              	.LFB7:
+ 305:Generated_Source\PSoC4/SmartIO_Port2.c **** 
+ 306:Generated_Source\PSoC4/SmartIO_Port2.c **** 
+ 307:Generated_Source\PSoC4/SmartIO_Port2.c **** /*******************************************************************************
+ 308:Generated_Source\PSoC4/SmartIO_Port2.c **** * Function Name: SmartIO_Port2_ChipSyncMode
+ 309:Generated_Source\PSoC4/SmartIO_Port2.c **** ****************************************************************************//**
+ 310:Generated_Source\PSoC4/SmartIO_Port2.c **** *
+ 311:Generated_Source\PSoC4/SmartIO_Port2.c **** * \brief Controls synchronization of signals coming from chip to the component. 
+ 312:Generated_Source\PSoC4/SmartIO_Port2.c **** *
+ 313:Generated_Source\PSoC4/SmartIO_Port2.c **** * The synchronization is performed using the component clock. Synchronization 
+ 314:Generated_Source\PSoC4/SmartIO_Port2.c **** * should not be used if the component is configured to operate in asynchronous
+ 315:Generated_Source\PSoC4/SmartIO_Port2.c **** * mode.
+ 316:Generated_Source\PSoC4/SmartIO_Port2.c **** *
+ 317:Generated_Source\PSoC4/SmartIO_Port2.c **** * <b>Note</b> This function impacts all data terminals on the port. It will 
+ 318:Generated_Source\PSoC4/SmartIO_Port2.c **** * write over the synchronization configuration of all the data terminals. 
+ 319:Generated_Source\PSoC4/SmartIO_Port2.c **** *
+ 320:Generated_Source\PSoC4/SmartIO_Port2.c **** * \param portTerm
+ 321:Generated_Source\PSoC4/SmartIO_Port2.c **** *  The terminal location on the port. If the bit value is 0, the terminal is
+ 322:Generated_Source\PSoC4/SmartIO_Port2.c **** *  not synchronized; if the bit value is 1, the terminal is synchronized.
+ 323:Generated_Source\PSoC4/SmartIO_Port2.c **** *  Valid options are documented in \ref termConst. These should be ORed to 
+ 324:Generated_Source\PSoC4/SmartIO_Port2.c **** *  configure multiple terminals.
+ 325:Generated_Source\PSoC4/SmartIO_Port2.c **** * 
+ 326:Generated_Source\PSoC4/SmartIO_Port2.c **** * \sideeffect
+ 327:Generated_Source\PSoC4/SmartIO_Port2.c **** *  This function disables the block for reconfiguration. During this time,
+ 328:Generated_Source\PSoC4/SmartIO_Port2.c **** *  all signals on the port will be bypassed. All peripheral and gpio signals
+ 329:Generated_Source\PSoC4/SmartIO_Port2.c **** *  must be stopped or properly handled to account for the bypass state.
+ 330:Generated_Source\PSoC4/SmartIO_Port2.c **** *
+ 331:Generated_Source\PSoC4/SmartIO_Port2.c **** * \funcusage
+ 332:Generated_Source\PSoC4/SmartIO_Port2.c **** *  \snippet SmartIO_Port2_SUT.c usage_SmartIO_Port2_ChipSyncMode
+ 333:Generated_Source\PSoC4/SmartIO_Port2.c **** *******************************************************************************/
+ 334:Generated_Source\PSoC4/SmartIO_Port2.c **** void SmartIO_Port2_ChipSyncMode(uint32 portTerm)
+ 335:Generated_Source\PSoC4/SmartIO_Port2.c **** {
+ 452              		.loc 1 335 0
+ 453              		.cfi_startproc
+ 454              		@ args = 0, pretend = 0, frame = 0
+ 455              		@ frame_needed = 0, uses_anonymous_args = 0
+ 456              	.LVL18:
+ 457 0000 10B5     		push	{r4, lr}
+ 458              		.cfi_def_cfa_offset 8
+ 459              		.cfi_offset 4, -8
+ 460              		.cfi_offset 14, -4
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\cctIS3p0.s 			page 15
+
+
+ 336:Generated_Source\PSoC4/SmartIO_Port2.c ****     uint32 regVal;
+ 337:Generated_Source\PSoC4/SmartIO_Port2.c ****     
+ 338:Generated_Source\PSoC4/SmartIO_Port2.c ****     /* Must disable the block before configuring */
+ 339:Generated_Source\PSoC4/SmartIO_Port2.c ****     SmartIO_Port2_Disable();
+ 461              		.loc 1 339 0
+ 462 0002 094A     		ldr	r2, .L27
+ 463 0004 1368     		ldr	r3, [r2]
+ 464 0006 5B00     		lsls	r3, r3, #1
+ 465 0008 5B08     		lsrs	r3, r3, #1
+ 466 000a 1360     		str	r3, [r2]
+ 340:Generated_Source\PSoC4/SmartIO_Port2.c ****     /* Configure the Chip data synchronization */
+ 341:Generated_Source\PSoC4/SmartIO_Port2.c ****     regVal = SmartIO_Port2_SYNC_CTL & SmartIO_Port2_DATA_SYNC_CLEAR;
+ 467              		.loc 1 341 0
+ 468 000c 0749     		ldr	r1, .L27+4
+ 469 000e 0C68     		ldr	r4, [r1]
+ 470 0010 074B     		ldr	r3, .L27+8
+ 471 0012 2340     		ands	r3, r4
+ 472              	.LVL19:
+ 342:Generated_Source\PSoC4/SmartIO_Port2.c ****     SmartIO_Port2_SYNC_CTL = regVal | (((uint32)(portTerm << CYFLD_PRGIO_PRT_CHIP_SYNC_EN__OFFSET))
+ 343:Generated_Source\PSoC4/SmartIO_Port2.c ****                                         & SmartIO_Port2_DATA_SYNC_MASK);
+ 473              		.loc 1 343 0
+ 474 0014 0006     		lsls	r0, r0, #24
+ 475              	.LVL20:
+ 476 0016 000C     		lsrs	r0, r0, #16
+ 342:Generated_Source\PSoC4/SmartIO_Port2.c ****     SmartIO_Port2_SYNC_CTL = regVal | (((uint32)(portTerm << CYFLD_PRGIO_PRT_CHIP_SYNC_EN__OFFSET))
+ 477              		.loc 1 342 0
+ 478 0018 1843     		orrs	r0, r3
+ 479 001a 0860     		str	r0, [r1]
+ 344:Generated_Source\PSoC4/SmartIO_Port2.c ****     /* Re-enable the block */
+ 345:Generated_Source\PSoC4/SmartIO_Port2.c ****     SmartIO_Port2_Enable();
+ 480              		.loc 1 345 0
+ 481 001c 1368     		ldr	r3, [r2]
+ 482              	.LVL21:
+ 483 001e 8021     		movs	r1, #128
+ 484 0020 0906     		lsls	r1, r1, #24
+ 485 0022 0B43     		orrs	r3, r1
+ 486 0024 1360     		str	r3, [r2]
+ 346:Generated_Source\PSoC4/SmartIO_Port2.c **** }
+ 487              		.loc 1 346 0
+ 488              		@ sp needed
+ 489              	.LVL22:
+ 490 0026 10BD     		pop	{r4, pc}
+ 491              	.L28:
+ 492              		.align	2
+ 493              	.L27:
+ 494 0028 00000540 		.word	1074069504
+ 495 002c 10000540 		.word	1074069520
+ 496 0030 FF00FFFF 		.word	-65281
+ 497              		.cfi_endproc
+ 498              	.LFE7:
+ 499              		.size	SmartIO_Port2_ChipSyncMode, .-SmartIO_Port2_ChipSyncMode
+ 500              		.section	.text.SmartIO_Port2_LUT_SelectInputs,"ax",%progbits
+ 501              		.align	2
+ 502              		.global	SmartIO_Port2_LUT_SelectInputs
+ 503              		.code	16
+ 504              		.thumb_func
+ 505              		.type	SmartIO_Port2_LUT_SelectInputs, %function
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\cctIS3p0.s 			page 16
+
+
+ 506              	SmartIO_Port2_LUT_SelectInputs:
+ 507              	.LFB8:
+ 347:Generated_Source\PSoC4/SmartIO_Port2.c **** 
+ 348:Generated_Source\PSoC4/SmartIO_Port2.c **** 
+ 349:Generated_Source\PSoC4/SmartIO_Port2.c **** /*******************************************************************************
+ 350:Generated_Source\PSoC4/SmartIO_Port2.c **** * Function Name: SmartIO_Port2_LUT_SelectInputs
+ 351:Generated_Source\PSoC4/SmartIO_Port2.c **** ****************************************************************************//**
+ 352:Generated_Source\PSoC4/SmartIO_Port2.c **** *
+ 353:Generated_Source\PSoC4/SmartIO_Port2.c **** * \brief This function is used to select individual inputs to the specified LUT. 
+ 354:Generated_Source\PSoC4/SmartIO_Port2.c **** *
+ 355:Generated_Source\PSoC4/SmartIO_Port2.c **** * This function can be used to configure multiple LUTs with the same input
+ 356:Generated_Source\PSoC4/SmartIO_Port2.c **** * configuration.
+ 357:Generated_Source\PSoC4/SmartIO_Port2.c **** * 
+ 358:Generated_Source\PSoC4/SmartIO_Port2.c **** * <b>Note</b> The selections are different for the upper and lower nibbles.
+ 359:Generated_Source\PSoC4/SmartIO_Port2.c **** * See the LUT input parameters and Functional Description section in the
+ 360:Generated_Source\PSoC4/SmartIO_Port2.c **** * component datasheet for more information.
+ 361:Generated_Source\PSoC4/SmartIO_Port2.c **** *
+ 362:Generated_Source\PSoC4/SmartIO_Port2.c **** * \param lutNum
+ 363:Generated_Source\PSoC4/SmartIO_Port2.c **** *  LUT number. Valid options are documented in \ref lutNumConst.
+ 364:Generated_Source\PSoC4/SmartIO_Port2.c **** *
+ 365:Generated_Source\PSoC4/SmartIO_Port2.c **** * \param inputNum
+ 366:Generated_Source\PSoC4/SmartIO_Port2.c **** *  The input number (input0, input1, input2). Valid options are documented 
+ 367:Generated_Source\PSoC4/SmartIO_Port2.c **** *  in \ref inputNumConst. Note that LUT input0 does not accept LUT0 output as
+ 368:Generated_Source\PSoC4/SmartIO_Port2.c **** *  an input.
+ 369:Generated_Source\PSoC4/SmartIO_Port2.c **** *
+ 370:Generated_Source\PSoC4/SmartIO_Port2.c **** * \param inputSrc
+ 371:Generated_Source\PSoC4/SmartIO_Port2.c **** *  The source of the LUT input. Valid options are documented in
+ 372:Generated_Source\PSoC4/SmartIO_Port2.c **** *  \ref inputSrcConst.
+ 373:Generated_Source\PSoC4/SmartIO_Port2.c **** *
+ 374:Generated_Source\PSoC4/SmartIO_Port2.c **** * \return 
+ 375:Generated_Source\PSoC4/SmartIO_Port2.c **** *  Status of the LUT input selection.
+ 376:Generated_Source\PSoC4/SmartIO_Port2.c **** *   Status          | Description
+ 377:Generated_Source\PSoC4/SmartIO_Port2.c **** *   ----------------|--------------------
+ 378:Generated_Source\PSoC4/SmartIO_Port2.c **** *   CYRET_SUCCESS   | Write successful
+ 379:Generated_Source\PSoC4/SmartIO_Port2.c **** *   CYRET_BAD_PARAM | Invalid parameter
+ 380:Generated_Source\PSoC4/SmartIO_Port2.c **** * 
+ 381:Generated_Source\PSoC4/SmartIO_Port2.c **** * \sideeffect
+ 382:Generated_Source\PSoC4/SmartIO_Port2.c **** *  This function disables the block for reconfiguration. During this time,
+ 383:Generated_Source\PSoC4/SmartIO_Port2.c **** *  all signals on the port will be bypassed. All peripheral and gpio signals
+ 384:Generated_Source\PSoC4/SmartIO_Port2.c **** *  must be stopped or properly handled to account for the bypass state.
+ 385:Generated_Source\PSoC4/SmartIO_Port2.c **** *
+ 386:Generated_Source\PSoC4/SmartIO_Port2.c **** * \funcusage
+ 387:Generated_Source\PSoC4/SmartIO_Port2.c **** *  \snippet SmartIO_Port2_SUT.c usage_SmartIO_Port2_LUT_SelectInputs
+ 388:Generated_Source\PSoC4/SmartIO_Port2.c **** *******************************************************************************/
+ 389:Generated_Source\PSoC4/SmartIO_Port2.c **** cystatus SmartIO_Port2_LUT_SelectInputs(uint32 lutNum, uint32 inputNum, uint32 inputSrc)
+ 390:Generated_Source\PSoC4/SmartIO_Port2.c **** {
+ 508              		.loc 1 390 0
+ 509              		.cfi_startproc
+ 510              		@ args = 0, pretend = 0, frame = 0
+ 511              		@ frame_needed = 0, uses_anonymous_args = 0
+ 512              	.LVL23:
+ 513 0000 30B5     		push	{r4, r5, lr}
+ 514              		.cfi_def_cfa_offset 12
+ 515              		.cfi_offset 4, -12
+ 516              		.cfi_offset 5, -8
+ 517              		.cfi_offset 14, -4
+ 518              	.LVL24:
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\cctIS3p0.s 			page 17
+
+
+ 391:Generated_Source\PSoC4/SmartIO_Port2.c ****     cystatus callStatus = CYRET_SUCCESS;
+ 392:Generated_Source\PSoC4/SmartIO_Port2.c ****     uint32 sel;
+ 393:Generated_Source\PSoC4/SmartIO_Port2.c ****     
+ 394:Generated_Source\PSoC4/SmartIO_Port2.c ****     /* Input validation */
+ 395:Generated_Source\PSoC4/SmartIO_Port2.c ****     if((inputSrc == SmartIO_Port2_SRC_LUT0) && ((inputNum & SmartIO_Port2_LUT_INPUT0) == SmartIO_Po
+ 519              		.loc 1 395 0
+ 520 0002 002A     		cmp	r2, #0
+ 521 0004 03D1     		bne	.L39
+ 522              		.loc 1 395 0 is_stmt 0 discriminator 1
+ 523 0006 CB07     		lsls	r3, r1, #31
+ 524 0008 03D4     		bmi	.L40
+ 391:Generated_Source\PSoC4/SmartIO_Port2.c ****     cystatus callStatus = CYRET_SUCCESS;
+ 525              		.loc 1 391 0 is_stmt 1
+ 526 000a 0024     		movs	r4, #0
+ 527 000c 02E0     		b	.L30
+ 528              	.L39:
+ 529 000e 0024     		movs	r4, #0
+ 530 0010 00E0     		b	.L30
+ 531              	.L40:
+ 396:Generated_Source\PSoC4/SmartIO_Port2.c ****     {
+ 397:Generated_Source\PSoC4/SmartIO_Port2.c ****         /* LUT input0 does not support LUT0 as an input */
+ 398:Generated_Source\PSoC4/SmartIO_Port2.c ****         callStatus = CYRET_BAD_PARAM;
+ 532              		.loc 1 398 0
+ 533 0012 0124     		movs	r4, #1
+ 534              	.L30:
+ 535              	.LVL25:
+ 399:Generated_Source\PSoC4/SmartIO_Port2.c ****     }
+ 400:Generated_Source\PSoC4/SmartIO_Port2.c ****     if((inputSrc == SmartIO_Port2_SRC_DU) && ((inputNum & (SmartIO_Port2_LUT_INPUT1 | SmartIO_Port2
+ 536              		.loc 1 400 0
+ 537 0014 102A     		cmp	r2, #16
+ 538 0016 03D1     		bne	.L31
+ 539              		.loc 1 400 0 is_stmt 0 discriminator 1
+ 540 0018 0623     		movs	r3, #6
+ 541 001a 0B42     		tst	r3, r1
+ 542 001c 00D0     		beq	.L31
+ 401:Generated_Source\PSoC4/SmartIO_Port2.c ****     {
+ 402:Generated_Source\PSoC4/SmartIO_Port2.c ****         /* LUT input1 and input2 do not support DU output as an input */
+ 403:Generated_Source\PSoC4/SmartIO_Port2.c ****         callStatus = CYRET_BAD_PARAM;
+ 543              		.loc 1 403 0 is_stmt 1
+ 544 001e 0124     		movs	r4, #1
+ 545              	.LVL26:
+ 546              	.L31:
+ 404:Generated_Source\PSoC4/SmartIO_Port2.c ****     }
+ 405:Generated_Source\PSoC4/SmartIO_Port2.c ****     
+ 406:Generated_Source\PSoC4/SmartIO_Port2.c ****     /* Configure LUT selection */
+ 407:Generated_Source\PSoC4/SmartIO_Port2.c ****     if (callStatus != CYRET_BAD_PARAM)
+ 547              		.loc 1 407 0
+ 548 0020 012C     		cmp	r4, #1
+ 549 0022 41D0     		beq	.L32
+ 408:Generated_Source\PSoC4/SmartIO_Port2.c ****     {
+ 409:Generated_Source\PSoC4/SmartIO_Port2.c ****         /* Must disable the block before configuring */
+ 410:Generated_Source\PSoC4/SmartIO_Port2.c ****         SmartIO_Port2_Disable();
+ 550              		.loc 1 410 0
+ 551 0024 214D     		ldr	r5, .L43
+ 552 0026 2B68     		ldr	r3, [r5]
+ 553 0028 5B00     		lsls	r3, r3, #1
+ 554 002a 5B08     		lsrs	r3, r3, #1
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\cctIS3p0.s 			page 18
+
+
+ 555 002c 2B60     		str	r3, [r5]
+ 411:Generated_Source\PSoC4/SmartIO_Port2.c ****         
+ 412:Generated_Source\PSoC4/SmartIO_Port2.c ****         sel = SmartIO_Port2_LUT_CONGIG_BASE.lutSel[lutNum];
+ 556              		.loc 1 412 0
+ 557 002e 8300     		lsls	r3, r0, #2
+ 558 0030 1F4D     		ldr	r5, .L43+4
+ 559 0032 5B59     		ldr	r3, [r3, r5]
+ 560              	.LVL27:
+ 413:Generated_Source\PSoC4/SmartIO_Port2.c ****         switch(inputNum)
+ 561              		.loc 1 413 0
+ 562 0034 0229     		cmp	r1, #2
+ 563 0036 0DD0     		beq	.L34
+ 564 0038 02D8     		bhi	.L35
+ 565 003a 0129     		cmp	r1, #1
+ 566 003c 05D0     		beq	.L36
+ 567 003e 29E0     		b	.L42
+ 568              	.L35:
+ 569 0040 0429     		cmp	r1, #4
+ 570 0042 0FD0     		beq	.L37
+ 571 0044 0729     		cmp	r1, #7
+ 572 0046 15D0     		beq	.L38
+ 573 0048 24E0     		b	.L42
+ 574              	.L36:
+ 414:Generated_Source\PSoC4/SmartIO_Port2.c ****         {
+ 415:Generated_Source\PSoC4/SmartIO_Port2.c ****             case SmartIO_Port2_LUT_INPUT0:
+ 416:Generated_Source\PSoC4/SmartIO_Port2.c ****                 sel = (sel & SmartIO_Port2_LUT_TR0_CLEAR) 
+ 575              		.loc 1 416 0
+ 576 004a 0F21     		movs	r1, #15
+ 577              	.LVL28:
+ 578 004c 8B43     		bics	r3, r1
+ 579              	.LVL29:
+ 417:Generated_Source\PSoC4/SmartIO_Port2.c ****                         | ((uint32)(inputSrc << CYFLD_PRGIO_PRT_LUT_TR0_SEL__OFFSET) & SmartIO_Port
+ 580              		.loc 1 417 0
+ 581 004e 0A40     		ands	r2, r1
+ 582              	.LVL30:
+ 416:Generated_Source\PSoC4/SmartIO_Port2.c ****                         | ((uint32)(inputSrc << CYFLD_PRGIO_PRT_LUT_TR0_SEL__OFFSET) & SmartIO_Port
+ 583              		.loc 1 416 0
+ 584 0050 1343     		orrs	r3, r2
+ 585              	.LVL31:
+ 418:Generated_Source\PSoC4/SmartIO_Port2.c ****                 break;
+ 586              		.loc 1 418 0
+ 587 0052 20E0     		b	.L33
+ 588              	.LVL32:
+ 589              	.L34:
+ 419:Generated_Source\PSoC4/SmartIO_Port2.c ****             case SmartIO_Port2_LUT_INPUT1:
+ 420:Generated_Source\PSoC4/SmartIO_Port2.c ****                 sel = (sel & SmartIO_Port2_LUT_TR1_CLEAR) 
+ 590              		.loc 1 420 0
+ 591 0054 1749     		ldr	r1, .L43+8
+ 592              	.LVL33:
+ 593 0056 0B40     		ands	r3, r1
+ 594              	.LVL34:
+ 421:Generated_Source\PSoC4/SmartIO_Port2.c ****                         | ((uint32)(inputSrc << CYFLD_PRGIO_PRT_LUT_TR1_SEL__OFFSET) & SmartIO_Port
+ 595              		.loc 1 421 0
+ 596 0058 1202     		lsls	r2, r2, #8
+ 597              	.LVL35:
+ 598 005a F021     		movs	r1, #240
+ 599 005c 0901     		lsls	r1, r1, #4
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\cctIS3p0.s 			page 19
+
+
+ 600 005e 0A40     		ands	r2, r1
+ 420:Generated_Source\PSoC4/SmartIO_Port2.c ****                         | ((uint32)(inputSrc << CYFLD_PRGIO_PRT_LUT_TR1_SEL__OFFSET) & SmartIO_Port
+ 601              		.loc 1 420 0
+ 602 0060 1343     		orrs	r3, r2
+ 603              	.LVL36:
+ 422:Generated_Source\PSoC4/SmartIO_Port2.c ****                 break;
+ 604              		.loc 1 422 0
+ 605 0062 18E0     		b	.L33
+ 606              	.LVL37:
+ 607              	.L37:
+ 423:Generated_Source\PSoC4/SmartIO_Port2.c ****             case SmartIO_Port2_LUT_INPUT2:
+ 424:Generated_Source\PSoC4/SmartIO_Port2.c ****                 sel = (sel & SmartIO_Port2_LUT_TR2_CLEAR)
+ 608              		.loc 1 424 0
+ 609 0064 1449     		ldr	r1, .L43+12
+ 610              	.LVL38:
+ 611 0066 0B40     		ands	r3, r1
+ 612              	.LVL39:
+ 425:Generated_Source\PSoC4/SmartIO_Port2.c ****                         | ((uint32)(inputSrc << CYFLD_PRGIO_PRT_LUT_TR2_SEL__OFFSET) & SmartIO_Port
+ 613              		.loc 1 425 0
+ 614 0068 1204     		lsls	r2, r2, #16
+ 615              	.LVL40:
+ 616 006a F021     		movs	r1, #240
+ 617 006c 0903     		lsls	r1, r1, #12
+ 618 006e 0A40     		ands	r2, r1
+ 424:Generated_Source\PSoC4/SmartIO_Port2.c ****                         | ((uint32)(inputSrc << CYFLD_PRGIO_PRT_LUT_TR2_SEL__OFFSET) & SmartIO_Port
+ 619              		.loc 1 424 0
+ 620 0070 1343     		orrs	r3, r2
+ 621              	.LVL41:
+ 426:Generated_Source\PSoC4/SmartIO_Port2.c ****                 break;
+ 622              		.loc 1 426 0
+ 623 0072 10E0     		b	.L33
+ 624              	.LVL42:
+ 625              	.L38:
+ 427:Generated_Source\PSoC4/SmartIO_Port2.c ****             case SmartIO_Port2_LUT_INPUT_ALL:
+ 428:Generated_Source\PSoC4/SmartIO_Port2.c ****                 sel = (sel & SmartIO_Port2_LUT_TR_CLEAR_ALL) 
+ 626              		.loc 1 428 0
+ 627 0074 1149     		ldr	r1, .L43+16
+ 628              	.LVL43:
+ 629 0076 0B40     		ands	r3, r1
+ 630              	.LVL44:
+ 429:Generated_Source\PSoC4/SmartIO_Port2.c ****                         | ((uint32)(inputSrc << CYFLD_PRGIO_PRT_LUT_TR0_SEL__OFFSET) & SmartIO_Port
+ 631              		.loc 1 429 0
+ 632 0078 0F21     		movs	r1, #15
+ 633 007a 1140     		ands	r1, r2
+ 634 007c 0B43     		orrs	r3, r1
+ 430:Generated_Source\PSoC4/SmartIO_Port2.c ****                         | ((uint32)(inputSrc << CYFLD_PRGIO_PRT_LUT_TR1_SEL__OFFSET) & SmartIO_Port
+ 635              		.loc 1 430 0
+ 636 007e 1502     		lsls	r5, r2, #8
+ 637 0080 F021     		movs	r1, #240
+ 638 0082 0901     		lsls	r1, r1, #4
+ 639 0084 2940     		ands	r1, r5
+ 640 0086 0B43     		orrs	r3, r1
+ 431:Generated_Source\PSoC4/SmartIO_Port2.c ****                         | ((uint32)(inputSrc << CYFLD_PRGIO_PRT_LUT_TR2_SEL__OFFSET) & SmartIO_Port
+ 641              		.loc 1 431 0
+ 642 0088 1204     		lsls	r2, r2, #16
+ 643              	.LVL45:
+ 644 008a F021     		movs	r1, #240
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\cctIS3p0.s 			page 20
+
+
+ 645 008c 0903     		lsls	r1, r1, #12
+ 646 008e 0A40     		ands	r2, r1
+ 428:Generated_Source\PSoC4/SmartIO_Port2.c ****                         | ((uint32)(inputSrc << CYFLD_PRGIO_PRT_LUT_TR0_SEL__OFFSET) & SmartIO_Port
+ 647              		.loc 1 428 0
+ 648 0090 1343     		orrs	r3, r2
+ 649              	.LVL46:
+ 432:Generated_Source\PSoC4/SmartIO_Port2.c ****                 break;
+ 650              		.loc 1 432 0
+ 651 0092 00E0     		b	.L33
+ 652              	.LVL47:
+ 653              	.L42:
+ 433:Generated_Source\PSoC4/SmartIO_Port2.c ****             default: 
+ 434:Generated_Source\PSoC4/SmartIO_Port2.c ****                 callStatus = CYRET_BAD_PARAM;
+ 654              		.loc 1 434 0
+ 655 0094 0124     		movs	r4, #1
+ 656              	.LVL48:
+ 657              	.L33:
+ 435:Generated_Source\PSoC4/SmartIO_Port2.c ****                 break;
+ 436:Generated_Source\PSoC4/SmartIO_Port2.c ****         }
+ 437:Generated_Source\PSoC4/SmartIO_Port2.c ****         SmartIO_Port2_LUT_CONGIG_BASE.lutSel[lutNum] = sel;
+ 658              		.loc 1 437 0
+ 659 0096 8000     		lsls	r0, r0, #2
+ 660              	.LVL49:
+ 661 0098 054A     		ldr	r2, .L43+4
+ 662 009a 8350     		str	r3, [r0, r2]
+ 438:Generated_Source\PSoC4/SmartIO_Port2.c ****         
+ 439:Generated_Source\PSoC4/SmartIO_Port2.c ****         /* Re-enable the block */
+ 440:Generated_Source\PSoC4/SmartIO_Port2.c ****         SmartIO_Port2_Enable();
+ 663              		.loc 1 440 0
+ 664 009c 034A     		ldr	r2, .L43
+ 665 009e 1368     		ldr	r3, [r2]
+ 666              	.LVL50:
+ 667 00a0 8021     		movs	r1, #128
+ 668 00a2 0906     		lsls	r1, r1, #24
+ 669 00a4 0B43     		orrs	r3, r1
+ 670 00a6 1360     		str	r3, [r2]
+ 671              	.LVL51:
+ 672              	.L32:
+ 441:Generated_Source\PSoC4/SmartIO_Port2.c ****     }    
+ 442:Generated_Source\PSoC4/SmartIO_Port2.c ****     return callStatus;
+ 443:Generated_Source\PSoC4/SmartIO_Port2.c **** }
+ 673              		.loc 1 443 0
+ 674 00a8 2000     		movs	r0, r4
+ 675              		@ sp needed
+ 676              	.LVL52:
+ 677 00aa 30BD     		pop	{r4, r5, pc}
+ 678              	.L44:
+ 679              		.align	2
+ 680              	.L43:
+ 681 00ac 00000540 		.word	1074069504
+ 682 00b0 20000540 		.word	1074069536
+ 683 00b4 FFF0FFFF 		.word	-3841
+ 684 00b8 FFFFF0FF 		.word	-983041
+ 685 00bc F0F0F0FF 		.word	-986896
+ 686              		.cfi_endproc
+ 687              	.LFE8:
+ 688              		.size	SmartIO_Port2_LUT_SelectInputs, .-SmartIO_Port2_LUT_SelectInputs
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\cctIS3p0.s 			page 21
+
+
+ 689              		.section	.text.SmartIO_Port2_LUT_ConfigureMode,"ax",%progbits
+ 690              		.align	2
+ 691              		.global	SmartIO_Port2_LUT_ConfigureMode
+ 692              		.code	16
+ 693              		.thumb_func
+ 694              		.type	SmartIO_Port2_LUT_ConfigureMode, %function
+ 695              	SmartIO_Port2_LUT_ConfigureMode:
+ 696              	.LFB9:
+ 444:Generated_Source\PSoC4/SmartIO_Port2.c **** 
+ 445:Generated_Source\PSoC4/SmartIO_Port2.c **** 
+ 446:Generated_Source\PSoC4/SmartIO_Port2.c **** /*******************************************************************************
+ 447:Generated_Source\PSoC4/SmartIO_Port2.c **** * Function Name: SmartIO_Port2_LUT_ConfigureMode
+ 448:Generated_Source\PSoC4/SmartIO_Port2.c **** ****************************************************************************//**
+ 449:Generated_Source\PSoC4/SmartIO_Port2.c **** *
+ 450:Generated_Source\PSoC4/SmartIO_Port2.c **** * \brief This function sets the logical function of the selected LUT (based on 
+ 451:Generated_Source\PSoC4/SmartIO_Port2.c **** *  the 3 inputs) and specifies its operating mode. 
+ 452:Generated_Source\PSoC4/SmartIO_Port2.c **** *
+ 453:Generated_Source\PSoC4/SmartIO_Port2.c **** *  This function can be used to configure multiple LUTs with the same 
+ 454:Generated_Source\PSoC4/SmartIO_Port2.c **** *  configuration. The LUT mapping (truth table) is defined as follows.
+ 455:Generated_Source\PSoC4/SmartIO_Port2.c **** *
+ 456:Generated_Source\PSoC4/SmartIO_Port2.c **** *   input2 | input1 | input0 | Mapping bit
+ 457:Generated_Source\PSoC4/SmartIO_Port2.c **** *   -------| ------ | ------ | -----------
+ 458:Generated_Source\PSoC4/SmartIO_Port2.c **** *     0    |   0    |   0    |    bit0
+ 459:Generated_Source\PSoC4/SmartIO_Port2.c **** *     0    |   0    |   1    |    bit1
+ 460:Generated_Source\PSoC4/SmartIO_Port2.c **** *     0    |   1    |   0    |    bit2
+ 461:Generated_Source\PSoC4/SmartIO_Port2.c **** *     0    |   1    |   1    |    bit3
+ 462:Generated_Source\PSoC4/SmartIO_Port2.c **** *     1    |   0    |   0    |    bit4
+ 463:Generated_Source\PSoC4/SmartIO_Port2.c **** *     1    |   0    |   1    |    bit5
+ 464:Generated_Source\PSoC4/SmartIO_Port2.c **** *     1    |   1    |   0    |    bit6
+ 465:Generated_Source\PSoC4/SmartIO_Port2.c **** *     1    |   1    |   1    |    bit7
+ 466:Generated_Source\PSoC4/SmartIO_Port2.c **** *
+ 467:Generated_Source\PSoC4/SmartIO_Port2.c **** * \param lutNum
+ 468:Generated_Source\PSoC4/SmartIO_Port2.c **** *  LUT number. Valid options are documented in \ref lutNumConst.
+ 469:Generated_Source\PSoC4/SmartIO_Port2.c **** *
+ 470:Generated_Source\PSoC4/SmartIO_Port2.c **** * \param mapping
+ 471:Generated_Source\PSoC4/SmartIO_Port2.c **** *  This is the LUT truth table. Bit0 corresponds to the LUT output when the 
+ 472:Generated_Source\PSoC4/SmartIO_Port2.c **** *  input value is (in2=0, in1=0, in0=0). Bit7 corresponds to the LUT output 
+ 473:Generated_Source\PSoC4/SmartIO_Port2.c **** *  when the input value is (in2=1, in1=1, in0=1).
+ 474:Generated_Source\PSoC4/SmartIO_Port2.c **** *
+ 475:Generated_Source\PSoC4/SmartIO_Port2.c **** * \param mode
+ 476:Generated_Source\PSoC4/SmartIO_Port2.c **** *  The LUT mode. Valid options are documented in \ref modeConst.
+ 477:Generated_Source\PSoC4/SmartIO_Port2.c **** * 
+ 478:Generated_Source\PSoC4/SmartIO_Port2.c **** * \sideeffect
+ 479:Generated_Source\PSoC4/SmartIO_Port2.c **** *  This function disables the block for reconfiguration. During this time,
+ 480:Generated_Source\PSoC4/SmartIO_Port2.c **** *  all signals on the port will be bypassed. All peripheral and gpio signals
+ 481:Generated_Source\PSoC4/SmartIO_Port2.c **** *  must be stopped or properly handled to account for the bypass state.
+ 482:Generated_Source\PSoC4/SmartIO_Port2.c **** *
+ 483:Generated_Source\PSoC4/SmartIO_Port2.c **** * \funcusage
+ 484:Generated_Source\PSoC4/SmartIO_Port2.c **** *  \snippet SmartIO_Port2_SUT.c usage_SmartIO_Port2_LUT_ConfigureMode
+ 485:Generated_Source\PSoC4/SmartIO_Port2.c **** *******************************************************************************/
+ 486:Generated_Source\PSoC4/SmartIO_Port2.c **** void SmartIO_Port2_LUT_ConfigureMode(uint32 lutNum, uint32 mapping, uint32 mode)
+ 487:Generated_Source\PSoC4/SmartIO_Port2.c **** {
+ 697              		.loc 1 487 0
+ 698              		.cfi_startproc
+ 699              		@ args = 0, pretend = 0, frame = 0
+ 700              		@ frame_needed = 0, uses_anonymous_args = 0
+ 701              	.LVL53:
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\cctIS3p0.s 			page 22
+
+
+ 702 0000 70B5     		push	{r4, r5, r6, lr}
+ 703              		.cfi_def_cfa_offset 16
+ 704              		.cfi_offset 4, -16
+ 705              		.cfi_offset 5, -12
+ 706              		.cfi_offset 6, -8
+ 707              		.cfi_offset 14, -4
+ 488:Generated_Source\PSoC4/SmartIO_Port2.c ****     uint32 ctl;
+ 489:Generated_Source\PSoC4/SmartIO_Port2.c ****     
+ 490:Generated_Source\PSoC4/SmartIO_Port2.c ****     /* Must disable the block before configuring */
+ 491:Generated_Source\PSoC4/SmartIO_Port2.c ****     SmartIO_Port2_Disable();
+ 708              		.loc 1 491 0
+ 709 0002 0D4D     		ldr	r5, .L46
+ 710 0004 2B68     		ldr	r3, [r5]
+ 711 0006 5B00     		lsls	r3, r3, #1
+ 712 0008 5B08     		lsrs	r3, r3, #1
+ 713 000a 2B60     		str	r3, [r5]
+ 492:Generated_Source\PSoC4/SmartIO_Port2.c ****     
+ 493:Generated_Source\PSoC4/SmartIO_Port2.c ****     ctl = SmartIO_Port2_LUT_CONGIG_BASE.lutCtl[lutNum] & SmartIO_Port2_LUT_CTL_CLEAR;
+ 714              		.loc 1 493 0
+ 715 000c 0B4E     		ldr	r6, .L46+4
+ 716 000e 0830     		adds	r0, r0, #8
+ 717              	.LVL54:
+ 718 0010 8000     		lsls	r0, r0, #2
+ 719              	.LVL55:
+ 720 0012 8459     		ldr	r4, [r0, r6]
+ 721 0014 A40A     		lsrs	r4, r4, #10
+ 722 0016 A402     		lsls	r4, r4, #10
+ 723              	.LVL56:
+ 494:Generated_Source\PSoC4/SmartIO_Port2.c ****     SmartIO_Port2_LUT_CONGIG_BASE.lutCtl[lutNum] = ctl 
+ 495:Generated_Source\PSoC4/SmartIO_Port2.c ****                                             | (((uint32)((mapping << CYFLD_PRGIO_PRT_LUT__OFFSET)
+ 724              		.loc 1 495 0
+ 725 0018 FF23     		movs	r3, #255
+ 726 001a 1940     		ands	r1, r3
+ 727              	.LVL57:
+ 496:Generated_Source\PSoC4/SmartIO_Port2.c ****                                             & SmartIO_Port2_LUT_MAP_MASK))
+ 497:Generated_Source\PSoC4/SmartIO_Port2.c ****                                             | ((uint32)(((uint32)mode << CYFLD_PRGIO_PRT_LUT_OPC__O
+ 728              		.loc 1 497 0
+ 729 001c 1202     		lsls	r2, r2, #8
+ 730              	.LVL58:
+ 731 001e C023     		movs	r3, #192
+ 732 0020 9B00     		lsls	r3, r3, #2
+ 733 0022 1A40     		ands	r2, r3
+ 734 0024 1143     		orrs	r1, r2
+ 495:Generated_Source\PSoC4/SmartIO_Port2.c ****                                             & SmartIO_Port2_LUT_MAP_MASK))
+ 735              		.loc 1 495 0
+ 736 0026 2143     		orrs	r1, r4
+ 494:Generated_Source\PSoC4/SmartIO_Port2.c ****     SmartIO_Port2_LUT_CONGIG_BASE.lutCtl[lutNum] = ctl 
+ 737              		.loc 1 494 0
+ 738 0028 8151     		str	r1, [r0, r6]
+ 498:Generated_Source\PSoC4/SmartIO_Port2.c ****                                             & SmartIO_Port2_LUT_OPC_MASK)));
+ 499:Generated_Source\PSoC4/SmartIO_Port2.c ****     /* Re-enable the block */
+ 500:Generated_Source\PSoC4/SmartIO_Port2.c ****     SmartIO_Port2_Enable();
+ 739              		.loc 1 500 0
+ 740 002a 2B68     		ldr	r3, [r5]
+ 741 002c 8022     		movs	r2, #128
+ 742 002e 1206     		lsls	r2, r2, #24
+ 743 0030 1343     		orrs	r3, r2
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\cctIS3p0.s 			page 23
+
+
+ 744 0032 2B60     		str	r3, [r5]
+ 501:Generated_Source\PSoC4/SmartIO_Port2.c **** }
+ 745              		.loc 1 501 0
+ 746              		@ sp needed
+ 747              	.LVL59:
+ 748 0034 70BD     		pop	{r4, r5, r6, pc}
+ 749              	.L47:
+ 750 0036 C046     		.align	2
+ 751              	.L46:
+ 752 0038 00000540 		.word	1074069504
+ 753 003c 20000540 		.word	1074069536
+ 754              		.cfi_endproc
+ 755              	.LFE9:
+ 756              		.size	SmartIO_Port2_LUT_ConfigureMode, .-SmartIO_Port2_LUT_ConfigureMode
+ 757              		.section	.text.SmartIO_Port2_DU_SelectTriggers,"ax",%progbits
+ 758              		.align	2
+ 759              		.global	SmartIO_Port2_DU_SelectTriggers
+ 760              		.code	16
+ 761              		.thumb_func
+ 762              		.type	SmartIO_Port2_DU_SelectTriggers, %function
+ 763              	SmartIO_Port2_DU_SelectTriggers:
+ 764              	.LFB10:
+ 502:Generated_Source\PSoC4/SmartIO_Port2.c **** 
+ 503:Generated_Source\PSoC4/SmartIO_Port2.c **** /*******************************************************************************
+ 504:Generated_Source\PSoC4/SmartIO_Port2.c **** * Function Name: SmartIO_Port2_DU_SelectTriggers
+ 505:Generated_Source\PSoC4/SmartIO_Port2.c **** ****************************************************************************//**
+ 506:Generated_Source\PSoC4/SmartIO_Port2.c **** *
+ 507:Generated_Source\PSoC4/SmartIO_Port2.c **** * \brief Selects the trigger sources for the data unit.
+ 508:Generated_Source\PSoC4/SmartIO_Port2.c **** *
+ 509:Generated_Source\PSoC4/SmartIO_Port2.c **** * \param tr0Sel
+ 510:Generated_Source\PSoC4/SmartIO_Port2.c **** *  Trigger 0 input selection. Valid options are documented in \ref duTrConst.
+ 511:Generated_Source\PSoC4/SmartIO_Port2.c **** *
+ 512:Generated_Source\PSoC4/SmartIO_Port2.c **** * \param tr1Sel
+ 513:Generated_Source\PSoC4/SmartIO_Port2.c **** *  Trigger 1 input selection. Valid options are documented in \ref duTrConst.
+ 514:Generated_Source\PSoC4/SmartIO_Port2.c **** *
+ 515:Generated_Source\PSoC4/SmartIO_Port2.c **** * \param tr2Sel
+ 516:Generated_Source\PSoC4/SmartIO_Port2.c **** *  Trigger 2 input selection. Valid options are documented in \ref duTrConst.
+ 517:Generated_Source\PSoC4/SmartIO_Port2.c **** *
+ 518:Generated_Source\PSoC4/SmartIO_Port2.c **** * \sideeffect
+ 519:Generated_Source\PSoC4/SmartIO_Port2.c **** *  This function disables the block for reconfiguration. During this time,
+ 520:Generated_Source\PSoC4/SmartIO_Port2.c **** *  all signals on the port will be bypassed. All peripheral and gpio signals
+ 521:Generated_Source\PSoC4/SmartIO_Port2.c **** *  must be stopped or properly handled to account for the bypass state.
+ 522:Generated_Source\PSoC4/SmartIO_Port2.c **** *
+ 523:Generated_Source\PSoC4/SmartIO_Port2.c **** * \funcusage
+ 524:Generated_Source\PSoC4/SmartIO_Port2.c **** *  \snippet SmartIO_Port2_SUT.c usage_SmartIO_Port2_DU_SelectTriggers
+ 525:Generated_Source\PSoC4/SmartIO_Port2.c **** *******************************************************************************/
+ 526:Generated_Source\PSoC4/SmartIO_Port2.c **** cystatus SmartIO_Port2_DU_SelectTriggers(uint32 tr0Sel, uint32 tr1Sel, uint32 tr2Sel)
+ 527:Generated_Source\PSoC4/SmartIO_Port2.c **** {
+ 765              		.loc 1 527 0
+ 766              		.cfi_startproc
+ 767              		@ args = 0, pretend = 0, frame = 0
+ 768              		@ frame_needed = 0, uses_anonymous_args = 0
+ 769              	.LVL60:
+ 770 0000 70B5     		push	{r4, r5, r6, lr}
+ 771              		.cfi_def_cfa_offset 16
+ 772              		.cfi_offset 4, -16
+ 773              		.cfi_offset 5, -12
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\cctIS3p0.s 			page 24
+
+
+ 774              		.cfi_offset 6, -8
+ 775              		.cfi_offset 14, -4
+ 776              	.LVL61:
+ 528:Generated_Source\PSoC4/SmartIO_Port2.c ****     cystatus callStatus = CYRET_SUCCESS;
+ 529:Generated_Source\PSoC4/SmartIO_Port2.c ****     uint32 sel;
+ 530:Generated_Source\PSoC4/SmartIO_Port2.c ****     
+ 531:Generated_Source\PSoC4/SmartIO_Port2.c ****     if((tr0Sel > SmartIO_Port2_DUTRIG_MAX) || (tr1Sel > SmartIO_Port2_DUTRIG_MAX) || (tr2Sel > Smar
+ 777              		.loc 1 531 0
+ 778 0002 0A28     		cmp	r0, #10
+ 779 0004 19D8     		bhi	.L50
+ 780              		.loc 1 531 0 is_stmt 0 discriminator 1
+ 781 0006 0A29     		cmp	r1, #10
+ 782 0008 19D8     		bhi	.L51
+ 783              		.loc 1 531 0 discriminator 2
+ 784 000a 0A2A     		cmp	r2, #10
+ 785 000c 19D8     		bhi	.L52
+ 532:Generated_Source\PSoC4/SmartIO_Port2.c ****     {
+ 533:Generated_Source\PSoC4/SmartIO_Port2.c ****         callStatus = CYRET_BAD_PARAM;
+ 534:Generated_Source\PSoC4/SmartIO_Port2.c ****     }
+ 535:Generated_Source\PSoC4/SmartIO_Port2.c ****     else
+ 536:Generated_Source\PSoC4/SmartIO_Port2.c ****     {
+ 537:Generated_Source\PSoC4/SmartIO_Port2.c ****         /* Must disable the block before configuring */
+ 538:Generated_Source\PSoC4/SmartIO_Port2.c ****         SmartIO_Port2_Disable();
+ 786              		.loc 1 538 0 is_stmt 1
+ 787 000e 0E4C     		ldr	r4, .L53
+ 788 0010 2368     		ldr	r3, [r4]
+ 789 0012 5B00     		lsls	r3, r3, #1
+ 790 0014 5B08     		lsrs	r3, r3, #1
+ 791 0016 2360     		str	r3, [r4]
+ 539:Generated_Source\PSoC4/SmartIO_Port2.c ****         
+ 540:Generated_Source\PSoC4/SmartIO_Port2.c ****         sel = SmartIO_Port2_DU_SEL & SmartIO_Port2_DU_TR_CLEAR_ALL;
+ 792              		.loc 1 540 0
+ 793 0018 0C4D     		ldr	r5, .L53+4
+ 794 001a 2E68     		ldr	r6, [r5]
+ 795 001c 0C4B     		ldr	r3, .L53+8
+ 796 001e 3340     		ands	r3, r6
+ 797              	.LVL62:
+ 541:Generated_Source\PSoC4/SmartIO_Port2.c ****         SmartIO_Port2_DU_SEL = sel 
+ 542:Generated_Source\PSoC4/SmartIO_Port2.c ****                                 | ((uint32)(tr0Sel << CYFLD_PRGIO_PRT_DU_TR0_SEL__OFFSET))
+ 798              		.loc 1 542 0
+ 799 0020 1843     		orrs	r0, r3
+ 800              	.LVL63:
+ 543:Generated_Source\PSoC4/SmartIO_Port2.c ****                                 | ((uint32)(tr1Sel << CYFLD_PRGIO_PRT_DU_TR1_SEL__OFFSET))
+ 801              		.loc 1 543 0
+ 802 0022 0902     		lsls	r1, r1, #8
+ 803              	.LVL64:
+ 804 0024 0143     		orrs	r1, r0
+ 544:Generated_Source\PSoC4/SmartIO_Port2.c ****                                 | ((uint32)(tr2Sel << CYFLD_PRGIO_PRT_DU_TR2_SEL__OFFSET));
+ 805              		.loc 1 544 0
+ 806 0026 1204     		lsls	r2, r2, #16
+ 807              	.LVL65:
+ 808 0028 1143     		orrs	r1, r2
+ 541:Generated_Source\PSoC4/SmartIO_Port2.c ****         SmartIO_Port2_DU_SEL = sel 
+ 809              		.loc 1 541 0
+ 810 002a 2960     		str	r1, [r5]
+ 545:Generated_Source\PSoC4/SmartIO_Port2.c ****         
+ 546:Generated_Source\PSoC4/SmartIO_Port2.c ****         /* Re-enable the block */
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\cctIS3p0.s 			page 25
+
+
+ 547:Generated_Source\PSoC4/SmartIO_Port2.c ****         SmartIO_Port2_Enable();
+ 811              		.loc 1 547 0
+ 812 002c 2368     		ldr	r3, [r4]
+ 813              	.LVL66:
+ 814 002e 8022     		movs	r2, #128
+ 815 0030 1206     		lsls	r2, r2, #24
+ 816 0032 1343     		orrs	r3, r2
+ 817 0034 2360     		str	r3, [r4]
+ 528:Generated_Source\PSoC4/SmartIO_Port2.c ****     uint32 sel;
+ 818              		.loc 1 528 0
+ 819 0036 0020     		movs	r0, #0
+ 820 0038 04E0     		b	.L49
+ 821              	.LVL67:
+ 822              	.L50:
+ 533:Generated_Source\PSoC4/SmartIO_Port2.c ****     }
+ 823              		.loc 1 533 0
+ 824 003a 0120     		movs	r0, #1
+ 825              	.LVL68:
+ 826 003c 02E0     		b	.L49
+ 827              	.LVL69:
+ 828              	.L51:
+ 829 003e 0120     		movs	r0, #1
+ 830              	.LVL70:
+ 831 0040 00E0     		b	.L49
+ 832              	.LVL71:
+ 833              	.L52:
+ 834 0042 0120     		movs	r0, #1
+ 835              	.LVL72:
+ 836              	.L49:
+ 548:Generated_Source\PSoC4/SmartIO_Port2.c ****     }
+ 549:Generated_Source\PSoC4/SmartIO_Port2.c ****     
+ 550:Generated_Source\PSoC4/SmartIO_Port2.c ****     return callStatus;
+ 551:Generated_Source\PSoC4/SmartIO_Port2.c **** }
+ 837              		.loc 1 551 0
+ 838              		@ sp needed
+ 839 0044 70BD     		pop	{r4, r5, r6, pc}
+ 840              	.L54:
+ 841 0046 C046     		.align	2
+ 842              	.L53:
+ 843 0048 00000540 		.word	1074069504
+ 844 004c C0000540 		.word	1074069696
+ 845 0050 F0F0F0FF 		.word	-986896
+ 846              		.cfi_endproc
+ 847              	.LFE10:
+ 848              		.size	SmartIO_Port2_DU_SelectTriggers, .-SmartIO_Port2_DU_SelectTriggers
+ 849              		.section	.text.SmartIO_Port2_DU_SelectData,"ax",%progbits
+ 850              		.align	2
+ 851              		.global	SmartIO_Port2_DU_SelectData
+ 852              		.code	16
+ 853              		.thumb_func
+ 854              		.type	SmartIO_Port2_DU_SelectData, %function
+ 855              	SmartIO_Port2_DU_SelectData:
+ 856              	.LFB11:
+ 552:Generated_Source\PSoC4/SmartIO_Port2.c **** 
+ 553:Generated_Source\PSoC4/SmartIO_Port2.c **** 
+ 554:Generated_Source\PSoC4/SmartIO_Port2.c **** /*******************************************************************************
+ 555:Generated_Source\PSoC4/SmartIO_Port2.c **** * Function Name: SmartIO_Port2_DU_SelectData
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\cctIS3p0.s 			page 26
+
+
+ 556:Generated_Source\PSoC4/SmartIO_Port2.c **** ****************************************************************************//**
+ 557:Generated_Source\PSoC4/SmartIO_Port2.c **** *
+ 558:Generated_Source\PSoC4/SmartIO_Port2.c **** * \brief Specifies the values for the Data0 and Data1 registers in the Data Unit.
+ 559:Generated_Source\PSoC4/SmartIO_Port2.c **** *
+ 560:Generated_Source\PSoC4/SmartIO_Port2.c **** * \param dataNum
+ 561:Generated_Source\PSoC4/SmartIO_Port2.c **** *  DU DATA register selection. Valid options are documented in \ref duDataConst.
+ 562:Generated_Source\PSoC4/SmartIO_Port2.c **** *
+ 563:Generated_Source\PSoC4/SmartIO_Port2.c **** * \param dataSel
+ 564:Generated_Source\PSoC4/SmartIO_Port2.c **** *  DU DATA register source selection. Valid options are documented in \ref duDataSrcConst.
+ 565:Generated_Source\PSoC4/SmartIO_Port2.c **** *
+ 566:Generated_Source\PSoC4/SmartIO_Port2.c **** * \sideeffect
+ 567:Generated_Source\PSoC4/SmartIO_Port2.c **** *  This function disables the block for reconfiguration. During this time,
+ 568:Generated_Source\PSoC4/SmartIO_Port2.c **** *  all signals on the port will be bypassed. All peripheral and gpio signals
+ 569:Generated_Source\PSoC4/SmartIO_Port2.c **** *  must be stopped or properly handled to account for the bypass state.
+ 570:Generated_Source\PSoC4/SmartIO_Port2.c **** *
+ 571:Generated_Source\PSoC4/SmartIO_Port2.c **** * \funcusage
+ 572:Generated_Source\PSoC4/SmartIO_Port2.c **** *  \snippet SmartIO_Port2_SUT.c usage_SmartIO_Port2_DU_SelectData
+ 573:Generated_Source\PSoC4/SmartIO_Port2.c **** *******************************************************************************/
+ 574:Generated_Source\PSoC4/SmartIO_Port2.c **** cystatus SmartIO_Port2_DU_SelectData(uint32 dataNum, uint32 dataSel)
+ 575:Generated_Source\PSoC4/SmartIO_Port2.c **** {
+ 857              		.loc 1 575 0
+ 858              		.cfi_startproc
+ 859              		@ args = 0, pretend = 0, frame = 0
+ 860              		@ frame_needed = 0, uses_anonymous_args = 0
+ 861              		@ link register save eliminated.
+ 862              	.LVL73:
+ 576:Generated_Source\PSoC4/SmartIO_Port2.c ****     cystatus callStatus = CYRET_SUCCESS;
+ 577:Generated_Source\PSoC4/SmartIO_Port2.c ****     uint32 sel;
+ 578:Generated_Source\PSoC4/SmartIO_Port2.c ****     
+ 579:Generated_Source\PSoC4/SmartIO_Port2.c ****     /* Must disable the block before configuring */
+ 580:Generated_Source\PSoC4/SmartIO_Port2.c ****     SmartIO_Port2_Disable();
+ 863              		.loc 1 580 0
+ 864 0000 1B4A     		ldr	r2, .L62
+ 865 0002 1368     		ldr	r3, [r2]
+ 866 0004 5B00     		lsls	r3, r3, #1
+ 867 0006 5B08     		lsrs	r3, r3, #1
+ 868 0008 1360     		str	r3, [r2]
+ 581:Generated_Source\PSoC4/SmartIO_Port2.c ****     
+ 582:Generated_Source\PSoC4/SmartIO_Port2.c ****     sel = SmartIO_Port2_DU_SEL;
+ 869              		.loc 1 582 0
+ 870 000a 1A4B     		ldr	r3, .L62+4
+ 871 000c 1B68     		ldr	r3, [r3]
+ 872              	.LVL74:
+ 583:Generated_Source\PSoC4/SmartIO_Port2.c ****     switch(dataNum)
+ 873              		.loc 1 583 0
+ 874 000e 0228     		cmp	r0, #2
+ 875 0010 0CD0     		beq	.L57
+ 876 0012 0328     		cmp	r0, #3
+ 877 0014 13D0     		beq	.L58
+ 878 0016 0128     		cmp	r0, #1
+ 879 0018 1FD1     		bne	.L61
+ 584:Generated_Source\PSoC4/SmartIO_Port2.c ****     {
+ 585:Generated_Source\PSoC4/SmartIO_Port2.c ****         case SmartIO_Port2_DATA0:
+ 586:Generated_Source\PSoC4/SmartIO_Port2.c ****             sel = (sel & SmartIO_Port2_DU_DATA0_CLEAR)
+ 880              		.loc 1 586 0
+ 881 001a 174A     		ldr	r2, .L62+8
+ 882 001c 1A40     		ands	r2, r3
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\cctIS3p0.s 			page 27
+
+
+ 587:Generated_Source\PSoC4/SmartIO_Port2.c ****                   | (uint32)((dataSel << CYFLD_PRGIO_PRT_DU_DATA0_SEL__OFFSET) & SmartIO_Port2_DU_D
+ 883              		.loc 1 587 0
+ 884 001e 0B06     		lsls	r3, r1, #24
+ 885              	.LVL75:
+ 886 0020 C020     		movs	r0, #192
+ 887              	.LVL76:
+ 888 0022 8004     		lsls	r0, r0, #18
+ 889 0024 0340     		ands	r3, r0
+ 586:Generated_Source\PSoC4/SmartIO_Port2.c ****                   | (uint32)((dataSel << CYFLD_PRGIO_PRT_DU_DATA0_SEL__OFFSET) & SmartIO_Port2_DU_D
+ 890              		.loc 1 586 0
+ 891 0026 1343     		orrs	r3, r2
+ 892              	.LVL77:
+ 576:Generated_Source\PSoC4/SmartIO_Port2.c ****     uint32 sel;
+ 893              		.loc 1 576 0
+ 894 0028 0020     		movs	r0, #0
+ 588:Generated_Source\PSoC4/SmartIO_Port2.c ****         break;
+ 895              		.loc 1 588 0
+ 896 002a 17E0     		b	.L56
+ 897              	.LVL78:
+ 898              	.L57:
+ 589:Generated_Source\PSoC4/SmartIO_Port2.c ****         case SmartIO_Port2_DATA1:
+ 590:Generated_Source\PSoC4/SmartIO_Port2.c ****             sel = (sel & SmartIO_Port2_DU_DATA1_CLEAR)
+ 899              		.loc 1 590 0
+ 900 002c 134A     		ldr	r2, .L62+12
+ 901 002e 1A40     		ands	r2, r3
+ 591:Generated_Source\PSoC4/SmartIO_Port2.c ****                   | (uint32)((dataSel << CYFLD_PRGIO_PRT_DU_DATA1_SEL__OFFSET) & SmartIO_Port2_DU_D
+ 902              		.loc 1 591 0
+ 903 0030 0B07     		lsls	r3, r1, #28
+ 904              	.LVL79:
+ 905 0032 C020     		movs	r0, #192
+ 906              	.LVL80:
+ 907 0034 8005     		lsls	r0, r0, #22
+ 908 0036 0340     		ands	r3, r0
+ 590:Generated_Source\PSoC4/SmartIO_Port2.c ****                   | (uint32)((dataSel << CYFLD_PRGIO_PRT_DU_DATA1_SEL__OFFSET) & SmartIO_Port2_DU_D
+ 909              		.loc 1 590 0
+ 910 0038 1343     		orrs	r3, r2
+ 911              	.LVL81:
+ 576:Generated_Source\PSoC4/SmartIO_Port2.c ****     uint32 sel;
+ 912              		.loc 1 576 0
+ 913 003a 0020     		movs	r0, #0
+ 592:Generated_Source\PSoC4/SmartIO_Port2.c ****         break;
+ 914              		.loc 1 592 0
+ 915 003c 0EE0     		b	.L56
+ 916              	.LVL82:
+ 917              	.L58:
+ 593:Generated_Source\PSoC4/SmartIO_Port2.c ****         case SmartIO_Port2_DATA_BOTH:
+ 594:Generated_Source\PSoC4/SmartIO_Port2.c ****             sel = (sel & SmartIO_Port2_DU_DATA01_CLEAR_BOTH)
+ 918              		.loc 1 594 0
+ 919 003e 104A     		ldr	r2, .L62+16
+ 920 0040 1340     		ands	r3, r2
+ 921              	.LVL83:
+ 595:Generated_Source\PSoC4/SmartIO_Port2.c ****                    |(uint32)((dataSel << CYFLD_PRGIO_PRT_DU_DATA0_SEL__OFFSET) & SmartIO_Port2_DU_D
+ 922              		.loc 1 595 0
+ 923 0042 0806     		lsls	r0, r1, #24
+ 924              	.LVL84:
+ 925 0044 C022     		movs	r2, #192
+ 926 0046 9204     		lsls	r2, r2, #18
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\cctIS3p0.s 			page 28
+
+
+ 927 0048 0240     		ands	r2, r0
+ 928 004a 1343     		orrs	r3, r2
+ 596:Generated_Source\PSoC4/SmartIO_Port2.c ****                    |(uint32)((dataSel << CYFLD_PRGIO_PRT_DU_DATA1_SEL__OFFSET) & SmartIO_Port2_DU_D
+ 929              		.loc 1 596 0
+ 930 004c 0907     		lsls	r1, r1, #28
+ 931              	.LVL85:
+ 932 004e C022     		movs	r2, #192
+ 933 0050 9205     		lsls	r2, r2, #22
+ 934 0052 1140     		ands	r1, r2
+ 594:Generated_Source\PSoC4/SmartIO_Port2.c ****                    |(uint32)((dataSel << CYFLD_PRGIO_PRT_DU_DATA0_SEL__OFFSET) & SmartIO_Port2_DU_D
+ 935              		.loc 1 594 0
+ 936 0054 0B43     		orrs	r3, r1
+ 937              	.LVL86:
+ 576:Generated_Source\PSoC4/SmartIO_Port2.c ****     uint32 sel;
+ 938              		.loc 1 576 0
+ 939 0056 0020     		movs	r0, #0
+ 597:Generated_Source\PSoC4/SmartIO_Port2.c ****         break;
+ 940              		.loc 1 597 0
+ 941 0058 00E0     		b	.L56
+ 942              	.LVL87:
+ 943              	.L61:
+ 598:Generated_Source\PSoC4/SmartIO_Port2.c ****         default:
+ 599:Generated_Source\PSoC4/SmartIO_Port2.c ****             callStatus = CYRET_BAD_PARAM;
+ 944              		.loc 1 599 0
+ 945 005a 0120     		movs	r0, #1
+ 946              	.LVL88:
+ 947              	.L56:
+ 600:Generated_Source\PSoC4/SmartIO_Port2.c ****         break;
+ 601:Generated_Source\PSoC4/SmartIO_Port2.c ****     }
+ 602:Generated_Source\PSoC4/SmartIO_Port2.c ****     SmartIO_Port2_DU_SEL = sel;
+ 948              		.loc 1 602 0
+ 949 005c 054A     		ldr	r2, .L62+4
+ 950 005e 1360     		str	r3, [r2]
+ 603:Generated_Source\PSoC4/SmartIO_Port2.c ****     
+ 604:Generated_Source\PSoC4/SmartIO_Port2.c ****     /* Re-enable the block */
+ 605:Generated_Source\PSoC4/SmartIO_Port2.c ****     SmartIO_Port2_Enable();
+ 951              		.loc 1 605 0
+ 952 0060 034A     		ldr	r2, .L62
+ 953 0062 1368     		ldr	r3, [r2]
+ 954              	.LVL89:
+ 955 0064 8021     		movs	r1, #128
+ 956 0066 0906     		lsls	r1, r1, #24
+ 957 0068 0B43     		orrs	r3, r1
+ 958 006a 1360     		str	r3, [r2]
+ 959              	.LVL90:
+ 606:Generated_Source\PSoC4/SmartIO_Port2.c ****     
+ 607:Generated_Source\PSoC4/SmartIO_Port2.c ****     return callStatus;
+ 608:Generated_Source\PSoC4/SmartIO_Port2.c **** }
+ 960              		.loc 1 608 0
+ 961              		@ sp needed
+ 962 006c 7047     		bx	lr
+ 963              	.L63:
+ 964 006e C046     		.align	2
+ 965              	.L62:
+ 966 0070 00000540 		.word	1074069504
+ 967 0074 C0000540 		.word	1074069696
+ 968 0078 FFFFFFFC 		.word	-50331649
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\cctIS3p0.s 			page 29
+
+
+ 969 007c FFFFFFCF 		.word	-805306369
+ 970 0080 FFFFFFCC 		.word	-855638017
+ 971              		.cfi_endproc
+ 972              	.LFE11:
+ 973              		.size	SmartIO_Port2_DU_SelectData, .-SmartIO_Port2_DU_SelectData
+ 974              		.section	.text.SmartIO_Port2_DU_RegValue,"ax",%progbits
+ 975              		.align	2
+ 976              		.global	SmartIO_Port2_DU_RegValue
+ 977              		.code	16
+ 978              		.thumb_func
+ 979              		.type	SmartIO_Port2_DU_RegValue, %function
+ 980              	SmartIO_Port2_DU_RegValue:
+ 981              	.LFB12:
+ 609:Generated_Source\PSoC4/SmartIO_Port2.c **** 
+ 610:Generated_Source\PSoC4/SmartIO_Port2.c **** 
+ 611:Generated_Source\PSoC4/SmartIO_Port2.c **** /*******************************************************************************
+ 612:Generated_Source\PSoC4/SmartIO_Port2.c **** * Function Name: SmartIO_Port2_DU_RegValue
+ 613:Generated_Source\PSoC4/SmartIO_Port2.c **** ****************************************************************************//**
+ 614:Generated_Source\PSoC4/SmartIO_Port2.c **** *
+ 615:Generated_Source\PSoC4/SmartIO_Port2.c **** * \brief Specifies the 8-bit value in the internal DU register that may be a
+ 616:Generated_Source\PSoC4/SmartIO_Port2.c **** * source for Data0 and/or Data1.
+ 617:Generated_Source\PSoC4/SmartIO_Port2.c **** *
+ 618:Generated_Source\PSoC4/SmartIO_Port2.c **** * \param dataValue
+ 619:Generated_Source\PSoC4/SmartIO_Port2.c **** *  8-bit value to be stored in the register.
+ 620:Generated_Source\PSoC4/SmartIO_Port2.c **** *
+ 621:Generated_Source\PSoC4/SmartIO_Port2.c **** * \sideeffect
+ 622:Generated_Source\PSoC4/SmartIO_Port2.c **** *  This function disables the block for reconfiguration. During this time,
+ 623:Generated_Source\PSoC4/SmartIO_Port2.c **** *  all signals on the port will be bypassed. All peripheral and gpio signals
+ 624:Generated_Source\PSoC4/SmartIO_Port2.c **** *  must be stopped or properly handled to account for the bypass state.
+ 625:Generated_Source\PSoC4/SmartIO_Port2.c **** *
+ 626:Generated_Source\PSoC4/SmartIO_Port2.c **** * \funcusage
+ 627:Generated_Source\PSoC4/SmartIO_Port2.c **** *  \snippet SmartIO_Port2_SUT.c usage_SmartIO_Port2_DU_RegValue
+ 628:Generated_Source\PSoC4/SmartIO_Port2.c **** *******************************************************************************/
+ 629:Generated_Source\PSoC4/SmartIO_Port2.c **** cystatus SmartIO_Port2_DU_RegValue(uint32 dataValue)
+ 630:Generated_Source\PSoC4/SmartIO_Port2.c **** {
+ 982              		.loc 1 630 0
+ 983              		.cfi_startproc
+ 984              		@ args = 0, pretend = 0, frame = 0
+ 985              		@ frame_needed = 0, uses_anonymous_args = 0
+ 986              		@ link register save eliminated.
+ 987              	.LVL91:
+ 631:Generated_Source\PSoC4/SmartIO_Port2.c ****     cystatus callStatus = CYRET_SUCCESS;
+ 632:Generated_Source\PSoC4/SmartIO_Port2.c ****     
+ 633:Generated_Source\PSoC4/SmartIO_Port2.c ****     if(dataValue > SmartIO_Port2_REGVAL_MAX)
+ 988              		.loc 1 633 0
+ 989 0000 FF28     		cmp	r0, #255
+ 990 0002 0DD8     		bhi	.L66
+ 634:Generated_Source\PSoC4/SmartIO_Port2.c ****     {
+ 635:Generated_Source\PSoC4/SmartIO_Port2.c ****         callStatus = CYRET_BAD_PARAM;
+ 636:Generated_Source\PSoC4/SmartIO_Port2.c ****     }
+ 637:Generated_Source\PSoC4/SmartIO_Port2.c ****     else
+ 638:Generated_Source\PSoC4/SmartIO_Port2.c ****     {
+ 639:Generated_Source\PSoC4/SmartIO_Port2.c ****         /* Must disable the block before configuring */
+ 640:Generated_Source\PSoC4/SmartIO_Port2.c ****         SmartIO_Port2_Disable();
+ 991              		.loc 1 640 0
+ 992 0004 074A     		ldr	r2, .L67
+ 993 0006 1368     		ldr	r3, [r2]
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\cctIS3p0.s 			page 30
+
+
+ 994 0008 5B00     		lsls	r3, r3, #1
+ 995 000a 5B08     		lsrs	r3, r3, #1
+ 996 000c 1360     		str	r3, [r2]
+ 641:Generated_Source\PSoC4/SmartIO_Port2.c ****         SmartIO_Port2_DATA = dataValue;
+ 997              		.loc 1 641 0
+ 998 000e 064B     		ldr	r3, .L67+4
+ 999 0010 1860     		str	r0, [r3]
+ 642:Generated_Source\PSoC4/SmartIO_Port2.c ****         /* Re-enable the block */
+ 643:Generated_Source\PSoC4/SmartIO_Port2.c ****         SmartIO_Port2_Enable();
+ 1000              		.loc 1 643 0
+ 1001 0012 1368     		ldr	r3, [r2]
+ 1002 0014 8021     		movs	r1, #128
+ 1003 0016 0906     		lsls	r1, r1, #24
+ 1004 0018 0B43     		orrs	r3, r1
+ 1005 001a 1360     		str	r3, [r2]
+ 631:Generated_Source\PSoC4/SmartIO_Port2.c ****     
+ 1006              		.loc 1 631 0
+ 1007 001c 0020     		movs	r0, #0
+ 1008              	.LVL92:
+ 1009 001e 00E0     		b	.L65
+ 1010              	.LVL93:
+ 1011              	.L66:
+ 635:Generated_Source\PSoC4/SmartIO_Port2.c ****     }
+ 1012              		.loc 1 635 0
+ 1013 0020 0120     		movs	r0, #1
+ 1014              	.LVL94:
+ 1015              	.L65:
+ 644:Generated_Source\PSoC4/SmartIO_Port2.c ****     }
+ 645:Generated_Source\PSoC4/SmartIO_Port2.c ****     
+ 646:Generated_Source\PSoC4/SmartIO_Port2.c ****     return callStatus;
+ 647:Generated_Source\PSoC4/SmartIO_Port2.c **** }
+ 1016              		.loc 1 647 0
+ 1017              		@ sp needed
+ 1018 0022 7047     		bx	lr
+ 1019              	.L68:
+ 1020              		.align	2
+ 1021              	.L67:
+ 1022 0024 00000540 		.word	1074069504
+ 1023 0028 F0000540 		.word	1074069744
+ 1024              		.cfi_endproc
+ 1025              	.LFE12:
+ 1026              		.size	SmartIO_Port2_DU_RegValue, .-SmartIO_Port2_DU_RegValue
+ 1027              		.section	.text.SmartIO_Port2_DU_OpCode,"ax",%progbits
+ 1028              		.align	2
+ 1029              		.global	SmartIO_Port2_DU_OpCode
+ 1030              		.code	16
+ 1031              		.thumb_func
+ 1032              		.type	SmartIO_Port2_DU_OpCode, %function
+ 1033              	SmartIO_Port2_DU_OpCode:
+ 1034              	.LFB13:
+ 648:Generated_Source\PSoC4/SmartIO_Port2.c **** 
+ 649:Generated_Source\PSoC4/SmartIO_Port2.c **** 
+ 650:Generated_Source\PSoC4/SmartIO_Port2.c **** /*******************************************************************************
+ 651:Generated_Source\PSoC4/SmartIO_Port2.c **** * Function Name: SmartIO_Port2_DU_OpCode
+ 652:Generated_Source\PSoC4/SmartIO_Port2.c **** ****************************************************************************//**
+ 653:Generated_Source\PSoC4/SmartIO_Port2.c **** *
+ 654:Generated_Source\PSoC4/SmartIO_Port2.c **** * \brief Selects the data unit operation and the size of the data to be 
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\cctIS3p0.s 			page 31
+
+
+ 655:Generated_Source\PSoC4/SmartIO_Port2.c **** * operated on (1 to 8 bits).
+ 656:Generated_Source\PSoC4/SmartIO_Port2.c **** *
+ 657:Generated_Source\PSoC4/SmartIO_Port2.c **** * \param opCode
+ 658:Generated_Source\PSoC4/SmartIO_Port2.c **** *  Op-code for the Data Unit. Valid options are documented in \ref duOpcConst.
+ 659:Generated_Source\PSoC4/SmartIO_Port2.c **** *
+ 660:Generated_Source\PSoC4/SmartIO_Port2.c **** * \param dataSize
+ 661:Generated_Source\PSoC4/SmartIO_Port2.c **** *  Size/width of the data unit operands. Range: 1 to 8 bits.
+ 662:Generated_Source\PSoC4/SmartIO_Port2.c **** *
+ 663:Generated_Source\PSoC4/SmartIO_Port2.c **** * \sideeffect
+ 664:Generated_Source\PSoC4/SmartIO_Port2.c **** *  This function disables the block for reconfiguration. During this time,
+ 665:Generated_Source\PSoC4/SmartIO_Port2.c **** *  all signals on the port will be bypassed. All peripheral and gpio signals
+ 666:Generated_Source\PSoC4/SmartIO_Port2.c **** *  must be stopped or properly handled to account for the bypass state.
+ 667:Generated_Source\PSoC4/SmartIO_Port2.c **** *
+ 668:Generated_Source\PSoC4/SmartIO_Port2.c **** * \funcusage
+ 669:Generated_Source\PSoC4/SmartIO_Port2.c **** *  \snippet SmartIO_Port2_SUT.c usage_SmartIO_Port2_DU_OpCode
+ 670:Generated_Source\PSoC4/SmartIO_Port2.c **** *******************************************************************************/
+ 671:Generated_Source\PSoC4/SmartIO_Port2.c **** cystatus SmartIO_Port2_DU_OpCode(uint32 opCode, uint32 dataSize)
+ 672:Generated_Source\PSoC4/SmartIO_Port2.c **** {
+ 1035              		.loc 1 672 0
+ 1036              		.cfi_startproc
+ 1037              		@ args = 0, pretend = 0, frame = 0
+ 1038              		@ frame_needed = 0, uses_anonymous_args = 0
+ 1039              		@ link register save eliminated.
+ 1040              	.LVL95:
+ 673:Generated_Source\PSoC4/SmartIO_Port2.c ****     cystatus callStatus = CYRET_SUCCESS;
+ 674:Generated_Source\PSoC4/SmartIO_Port2.c ****     
+ 675:Generated_Source\PSoC4/SmartIO_Port2.c ****     if((opCode == 0u) || (opCode > SmartIO_Port2_OPC_MAX) || (dataSize > SmartIO_Port2_DUSIZE_MAX))
+ 1041              		.loc 1 675 0
+ 1042 0000 431E     		subs	r3, r0, #1
+ 1043 0002 0A2B     		cmp	r3, #10
+ 1044 0004 12D8     		bhi	.L71
+ 1045              		.loc 1 675 0 is_stmt 0 discriminator 1
+ 1046 0006 0829     		cmp	r1, #8
+ 1047 0008 12D8     		bhi	.L72
+ 676:Generated_Source\PSoC4/SmartIO_Port2.c ****     {
+ 677:Generated_Source\PSoC4/SmartIO_Port2.c ****         callStatus = CYRET_BAD_PARAM;
+ 678:Generated_Source\PSoC4/SmartIO_Port2.c ****     }
+ 679:Generated_Source\PSoC4/SmartIO_Port2.c ****     else
+ 680:Generated_Source\PSoC4/SmartIO_Port2.c ****     {
+ 681:Generated_Source\PSoC4/SmartIO_Port2.c ****          /* Must disable the block before configuring */
+ 682:Generated_Source\PSoC4/SmartIO_Port2.c ****         SmartIO_Port2_Disable();
+ 1048              		.loc 1 682 0 is_stmt 1
+ 1049 000a 0A4A     		ldr	r2, .L73
+ 1050 000c 1368     		ldr	r3, [r2]
+ 1051 000e 5B00     		lsls	r3, r3, #1
+ 1052 0010 5B08     		lsrs	r3, r3, #1
+ 1053 0012 1360     		str	r3, [r2]
+ 683:Generated_Source\PSoC4/SmartIO_Port2.c ****         SmartIO_Port2_DU_CTL = (uint32)(((dataSize - 1u) << CYFLD_PRGIO_PRT_DU_SIZE__OFFSET))
+ 1054              		.loc 1 683 0
+ 1055 0014 0139     		subs	r1, r1, #1
+ 1056              	.LVL96:
+ 684:Generated_Source\PSoC4/SmartIO_Port2.c ****                          | (uint32)((opCode << CYFLD_PRGIO_PRT_DU_OPC__OFFSET));       
+ 1057              		.loc 1 684 0
+ 1058 0016 0002     		lsls	r0, r0, #8
+ 1059              	.LVL97:
+ 1060 0018 0843     		orrs	r0, r1
+ 683:Generated_Source\PSoC4/SmartIO_Port2.c ****         SmartIO_Port2_DU_CTL = (uint32)(((dataSize - 1u) << CYFLD_PRGIO_PRT_DU_SIZE__OFFSET))
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\cctIS3p0.s 			page 32
+
+
+ 1061              		.loc 1 683 0
+ 1062 001a 074B     		ldr	r3, .L73+4
+ 1063 001c 1860     		str	r0, [r3]
+ 685:Generated_Source\PSoC4/SmartIO_Port2.c ****         /* Re-enable the block */
+ 686:Generated_Source\PSoC4/SmartIO_Port2.c ****         SmartIO_Port2_Enable();
+ 1064              		.loc 1 686 0
+ 1065 001e 1368     		ldr	r3, [r2]
+ 1066 0020 8021     		movs	r1, #128
+ 1067              	.LVL98:
+ 1068 0022 0906     		lsls	r1, r1, #24
+ 1069 0024 0B43     		orrs	r3, r1
+ 1070 0026 1360     		str	r3, [r2]
+ 673:Generated_Source\PSoC4/SmartIO_Port2.c ****     
+ 1071              		.loc 1 673 0
+ 1072 0028 0020     		movs	r0, #0
+ 1073 002a 02E0     		b	.L70
+ 1074              	.LVL99:
+ 1075              	.L71:
+ 677:Generated_Source\PSoC4/SmartIO_Port2.c ****     }
+ 1076              		.loc 1 677 0
+ 1077 002c 0120     		movs	r0, #1
+ 1078              	.LVL100:
+ 1079 002e 00E0     		b	.L70
+ 1080              	.LVL101:
+ 1081              	.L72:
+ 1082 0030 0120     		movs	r0, #1
+ 1083              	.LVL102:
+ 1084              	.L70:
+ 687:Generated_Source\PSoC4/SmartIO_Port2.c ****     }
+ 688:Generated_Source\PSoC4/SmartIO_Port2.c ****     
+ 689:Generated_Source\PSoC4/SmartIO_Port2.c ****     return callStatus;
+ 690:Generated_Source\PSoC4/SmartIO_Port2.c **** }
+ 1085              		.loc 1 690 0
+ 1086              		@ sp needed
+ 1087 0032 7047     		bx	lr
+ 1088              	.L74:
+ 1089              		.align	2
+ 1090              	.L73:
+ 1091 0034 00000540 		.word	1074069504
+ 1092 0038 C4000540 		.word	1074069700
+ 1093              		.cfi_endproc
+ 1094              	.LFE13:
+ 1095              		.size	SmartIO_Port2_DU_OpCode, .-SmartIO_Port2_DU_OpCode
+ 1096              		.global	SmartIO_Port2_initVar
+ 1097              		.bss
+ 1098              		.align	2
+ 1099              		.set	.LANCHOR0,. + 0
+ 1100              		.type	SmartIO_Port2_clkConfig, %object
+ 1101              		.size	SmartIO_Port2_clkConfig, 4
+ 1102              	SmartIO_Port2_clkConfig:
+ 1103 0000 00000000 		.space	4
+ 1104              		.type	SmartIO_Port2_initVar, %object
+ 1105              		.size	SmartIO_Port2_initVar, 1
+ 1106              	SmartIO_Port2_initVar:
+ 1107 0004 00       		.space	1
+ 1108              		.text
+ 1109              	.Letext0:
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\cctIS3p0.s 			page 33
+
+
+ 1110              		.file 2 "c:\\program files (x86)\\cypress\\psoc creator\\4.2\\psoc creator\\import\\gnu\\arm\\5.4.
+ 1111              		.file 3 "c:\\program files (x86)\\cypress\\psoc creator\\4.2\\psoc creator\\import\\gnu\\arm\\5.4.
+ 1112              		.file 4 "Generated_Source\\PSoC4/cytypes.h"
+ 1113              		.file 5 "Generated_Source\\PSoC4\\SmartIO_Port2.h"
+ 1114              		.section	.debug_info,"",%progbits
+ 1115              	.Ldebug_info0:
+ 1116 0000 9C040000 		.4byte	0x49c
+ 1117 0004 0400     		.2byte	0x4
+ 1118 0006 00000000 		.4byte	.Ldebug_abbrev0
+ 1119 000a 04       		.byte	0x4
+ 1120 000b 01       		.uleb128 0x1
+ 1121 000c 1B000000 		.4byte	.LASF55
+ 1122 0010 0C       		.byte	0xc
+ 1123 0011 FA030000 		.4byte	.LASF56
+ 1124 0015 CB000000 		.4byte	.LASF57
+ 1125 0019 00000000 		.4byte	.Ldebug_ranges0+0
+ 1126 001d 00000000 		.4byte	0
+ 1127 0021 00000000 		.4byte	.Ldebug_line0
+ 1128 0025 02       		.uleb128 0x2
+ 1129 0026 01       		.byte	0x1
+ 1130 0027 06       		.byte	0x6
+ 1131 0028 C9020000 		.4byte	.LASF0
+ 1132 002c 02       		.uleb128 0x2
+ 1133 002d 01       		.byte	0x1
+ 1134 002e 08       		.byte	0x8
+ 1135 002f 9A020000 		.4byte	.LASF1
+ 1136 0033 02       		.uleb128 0x2
+ 1137 0034 02       		.byte	0x2
+ 1138 0035 05       		.byte	0x5
+ 1139 0036 08000000 		.4byte	.LASF2
+ 1140 003a 02       		.uleb128 0x2
+ 1141 003b 02       		.byte	0x2
+ 1142 003c 07       		.byte	0x7
+ 1143 003d 10030000 		.4byte	.LASF3
+ 1144 0041 02       		.uleb128 0x2
+ 1145 0042 04       		.byte	0x4
+ 1146 0043 05       		.byte	0x5
+ 1147 0044 46020000 		.4byte	.LASF4
+ 1148 0048 03       		.uleb128 0x3
+ 1149 0049 C0000000 		.4byte	.LASF9
+ 1150 004d 02       		.byte	0x2
+ 1151 004e 41       		.byte	0x41
+ 1152 004f 53000000 		.4byte	0x53
+ 1153 0053 02       		.uleb128 0x2
+ 1154 0054 04       		.byte	0x4
+ 1155 0055 07       		.byte	0x7
+ 1156 0056 97030000 		.4byte	.LASF5
+ 1157 005a 02       		.uleb128 0x2
+ 1158 005b 08       		.byte	0x8
+ 1159 005c 05       		.byte	0x5
+ 1160 005d 38020000 		.4byte	.LASF6
+ 1161 0061 02       		.uleb128 0x2
+ 1162 0062 08       		.byte	0x8
+ 1163 0063 07       		.byte	0x7
+ 1164 0064 DD020000 		.4byte	.LASF7
+ 1165 0068 04       		.uleb128 0x4
+ 1166 0069 04       		.byte	0x4
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\cctIS3p0.s 			page 34
+
+
+ 1167 006a 05       		.byte	0x5
+ 1168 006b 696E7400 		.ascii	"int\000"
+ 1169 006f 02       		.uleb128 0x2
+ 1170 0070 04       		.byte	0x4
+ 1171 0071 07       		.byte	0x7
+ 1172 0072 FD020000 		.4byte	.LASF8
+ 1173 0076 03       		.uleb128 0x3
+ 1174 0077 F4020000 		.4byte	.LASF10
+ 1175 007b 03       		.byte	0x3
+ 1176 007c 30       		.byte	0x30
+ 1177 007d 48000000 		.4byte	0x48
+ 1178 0081 05       		.uleb128 0x5
+ 1179 0082 EE010000 		.4byte	.LASF11
+ 1180 0086 04       		.byte	0x4
+ 1181 0087 E401     		.2byte	0x1e4
+ 1182 0089 2C000000 		.4byte	0x2c
+ 1183 008d 05       		.uleb128 0x5
+ 1184 008e 89030000 		.4byte	.LASF12
+ 1185 0092 04       		.byte	0x4
+ 1186 0093 E601     		.2byte	0x1e6
+ 1187 0095 53000000 		.4byte	0x53
+ 1188 0099 02       		.uleb128 0x2
+ 1189 009a 04       		.byte	0x4
+ 1190 009b 04       		.byte	0x4
+ 1191 009c 17020000 		.4byte	.LASF13
+ 1192 00a0 02       		.uleb128 0x2
+ 1193 00a1 08       		.byte	0x8
+ 1194 00a2 04       		.byte	0x4
+ 1195 00a3 A9030000 		.4byte	.LASF14
+ 1196 00a7 02       		.uleb128 0x2
+ 1197 00a8 01       		.byte	0x1
+ 1198 00a9 08       		.byte	0x8
+ 1199 00aa 23030000 		.4byte	.LASF15
+ 1200 00ae 05       		.uleb128 0x5
+ 1201 00af 28030000 		.4byte	.LASF16
+ 1202 00b3 04       		.byte	0x4
+ 1203 00b4 8602     		.2byte	0x286
+ 1204 00b6 53000000 		.4byte	0x53
+ 1205 00ba 05       		.uleb128 0x5
+ 1206 00bb 0A030000 		.4byte	.LASF17
+ 1207 00bf 04       		.byte	0x4
+ 1208 00c0 9002     		.2byte	0x290
+ 1209 00c2 C6000000 		.4byte	0xc6
+ 1210 00c6 06       		.uleb128 0x6
+ 1211 00c7 8D000000 		.4byte	0x8d
+ 1212 00cb 07       		.uleb128 0x7
+ 1213 00cc 40       		.byte	0x40
+ 1214 00cd 05       		.byte	0x5
+ 1215 00ce 6F01     		.2byte	0x16f
+ 1216 00d0 EF000000 		.4byte	0xef
+ 1217 00d4 08       		.uleb128 0x8
+ 1218 00d5 21040000 		.4byte	.LASF18
+ 1219 00d9 05       		.byte	0x5
+ 1220 00da 7101     		.2byte	0x171
+ 1221 00dc EF000000 		.4byte	0xef
+ 1222 00e0 00       		.byte	0
+ 1223 00e1 08       		.uleb128 0x8
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\cctIS3p0.s 			page 35
+
+
+ 1224 00e2 C3030000 		.4byte	.LASF19
+ 1225 00e6 05       		.byte	0x5
+ 1226 00e7 7201     		.2byte	0x172
+ 1227 00e9 EF000000 		.4byte	0xef
+ 1228 00ed 20       		.byte	0x20
+ 1229 00ee 00       		.byte	0
+ 1230 00ef 09       		.uleb128 0x9
+ 1231 00f0 8D000000 		.4byte	0x8d
+ 1232 00f4 FF000000 		.4byte	0xff
+ 1233 00f8 0A       		.uleb128 0xa
+ 1234 00f9 FF000000 		.4byte	0xff
+ 1235 00fd 07       		.byte	0x7
+ 1236 00fe 00       		.byte	0
+ 1237 00ff 02       		.uleb128 0x2
+ 1238 0100 04       		.byte	0x4
+ 1239 0101 07       		.byte	0x7
+ 1240 0102 12000000 		.4byte	.LASF20
+ 1241 0106 05       		.uleb128 0x5
+ 1242 0107 31030000 		.4byte	.LASF21
+ 1243 010b 05       		.byte	0x5
+ 1244 010c 7301     		.2byte	0x173
+ 1245 010e CB000000 		.4byte	0xcb
+ 1246 0112 0B       		.uleb128 0xb
+ 1247 0113 B0030000 		.4byte	.LASF58
+ 1248 0117 01       		.byte	0x1
+ 1249 0118 28       		.byte	0x28
+ 1250 0119 00000000 		.4byte	.LFB0
+ 1251 011d 80000000 		.4byte	.LFE0-.LFB0
+ 1252 0121 01       		.uleb128 0x1
+ 1253 0122 9C       		.byte	0x9c
+ 1254 0123 0C       		.uleb128 0xc
+ 1255 0124 67020000 		.4byte	.LASF22
+ 1256 0128 01       		.byte	0x1
+ 1257 0129 5E       		.byte	0x5e
+ 1258 012a 00000000 		.4byte	.LFB1
+ 1259 012e 48000000 		.4byte	.LFE1-.LFB1
+ 1260 0132 01       		.uleb128 0x1
+ 1261 0133 9C       		.byte	0x9c
+ 1262 0134 51010000 		.4byte	0x151
+ 1263 0138 0D       		.uleb128 0xd
+ 1264 0139 60020000 		.4byte	.LASF24
+ 1265 013d 01       		.byte	0x1
+ 1266 013e 60       		.byte	0x60
+ 1267 013f 8D000000 		.4byte	0x8d
+ 1268 0143 00000000 		.4byte	.LLST0
+ 1269 0147 0E       		.uleb128 0xe
+ 1270 0148 0E000000 		.4byte	.LVL0
+ 1271 014c 12010000 		.4byte	0x112
+ 1272 0150 00       		.byte	0
+ 1273 0151 0C       		.uleb128 0xc
+ 1274 0152 AD000000 		.4byte	.LASF23
+ 1275 0156 01       		.byte	0x1
+ 1276 0157 85       		.byte	0x85
+ 1277 0158 00000000 		.4byte	.LFB2
+ 1278 015c 34000000 		.4byte	.LFE2-.LFB2
+ 1279 0160 01       		.uleb128 0x1
+ 1280 0161 9C       		.byte	0x9c
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\cctIS3p0.s 			page 36
+
+
+ 1281 0162 76010000 		.4byte	0x176
+ 1282 0166 0D       		.uleb128 0xd
+ 1283 0167 60020000 		.4byte	.LASF24
+ 1284 016b 01       		.byte	0x1
+ 1285 016c 87       		.byte	0x87
+ 1286 016d 8D000000 		.4byte	0x8d
+ 1287 0171 13000000 		.4byte	.LLST1
+ 1288 0175 00       		.byte	0
+ 1289 0176 0C       		.uleb128 0xc
+ 1290 0177 5F040000 		.4byte	.LASF25
+ 1291 017b 01       		.byte	0x1
+ 1292 017c AE       		.byte	0xae
+ 1293 017d 00000000 		.4byte	.LFB3
+ 1294 0181 28000000 		.4byte	.LFE3-.LFB3
+ 1295 0185 01       		.uleb128 0x1
+ 1296 0186 9C       		.byte	0x9c
+ 1297 0187 AA010000 		.4byte	0x1aa
+ 1298 018b 0F       		.uleb128 0xf
+ 1299 018c 7D030000 		.4byte	.LASF27
+ 1300 0190 01       		.byte	0x1
+ 1301 0191 AE       		.byte	0xae
+ 1302 0192 8D000000 		.4byte	0x8d
+ 1303 0196 26000000 		.4byte	.LLST2
+ 1304 019a 0D       		.uleb128 0xd
+ 1305 019b 60020000 		.4byte	.LASF24
+ 1306 019f 01       		.byte	0x1
+ 1307 01a0 B0       		.byte	0xb0
+ 1308 01a1 8D000000 		.4byte	0x8d
+ 1309 01a5 47000000 		.4byte	.LLST3
+ 1310 01a9 00       		.byte	0
+ 1311 01aa 0C       		.uleb128 0xc
+ 1312 01ab CA030000 		.4byte	.LASF26
+ 1313 01af 01       		.byte	0x1
+ 1314 01b0 D2       		.byte	0xd2
+ 1315 01b1 00000000 		.4byte	.LFB4
+ 1316 01b5 30000000 		.4byte	.LFE4-.LFB4
+ 1317 01b9 01       		.uleb128 0x1
+ 1318 01ba 9C       		.byte	0x9c
+ 1319 01bb DE010000 		.4byte	0x1de
+ 1320 01bf 0F       		.uleb128 0xf
+ 1321 01c0 A5010000 		.4byte	.LASF28
+ 1322 01c4 01       		.byte	0x1
+ 1323 01c5 D2       		.byte	0xd2
+ 1324 01c6 8D000000 		.4byte	0x8d
+ 1325 01ca 5A000000 		.4byte	.LLST4
+ 1326 01ce 0D       		.uleb128 0xd
+ 1327 01cf 60020000 		.4byte	.LASF24
+ 1328 01d3 01       		.byte	0x1
+ 1329 01d4 D4       		.byte	0xd4
+ 1330 01d5 8D000000 		.4byte	0x8d
+ 1331 01d9 7B000000 		.4byte	.LLST5
+ 1332 01dd 00       		.byte	0
+ 1333 01de 0C       		.uleb128 0xc
+ 1334 01df 63010000 		.4byte	.LASF29
+ 1335 01e3 01       		.byte	0x1
+ 1336 01e4 F7       		.byte	0xf7
+ 1337 01e5 00000000 		.4byte	.LFB5
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\cctIS3p0.s 			page 37
+
+
+ 1338 01e9 3C000000 		.4byte	.LFE5-.LFB5
+ 1339 01ed 01       		.uleb128 0x1
+ 1340 01ee 9C       		.byte	0x9c
+ 1341 01ef 01020000 		.4byte	0x201
+ 1342 01f3 10       		.uleb128 0x10
+ 1343 01f4 9E010000 		.4byte	.LASF30
+ 1344 01f8 01       		.byte	0x1
+ 1345 01f9 F7       		.byte	0xf7
+ 1346 01fa 8D000000 		.4byte	0x8d
+ 1347 01fe 01       		.uleb128 0x1
+ 1348 01ff 50       		.byte	0x50
+ 1349 0200 00       		.byte	0
+ 1350 0201 11       		.uleb128 0x11
+ 1351 0202 FE010000 		.4byte	.LASF31
+ 1352 0206 01       		.byte	0x1
+ 1353 0207 2401     		.2byte	0x124
+ 1354 0209 00000000 		.4byte	.LFB6
+ 1355 020d 30000000 		.4byte	.LFE6-.LFB6
+ 1356 0211 01       		.uleb128 0x1
+ 1357 0212 9C       		.byte	0x9c
+ 1358 0213 38020000 		.4byte	0x238
+ 1359 0217 12       		.uleb128 0x12
+ 1360 0218 E5010000 		.4byte	.LASF32
+ 1361 021c 01       		.byte	0x1
+ 1362 021d 2401     		.2byte	0x124
+ 1363 021f 8D000000 		.4byte	0x8d
+ 1364 0223 8E000000 		.4byte	.LLST6
+ 1365 0227 13       		.uleb128 0x13
+ 1366 0228 60020000 		.4byte	.LASF24
+ 1367 022c 01       		.byte	0x1
+ 1368 022d 2601     		.2byte	0x126
+ 1369 022f 8D000000 		.4byte	0x8d
+ 1370 0233 AF000000 		.4byte	.LLST7
+ 1371 0237 00       		.byte	0
+ 1372 0238 11       		.uleb128 0x11
+ 1373 0239 1D020000 		.4byte	.LASF33
+ 1374 023d 01       		.byte	0x1
+ 1375 023e 4E01     		.2byte	0x14e
+ 1376 0240 00000000 		.4byte	.LFB7
+ 1377 0244 34000000 		.4byte	.LFE7-.LFB7
+ 1378 0248 01       		.uleb128 0x1
+ 1379 0249 9C       		.byte	0x9c
+ 1380 024a 6F020000 		.4byte	0x26f
+ 1381 024e 12       		.uleb128 0x12
+ 1382 024f E5010000 		.4byte	.LASF32
+ 1383 0253 01       		.byte	0x1
+ 1384 0254 4E01     		.2byte	0x14e
+ 1385 0256 8D000000 		.4byte	0x8d
+ 1386 025a C2000000 		.4byte	.LLST8
+ 1387 025e 13       		.uleb128 0x13
+ 1388 025f 60020000 		.4byte	.LASF24
+ 1389 0263 01       		.byte	0x1
+ 1390 0264 5001     		.2byte	0x150
+ 1391 0266 8D000000 		.4byte	0x8d
+ 1392 026a E3000000 		.4byte	.LLST9
+ 1393 026e 00       		.byte	0
+ 1394 026f 14       		.uleb128 0x14
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\cctIS3p0.s 			page 38
+
+
+ 1395 0270 7B020000 		.4byte	.LASF41
+ 1396 0274 01       		.byte	0x1
+ 1397 0275 8501     		.2byte	0x185
+ 1398 0277 AE000000 		.4byte	0xae
+ 1399 027b 00000000 		.4byte	.LFB8
+ 1400 027f C0000000 		.4byte	.LFE8-.LFB8
+ 1401 0283 01       		.uleb128 0x1
+ 1402 0284 9C       		.byte	0x9c
+ 1403 0285 DA020000 		.4byte	0x2da
+ 1404 0289 12       		.uleb128 0x12
+ 1405 028a 51030000 		.4byte	.LASF34
+ 1406 028e 01       		.byte	0x1
+ 1407 028f 8501     		.2byte	0x185
+ 1408 0291 8D000000 		.4byte	0x8d
+ 1409 0295 08010000 		.4byte	.LLST10
+ 1410 0299 12       		.uleb128 0x12
+ 1411 029a 4F020000 		.4byte	.LASF35
+ 1412 029e 01       		.byte	0x1
+ 1413 029f 8501     		.2byte	0x185
+ 1414 02a1 8D000000 		.4byte	0x8d
+ 1415 02a5 29010000 		.4byte	.LLST11
+ 1416 02a9 12       		.uleb128 0x12
+ 1417 02aa 77040000 		.4byte	.LASF36
+ 1418 02ae 01       		.byte	0x1
+ 1419 02af 8501     		.2byte	0x185
+ 1420 02b1 8D000000 		.4byte	0x8d
+ 1421 02b5 AE010000 		.4byte	.LLST12
+ 1422 02b9 13       		.uleb128 0x13
+ 1423 02ba AE010000 		.4byte	.LASF37
+ 1424 02be 01       		.byte	0x1
+ 1425 02bf 8701     		.2byte	0x187
+ 1426 02c1 AE000000 		.4byte	0xae
+ 1427 02c5 33020000 		.4byte	.LLST13
+ 1428 02c9 15       		.uleb128 0x15
+ 1429 02ca 73656C00 		.ascii	"sel\000"
+ 1430 02ce 01       		.byte	0x1
+ 1431 02cf 8801     		.2byte	0x188
+ 1432 02d1 8D000000 		.4byte	0x8d
+ 1433 02d5 5D020000 		.4byte	.LLST14
+ 1434 02d9 00       		.byte	0
+ 1435 02da 11       		.uleb128 0x11
+ 1436 02db 7E010000 		.4byte	.LASF38
+ 1437 02df 01       		.byte	0x1
+ 1438 02e0 E601     		.2byte	0x1e6
+ 1439 02e2 00000000 		.4byte	.LFB9
+ 1440 02e6 40000000 		.4byte	.LFE9-.LFB9
+ 1441 02ea 01       		.uleb128 0x1
+ 1442 02eb 9C       		.byte	0x9c
+ 1443 02ec 31030000 		.4byte	0x331
+ 1444 02f0 12       		.uleb128 0x12
+ 1445 02f1 51030000 		.4byte	.LASF34
+ 1446 02f5 01       		.byte	0x1
+ 1447 02f6 E601     		.2byte	0x1e6
+ 1448 02f8 8D000000 		.4byte	0x8d
+ 1449 02fc AC020000 		.4byte	.LLST15
+ 1450 0300 12       		.uleb128 0x12
+ 1451 0301 58020000 		.4byte	.LASF39
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\cctIS3p0.s 			page 39
+
+
+ 1452 0305 01       		.byte	0x1
+ 1453 0306 E601     		.2byte	0x1e6
+ 1454 0308 8D000000 		.4byte	0x8d
+ 1455 030c DA020000 		.4byte	.LLST16
+ 1456 0310 12       		.uleb128 0x12
+ 1457 0311 58030000 		.4byte	.LASF40
+ 1458 0315 01       		.byte	0x1
+ 1459 0316 E601     		.2byte	0x1e6
+ 1460 0318 8D000000 		.4byte	0x8d
+ 1461 031c FB020000 		.4byte	.LLST17
+ 1462 0320 15       		.uleb128 0x15
+ 1463 0321 63746C00 		.ascii	"ctl\000"
+ 1464 0325 01       		.byte	0x1
+ 1465 0326 E801     		.2byte	0x1e8
+ 1466 0328 8D000000 		.4byte	0x8d
+ 1467 032c 1C030000 		.4byte	.LLST18
+ 1468 0330 00       		.byte	0
+ 1469 0331 14       		.uleb128 0x14
+ 1470 0332 5D030000 		.4byte	.LASF42
+ 1471 0336 01       		.byte	0x1
+ 1472 0337 0E02     		.2byte	0x20e
+ 1473 0339 AE000000 		.4byte	0xae
+ 1474 033d 00000000 		.4byte	.LFB10
+ 1475 0341 54000000 		.4byte	.LFE10-.LFB10
+ 1476 0345 01       		.uleb128 0x1
+ 1477 0346 9C       		.byte	0x9c
+ 1478 0347 9C030000 		.4byte	0x39c
+ 1479 034b 12       		.uleb128 0x12
+ 1480 034c DE010000 		.4byte	.LASF43
+ 1481 0350 01       		.byte	0x1
+ 1482 0351 0E02     		.2byte	0x20e
+ 1483 0353 8D000000 		.4byte	0x8d
+ 1484 0357 2F030000 		.4byte	.LLST19
+ 1485 035b 12       		.uleb128 0x12
+ 1486 035c A8020000 		.4byte	.LASF44
+ 1487 0360 01       		.byte	0x1
+ 1488 0361 0E02     		.2byte	0x20e
+ 1489 0363 8D000000 		.4byte	0x8d
+ 1490 0367 9B030000 		.4byte	.LLST20
+ 1491 036b 12       		.uleb128 0x12
+ 1492 036c 90030000 		.4byte	.LASF45
+ 1493 0370 01       		.byte	0x1
+ 1494 0371 0E02     		.2byte	0x20e
+ 1495 0373 8D000000 		.4byte	0x8d
+ 1496 0377 D5030000 		.4byte	.LLST21
+ 1497 037b 13       		.uleb128 0x13
+ 1498 037c AE010000 		.4byte	.LASF37
+ 1499 0380 01       		.byte	0x1
+ 1500 0381 1002     		.2byte	0x210
+ 1501 0383 AE000000 		.4byte	0xae
+ 1502 0387 0F040000 		.4byte	.LLST22
+ 1503 038b 15       		.uleb128 0x15
+ 1504 038c 73656C00 		.ascii	"sel\000"
+ 1505 0390 01       		.byte	0x1
+ 1506 0391 1102     		.2byte	0x211
+ 1507 0393 8D000000 		.4byte	0x8d
+ 1508 0397 2E040000 		.4byte	.LLST23
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\cctIS3p0.s 			page 40
+
+
+ 1509 039b 00       		.byte	0
+ 1510 039c 14       		.uleb128 0x14
+ 1511 039d B9010000 		.4byte	.LASF46
+ 1512 03a1 01       		.byte	0x1
+ 1513 03a2 3E02     		.2byte	0x23e
+ 1514 03a4 AE000000 		.4byte	0xae
+ 1515 03a8 00000000 		.4byte	.LFB11
+ 1516 03ac 84000000 		.4byte	.LFE11-.LFB11
+ 1517 03b0 01       		.uleb128 0x1
+ 1518 03b1 9C       		.byte	0x9c
+ 1519 03b2 F7030000 		.4byte	0x3f7
+ 1520 03b6 12       		.uleb128 0x12
+ 1521 03b7 00000000 		.4byte	.LASF47
+ 1522 03bb 01       		.byte	0x1
+ 1523 03bc 3E02     		.2byte	0x23e
+ 1524 03be 8D000000 		.4byte	0x8d
+ 1525 03c2 53040000 		.4byte	.LLST24
+ 1526 03c6 12       		.uleb128 0x12
+ 1527 03c7 D5020000 		.4byte	.LASF48
+ 1528 03cb 01       		.byte	0x1
+ 1529 03cc 3E02     		.2byte	0x23e
+ 1530 03ce 8D000000 		.4byte	0x8d
+ 1531 03d2 BF040000 		.4byte	.LLST25
+ 1532 03d6 13       		.uleb128 0x13
+ 1533 03d7 AE010000 		.4byte	.LASF37
+ 1534 03db 01       		.byte	0x1
+ 1535 03dc 4002     		.2byte	0x240
+ 1536 03de AE000000 		.4byte	0xae
+ 1537 03e2 F9040000 		.4byte	.LLST26
+ 1538 03e6 15       		.uleb128 0x15
+ 1539 03e7 73656C00 		.ascii	"sel\000"
+ 1540 03eb 01       		.byte	0x1
+ 1541 03ec 4102     		.2byte	0x241
+ 1542 03ee 8D000000 		.4byte	0x8d
+ 1543 03f2 18050000 		.4byte	.LLST27
+ 1544 03f6 00       		.byte	0
+ 1545 03f7 14       		.uleb128 0x14
+ 1546 03f8 AF020000 		.4byte	.LASF49
+ 1547 03fc 01       		.byte	0x1
+ 1548 03fd 7502     		.2byte	0x275
+ 1549 03ff AE000000 		.4byte	0xae
+ 1550 0403 00000000 		.4byte	.LFB12
+ 1551 0407 2C000000 		.4byte	.LFE12-.LFB12
+ 1552 040b 01       		.uleb128 0x1
+ 1553 040c 9C       		.byte	0x9c
+ 1554 040d 32040000 		.4byte	0x432
+ 1555 0411 12       		.uleb128 0x12
+ 1556 0412 F4010000 		.4byte	.LASF50
+ 1557 0416 01       		.byte	0x1
+ 1558 0417 7502     		.2byte	0x275
+ 1559 0419 8D000000 		.4byte	0x8d
+ 1560 041d 5B050000 		.4byte	.LLST28
+ 1561 0421 13       		.uleb128 0x13
+ 1562 0422 AE010000 		.4byte	.LASF37
+ 1563 0426 01       		.byte	0x1
+ 1564 0427 7702     		.2byte	0x277
+ 1565 0429 AE000000 		.4byte	0xae
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\cctIS3p0.s 			page 41
+
+
+ 1566 042d 95050000 		.4byte	.LLST29
+ 1567 0431 00       		.byte	0
+ 1568 0432 14       		.uleb128 0x14
+ 1569 0433 47040000 		.4byte	.LASF51
+ 1570 0437 01       		.byte	0x1
+ 1571 0438 9F02     		.2byte	0x29f
+ 1572 043a AE000000 		.4byte	0xae
+ 1573 043e 00000000 		.4byte	.LFB13
+ 1574 0442 3C000000 		.4byte	.LFE13-.LFB13
+ 1575 0446 01       		.uleb128 0x1
+ 1576 0447 9C       		.byte	0x9c
+ 1577 0448 7D040000 		.4byte	0x47d
+ 1578 044c 12       		.uleb128 0x12
+ 1579 044d 28040000 		.4byte	.LASF52
+ 1580 0451 01       		.byte	0x1
+ 1581 0452 9F02     		.2byte	0x29f
+ 1582 0454 8D000000 		.4byte	0x8d
+ 1583 0458 B4050000 		.4byte	.LLST30
+ 1584 045c 12       		.uleb128 0x12
+ 1585 045d D5010000 		.4byte	.LASF53
+ 1586 0461 01       		.byte	0x1
+ 1587 0462 9F02     		.2byte	0x29f
+ 1588 0464 8D000000 		.4byte	0x8d
+ 1589 0468 06060000 		.4byte	.LLST31
+ 1590 046c 13       		.uleb128 0x13
+ 1591 046d AE010000 		.4byte	.LASF37
+ 1592 0471 01       		.byte	0x1
+ 1593 0472 A102     		.2byte	0x2a1
+ 1594 0474 AE000000 		.4byte	0xae
+ 1595 0478 4D060000 		.4byte	.LLST32
+ 1596 047c 00       		.byte	0
+ 1597 047d 16       		.uleb128 0x16
+ 1598 047e 2F040000 		.4byte	.LASF54
+ 1599 0482 01       		.byte	0x1
+ 1600 0483 15       		.byte	0x15
+ 1601 0484 8D000000 		.4byte	0x8d
+ 1602 0488 05       		.uleb128 0x5
+ 1603 0489 03       		.byte	0x3
+ 1604 048a 00000000 		.4byte	SmartIO_Port2_clkConfig
+ 1605 048e 17       		.uleb128 0x17
+ 1606 048f E4030000 		.4byte	.LASF59
+ 1607 0493 01       		.byte	0x1
+ 1608 0494 12       		.byte	0x12
+ 1609 0495 81000000 		.4byte	0x81
+ 1610 0499 05       		.uleb128 0x5
+ 1611 049a 03       		.byte	0x3
+ 1612 049b 00000000 		.4byte	SmartIO_Port2_initVar
+ 1613 049f 00       		.byte	0
+ 1614              		.section	.debug_abbrev,"",%progbits
+ 1615              	.Ldebug_abbrev0:
+ 1616 0000 01       		.uleb128 0x1
+ 1617 0001 11       		.uleb128 0x11
+ 1618 0002 01       		.byte	0x1
+ 1619 0003 25       		.uleb128 0x25
+ 1620 0004 0E       		.uleb128 0xe
+ 1621 0005 13       		.uleb128 0x13
+ 1622 0006 0B       		.uleb128 0xb
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\cctIS3p0.s 			page 42
+
+
+ 1623 0007 03       		.uleb128 0x3
+ 1624 0008 0E       		.uleb128 0xe
+ 1625 0009 1B       		.uleb128 0x1b
+ 1626 000a 0E       		.uleb128 0xe
+ 1627 000b 55       		.uleb128 0x55
+ 1628 000c 17       		.uleb128 0x17
+ 1629 000d 11       		.uleb128 0x11
+ 1630 000e 01       		.uleb128 0x1
+ 1631 000f 10       		.uleb128 0x10
+ 1632 0010 17       		.uleb128 0x17
+ 1633 0011 00       		.byte	0
+ 1634 0012 00       		.byte	0
+ 1635 0013 02       		.uleb128 0x2
+ 1636 0014 24       		.uleb128 0x24
+ 1637 0015 00       		.byte	0
+ 1638 0016 0B       		.uleb128 0xb
+ 1639 0017 0B       		.uleb128 0xb
+ 1640 0018 3E       		.uleb128 0x3e
+ 1641 0019 0B       		.uleb128 0xb
+ 1642 001a 03       		.uleb128 0x3
+ 1643 001b 0E       		.uleb128 0xe
+ 1644 001c 00       		.byte	0
+ 1645 001d 00       		.byte	0
+ 1646 001e 03       		.uleb128 0x3
+ 1647 001f 16       		.uleb128 0x16
+ 1648 0020 00       		.byte	0
+ 1649 0021 03       		.uleb128 0x3
+ 1650 0022 0E       		.uleb128 0xe
+ 1651 0023 3A       		.uleb128 0x3a
+ 1652 0024 0B       		.uleb128 0xb
+ 1653 0025 3B       		.uleb128 0x3b
+ 1654 0026 0B       		.uleb128 0xb
+ 1655 0027 49       		.uleb128 0x49
+ 1656 0028 13       		.uleb128 0x13
+ 1657 0029 00       		.byte	0
+ 1658 002a 00       		.byte	0
+ 1659 002b 04       		.uleb128 0x4
+ 1660 002c 24       		.uleb128 0x24
+ 1661 002d 00       		.byte	0
+ 1662 002e 0B       		.uleb128 0xb
+ 1663 002f 0B       		.uleb128 0xb
+ 1664 0030 3E       		.uleb128 0x3e
+ 1665 0031 0B       		.uleb128 0xb
+ 1666 0032 03       		.uleb128 0x3
+ 1667 0033 08       		.uleb128 0x8
+ 1668 0034 00       		.byte	0
+ 1669 0035 00       		.byte	0
+ 1670 0036 05       		.uleb128 0x5
+ 1671 0037 16       		.uleb128 0x16
+ 1672 0038 00       		.byte	0
+ 1673 0039 03       		.uleb128 0x3
+ 1674 003a 0E       		.uleb128 0xe
+ 1675 003b 3A       		.uleb128 0x3a
+ 1676 003c 0B       		.uleb128 0xb
+ 1677 003d 3B       		.uleb128 0x3b
+ 1678 003e 05       		.uleb128 0x5
+ 1679 003f 49       		.uleb128 0x49
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\cctIS3p0.s 			page 43
+
+
+ 1680 0040 13       		.uleb128 0x13
+ 1681 0041 00       		.byte	0
+ 1682 0042 00       		.byte	0
+ 1683 0043 06       		.uleb128 0x6
+ 1684 0044 35       		.uleb128 0x35
+ 1685 0045 00       		.byte	0
+ 1686 0046 49       		.uleb128 0x49
+ 1687 0047 13       		.uleb128 0x13
+ 1688 0048 00       		.byte	0
+ 1689 0049 00       		.byte	0
+ 1690 004a 07       		.uleb128 0x7
+ 1691 004b 13       		.uleb128 0x13
+ 1692 004c 01       		.byte	0x1
+ 1693 004d 0B       		.uleb128 0xb
+ 1694 004e 0B       		.uleb128 0xb
+ 1695 004f 3A       		.uleb128 0x3a
+ 1696 0050 0B       		.uleb128 0xb
+ 1697 0051 3B       		.uleb128 0x3b
+ 1698 0052 05       		.uleb128 0x5
+ 1699 0053 01       		.uleb128 0x1
+ 1700 0054 13       		.uleb128 0x13
+ 1701 0055 00       		.byte	0
+ 1702 0056 00       		.byte	0
+ 1703 0057 08       		.uleb128 0x8
+ 1704 0058 0D       		.uleb128 0xd
+ 1705 0059 00       		.byte	0
+ 1706 005a 03       		.uleb128 0x3
+ 1707 005b 0E       		.uleb128 0xe
+ 1708 005c 3A       		.uleb128 0x3a
+ 1709 005d 0B       		.uleb128 0xb
+ 1710 005e 3B       		.uleb128 0x3b
+ 1711 005f 05       		.uleb128 0x5
+ 1712 0060 49       		.uleb128 0x49
+ 1713 0061 13       		.uleb128 0x13
+ 1714 0062 38       		.uleb128 0x38
+ 1715 0063 0B       		.uleb128 0xb
+ 1716 0064 00       		.byte	0
+ 1717 0065 00       		.byte	0
+ 1718 0066 09       		.uleb128 0x9
+ 1719 0067 01       		.uleb128 0x1
+ 1720 0068 01       		.byte	0x1
+ 1721 0069 49       		.uleb128 0x49
+ 1722 006a 13       		.uleb128 0x13
+ 1723 006b 01       		.uleb128 0x1
+ 1724 006c 13       		.uleb128 0x13
+ 1725 006d 00       		.byte	0
+ 1726 006e 00       		.byte	0
+ 1727 006f 0A       		.uleb128 0xa
+ 1728 0070 21       		.uleb128 0x21
+ 1729 0071 00       		.byte	0
+ 1730 0072 49       		.uleb128 0x49
+ 1731 0073 13       		.uleb128 0x13
+ 1732 0074 2F       		.uleb128 0x2f
+ 1733 0075 0B       		.uleb128 0xb
+ 1734 0076 00       		.byte	0
+ 1735 0077 00       		.byte	0
+ 1736 0078 0B       		.uleb128 0xb
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\cctIS3p0.s 			page 44
+
+
+ 1737 0079 2E       		.uleb128 0x2e
+ 1738 007a 00       		.byte	0
+ 1739 007b 3F       		.uleb128 0x3f
+ 1740 007c 19       		.uleb128 0x19
+ 1741 007d 03       		.uleb128 0x3
+ 1742 007e 0E       		.uleb128 0xe
+ 1743 007f 3A       		.uleb128 0x3a
+ 1744 0080 0B       		.uleb128 0xb
+ 1745 0081 3B       		.uleb128 0x3b
+ 1746 0082 0B       		.uleb128 0xb
+ 1747 0083 27       		.uleb128 0x27
+ 1748 0084 19       		.uleb128 0x19
+ 1749 0085 11       		.uleb128 0x11
+ 1750 0086 01       		.uleb128 0x1
+ 1751 0087 12       		.uleb128 0x12
+ 1752 0088 06       		.uleb128 0x6
+ 1753 0089 40       		.uleb128 0x40
+ 1754 008a 18       		.uleb128 0x18
+ 1755 008b 9742     		.uleb128 0x2117
+ 1756 008d 19       		.uleb128 0x19
+ 1757 008e 00       		.byte	0
+ 1758 008f 00       		.byte	0
+ 1759 0090 0C       		.uleb128 0xc
+ 1760 0091 2E       		.uleb128 0x2e
+ 1761 0092 01       		.byte	0x1
+ 1762 0093 3F       		.uleb128 0x3f
+ 1763 0094 19       		.uleb128 0x19
+ 1764 0095 03       		.uleb128 0x3
+ 1765 0096 0E       		.uleb128 0xe
+ 1766 0097 3A       		.uleb128 0x3a
+ 1767 0098 0B       		.uleb128 0xb
+ 1768 0099 3B       		.uleb128 0x3b
+ 1769 009a 0B       		.uleb128 0xb
+ 1770 009b 27       		.uleb128 0x27
+ 1771 009c 19       		.uleb128 0x19
+ 1772 009d 11       		.uleb128 0x11
+ 1773 009e 01       		.uleb128 0x1
+ 1774 009f 12       		.uleb128 0x12
+ 1775 00a0 06       		.uleb128 0x6
+ 1776 00a1 40       		.uleb128 0x40
+ 1777 00a2 18       		.uleb128 0x18
+ 1778 00a3 9742     		.uleb128 0x2117
+ 1779 00a5 19       		.uleb128 0x19
+ 1780 00a6 01       		.uleb128 0x1
+ 1781 00a7 13       		.uleb128 0x13
+ 1782 00a8 00       		.byte	0
+ 1783 00a9 00       		.byte	0
+ 1784 00aa 0D       		.uleb128 0xd
+ 1785 00ab 34       		.uleb128 0x34
+ 1786 00ac 00       		.byte	0
+ 1787 00ad 03       		.uleb128 0x3
+ 1788 00ae 0E       		.uleb128 0xe
+ 1789 00af 3A       		.uleb128 0x3a
+ 1790 00b0 0B       		.uleb128 0xb
+ 1791 00b1 3B       		.uleb128 0x3b
+ 1792 00b2 0B       		.uleb128 0xb
+ 1793 00b3 49       		.uleb128 0x49
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\cctIS3p0.s 			page 45
+
+
+ 1794 00b4 13       		.uleb128 0x13
+ 1795 00b5 02       		.uleb128 0x2
+ 1796 00b6 17       		.uleb128 0x17
+ 1797 00b7 00       		.byte	0
+ 1798 00b8 00       		.byte	0
+ 1799 00b9 0E       		.uleb128 0xe
+ 1800 00ba 898201   		.uleb128 0x4109
+ 1801 00bd 00       		.byte	0
+ 1802 00be 11       		.uleb128 0x11
+ 1803 00bf 01       		.uleb128 0x1
+ 1804 00c0 31       		.uleb128 0x31
+ 1805 00c1 13       		.uleb128 0x13
+ 1806 00c2 00       		.byte	0
+ 1807 00c3 00       		.byte	0
+ 1808 00c4 0F       		.uleb128 0xf
+ 1809 00c5 05       		.uleb128 0x5
+ 1810 00c6 00       		.byte	0
+ 1811 00c7 03       		.uleb128 0x3
+ 1812 00c8 0E       		.uleb128 0xe
+ 1813 00c9 3A       		.uleb128 0x3a
+ 1814 00ca 0B       		.uleb128 0xb
+ 1815 00cb 3B       		.uleb128 0x3b
+ 1816 00cc 0B       		.uleb128 0xb
+ 1817 00cd 49       		.uleb128 0x49
+ 1818 00ce 13       		.uleb128 0x13
+ 1819 00cf 02       		.uleb128 0x2
+ 1820 00d0 17       		.uleb128 0x17
+ 1821 00d1 00       		.byte	0
+ 1822 00d2 00       		.byte	0
+ 1823 00d3 10       		.uleb128 0x10
+ 1824 00d4 05       		.uleb128 0x5
+ 1825 00d5 00       		.byte	0
+ 1826 00d6 03       		.uleb128 0x3
+ 1827 00d7 0E       		.uleb128 0xe
+ 1828 00d8 3A       		.uleb128 0x3a
+ 1829 00d9 0B       		.uleb128 0xb
+ 1830 00da 3B       		.uleb128 0x3b
+ 1831 00db 0B       		.uleb128 0xb
+ 1832 00dc 49       		.uleb128 0x49
+ 1833 00dd 13       		.uleb128 0x13
+ 1834 00de 02       		.uleb128 0x2
+ 1835 00df 18       		.uleb128 0x18
+ 1836 00e0 00       		.byte	0
+ 1837 00e1 00       		.byte	0
+ 1838 00e2 11       		.uleb128 0x11
+ 1839 00e3 2E       		.uleb128 0x2e
+ 1840 00e4 01       		.byte	0x1
+ 1841 00e5 3F       		.uleb128 0x3f
+ 1842 00e6 19       		.uleb128 0x19
+ 1843 00e7 03       		.uleb128 0x3
+ 1844 00e8 0E       		.uleb128 0xe
+ 1845 00e9 3A       		.uleb128 0x3a
+ 1846 00ea 0B       		.uleb128 0xb
+ 1847 00eb 3B       		.uleb128 0x3b
+ 1848 00ec 05       		.uleb128 0x5
+ 1849 00ed 27       		.uleb128 0x27
+ 1850 00ee 19       		.uleb128 0x19
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\cctIS3p0.s 			page 46
+
+
+ 1851 00ef 11       		.uleb128 0x11
+ 1852 00f0 01       		.uleb128 0x1
+ 1853 00f1 12       		.uleb128 0x12
+ 1854 00f2 06       		.uleb128 0x6
+ 1855 00f3 40       		.uleb128 0x40
+ 1856 00f4 18       		.uleb128 0x18
+ 1857 00f5 9742     		.uleb128 0x2117
+ 1858 00f7 19       		.uleb128 0x19
+ 1859 00f8 01       		.uleb128 0x1
+ 1860 00f9 13       		.uleb128 0x13
+ 1861 00fa 00       		.byte	0
+ 1862 00fb 00       		.byte	0
+ 1863 00fc 12       		.uleb128 0x12
+ 1864 00fd 05       		.uleb128 0x5
+ 1865 00fe 00       		.byte	0
+ 1866 00ff 03       		.uleb128 0x3
+ 1867 0100 0E       		.uleb128 0xe
+ 1868 0101 3A       		.uleb128 0x3a
+ 1869 0102 0B       		.uleb128 0xb
+ 1870 0103 3B       		.uleb128 0x3b
+ 1871 0104 05       		.uleb128 0x5
+ 1872 0105 49       		.uleb128 0x49
+ 1873 0106 13       		.uleb128 0x13
+ 1874 0107 02       		.uleb128 0x2
+ 1875 0108 17       		.uleb128 0x17
+ 1876 0109 00       		.byte	0
+ 1877 010a 00       		.byte	0
+ 1878 010b 13       		.uleb128 0x13
+ 1879 010c 34       		.uleb128 0x34
+ 1880 010d 00       		.byte	0
+ 1881 010e 03       		.uleb128 0x3
+ 1882 010f 0E       		.uleb128 0xe
+ 1883 0110 3A       		.uleb128 0x3a
+ 1884 0111 0B       		.uleb128 0xb
+ 1885 0112 3B       		.uleb128 0x3b
+ 1886 0113 05       		.uleb128 0x5
+ 1887 0114 49       		.uleb128 0x49
+ 1888 0115 13       		.uleb128 0x13
+ 1889 0116 02       		.uleb128 0x2
+ 1890 0117 17       		.uleb128 0x17
+ 1891 0118 00       		.byte	0
+ 1892 0119 00       		.byte	0
+ 1893 011a 14       		.uleb128 0x14
+ 1894 011b 2E       		.uleb128 0x2e
+ 1895 011c 01       		.byte	0x1
+ 1896 011d 3F       		.uleb128 0x3f
+ 1897 011e 19       		.uleb128 0x19
+ 1898 011f 03       		.uleb128 0x3
+ 1899 0120 0E       		.uleb128 0xe
+ 1900 0121 3A       		.uleb128 0x3a
+ 1901 0122 0B       		.uleb128 0xb
+ 1902 0123 3B       		.uleb128 0x3b
+ 1903 0124 05       		.uleb128 0x5
+ 1904 0125 27       		.uleb128 0x27
+ 1905 0126 19       		.uleb128 0x19
+ 1906 0127 49       		.uleb128 0x49
+ 1907 0128 13       		.uleb128 0x13
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\cctIS3p0.s 			page 47
+
+
+ 1908 0129 11       		.uleb128 0x11
+ 1909 012a 01       		.uleb128 0x1
+ 1910 012b 12       		.uleb128 0x12
+ 1911 012c 06       		.uleb128 0x6
+ 1912 012d 40       		.uleb128 0x40
+ 1913 012e 18       		.uleb128 0x18
+ 1914 012f 9742     		.uleb128 0x2117
+ 1915 0131 19       		.uleb128 0x19
+ 1916 0132 01       		.uleb128 0x1
+ 1917 0133 13       		.uleb128 0x13
+ 1918 0134 00       		.byte	0
+ 1919 0135 00       		.byte	0
+ 1920 0136 15       		.uleb128 0x15
+ 1921 0137 34       		.uleb128 0x34
+ 1922 0138 00       		.byte	0
+ 1923 0139 03       		.uleb128 0x3
+ 1924 013a 08       		.uleb128 0x8
+ 1925 013b 3A       		.uleb128 0x3a
+ 1926 013c 0B       		.uleb128 0xb
+ 1927 013d 3B       		.uleb128 0x3b
+ 1928 013e 05       		.uleb128 0x5
+ 1929 013f 49       		.uleb128 0x49
+ 1930 0140 13       		.uleb128 0x13
+ 1931 0141 02       		.uleb128 0x2
+ 1932 0142 17       		.uleb128 0x17
+ 1933 0143 00       		.byte	0
+ 1934 0144 00       		.byte	0
+ 1935 0145 16       		.uleb128 0x16
+ 1936 0146 34       		.uleb128 0x34
+ 1937 0147 00       		.byte	0
+ 1938 0148 03       		.uleb128 0x3
+ 1939 0149 0E       		.uleb128 0xe
+ 1940 014a 3A       		.uleb128 0x3a
+ 1941 014b 0B       		.uleb128 0xb
+ 1942 014c 3B       		.uleb128 0x3b
+ 1943 014d 0B       		.uleb128 0xb
+ 1944 014e 49       		.uleb128 0x49
+ 1945 014f 13       		.uleb128 0x13
+ 1946 0150 02       		.uleb128 0x2
+ 1947 0151 18       		.uleb128 0x18
+ 1948 0152 00       		.byte	0
+ 1949 0153 00       		.byte	0
+ 1950 0154 17       		.uleb128 0x17
+ 1951 0155 34       		.uleb128 0x34
+ 1952 0156 00       		.byte	0
+ 1953 0157 03       		.uleb128 0x3
+ 1954 0158 0E       		.uleb128 0xe
+ 1955 0159 3A       		.uleb128 0x3a
+ 1956 015a 0B       		.uleb128 0xb
+ 1957 015b 3B       		.uleb128 0x3b
+ 1958 015c 0B       		.uleb128 0xb
+ 1959 015d 49       		.uleb128 0x49
+ 1960 015e 13       		.uleb128 0x13
+ 1961 015f 3F       		.uleb128 0x3f
+ 1962 0160 19       		.uleb128 0x19
+ 1963 0161 02       		.uleb128 0x2
+ 1964 0162 18       		.uleb128 0x18
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\cctIS3p0.s 			page 48
+
+
+ 1965 0163 00       		.byte	0
+ 1966 0164 00       		.byte	0
+ 1967 0165 00       		.byte	0
+ 1968              		.section	.debug_loc,"",%progbits
+ 1969              	.Ldebug_loc0:
+ 1970              	.LLST0:
+ 1971 0000 26000000 		.4byte	.LVL1
+ 1972 0004 2C000000 		.4byte	.LVL2
+ 1973 0008 0100     		.2byte	0x1
+ 1974 000a 53       		.byte	0x53
+ 1975 000b 00000000 		.4byte	0
+ 1976 000f 00000000 		.4byte	0
+ 1977              	.LLST1:
+ 1978 0013 1C000000 		.4byte	.LVL3
+ 1979 0017 20000000 		.4byte	.LVL4
+ 1980 001b 0100     		.2byte	0x1
+ 1981 001d 52       		.byte	0x52
+ 1982 001e 00000000 		.4byte	0
+ 1983 0022 00000000 		.4byte	0
+ 1984              	.LLST2:
+ 1985 0026 00000000 		.4byte	.LVL5
+ 1986 002a 12000000 		.4byte	.LVL7
+ 1987 002e 0100     		.2byte	0x1
+ 1988 0030 50       		.byte	0x50
+ 1989 0031 12000000 		.4byte	.LVL7
+ 1990 0035 28000000 		.4byte	.LFE3
+ 1991 0039 0400     		.2byte	0x4
+ 1992 003b F3       		.byte	0xf3
+ 1993 003c 01       		.uleb128 0x1
+ 1994 003d 50       		.byte	0x50
+ 1995 003e 9F       		.byte	0x9f
+ 1996 003f 00000000 		.4byte	0
+ 1997 0043 00000000 		.4byte	0
+ 1998              	.LLST3:
+ 1999 0047 10000000 		.4byte	.LVL6
+ 2000 004b 18000000 		.4byte	.LVL8
+ 2001 004f 0100     		.2byte	0x1
+ 2002 0051 52       		.byte	0x52
+ 2003 0052 00000000 		.4byte	0
+ 2004 0056 00000000 		.4byte	0
+ 2005              	.LLST4:
+ 2006 005a 00000000 		.4byte	.LVL9
+ 2007 005e 12000000 		.4byte	.LVL11
+ 2008 0062 0100     		.2byte	0x1
+ 2009 0064 50       		.byte	0x50
+ 2010 0065 12000000 		.4byte	.LVL11
+ 2011 0069 30000000 		.4byte	.LFE4
+ 2012 006d 0400     		.2byte	0x4
+ 2013 006f F3       		.byte	0xf3
+ 2014 0070 01       		.uleb128 0x1
+ 2015 0071 50       		.byte	0x50
+ 2016 0072 9F       		.byte	0x9f
+ 2017 0073 00000000 		.4byte	0
+ 2018 0077 00000000 		.4byte	0
+ 2019              	.LLST5:
+ 2020 007b 10000000 		.4byte	.LVL10
+ 2021 007f 20000000 		.4byte	.LVL12
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\cctIS3p0.s 			page 49
+
+
+ 2022 0083 0100     		.2byte	0x1
+ 2023 0085 51       		.byte	0x51
+ 2024 0086 00000000 		.4byte	0
+ 2025 008a 00000000 		.4byte	0
+ 2026              	.LLST6:
+ 2027 008e 00000000 		.4byte	.LVL14
+ 2028 0092 16000000 		.4byte	.LVL16
+ 2029 0096 0100     		.2byte	0x1
+ 2030 0098 50       		.byte	0x50
+ 2031 0099 16000000 		.4byte	.LVL16
+ 2032 009d 30000000 		.4byte	.LFE6
+ 2033 00a1 0400     		.2byte	0x4
+ 2034 00a3 F3       		.byte	0xf3
+ 2035 00a4 01       		.uleb128 0x1
+ 2036 00a5 50       		.byte	0x50
+ 2037 00a6 9F       		.byte	0x9f
+ 2038 00a7 00000000 		.4byte	0
+ 2039 00ab 00000000 		.4byte	0
+ 2040              	.LLST7:
+ 2041 00af 14000000 		.4byte	.LVL15
+ 2042 00b3 1C000000 		.4byte	.LVL17
+ 2043 00b7 0100     		.2byte	0x1
+ 2044 00b9 53       		.byte	0x53
+ 2045 00ba 00000000 		.4byte	0
+ 2046 00be 00000000 		.4byte	0
+ 2047              	.LLST8:
+ 2048 00c2 00000000 		.4byte	.LVL18
+ 2049 00c6 16000000 		.4byte	.LVL20
+ 2050 00ca 0100     		.2byte	0x1
+ 2051 00cc 50       		.byte	0x50
+ 2052 00cd 16000000 		.4byte	.LVL20
+ 2053 00d1 34000000 		.4byte	.LFE7
+ 2054 00d5 0400     		.2byte	0x4
+ 2055 00d7 F3       		.byte	0xf3
+ 2056 00d8 01       		.uleb128 0x1
+ 2057 00d9 50       		.byte	0x50
+ 2058 00da 9F       		.byte	0x9f
+ 2059 00db 00000000 		.4byte	0
+ 2060 00df 00000000 		.4byte	0
+ 2061              	.LLST9:
+ 2062 00e3 14000000 		.4byte	.LVL19
+ 2063 00e7 1E000000 		.4byte	.LVL21
+ 2064 00eb 0100     		.2byte	0x1
+ 2065 00ed 53       		.byte	0x53
+ 2066 00ee 1E000000 		.4byte	.LVL21
+ 2067 00f2 26000000 		.4byte	.LVL22
+ 2068 00f6 0800     		.2byte	0x8
+ 2069 00f8 74       		.byte	0x74
+ 2070 00f9 00       		.sleb128 0
+ 2071 00fa 11       		.byte	0x11
+ 2072 00fb FF817C   		.sleb128 -65281
+ 2073 00fe 1A       		.byte	0x1a
+ 2074 00ff 9F       		.byte	0x9f
+ 2075 0100 00000000 		.4byte	0
+ 2076 0104 00000000 		.4byte	0
+ 2077              	.LLST10:
+ 2078 0108 00000000 		.4byte	.LVL23
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\cctIS3p0.s 			page 50
+
+
+ 2079 010c 98000000 		.4byte	.LVL49
+ 2080 0110 0100     		.2byte	0x1
+ 2081 0112 50       		.byte	0x50
+ 2082 0113 98000000 		.4byte	.LVL49
+ 2083 0117 C0000000 		.4byte	.LFE8
+ 2084 011b 0400     		.2byte	0x4
+ 2085 011d F3       		.byte	0xf3
+ 2086 011e 01       		.uleb128 0x1
+ 2087 011f 50       		.byte	0x50
+ 2088 0120 9F       		.byte	0x9f
+ 2089 0121 00000000 		.4byte	0
+ 2090 0125 00000000 		.4byte	0
+ 2091              	.LLST11:
+ 2092 0129 00000000 		.4byte	.LVL23
+ 2093 012d 4C000000 		.4byte	.LVL28
+ 2094 0131 0100     		.2byte	0x1
+ 2095 0133 51       		.byte	0x51
+ 2096 0134 4C000000 		.4byte	.LVL28
+ 2097 0138 54000000 		.4byte	.LVL32
+ 2098 013c 0400     		.2byte	0x4
+ 2099 013e F3       		.byte	0xf3
+ 2100 013f 01       		.uleb128 0x1
+ 2101 0140 51       		.byte	0x51
+ 2102 0141 9F       		.byte	0x9f
+ 2103 0142 54000000 		.4byte	.LVL32
+ 2104 0146 56000000 		.4byte	.LVL33
+ 2105 014a 0100     		.2byte	0x1
+ 2106 014c 51       		.byte	0x51
+ 2107 014d 56000000 		.4byte	.LVL33
+ 2108 0151 64000000 		.4byte	.LVL37
+ 2109 0155 0400     		.2byte	0x4
+ 2110 0157 F3       		.byte	0xf3
+ 2111 0158 01       		.uleb128 0x1
+ 2112 0159 51       		.byte	0x51
+ 2113 015a 9F       		.byte	0x9f
+ 2114 015b 64000000 		.4byte	.LVL37
+ 2115 015f 66000000 		.4byte	.LVL38
+ 2116 0163 0100     		.2byte	0x1
+ 2117 0165 51       		.byte	0x51
+ 2118 0166 66000000 		.4byte	.LVL38
+ 2119 016a 74000000 		.4byte	.LVL42
+ 2120 016e 0400     		.2byte	0x4
+ 2121 0170 F3       		.byte	0xf3
+ 2122 0171 01       		.uleb128 0x1
+ 2123 0172 51       		.byte	0x51
+ 2124 0173 9F       		.byte	0x9f
+ 2125 0174 74000000 		.4byte	.LVL42
+ 2126 0178 76000000 		.4byte	.LVL43
+ 2127 017c 0100     		.2byte	0x1
+ 2128 017e 51       		.byte	0x51
+ 2129 017f 76000000 		.4byte	.LVL43
+ 2130 0183 94000000 		.4byte	.LVL47
+ 2131 0187 0400     		.2byte	0x4
+ 2132 0189 F3       		.byte	0xf3
+ 2133 018a 01       		.uleb128 0x1
+ 2134 018b 51       		.byte	0x51
+ 2135 018c 9F       		.byte	0x9f
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\cctIS3p0.s 			page 51
+
+
+ 2136 018d 94000000 		.4byte	.LVL47
+ 2137 0191 96000000 		.4byte	.LVL48
+ 2138 0195 0100     		.2byte	0x1
+ 2139 0197 51       		.byte	0x51
+ 2140 0198 96000000 		.4byte	.LVL48
+ 2141 019c C0000000 		.4byte	.LFE8
+ 2142 01a0 0400     		.2byte	0x4
+ 2143 01a2 F3       		.byte	0xf3
+ 2144 01a3 01       		.uleb128 0x1
+ 2145 01a4 51       		.byte	0x51
+ 2146 01a5 9F       		.byte	0x9f
+ 2147 01a6 00000000 		.4byte	0
+ 2148 01aa 00000000 		.4byte	0
+ 2149              	.LLST12:
+ 2150 01ae 00000000 		.4byte	.LVL23
+ 2151 01b2 50000000 		.4byte	.LVL30
+ 2152 01b6 0100     		.2byte	0x1
+ 2153 01b8 52       		.byte	0x52
+ 2154 01b9 50000000 		.4byte	.LVL30
+ 2155 01bd 54000000 		.4byte	.LVL32
+ 2156 01c1 0400     		.2byte	0x4
+ 2157 01c3 F3       		.byte	0xf3
+ 2158 01c4 01       		.uleb128 0x1
+ 2159 01c5 52       		.byte	0x52
+ 2160 01c6 9F       		.byte	0x9f
+ 2161 01c7 54000000 		.4byte	.LVL32
+ 2162 01cb 5A000000 		.4byte	.LVL35
+ 2163 01cf 0100     		.2byte	0x1
+ 2164 01d1 52       		.byte	0x52
+ 2165 01d2 5A000000 		.4byte	.LVL35
+ 2166 01d6 64000000 		.4byte	.LVL37
+ 2167 01da 0400     		.2byte	0x4
+ 2168 01dc F3       		.byte	0xf3
+ 2169 01dd 01       		.uleb128 0x1
+ 2170 01de 52       		.byte	0x52
+ 2171 01df 9F       		.byte	0x9f
+ 2172 01e0 64000000 		.4byte	.LVL37
+ 2173 01e4 6A000000 		.4byte	.LVL40
+ 2174 01e8 0100     		.2byte	0x1
+ 2175 01ea 52       		.byte	0x52
+ 2176 01eb 6A000000 		.4byte	.LVL40
+ 2177 01ef 74000000 		.4byte	.LVL42
+ 2178 01f3 0400     		.2byte	0x4
+ 2179 01f5 F3       		.byte	0xf3
+ 2180 01f6 01       		.uleb128 0x1
+ 2181 01f7 52       		.byte	0x52
+ 2182 01f8 9F       		.byte	0x9f
+ 2183 01f9 74000000 		.4byte	.LVL42
+ 2184 01fd 8A000000 		.4byte	.LVL45
+ 2185 0201 0100     		.2byte	0x1
+ 2186 0203 52       		.byte	0x52
+ 2187 0204 8A000000 		.4byte	.LVL45
+ 2188 0208 94000000 		.4byte	.LVL47
+ 2189 020c 0400     		.2byte	0x4
+ 2190 020e F3       		.byte	0xf3
+ 2191 020f 01       		.uleb128 0x1
+ 2192 0210 52       		.byte	0x52
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\cctIS3p0.s 			page 52
+
+
+ 2193 0211 9F       		.byte	0x9f
+ 2194 0212 94000000 		.4byte	.LVL47
+ 2195 0216 96000000 		.4byte	.LVL48
+ 2196 021a 0100     		.2byte	0x1
+ 2197 021c 52       		.byte	0x52
+ 2198 021d 96000000 		.4byte	.LVL48
+ 2199 0221 C0000000 		.4byte	.LFE8
+ 2200 0225 0400     		.2byte	0x4
+ 2201 0227 F3       		.byte	0xf3
+ 2202 0228 01       		.uleb128 0x1
+ 2203 0229 52       		.byte	0x52
+ 2204 022a 9F       		.byte	0x9f
+ 2205 022b 00000000 		.4byte	0
+ 2206 022f 00000000 		.4byte	0
+ 2207              	.LLST13:
+ 2208 0233 02000000 		.4byte	.LVL24
+ 2209 0237 14000000 		.4byte	.LVL25
+ 2210 023b 0200     		.2byte	0x2
+ 2211 023d 30       		.byte	0x30
+ 2212 023e 9F       		.byte	0x9f
+ 2213 023f 14000000 		.4byte	.LVL25
+ 2214 0243 AA000000 		.4byte	.LVL52
+ 2215 0247 0100     		.2byte	0x1
+ 2216 0249 54       		.byte	0x54
+ 2217 024a AA000000 		.4byte	.LVL52
+ 2218 024e C0000000 		.4byte	.LFE8
+ 2219 0252 0100     		.2byte	0x1
+ 2220 0254 50       		.byte	0x50
+ 2221 0255 00000000 		.4byte	0
+ 2222 0259 00000000 		.4byte	0
+ 2223              	.LLST14:
+ 2224 025d 34000000 		.4byte	.LVL27
+ 2225 0261 4E000000 		.4byte	.LVL29
+ 2226 0265 0100     		.2byte	0x1
+ 2227 0267 53       		.byte	0x53
+ 2228 0268 52000000 		.4byte	.LVL31
+ 2229 026c 58000000 		.4byte	.LVL34
+ 2230 0270 0100     		.2byte	0x1
+ 2231 0272 53       		.byte	0x53
+ 2232 0273 62000000 		.4byte	.LVL36
+ 2233 0277 68000000 		.4byte	.LVL39
+ 2234 027b 0100     		.2byte	0x1
+ 2235 027d 53       		.byte	0x53
+ 2236 027e 72000000 		.4byte	.LVL41
+ 2237 0282 78000000 		.4byte	.LVL44
+ 2238 0286 0100     		.2byte	0x1
+ 2239 0288 53       		.byte	0x53
+ 2240 0289 92000000 		.4byte	.LVL46
+ 2241 028d A0000000 		.4byte	.LVL50
+ 2242 0291 0100     		.2byte	0x1
+ 2243 0293 53       		.byte	0x53
+ 2244 0294 A0000000 		.4byte	.LVL50
+ 2245 0298 A8000000 		.4byte	.LVL51
+ 2246 029c 0600     		.2byte	0x6
+ 2247 029e 70       		.byte	0x70
+ 2248 029f A0809480 		.sleb128 1074069536
+ 2248      04
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\cctIS3p0.s 			page 53
+
+
+ 2249 02a4 00000000 		.4byte	0
+ 2250 02a8 00000000 		.4byte	0
+ 2251              	.LLST15:
+ 2252 02ac 00000000 		.4byte	.LVL53
+ 2253 02b0 10000000 		.4byte	.LVL54
+ 2254 02b4 0100     		.2byte	0x1
+ 2255 02b6 50       		.byte	0x50
+ 2256 02b7 10000000 		.4byte	.LVL54
+ 2257 02bb 12000000 		.4byte	.LVL55
+ 2258 02bf 0300     		.2byte	0x3
+ 2259 02c1 70       		.byte	0x70
+ 2260 02c2 78       		.sleb128 -8
+ 2261 02c3 9F       		.byte	0x9f
+ 2262 02c4 12000000 		.4byte	.LVL55
+ 2263 02c8 40000000 		.4byte	.LFE9
+ 2264 02cc 0400     		.2byte	0x4
+ 2265 02ce F3       		.byte	0xf3
+ 2266 02cf 01       		.uleb128 0x1
+ 2267 02d0 50       		.byte	0x50
+ 2268 02d1 9F       		.byte	0x9f
+ 2269 02d2 00000000 		.4byte	0
+ 2270 02d6 00000000 		.4byte	0
+ 2271              	.LLST16:
+ 2272 02da 00000000 		.4byte	.LVL53
+ 2273 02de 1C000000 		.4byte	.LVL57
+ 2274 02e2 0100     		.2byte	0x1
+ 2275 02e4 51       		.byte	0x51
+ 2276 02e5 1C000000 		.4byte	.LVL57
+ 2277 02e9 40000000 		.4byte	.LFE9
+ 2278 02ed 0400     		.2byte	0x4
+ 2279 02ef F3       		.byte	0xf3
+ 2280 02f0 01       		.uleb128 0x1
+ 2281 02f1 51       		.byte	0x51
+ 2282 02f2 9F       		.byte	0x9f
+ 2283 02f3 00000000 		.4byte	0
+ 2284 02f7 00000000 		.4byte	0
+ 2285              	.LLST17:
+ 2286 02fb 00000000 		.4byte	.LVL53
+ 2287 02ff 1E000000 		.4byte	.LVL58
+ 2288 0303 0100     		.2byte	0x1
+ 2289 0305 52       		.byte	0x52
+ 2290 0306 1E000000 		.4byte	.LVL58
+ 2291 030a 40000000 		.4byte	.LFE9
+ 2292 030e 0400     		.2byte	0x4
+ 2293 0310 F3       		.byte	0xf3
+ 2294 0311 01       		.uleb128 0x1
+ 2295 0312 52       		.byte	0x52
+ 2296 0313 9F       		.byte	0x9f
+ 2297 0314 00000000 		.4byte	0
+ 2298 0318 00000000 		.4byte	0
+ 2299              	.LLST18:
+ 2300 031c 18000000 		.4byte	.LVL56
+ 2301 0320 34000000 		.4byte	.LVL59
+ 2302 0324 0100     		.2byte	0x1
+ 2303 0326 54       		.byte	0x54
+ 2304 0327 00000000 		.4byte	0
+ 2305 032b 00000000 		.4byte	0
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\cctIS3p0.s 			page 54
+
+
+ 2306              	.LLST19:
+ 2307 032f 00000000 		.4byte	.LVL60
+ 2308 0333 22000000 		.4byte	.LVL63
+ 2309 0337 0100     		.2byte	0x1
+ 2310 0339 50       		.byte	0x50
+ 2311 033a 22000000 		.4byte	.LVL63
+ 2312 033e 3A000000 		.4byte	.LVL67
+ 2313 0342 0400     		.2byte	0x4
+ 2314 0344 F3       		.byte	0xf3
+ 2315 0345 01       		.uleb128 0x1
+ 2316 0346 50       		.byte	0x50
+ 2317 0347 9F       		.byte	0x9f
+ 2318 0348 3A000000 		.4byte	.LVL67
+ 2319 034c 3C000000 		.4byte	.LVL68
+ 2320 0350 0100     		.2byte	0x1
+ 2321 0352 50       		.byte	0x50
+ 2322 0353 3C000000 		.4byte	.LVL68
+ 2323 0357 3E000000 		.4byte	.LVL69
+ 2324 035b 0400     		.2byte	0x4
+ 2325 035d F3       		.byte	0xf3
+ 2326 035e 01       		.uleb128 0x1
+ 2327 035f 50       		.byte	0x50
+ 2328 0360 9F       		.byte	0x9f
+ 2329 0361 3E000000 		.4byte	.LVL69
+ 2330 0365 40000000 		.4byte	.LVL70
+ 2331 0369 0100     		.2byte	0x1
+ 2332 036b 50       		.byte	0x50
+ 2333 036c 40000000 		.4byte	.LVL70
+ 2334 0370 42000000 		.4byte	.LVL71
+ 2335 0374 0400     		.2byte	0x4
+ 2336 0376 F3       		.byte	0xf3
+ 2337 0377 01       		.uleb128 0x1
+ 2338 0378 50       		.byte	0x50
+ 2339 0379 9F       		.byte	0x9f
+ 2340 037a 42000000 		.4byte	.LVL71
+ 2341 037e 44000000 		.4byte	.LVL72
+ 2342 0382 0100     		.2byte	0x1
+ 2343 0384 50       		.byte	0x50
+ 2344 0385 44000000 		.4byte	.LVL72
+ 2345 0389 54000000 		.4byte	.LFE10
+ 2346 038d 0400     		.2byte	0x4
+ 2347 038f F3       		.byte	0xf3
+ 2348 0390 01       		.uleb128 0x1
+ 2349 0391 50       		.byte	0x50
+ 2350 0392 9F       		.byte	0x9f
+ 2351 0393 00000000 		.4byte	0
+ 2352 0397 00000000 		.4byte	0
+ 2353              	.LLST20:
+ 2354 039b 00000000 		.4byte	.LVL60
+ 2355 039f 24000000 		.4byte	.LVL64
+ 2356 03a3 0100     		.2byte	0x1
+ 2357 03a5 51       		.byte	0x51
+ 2358 03a6 24000000 		.4byte	.LVL64
+ 2359 03aa 3A000000 		.4byte	.LVL67
+ 2360 03ae 0400     		.2byte	0x4
+ 2361 03b0 F3       		.byte	0xf3
+ 2362 03b1 01       		.uleb128 0x1
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\cctIS3p0.s 			page 55
+
+
+ 2363 03b2 51       		.byte	0x51
+ 2364 03b3 9F       		.byte	0x9f
+ 2365 03b4 3A000000 		.4byte	.LVL67
+ 2366 03b8 44000000 		.4byte	.LVL72
+ 2367 03bc 0100     		.2byte	0x1
+ 2368 03be 51       		.byte	0x51
+ 2369 03bf 44000000 		.4byte	.LVL72
+ 2370 03c3 54000000 		.4byte	.LFE10
+ 2371 03c7 0400     		.2byte	0x4
+ 2372 03c9 F3       		.byte	0xf3
+ 2373 03ca 01       		.uleb128 0x1
+ 2374 03cb 51       		.byte	0x51
+ 2375 03cc 9F       		.byte	0x9f
+ 2376 03cd 00000000 		.4byte	0
+ 2377 03d1 00000000 		.4byte	0
+ 2378              	.LLST21:
+ 2379 03d5 00000000 		.4byte	.LVL60
+ 2380 03d9 28000000 		.4byte	.LVL65
+ 2381 03dd 0100     		.2byte	0x1
+ 2382 03df 52       		.byte	0x52
+ 2383 03e0 28000000 		.4byte	.LVL65
+ 2384 03e4 3A000000 		.4byte	.LVL67
+ 2385 03e8 0400     		.2byte	0x4
+ 2386 03ea F3       		.byte	0xf3
+ 2387 03eb 01       		.uleb128 0x1
+ 2388 03ec 52       		.byte	0x52
+ 2389 03ed 9F       		.byte	0x9f
+ 2390 03ee 3A000000 		.4byte	.LVL67
+ 2391 03f2 44000000 		.4byte	.LVL72
+ 2392 03f6 0100     		.2byte	0x1
+ 2393 03f8 52       		.byte	0x52
+ 2394 03f9 44000000 		.4byte	.LVL72
+ 2395 03fd 54000000 		.4byte	.LFE10
+ 2396 0401 0400     		.2byte	0x4
+ 2397 0403 F3       		.byte	0xf3
+ 2398 0404 01       		.uleb128 0x1
+ 2399 0405 52       		.byte	0x52
+ 2400 0406 9F       		.byte	0x9f
+ 2401 0407 00000000 		.4byte	0
+ 2402 040b 00000000 		.4byte	0
+ 2403              	.LLST22:
+ 2404 040f 02000000 		.4byte	.LVL61
+ 2405 0413 44000000 		.4byte	.LVL72
+ 2406 0417 0200     		.2byte	0x2
+ 2407 0419 30       		.byte	0x30
+ 2408 041a 9F       		.byte	0x9f
+ 2409 041b 44000000 		.4byte	.LVL72
+ 2410 041f 54000000 		.4byte	.LFE10
+ 2411 0423 0100     		.2byte	0x1
+ 2412 0425 50       		.byte	0x50
+ 2413 0426 00000000 		.4byte	0
+ 2414 042a 00000000 		.4byte	0
+ 2415              	.LLST23:
+ 2416 042e 20000000 		.4byte	.LVL62
+ 2417 0432 2E000000 		.4byte	.LVL66
+ 2418 0436 0100     		.2byte	0x1
+ 2419 0438 53       		.byte	0x53
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\cctIS3p0.s 			page 56
+
+
+ 2420 0439 2E000000 		.4byte	.LVL66
+ 2421 043d 3A000000 		.4byte	.LVL67
+ 2422 0441 0800     		.2byte	0x8
+ 2423 0443 76       		.byte	0x76
+ 2424 0444 00       		.sleb128 0
+ 2425 0445 11       		.byte	0x11
+ 2426 0446 F0E143   		.sleb128 -986896
+ 2427 0449 1A       		.byte	0x1a
+ 2428 044a 9F       		.byte	0x9f
+ 2429 044b 00000000 		.4byte	0
+ 2430 044f 00000000 		.4byte	0
+ 2431              	.LLST24:
+ 2432 0453 00000000 		.4byte	.LVL73
+ 2433 0457 22000000 		.4byte	.LVL76
+ 2434 045b 0100     		.2byte	0x1
+ 2435 045d 50       		.byte	0x50
+ 2436 045e 22000000 		.4byte	.LVL76
+ 2437 0462 2C000000 		.4byte	.LVL78
+ 2438 0466 0400     		.2byte	0x4
+ 2439 0468 F3       		.byte	0xf3
+ 2440 0469 01       		.uleb128 0x1
+ 2441 046a 50       		.byte	0x50
+ 2442 046b 9F       		.byte	0x9f
+ 2443 046c 2C000000 		.4byte	.LVL78
+ 2444 0470 34000000 		.4byte	.LVL80
+ 2445 0474 0100     		.2byte	0x1
+ 2446 0476 50       		.byte	0x50
+ 2447 0477 34000000 		.4byte	.LVL80
+ 2448 047b 3E000000 		.4byte	.LVL82
+ 2449 047f 0400     		.2byte	0x4
+ 2450 0481 F3       		.byte	0xf3
+ 2451 0482 01       		.uleb128 0x1
+ 2452 0483 50       		.byte	0x50
+ 2453 0484 9F       		.byte	0x9f
+ 2454 0485 3E000000 		.4byte	.LVL82
+ 2455 0489 44000000 		.4byte	.LVL84
+ 2456 048d 0100     		.2byte	0x1
+ 2457 048f 50       		.byte	0x50
+ 2458 0490 44000000 		.4byte	.LVL84
+ 2459 0494 5A000000 		.4byte	.LVL87
+ 2460 0498 0400     		.2byte	0x4
+ 2461 049a F3       		.byte	0xf3
+ 2462 049b 01       		.uleb128 0x1
+ 2463 049c 50       		.byte	0x50
+ 2464 049d 9F       		.byte	0x9f
+ 2465 049e 5A000000 		.4byte	.LVL87
+ 2466 04a2 5C000000 		.4byte	.LVL88
+ 2467 04a6 0100     		.2byte	0x1
+ 2468 04a8 50       		.byte	0x50
+ 2469 04a9 5C000000 		.4byte	.LVL88
+ 2470 04ad 84000000 		.4byte	.LFE11
+ 2471 04b1 0400     		.2byte	0x4
+ 2472 04b3 F3       		.byte	0xf3
+ 2473 04b4 01       		.uleb128 0x1
+ 2474 04b5 50       		.byte	0x50
+ 2475 04b6 9F       		.byte	0x9f
+ 2476 04b7 00000000 		.4byte	0
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\cctIS3p0.s 			page 57
+
+
+ 2477 04bb 00000000 		.4byte	0
+ 2478              	.LLST25:
+ 2479 04bf 00000000 		.4byte	.LVL73
+ 2480 04c3 4E000000 		.4byte	.LVL85
+ 2481 04c7 0100     		.2byte	0x1
+ 2482 04c9 51       		.byte	0x51
+ 2483 04ca 4E000000 		.4byte	.LVL85
+ 2484 04ce 5A000000 		.4byte	.LVL87
+ 2485 04d2 0400     		.2byte	0x4
+ 2486 04d4 F3       		.byte	0xf3
+ 2487 04d5 01       		.uleb128 0x1
+ 2488 04d6 51       		.byte	0x51
+ 2489 04d7 9F       		.byte	0x9f
+ 2490 04d8 5A000000 		.4byte	.LVL87
+ 2491 04dc 5C000000 		.4byte	.LVL88
+ 2492 04e0 0100     		.2byte	0x1
+ 2493 04e2 51       		.byte	0x51
+ 2494 04e3 5C000000 		.4byte	.LVL88
+ 2495 04e7 84000000 		.4byte	.LFE11
+ 2496 04eb 0400     		.2byte	0x4
+ 2497 04ed F3       		.byte	0xf3
+ 2498 04ee 01       		.uleb128 0x1
+ 2499 04ef 51       		.byte	0x51
+ 2500 04f0 9F       		.byte	0x9f
+ 2501 04f1 00000000 		.4byte	0
+ 2502 04f5 00000000 		.4byte	0
+ 2503              	.LLST26:
+ 2504 04f9 00000000 		.4byte	.LVL73
+ 2505 04fd 5C000000 		.4byte	.LVL88
+ 2506 0501 0200     		.2byte	0x2
+ 2507 0503 30       		.byte	0x30
+ 2508 0504 9F       		.byte	0x9f
+ 2509 0505 5C000000 		.4byte	.LVL88
+ 2510 0509 84000000 		.4byte	.LFE11
+ 2511 050d 0100     		.2byte	0x1
+ 2512 050f 50       		.byte	0x50
+ 2513 0510 00000000 		.4byte	0
+ 2514 0514 00000000 		.4byte	0
+ 2515              	.LLST27:
+ 2516 0518 0E000000 		.4byte	.LVL74
+ 2517 051c 20000000 		.4byte	.LVL75
+ 2518 0520 0100     		.2byte	0x1
+ 2519 0522 53       		.byte	0x53
+ 2520 0523 28000000 		.4byte	.LVL77
+ 2521 0527 32000000 		.4byte	.LVL79
+ 2522 052b 0100     		.2byte	0x1
+ 2523 052d 53       		.byte	0x53
+ 2524 052e 3A000000 		.4byte	.LVL81
+ 2525 0532 42000000 		.4byte	.LVL83
+ 2526 0536 0100     		.2byte	0x1
+ 2527 0538 53       		.byte	0x53
+ 2528 0539 56000000 		.4byte	.LVL86
+ 2529 053d 64000000 		.4byte	.LVL89
+ 2530 0541 0100     		.2byte	0x1
+ 2531 0543 53       		.byte	0x53
+ 2532 0544 64000000 		.4byte	.LVL89
+ 2533 0548 6C000000 		.4byte	.LVL90
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\cctIS3p0.s 			page 58
+
+
+ 2534 054c 0500     		.2byte	0x5
+ 2535 054e 0C       		.byte	0xc
+ 2536 054f C0000540 		.4byte	0x400500c0
+ 2537 0553 00000000 		.4byte	0
+ 2538 0557 00000000 		.4byte	0
+ 2539              	.LLST28:
+ 2540 055b 00000000 		.4byte	.LVL91
+ 2541 055f 1E000000 		.4byte	.LVL92
+ 2542 0563 0100     		.2byte	0x1
+ 2543 0565 50       		.byte	0x50
+ 2544 0566 1E000000 		.4byte	.LVL92
+ 2545 056a 20000000 		.4byte	.LVL93
+ 2546 056e 0400     		.2byte	0x4
+ 2547 0570 F3       		.byte	0xf3
+ 2548 0571 01       		.uleb128 0x1
+ 2549 0572 50       		.byte	0x50
+ 2550 0573 9F       		.byte	0x9f
+ 2551 0574 20000000 		.4byte	.LVL93
+ 2552 0578 22000000 		.4byte	.LVL94
+ 2553 057c 0100     		.2byte	0x1
+ 2554 057e 50       		.byte	0x50
+ 2555 057f 22000000 		.4byte	.LVL94
+ 2556 0583 2C000000 		.4byte	.LFE12
+ 2557 0587 0400     		.2byte	0x4
+ 2558 0589 F3       		.byte	0xf3
+ 2559 058a 01       		.uleb128 0x1
+ 2560 058b 50       		.byte	0x50
+ 2561 058c 9F       		.byte	0x9f
+ 2562 058d 00000000 		.4byte	0
+ 2563 0591 00000000 		.4byte	0
+ 2564              	.LLST29:
+ 2565 0595 00000000 		.4byte	.LVL91
+ 2566 0599 22000000 		.4byte	.LVL94
+ 2567 059d 0200     		.2byte	0x2
+ 2568 059f 30       		.byte	0x30
+ 2569 05a0 9F       		.byte	0x9f
+ 2570 05a1 22000000 		.4byte	.LVL94
+ 2571 05a5 2C000000 		.4byte	.LFE12
+ 2572 05a9 0100     		.2byte	0x1
+ 2573 05ab 50       		.byte	0x50
+ 2574 05ac 00000000 		.4byte	0
+ 2575 05b0 00000000 		.4byte	0
+ 2576              	.LLST30:
+ 2577 05b4 00000000 		.4byte	.LVL95
+ 2578 05b8 18000000 		.4byte	.LVL97
+ 2579 05bc 0100     		.2byte	0x1
+ 2580 05be 50       		.byte	0x50
+ 2581 05bf 18000000 		.4byte	.LVL97
+ 2582 05c3 2C000000 		.4byte	.LVL99
+ 2583 05c7 0400     		.2byte	0x4
+ 2584 05c9 F3       		.byte	0xf3
+ 2585 05ca 01       		.uleb128 0x1
+ 2586 05cb 50       		.byte	0x50
+ 2587 05cc 9F       		.byte	0x9f
+ 2588 05cd 2C000000 		.4byte	.LVL99
+ 2589 05d1 2E000000 		.4byte	.LVL100
+ 2590 05d5 0100     		.2byte	0x1
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\cctIS3p0.s 			page 59
+
+
+ 2591 05d7 50       		.byte	0x50
+ 2592 05d8 2E000000 		.4byte	.LVL100
+ 2593 05dc 30000000 		.4byte	.LVL101
+ 2594 05e0 0300     		.2byte	0x3
+ 2595 05e2 73       		.byte	0x73
+ 2596 05e3 01       		.sleb128 1
+ 2597 05e4 9F       		.byte	0x9f
+ 2598 05e5 30000000 		.4byte	.LVL101
+ 2599 05e9 32000000 		.4byte	.LVL102
+ 2600 05ed 0100     		.2byte	0x1
+ 2601 05ef 50       		.byte	0x50
+ 2602 05f0 32000000 		.4byte	.LVL102
+ 2603 05f4 3C000000 		.4byte	.LFE13
+ 2604 05f8 0400     		.2byte	0x4
+ 2605 05fa F3       		.byte	0xf3
+ 2606 05fb 01       		.uleb128 0x1
+ 2607 05fc 50       		.byte	0x50
+ 2608 05fd 9F       		.byte	0x9f
+ 2609 05fe 00000000 		.4byte	0
+ 2610 0602 00000000 		.4byte	0
+ 2611              	.LLST31:
+ 2612 0606 00000000 		.4byte	.LVL95
+ 2613 060a 16000000 		.4byte	.LVL96
+ 2614 060e 0100     		.2byte	0x1
+ 2615 0610 51       		.byte	0x51
+ 2616 0611 16000000 		.4byte	.LVL96
+ 2617 0615 22000000 		.4byte	.LVL98
+ 2618 0619 0300     		.2byte	0x3
+ 2619 061b 71       		.byte	0x71
+ 2620 061c 01       		.sleb128 1
+ 2621 061d 9F       		.byte	0x9f
+ 2622 061e 22000000 		.4byte	.LVL98
+ 2623 0622 2C000000 		.4byte	.LVL99
+ 2624 0626 0400     		.2byte	0x4
+ 2625 0628 F3       		.byte	0xf3
+ 2626 0629 01       		.uleb128 0x1
+ 2627 062a 51       		.byte	0x51
+ 2628 062b 9F       		.byte	0x9f
+ 2629 062c 2C000000 		.4byte	.LVL99
+ 2630 0630 32000000 		.4byte	.LVL102
+ 2631 0634 0100     		.2byte	0x1
+ 2632 0636 51       		.byte	0x51
+ 2633 0637 32000000 		.4byte	.LVL102
+ 2634 063b 3C000000 		.4byte	.LFE13
+ 2635 063f 0400     		.2byte	0x4
+ 2636 0641 F3       		.byte	0xf3
+ 2637 0642 01       		.uleb128 0x1
+ 2638 0643 51       		.byte	0x51
+ 2639 0644 9F       		.byte	0x9f
+ 2640 0645 00000000 		.4byte	0
+ 2641 0649 00000000 		.4byte	0
+ 2642              	.LLST32:
+ 2643 064d 00000000 		.4byte	.LVL95
+ 2644 0651 32000000 		.4byte	.LVL102
+ 2645 0655 0200     		.2byte	0x2
+ 2646 0657 30       		.byte	0x30
+ 2647 0658 9F       		.byte	0x9f
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\cctIS3p0.s 			page 60
+
+
+ 2648 0659 32000000 		.4byte	.LVL102
+ 2649 065d 3C000000 		.4byte	.LFE13
+ 2650 0661 0100     		.2byte	0x1
+ 2651 0663 50       		.byte	0x50
+ 2652 0664 00000000 		.4byte	0
+ 2653 0668 00000000 		.4byte	0
+ 2654              		.section	.debug_aranges,"",%progbits
+ 2655 0000 84000000 		.4byte	0x84
+ 2656 0004 0200     		.2byte	0x2
+ 2657 0006 00000000 		.4byte	.Ldebug_info0
+ 2658 000a 04       		.byte	0x4
+ 2659 000b 00       		.byte	0
+ 2660 000c 0000     		.2byte	0
+ 2661 000e 0000     		.2byte	0
+ 2662 0010 00000000 		.4byte	.LFB0
+ 2663 0014 80000000 		.4byte	.LFE0-.LFB0
+ 2664 0018 00000000 		.4byte	.LFB1
+ 2665 001c 48000000 		.4byte	.LFE1-.LFB1
+ 2666 0020 00000000 		.4byte	.LFB2
+ 2667 0024 34000000 		.4byte	.LFE2-.LFB2
+ 2668 0028 00000000 		.4byte	.LFB3
+ 2669 002c 28000000 		.4byte	.LFE3-.LFB3
+ 2670 0030 00000000 		.4byte	.LFB4
+ 2671 0034 30000000 		.4byte	.LFE4-.LFB4
+ 2672 0038 00000000 		.4byte	.LFB5
+ 2673 003c 3C000000 		.4byte	.LFE5-.LFB5
+ 2674 0040 00000000 		.4byte	.LFB6
+ 2675 0044 30000000 		.4byte	.LFE6-.LFB6
+ 2676 0048 00000000 		.4byte	.LFB7
+ 2677 004c 34000000 		.4byte	.LFE7-.LFB7
+ 2678 0050 00000000 		.4byte	.LFB8
+ 2679 0054 C0000000 		.4byte	.LFE8-.LFB8
+ 2680 0058 00000000 		.4byte	.LFB9
+ 2681 005c 40000000 		.4byte	.LFE9-.LFB9
+ 2682 0060 00000000 		.4byte	.LFB10
+ 2683 0064 54000000 		.4byte	.LFE10-.LFB10
+ 2684 0068 00000000 		.4byte	.LFB11
+ 2685 006c 84000000 		.4byte	.LFE11-.LFB11
+ 2686 0070 00000000 		.4byte	.LFB12
+ 2687 0074 2C000000 		.4byte	.LFE12-.LFB12
+ 2688 0078 00000000 		.4byte	.LFB13
+ 2689 007c 3C000000 		.4byte	.LFE13-.LFB13
+ 2690 0080 00000000 		.4byte	0
+ 2691 0084 00000000 		.4byte	0
+ 2692              		.section	.debug_ranges,"",%progbits
+ 2693              	.Ldebug_ranges0:
+ 2694 0000 00000000 		.4byte	.LFB0
+ 2695 0004 80000000 		.4byte	.LFE0
+ 2696 0008 00000000 		.4byte	.LFB1
+ 2697 000c 48000000 		.4byte	.LFE1
+ 2698 0010 00000000 		.4byte	.LFB2
+ 2699 0014 34000000 		.4byte	.LFE2
+ 2700 0018 00000000 		.4byte	.LFB3
+ 2701 001c 28000000 		.4byte	.LFE3
+ 2702 0020 00000000 		.4byte	.LFB4
+ 2703 0024 30000000 		.4byte	.LFE4
+ 2704 0028 00000000 		.4byte	.LFB5
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\cctIS3p0.s 			page 61
+
+
+ 2705 002c 3C000000 		.4byte	.LFE5
+ 2706 0030 00000000 		.4byte	.LFB6
+ 2707 0034 30000000 		.4byte	.LFE6
+ 2708 0038 00000000 		.4byte	.LFB7
+ 2709 003c 34000000 		.4byte	.LFE7
+ 2710 0040 00000000 		.4byte	.LFB8
+ 2711 0044 C0000000 		.4byte	.LFE8
+ 2712 0048 00000000 		.4byte	.LFB9
+ 2713 004c 40000000 		.4byte	.LFE9
+ 2714 0050 00000000 		.4byte	.LFB10
+ 2715 0054 54000000 		.4byte	.LFE10
+ 2716 0058 00000000 		.4byte	.LFB11
+ 2717 005c 84000000 		.4byte	.LFE11
+ 2718 0060 00000000 		.4byte	.LFB12
+ 2719 0064 2C000000 		.4byte	.LFE12
+ 2720 0068 00000000 		.4byte	.LFB13
+ 2721 006c 3C000000 		.4byte	.LFE13
+ 2722 0070 00000000 		.4byte	0
+ 2723 0074 00000000 		.4byte	0
+ 2724              		.section	.debug_line,"",%progbits
+ 2725              	.Ldebug_line0:
+ 2726 0000 15030000 		.section	.debug_str,"MS",%progbits,1
+ 2726      02005A01 
+ 2726      00000201 
+ 2726      FB0E0D00 
+ 2726      01010101 
+ 2727              	.LASF47:
+ 2728 0000 64617461 		.ascii	"dataNum\000"
+ 2728      4E756D00 
+ 2729              	.LASF2:
+ 2730 0008 73686F72 		.ascii	"short int\000"
+ 2730      7420696E 
+ 2730      7400
+ 2731              	.LASF20:
+ 2732 0012 73697A65 		.ascii	"sizetype\000"
+ 2732      74797065 
+ 2732      00
+ 2733              	.LASF55:
+ 2734 001b 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
+ 2734      43313120 
+ 2734      352E342E 
+ 2734      31203230 
+ 2734      31363036 
+ 2735 004e 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m0plus -mthumb -"
+ 2735      20726576 
+ 2735      6973696F 
+ 2735      6E203233 
+ 2735      37373135 
+ 2736 0081 67202D4F 		.ascii	"g -Og -ffunction-sections -ffat-lto-objects\000"
+ 2736      67202D66 
+ 2736      66756E63 
+ 2736      74696F6E 
+ 2736      2D736563 
+ 2737              	.LASF23:
+ 2738 00ad 536D6172 		.ascii	"SmartIO_Port2_Stop\000"
+ 2738      74494F5F 
+ 2738      506F7274 
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\cctIS3p0.s 			page 62
+
+
+ 2738      325F5374 
+ 2738      6F7000
+ 2739              	.LASF9:
+ 2740 00c0 5F5F7569 		.ascii	"__uint32_t\000"
+ 2740      6E743332 
+ 2740      5F7400
+ 2741              	.LASF57:
+ 2742 00cb 433A5C55 		.ascii	"C:\\Users\\michael.machate\\Desktop\\CY8CKIT-145 Co"
+ 2742      73657273 
+ 2742      5C6D6963 
+ 2742      6861656C 
+ 2742      2E6D6163 
+ 2743 00fa 64652045 		.ascii	"de Example\\CE210709_CapSense_Linear_Slider_and_But"
+ 2743      78616D70 
+ 2743      6C655C43 
+ 2743      45323130 
+ 2743      3730395F 
+ 2744 012c 746F6E73 		.ascii	"tons\\CE210709_CapSense_Linear_Slider_and_Buttons.c"
+ 2744      5C434532 
+ 2744      31303730 
+ 2744      395F4361 
+ 2744      7053656E 
+ 2745 015e 7964736E 		.ascii	"ydsn\000"
+ 2745      00
+ 2746              	.LASF29:
+ 2747 0163 536D6172 		.ascii	"SmartIO_Port2_HoldOverride\000"
+ 2747      74494F5F 
+ 2747      506F7274 
+ 2747      325F486F 
+ 2747      6C644F76 
+ 2748              	.LASF38:
+ 2749 017e 536D6172 		.ascii	"SmartIO_Port2_LUT_ConfigureMode\000"
+ 2749      74494F5F 
+ 2749      506F7274 
+ 2749      325F4C55 
+ 2749      545F436F 
+ 2750              	.LASF30:
+ 2751 019e 6F764374 		.ascii	"ovCtrl\000"
+ 2751      726C00
+ 2752              	.LASF28:
+ 2753 01a5 636C6F63 		.ascii	"clockSrc\000"
+ 2753      6B537263 
+ 2753      00
+ 2754              	.LASF37:
+ 2755 01ae 63616C6C 		.ascii	"callStatus\000"
+ 2755      53746174 
+ 2755      757300
+ 2756              	.LASF46:
+ 2757 01b9 536D6172 		.ascii	"SmartIO_Port2_DU_SelectData\000"
+ 2757      74494F5F 
+ 2757      506F7274 
+ 2757      325F4455 
+ 2757      5F53656C 
+ 2758              	.LASF53:
+ 2759 01d5 64617461 		.ascii	"dataSize\000"
+ 2759      53697A65 
+ 2759      00
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\cctIS3p0.s 			page 63
+
+
+ 2760              	.LASF43:
+ 2761 01de 74723053 		.ascii	"tr0Sel\000"
+ 2761      656C00
+ 2762              	.LASF32:
+ 2763 01e5 706F7274 		.ascii	"portTerm\000"
+ 2763      5465726D 
+ 2763      00
+ 2764              	.LASF11:
+ 2765 01ee 75696E74 		.ascii	"uint8\000"
+ 2765      3800
+ 2766              	.LASF50:
+ 2767 01f4 64617461 		.ascii	"dataValue\000"
+ 2767      56616C75 
+ 2767      6500
+ 2768              	.LASF31:
+ 2769 01fe 536D6172 		.ascii	"SmartIO_Port2_IoSyncMode\000"
+ 2769      74494F5F 
+ 2769      506F7274 
+ 2769      325F496F 
+ 2769      53796E63 
+ 2770              	.LASF13:
+ 2771 0217 666C6F61 		.ascii	"float\000"
+ 2771      7400
+ 2772              	.LASF33:
+ 2773 021d 536D6172 		.ascii	"SmartIO_Port2_ChipSyncMode\000"
+ 2773      74494F5F 
+ 2773      506F7274 
+ 2773      325F4368 
+ 2773      69705379 
+ 2774              	.LASF6:
+ 2775 0238 6C6F6E67 		.ascii	"long long int\000"
+ 2775      206C6F6E 
+ 2775      6720696E 
+ 2775      7400
+ 2776              	.LASF4:
+ 2777 0246 6C6F6E67 		.ascii	"long int\000"
+ 2777      20696E74 
+ 2777      00
+ 2778              	.LASF35:
+ 2779 024f 696E7075 		.ascii	"inputNum\000"
+ 2779      744E756D 
+ 2779      00
+ 2780              	.LASF39:
+ 2781 0258 6D617070 		.ascii	"mapping\000"
+ 2781      696E6700 
+ 2782              	.LASF24:
+ 2783 0260 72656756 		.ascii	"regVal\000"
+ 2783      616C00
+ 2784              	.LASF22:
+ 2785 0267 536D6172 		.ascii	"SmartIO_Port2_Start\000"
+ 2785      74494F5F 
+ 2785      506F7274 
+ 2785      325F5374 
+ 2785      61727400 
+ 2786              	.LASF41:
+ 2787 027b 536D6172 		.ascii	"SmartIO_Port2_LUT_SelectInputs\000"
+ 2787      74494F5F 
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\cctIS3p0.s 			page 64
+
+
+ 2787      506F7274 
+ 2787      325F4C55 
+ 2787      545F5365 
+ 2788              	.LASF1:
+ 2789 029a 756E7369 		.ascii	"unsigned char\000"
+ 2789      676E6564 
+ 2789      20636861 
+ 2789      7200
+ 2790              	.LASF44:
+ 2791 02a8 74723153 		.ascii	"tr1Sel\000"
+ 2791      656C00
+ 2792              	.LASF49:
+ 2793 02af 536D6172 		.ascii	"SmartIO_Port2_DU_RegValue\000"
+ 2793      74494F5F 
+ 2793      506F7274 
+ 2793      325F4455 
+ 2793      5F526567 
+ 2794              	.LASF0:
+ 2795 02c9 7369676E 		.ascii	"signed char\000"
+ 2795      65642063 
+ 2795      68617200 
+ 2796              	.LASF48:
+ 2797 02d5 64617461 		.ascii	"dataSel\000"
+ 2797      53656C00 
+ 2798              	.LASF7:
+ 2799 02dd 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 2799      206C6F6E 
+ 2799      6720756E 
+ 2799      7369676E 
+ 2799      65642069 
+ 2800              	.LASF10:
+ 2801 02f4 75696E74 		.ascii	"uint32_t\000"
+ 2801      33325F74 
+ 2801      00
+ 2802              	.LASF8:
+ 2803 02fd 756E7369 		.ascii	"unsigned int\000"
+ 2803      676E6564 
+ 2803      20696E74 
+ 2803      00
+ 2804              	.LASF17:
+ 2805 030a 72656733 		.ascii	"reg32\000"
+ 2805      3200
+ 2806              	.LASF3:
+ 2807 0310 73686F72 		.ascii	"short unsigned int\000"
+ 2807      7420756E 
+ 2807      7369676E 
+ 2807      65642069 
+ 2807      6E7400
+ 2808              	.LASF15:
+ 2809 0323 63686172 		.ascii	"char\000"
+ 2809      00
+ 2810              	.LASF16:
+ 2811 0328 63797374 		.ascii	"cystatus\000"
+ 2811      61747573 
+ 2811      00
+ 2812              	.LASF21:
+ 2813 0331 536D6172 		.ascii	"SmartIO_Port2_lut_config_struct\000"
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\cctIS3p0.s 			page 65
+
+
+ 2813      74494F5F 
+ 2813      506F7274 
+ 2813      325F6C75 
+ 2813      745F636F 
+ 2814              	.LASF34:
+ 2815 0351 6C75744E 		.ascii	"lutNum\000"
+ 2815      756D00
+ 2816              	.LASF40:
+ 2817 0358 6D6F6465 		.ascii	"mode\000"
+ 2817      00
+ 2818              	.LASF42:
+ 2819 035d 536D6172 		.ascii	"SmartIO_Port2_DU_SelectTriggers\000"
+ 2819      74494F5F 
+ 2819      506F7274 
+ 2819      325F4455 
+ 2819      5F53656C 
+ 2820              	.LASF27:
+ 2821 037d 706F7274 		.ascii	"portChannel\000"
+ 2821      4368616E 
+ 2821      6E656C00 
+ 2822              	.LASF12:
+ 2823 0389 75696E74 		.ascii	"uint32\000"
+ 2823      333200
+ 2824              	.LASF45:
+ 2825 0390 74723253 		.ascii	"tr2Sel\000"
+ 2825      656C00
+ 2826              	.LASF5:
+ 2827 0397 6C6F6E67 		.ascii	"long unsigned int\000"
+ 2827      20756E73 
+ 2827      69676E65 
+ 2827      6420696E 
+ 2827      7400
+ 2828              	.LASF14:
+ 2829 03a9 646F7562 		.ascii	"double\000"
+ 2829      6C6500
+ 2830              	.LASF58:
+ 2831 03b0 536D6172 		.ascii	"SmartIO_Port2_Init\000"
+ 2831      74494F5F 
+ 2831      506F7274 
+ 2831      325F496E 
+ 2831      697400
+ 2832              	.LASF19:
+ 2833 03c3 6C757443 		.ascii	"lutCtl\000"
+ 2833      746C00
+ 2834              	.LASF26:
+ 2835 03ca 536D6172 		.ascii	"SmartIO_Port2_ClockSelect\000"
+ 2835      74494F5F 
+ 2835      506F7274 
+ 2835      325F436C 
+ 2835      6F636B53 
+ 2836              	.LASF59:
+ 2837 03e4 536D6172 		.ascii	"SmartIO_Port2_initVar\000"
+ 2837      74494F5F 
+ 2837      506F7274 
+ 2837      325F696E 
+ 2837      69745661 
+ 2838              	.LASF56:
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\cctIS3p0.s 			page 66
+
+
+ 2839 03fa 47656E65 		.ascii	"Generated_Source\\PSoC4\\SmartIO_Port2.c\000"
+ 2839      72617465 
+ 2839      645F536F 
+ 2839      75726365 
+ 2839      5C50536F 
+ 2840              	.LASF18:
+ 2841 0421 6C757453 		.ascii	"lutSel\000"
+ 2841      656C00
+ 2842              	.LASF52:
+ 2843 0428 6F70436F 		.ascii	"opCode\000"
+ 2843      646500
+ 2844              	.LASF54:
+ 2845 042f 536D6172 		.ascii	"SmartIO_Port2_clkConfig\000"
+ 2845      74494F5F 
+ 2845      506F7274 
+ 2845      325F636C 
+ 2845      6B436F6E 
+ 2846              	.LASF51:
+ 2847 0447 536D6172 		.ascii	"SmartIO_Port2_DU_OpCode\000"
+ 2847      74494F5F 
+ 2847      506F7274 
+ 2847      325F4455 
+ 2847      5F4F7043 
+ 2848              	.LASF25:
+ 2849 045f 536D6172 		.ascii	"SmartIO_Port2_SetBypass\000"
+ 2849      74494F5F 
+ 2849      506F7274 
+ 2849      325F5365 
+ 2849      74427970 
+ 2850              	.LASF36:
+ 2851 0477 696E7075 		.ascii	"inputSrc\000"
+ 2851      74537263 
+ 2851      00
+ 2852              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran
