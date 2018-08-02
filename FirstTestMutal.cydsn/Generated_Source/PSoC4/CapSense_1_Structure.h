@@ -181,14 +181,6 @@ typedef struct
     CapSense_1_LOW_BSLN_RST_TYPE lowBslnRst;
 
     /**
-     *  Specifies the sense clock divider. Present only if individual 
-     *  clock dividers are enabled. Specifies the sense clock divider 
-     *  for the Column sensors for the Matrix Buttons and Touchpad 
-     *  widgets. Sets Tx clock divider for CSX Widgets.
-     */
-    uint16 snsClk;
-
-    /**
      *  Register for internal use
      */
     uint8  snsClkSource;
@@ -237,14 +229,6 @@ typedef struct
      *  Threshold to trigger a baseline reset.
      */
     CapSense_1_LOW_BSLN_RST_TYPE lowBslnRst;
-
-    /**
-     *  Specifies the sense clock divider. Present only if individual 
-     *  clock dividers are enabled. Specifies the sense clock divider 
-     *  for the Column sensors for the Matrix Buttons and Touchpad 
-     *  widgets. Sets Tx clock divider for CSX Widgets.
-     */
-    uint16 snsClk;
 
     /**
      *  Register for internal use
@@ -442,6 +426,11 @@ typedef struct
      *  The modulator clock divider for the CSX widgets.
      */
     uint8  modCsxClk;
+
+    /**
+     *  Global sense clock divider for the CSX widgets.
+     */
+    uint16 snsCsxClk;
 
     /**
      *  RAM Widget Objects.

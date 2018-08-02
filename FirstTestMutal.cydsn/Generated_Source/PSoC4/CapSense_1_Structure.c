@@ -344,7 +344,6 @@ const CapSense_1_RAM_WD_LIST_STRUCT CapSense_1_ramWidgetInit =
         CapSense_1_BUTTON0_HYSTERESIS,
         CapSense_1_BUTTON0_ON_DEBOUNCE,
         CapSense_1_BUTTON0_LOW_BSLN_RST,
-        CapSense_1_BUTTON0_SNS_CLK,
         CapSense_1_BUTTON0_SNS_CLK_SOURCE,
     },
     { /* Button1 */
@@ -355,7 +354,6 @@ const CapSense_1_RAM_WD_LIST_STRUCT CapSense_1_ramWidgetInit =
         CapSense_1_BUTTON1_HYSTERESIS,
         CapSense_1_BUTTON1_ON_DEBOUNCE,
         CapSense_1_BUTTON1_LOW_BSLN_RST,
-        CapSense_1_BUTTON1_SNS_CLK,
         CapSense_1_BUTTON1_SNS_CLK_SOURCE,
     },
     { /* Button2 */
@@ -366,7 +364,6 @@ const CapSense_1_RAM_WD_LIST_STRUCT CapSense_1_ramWidgetInit =
         CapSense_1_BUTTON2_HYSTERESIS,
         CapSense_1_BUTTON2_ON_DEBOUNCE,
         CapSense_1_BUTTON2_LOW_BSLN_RST,
-        CapSense_1_BUTTON2_SNS_CLK,
         CapSense_1_BUTTON2_SNS_CLK_SOURCE,
     },
     { /* Button3 */
@@ -377,7 +374,6 @@ const CapSense_1_RAM_WD_LIST_STRUCT CapSense_1_ramWidgetInit =
         CapSense_1_BUTTON3_HYSTERESIS,
         CapSense_1_BUTTON3_ON_DEBOUNCE,
         CapSense_1_BUTTON3_LOW_BSLN_RST,
-        CapSense_1_BUTTON3_SNS_CLK,
         CapSense_1_BUTTON3_SNS_CLK_SOURCE,
     },
     { /* Button4 */
@@ -388,7 +384,6 @@ const CapSense_1_RAM_WD_LIST_STRUCT CapSense_1_ramWidgetInit =
         CapSense_1_BUTTON4_HYSTERESIS,
         CapSense_1_BUTTON4_ON_DEBOUNCE,
         CapSense_1_BUTTON4_LOW_BSLN_RST,
-        CapSense_1_BUTTON4_SNS_CLK,
         CapSense_1_BUTTON4_SNS_CLK_SOURCE,
     },
     { /* Button5 */
@@ -399,7 +394,6 @@ const CapSense_1_RAM_WD_LIST_STRUCT CapSense_1_ramWidgetInit =
         CapSense_1_BUTTON5_HYSTERESIS,
         CapSense_1_BUTTON5_ON_DEBOUNCE,
         CapSense_1_BUTTON5_LOW_BSLN_RST,
-        CapSense_1_BUTTON5_SNS_CLK,
         CapSense_1_BUTTON5_SNS_CLK_SOURCE,
     },
 };
