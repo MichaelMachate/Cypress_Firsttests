@@ -1,0 +1,6 @@
+C:\Users\michael.machate\Desktop\Mutal\FirstTestMutal.cydsn\FirstTestMutal.cyprj|831075a3-76a3-483a-9845-e6bbcc06bb10
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|785e1779-9a23-4c25-9fc5-16afa5006533
+C:\Users\michael.machate\Documents\PSoC Creator\4.2\Downloads ( 4.2).cylib\Downloads ( 4.2).cyprj|e48777b3-0cf6-454a-8382-1c4bc3954a80
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|f2395fd2-1458-4ace-b481-8aa194736b95
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|8a3fdac9-65a3-4914-8612-a0288eed61af
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|f48ed89a-e42c-4e18-9882-480a8d631384
