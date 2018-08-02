@@ -1,0 +1,8 @@
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\dev\psoc4\PSoC4AnalogDevice\psoc4arch.cydsn\psoc4arch.cyprj|52bbbbb0-ecaf-4282-b04e-e451e925e8c6
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|10f26724-53d9-4d3c-b3b7-cfeec595d728
+C:\Users\michael.machate\Documents\PSoC Creator\4.2\Downloads ( 4.2).cylib\Downloads ( 4.2).cyprj|db3788a2-c986-46f6-9b29-1372ec6681f4
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|38cb4a2d-7574-46dc-863c-4f7af15ffeee
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|88d292f1-1cc9-4c19-b3a8-56aa30a63920
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|71374c6c-d085-4f7a-abf0-346c5ef09a0d
+Z:\Transfer\Jan\FirstTest.cydsn\FirstTest.cyprj|09735e2f-d80b-4c2f-969e-87c3b10c8077
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\default\CyReferenceLibrary\CyReferenceLibrary.cylib\CyReferenceLibrary.cyprj|2ad5a491-1c4e-4cf3-be65-3aba8531c7c8
