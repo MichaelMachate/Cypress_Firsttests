@@ -1,5 +1,5 @@
 -- Project:   FirstTestMutal
--- Generated: 08/02/2018 16:25:36
+-- Generated: 08/02/2018 16:51:20
 -- PSoC Creator  4.2
 
 ENTITY FirstTestMutal IS
@@ -127,11 +127,11 @@ ARCHITECTURE __DEFAULT__ OF FirstTestMutal IS
     ATTRIBUTE Location OF \CapSense_1:CintA(0)\ : LABEL IS "P4[2]";
     ATTRIBUTE Location OF \CapSense_1:CintB(0)\ : LABEL IS "P4[3]";
     ATTRIBUTE Location OF \CapSense_1:Tx(0)\ : LABEL IS "P0[7]";
-    ATTRIBUTE Location OF LED2(0) : LABEL IS "P3[6]";
+    ATTRIBUTE Location OF LED2(0) : LABEL IS "P3[4]";
     ATTRIBUTE Location OF LED4(0) : LABEL IS "P2[1]";
     ATTRIBUTE Location OF LED5(0) : LABEL IS "P2[2]";
     ATTRIBUTE Location OF LED3(0) : LABEL IS "P2[0]";
-    ATTRIBUTE Location OF LED0(0) : LABEL IS "P3[4]";
+    ATTRIBUTE Location OF LED0(0) : LABEL IS "P3[6]";
     ATTRIBUTE Location OF \UART:SCB\ : LABEL IS "F(SCB,1)";
     ATTRIBUTE Location OF \I2CS:SCB_IRQ\ : LABEL IS "[IntrContainer=(0)][IntrId=(7)]";
     ATTRIBUTE Location OF \I2CS:SCB\ : LABEL IS "F(SCB,0)";
