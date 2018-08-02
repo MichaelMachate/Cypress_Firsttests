@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccHp0lkf.s 			page 1
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccw2CJJW.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccHp0lkf.s 			page 1
   28:Generated_Source\PSoC4/I2CS_I2C.c **** 
   29:Generated_Source\PSoC4/I2CS_I2C.c **** #if(I2CS_SCB_MODE_UNCONFIG_CONST_CFG)
   30:Generated_Source\PSoC4/I2CS_I2C.c **** 
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccHp0lkf.s 			page 2
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccw2CJJW.s 			page 2
 
 
   31:Generated_Source\PSoC4/I2CS_I2C.c ****     /***************************************
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccHp0lkf.s 			page 1
   85:Generated_Source\PSoC4/I2CS_I2C.c ****                                      I2CS_DUMMY_PARAM);
   86:Generated_Source\PSoC4/I2CS_I2C.c **** 
   87:Generated_Source\PSoC4/I2CS_I2C.c ****             /* Store internal configuration */
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccHp0lkf.s 			page 3
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccw2CJJW.s 			page 3
 
 
   88:Generated_Source\PSoC4/I2CS_I2C.c ****             I2CS_scbMode       = (uint8) I2CS_SCB_MODE_I2C;
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccHp0lkf.s 			page 1
  142:Generated_Source\PSoC4/I2CS_I2C.c **** 
  143:Generated_Source\PSoC4/I2CS_I2C.c **** 
  144:Generated_Source\PSoC4/I2CS_I2C.c ****             /* Configure TX direction */
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccHp0lkf.s 			page 4
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccw2CJJW.s 			page 4
 
 
  145:Generated_Source\PSoC4/I2CS_I2C.c ****             I2CS_TX_CTRL_REG      = I2CS_I2C_TX_CTRL;
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccHp0lkf.s 			page 1
   32 0000 10B5     		push	{r4, lr}
   33              		.cfi_def_cfa_offset 8
   34              		.cfi_offset 4, -8
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccHp0lkf.s 			page 5
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccw2CJJW.s 			page 5
 
 
   35              		.cfi_offset 14, -4
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccHp0lkf.s 			page 1
   64 002a 0720     		movs	r0, #7
   65 002c FFF7FEFF 		bl	CyIntDisable
   66              	.LVL0:
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccHp0lkf.s 			page 6
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccw2CJJW.s 			page 6
 
 
  220:Generated_Source\PSoC4/I2CS_I2C.c ****         CyIntSetPriority(I2CS_ISR_NUMBER, I2CS_ISR_PRIORITY);
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccHp0lkf.s 			page 1
  239:Generated_Source\PSoC4/I2CS_I2C.c ****     #if(I2CS_I2C_SLAVE)
  240:Generated_Source\PSoC4/I2CS_I2C.c ****         /* Internal slave variable */
  241:Generated_Source\PSoC4/I2CS_I2C.c ****         I2CS_slStatus        = 0u;
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccHp0lkf.s 			page 7
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccw2CJJW.s 			page 7
 
 
  102              		.loc 1 241 0
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccHp0lkf.s 			page 1
  144              		.size	I2CS_I2CInit, .-I2CS_I2CInit
  145              		.section	.text.I2CS_I2CStop,"ax",%progbits
  146              		.align	2
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccHp0lkf.s 			page 8
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccw2CJJW.s 			page 8
 
 
  147              		.global	I2CS_I2CStop
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccHp0lkf.s 			page 1
  183              		.global	I2CS_I2CFwBlockReset
  184              		.code	16
  185              		.thumb_func
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccHp0lkf.s 			page 9
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccw2CJJW.s 			page 9
 
 
  186              		.type	I2CS_I2CFwBlockReset, %function
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccHp0lkf.s 			page 1
  293:Generated_Source\PSoC4/I2CS_I2C.c ****     I2CS_SetRxInterruptMode(I2CS_NO_INTR_SOURCES);
  219              		.loc 1 293 0
  220 0024 0B49     		ldr	r1, .L8+24
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccHp0lkf.s 			page 10
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccw2CJJW.s 			page 10
 
 
  221 0026 0B60     		str	r3, [r1]
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccHp0lkf.s 			page 1
  312:Generated_Source\PSoC4/I2CS_I2C.c ****     * Function Name: I2CS_I2CSaveConfig
  313:Generated_Source\PSoC4/I2CS_I2C.c ****     ****************************************************************************//**
  314:Generated_Source\PSoC4/I2CS_I2C.c ****     *
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccHp0lkf.s 			page 11
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccw2CJJW.s 			page 11
 
 
  315:Generated_Source\PSoC4/I2CS_I2C.c ****     *  Enables I2CS_INTR_I2C_EC_WAKE_UP interrupt source. This interrupt
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccHp0lkf.s 			page 1
  284              		.global	I2CS_I2CRestoreConfig
  285              		.code	16
  286              		.thumb_func
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccHp0lkf.s 			page 12
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccw2CJJW.s 			page 12
 
 
  287              		.type	I2CS_I2CRestoreConfig, %function
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccHp0lkf.s 			page 1
  319              		.file 2 "Generated_Source\\PSoC4/cytypes.h"
  320              		.file 3 "Generated_Source\\PSoC4\\I2CS_I2C_PVT.h"
  321              		.file 4 "Generated_Source\\PSoC4/CyLib.h"
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccHp0lkf.s 			page 13
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccw2CJJW.s 			page 13
 
 
  322              		.file 5 "Generated_Source\\PSoC4\\I2CS_SCBCLK.h"
@@ -729,25 +729,25 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccHp0lkf.s 			page 1
  327 0006 00000000 		.4byte	.Ldebug_abbrev0
  328 000a 04       		.byte	0x4
  329 000b 01       		.uleb128 0x1
- 330 000c 52000000 		.4byte	.LASF32
+ 330 000c 04020000 		.4byte	.LASF32
  331 0010 0C       		.byte	0xc
- 332 0011 F8000000 		.4byte	.LASF33
- 333 0015 4D020000 		.4byte	.LASF34
+ 332 0011 AF000000 		.4byte	.LASF33
+ 333 0015 52000000 		.4byte	.LASF34
  334 0019 00000000 		.4byte	.Ldebug_ranges0+0
  335 001d 00000000 		.4byte	0
  336 0021 00000000 		.4byte	.Ldebug_line0
  337 0025 02       		.uleb128 0x2
  338 0026 01       		.byte	0x1
  339 0027 06       		.byte	0x6
- 340 0028 89020000 		.4byte	.LASF0
+ 340 0028 96020000 		.4byte	.LASF0
  341 002c 02       		.uleb128 0x2
  342 002d 01       		.byte	0x1
  343 002e 08       		.byte	0x8
- 344 002f EA000000 		.4byte	.LASF1
+ 344 002f A1000000 		.4byte	.LASF1
  345 0033 02       		.uleb128 0x2
  346 0034 02       		.byte	0x2
  347 0035 05       		.byte	0x5
- 348 0036 FE010000 		.4byte	.LASF2
+ 348 0036 B5010000 		.4byte	.LASF2
  349 003a 02       		.uleb128 0x2
  350 003b 02       		.byte	0x2
  351 003c 07       		.byte	0x7
@@ -755,19 +755,19 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccHp0lkf.s 			page 1
  353 0041 02       		.uleb128 0x2
  354 0042 04       		.byte	0x4
  355 0043 05       		.byte	0x5
- 356 0044 32020000 		.4byte	.LASF4
+ 356 0044 E9010000 		.4byte	.LASF4
  357 0048 02       		.uleb128 0x2
  358 0049 04       		.byte	0x4
  359 004a 07       		.byte	0x7
- 360 004b 2C010000 		.4byte	.LASF5
+ 360 004b E3000000 		.4byte	.LASF5
  361 004f 02       		.uleb128 0x2
  362 0050 08       		.byte	0x8
  363 0051 05       		.byte	0x5
- 364 0052 C0010000 		.4byte	.LASF6
+ 364 0052 77010000 		.4byte	.LASF6
  365 0056 02       		.uleb128 0x2
  366 0057 08       		.byte	0x8
  367 0058 07       		.byte	0x7
- 368 0059 70010000 		.4byte	.LASF7
+ 368 0059 27010000 		.4byte	.LASF7
  369 005d 03       		.uleb128 0x3
  370 005e 04       		.byte	0x4
  371 005f 05       		.byte	0x5
@@ -775,36 +775,36 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccHp0lkf.s 			page 1
  373 0064 02       		.uleb128 0x2
  374 0065 04       		.byte	0x4
  375 0066 07       		.byte	0x7
- 376 0067 63010000 		.4byte	.LASF8
+ 376 0067 1A010000 		.4byte	.LASF8
  377 006b 04       		.uleb128 0x4
- 378 006c 3E010000 		.4byte	.LASF9
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccHp0lkf.s 			page 14
+ 378 006c F5000000 		.4byte	.LASF9
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccw2CJJW.s 			page 14
 
 
  379 0070 02       		.byte	0x2
  380 0071 E401     		.2byte	0x1e4
  381 0073 2C000000 		.4byte	0x2c
  382 0077 04       		.uleb128 0x4
- 383 0078 5C010000 		.4byte	.LASF10
+ 383 0078 13010000 		.4byte	.LASF10
  384 007c 02       		.byte	0x2
  385 007d E601     		.2byte	0x1e6
  386 007f 48000000 		.4byte	0x48
  387 0083 02       		.uleb128 0x2
  388 0084 04       		.byte	0x4
  389 0085 04       		.byte	0x4
- 390 0086 E4000000 		.4byte	.LASF11
+ 390 0086 9B000000 		.4byte	.LASF11
  391 008a 02       		.uleb128 0x2
  392 008b 08       		.byte	0x8
  393 008c 04       		.byte	0x4
- 394 008d 44010000 		.4byte	.LASF12
+ 394 008d FB000000 		.4byte	.LASF12
  395 0091 02       		.uleb128 0x2
  396 0092 01       		.byte	0x1
  397 0093 08       		.byte	0x8
- 398 0094 CE010000 		.4byte	.LASF13
+ 398 0094 85010000 		.4byte	.LASF13
  399 0098 05       		.uleb128 0x5
  400 0099 6B000000 		.4byte	0x6b
  401 009d 04       		.uleb128 0x4
- 402 009e 3B020000 		.4byte	.LASF14
+ 402 009e F2010000 		.4byte	.LASF14
  403 00a2 02       		.byte	0x2
  404 00a3 9002     		.2byte	0x290
  405 00a5 A9000000 		.4byte	0xa9
@@ -813,13 +813,13 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccHp0lkf.s 			page 1
  408 00ae 02       		.uleb128 0x2
  409 00af 08       		.byte	0x8
  410 00b0 04       		.byte	0x4
- 411 00b1 41020000 		.4byte	.LASF15
+ 411 00b1 F8010000 		.4byte	.LASF15
  412 00b5 02       		.uleb128 0x2
  413 00b6 04       		.byte	0x4
  414 00b7 07       		.byte	0x7
- 415 00b8 B7010000 		.4byte	.LASF16
+ 415 00b8 6E010000 		.4byte	.LASF16
  416 00bc 06       		.uleb128 0x6
- 417 00bd AA010000 		.4byte	.LASF19
+ 417 00bd 61010000 		.4byte	.LASF19
  418 00c1 01       		.byte	0x1
  419 00c2 C1       		.byte	0xc1
  420 00c3 00000000 		.4byte	.LFB1
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccHp0lkf.s 			page 1
  433 00e2 37       		.byte	0x37
  434 00e3 00       		.byte	0
  435 00e4 07       		.uleb128 0x7
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccHp0lkf.s 			page 15
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccw2CJJW.s 			page 15
 
 
  436 00e5 38000000 		.4byte	.LVL1
@@ -874,7 +874,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccHp0lkf.s 			page 1
  466 011c 01       		.uleb128 0x1
  467 011d 9C       		.byte	0x9c
  468 011e 0A       		.uleb128 0xa
- 469 011f 95020000 		.4byte	.LASF18
+ 469 011f A2020000 		.4byte	.LASF18
  470 0123 01       		.byte	0x1
  471 0124 1901     		.2byte	0x119
  472 0126 00000000 		.4byte	.LFB3
@@ -882,7 +882,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccHp0lkf.s 			page 1
  474 012e 01       		.uleb128 0x1
  475 012f 9C       		.byte	0x9c
  476 0130 0B       		.uleb128 0xb
- 477 0131 EB010000 		.4byte	.LASF20
+ 477 0131 A2010000 		.4byte	.LASF20
  478 0135 01       		.byte	0x1
  479 0136 3F01     		.2byte	0x13f
  480 0138 00000000 		.4byte	.LFB4
@@ -895,10 +895,10 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccHp0lkf.s 			page 1
  487 014b D5010000 		.4byte	0x1d5
  488 014f 00       		.byte	0
  489 0150 0B       		.uleb128 0xb
- 490 0151 08020000 		.4byte	.LASF21
+ 490 0151 BF010000 		.4byte	.LASF21
  491 0155 01       		.byte	0x1
  492 0156 6001     		.2byte	0x160
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccHp0lkf.s 			page 16
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccw2CJJW.s 			page 16
 
 
  493 0158 00000000 		.4byte	.LFB5
@@ -918,7 +918,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccHp0lkf.s 			page 1
  507 0175 00       		.byte	0
  508 0176 00       		.byte	0
  509 0177 0D       		.uleb128 0xd
- 510 0178 D3010000 		.4byte	.LASF22
+ 510 0178 8A010000 		.4byte	.LASF22
  511 017c 01       		.byte	0x1
  512 017d 1B       		.byte	0x1b
  513 017e 98000000 		.4byte	0x98
@@ -931,12 +931,12 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccHp0lkf.s 			page 1
  520 018e 21       		.byte	0x21
  521 018f 98000000 		.4byte	0x98
  522 0193 0E       		.uleb128 0xe
- 523 0194 1A010000 		.4byte	.LASF24
+ 523 0194 D1000000 		.4byte	.LASF24
  524 0198 03       		.byte	0x3
  525 0199 26       		.byte	0x26
  526 019a A9000000 		.4byte	0xa9
  527 019e 0E       		.uleb128 0xe
- 528 019f 98010000 		.4byte	.LASF25
+ 528 019f 4F010000 		.4byte	.LASF25
  529 01a3 03       		.byte	0x3
  530 01a4 2B       		.byte	0x2b
  531 01a5 A9000000 		.4byte	0xa9
@@ -946,31 +946,31 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccHp0lkf.s 			page 1
  535 01af 2D       		.byte	0x2d
  536 01b0 98000000 		.4byte	0x98
  537 01b4 0F       		.uleb128 0xf
- 538 01b5 DE010000 		.4byte	.LASF27
- 539 01b9 DE010000 		.4byte	.LASF27
+ 538 01b5 95010000 		.4byte	.LASF27
+ 539 01b9 95010000 		.4byte	.LASF27
  540 01bd 04       		.byte	0x4
  541 01be C5       		.byte	0xc5
  542 01bf 0F       		.uleb128 0xf
- 543 01c0 87010000 		.4byte	.LASF28
- 544 01c4 87010000 		.4byte	.LASF28
+ 543 01c0 3E010000 		.4byte	.LASF28
+ 544 01c4 3E010000 		.4byte	.LASF28
  545 01c8 04       		.byte	0x4
  546 01c9 C0       		.byte	0xc0
  547 01ca 0F       		.uleb128 0xf
  548 01cb 30000000 		.4byte	.LASF29
  549 01cf 30000000 		.4byte	.LASF29
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccHp0lkf.s 			page 17
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccw2CJJW.s 			page 17
 
 
  550 01d3 04       		.byte	0x4
  551 01d4 BD       		.byte	0xbd
  552 01d5 0F       		.uleb128 0xf
- 553 01d6 4B010000 		.4byte	.LASF30
- 554 01da 4B010000 		.4byte	.LASF30
+ 553 01d6 02010000 		.4byte	.LASF30
+ 554 01da 02010000 		.4byte	.LASF30
  555 01de 05       		.byte	0x5
  556 01df 27       		.byte	0x27
  557 01e0 0F       		.uleb128 0xf
- 558 01e1 1E020000 		.4byte	.LASF31
- 559 01e5 1E020000 		.4byte	.LASF31
+ 558 01e1 D5010000 		.4byte	.LASF31
+ 559 01e5 D5010000 		.4byte	.LASF31
  560 01e9 05       		.byte	0x5
  561 01ea 1D       		.byte	0x1d
  562 01eb 00       		.byte	0
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccHp0lkf.s 			page 1
  604 0027 00       		.byte	0
  605 0028 00       		.byte	0
  606 0029 04       		.uleb128 0x4
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccHp0lkf.s 			page 18
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccw2CJJW.s 			page 18
 
 
  607 002a 16       		.uleb128 0x16
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccHp0lkf.s 			page 1
  661 0063 00       		.byte	0
  662 0064 08       		.uleb128 0x8
  663 0065 8A8201   		.uleb128 0x410a
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccHp0lkf.s 			page 19
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccw2CJJW.s 			page 19
 
 
  664 0068 00       		.byte	0
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccHp0lkf.s 			page 1
  718 00a2 12       		.uleb128 0x12
  719 00a3 06       		.uleb128 0x6
  720 00a4 40       		.uleb128 0x40
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccHp0lkf.s 			page 20
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccw2CJJW.s 			page 20
 
 
  721 00a5 18       		.uleb128 0x18
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccHp0lkf.s 			page 1
  775 00de 19       		.uleb128 0x19
  776 00df 3C       		.uleb128 0x3c
  777 00e0 19       		.uleb128 0x19
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccHp0lkf.s 			page 21
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccw2CJJW.s 			page 21
 
 
  778 00e1 6E       		.uleb128 0x6e
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccHp0lkf.s 			page 1
  827      5F736C53 
  827      74617475 
  827      7300
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccHp0lkf.s 			page 22
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccw2CJJW.s 			page 22
 
 
  828              	.LASF17:
@@ -1283,170 +1283,171 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccHp0lkf.s 			page 1
  835      7369676E 
  835      65642069 
  835      6E7400
- 836              	.LASF32:
- 837 0052 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
- 837      43313120 
- 837      352E342E 
- 837      31203230 
- 837      31363036 
- 838 0085 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m0plus -mthumb -"
- 838      20726576 
- 838      6973696F 
- 838      6E203233 
- 838      37373135 
- 839 00b8 67202D4F 		.ascii	"g -Og -ffunction-sections -ffat-lto-objects\000"
- 839      67202D66 
- 839      66756E63 
- 839      74696F6E 
- 839      2D736563 
- 840              	.LASF11:
- 841 00e4 666C6F61 		.ascii	"float\000"
- 841      7400
- 842              	.LASF1:
- 843 00ea 756E7369 		.ascii	"unsigned char\000"
- 843      676E6564 
- 843      20636861 
- 843      7200
- 844              	.LASF33:
- 845 00f8 47656E65 		.ascii	"Generated_Source\\PSoC4\\I2CS_I2C.c\000"
- 845      72617465 
- 845      645F536F 
- 845      75726365 
- 845      5C50536F 
- 846              	.LASF24:
- 847 011a 49324353 		.ascii	"I2CS_slWrBufIndex\000"
- 847      5F736C57 
- 847      72427566 
- 847      496E6465 
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccHp0lkf.s 			page 23
+ 836              	.LASF34:
+ 837 0052 433A5C55 		.ascii	"C:\\Users\\michael.machate\\Desktop\\Cypress_Firstt"
+ 837      73657273 
+ 837      5C6D6963 
+ 837      6861656C 
+ 837      2E6D6163 
+ 838 0081 65737473 		.ascii	"ests\\FirstTestMutal.cydsn\000"
+ 838      5C466972 
+ 838      73745465 
+ 838      73744D75 
+ 838      74616C2E 
+ 839              	.LASF11:
+ 840 009b 666C6F61 		.ascii	"float\000"
+ 840      7400
+ 841              	.LASF1:
+ 842 00a1 756E7369 		.ascii	"unsigned char\000"
+ 842      676E6564 
+ 842      20636861 
+ 842      7200
+ 843              	.LASF33:
+ 844 00af 47656E65 		.ascii	"Generated_Source\\PSoC4\\I2CS_I2C.c\000"
+ 844      72617465 
+ 844      645F536F 
+ 844      75726365 
+ 844      5C50536F 
+ 845              	.LASF24:
+ 846 00d1 49324353 		.ascii	"I2CS_slWrBufIndex\000"
+ 846      5F736C57 
+ 846      72427566 
+ 846      496E6465 
+ 846      7800
+ 847              	.LASF5:
+ 848 00e3 6C6F6E67 		.ascii	"long unsigned int\000"
+ 848      20756E73 
+ 848      69676E65 
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccw2CJJW.s 			page 23
 
 
- 847      7800
- 848              	.LASF5:
- 849 012c 6C6F6E67 		.ascii	"long unsigned int\000"
- 849      20756E73 
- 849      69676E65 
- 849      6420696E 
- 849      7400
- 850              	.LASF9:
- 851 013e 75696E74 		.ascii	"uint8\000"
- 851      3800
- 852              	.LASF12:
- 853 0144 646F7562 		.ascii	"double\000"
- 853      6C6500
- 854              	.LASF30:
- 855 014b 49324353 		.ascii	"I2CS_SCBCLK_Stop\000"
- 855      5F534342 
- 855      434C4B5F 
- 855      53746F70 
- 855      00
- 856              	.LASF10:
- 857 015c 75696E74 		.ascii	"uint32\000"
- 857      333200
- 858              	.LASF8:
- 859 0163 756E7369 		.ascii	"unsigned int\000"
- 859      676E6564 
- 859      20696E74 
- 859      00
- 860              	.LASF7:
- 861 0170 6C6F6E67 		.ascii	"long long unsigned int\000"
- 861      206C6F6E 
- 861      6720756E 
- 861      7369676E 
- 861      65642069 
- 862              	.LASF28:
- 863 0187 4379496E 		.ascii	"CyIntSetPriority\000"
- 863      74536574 
- 863      5072696F 
- 863      72697479 
- 863      00
- 864              	.LASF25:
- 865 0198 49324353 		.ascii	"I2CS_slRdBufIndex\000"
- 865      5F736C52 
- 865      64427566 
- 865      496E6465 
- 865      7800
- 866              	.LASF19:
- 867 01aa 49324353 		.ascii	"I2CS_I2CInit\000"
- 867      5F493243 
- 867      496E6974 
- 867      00
- 868              	.LASF16:
- 869 01b7 73697A65 		.ascii	"sizetype\000"
- 869      74797065 
- 869      00
- 870              	.LASF6:
- 871 01c0 6C6F6E67 		.ascii	"long long int\000"
- 871      206C6F6E 
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccHp0lkf.s 			page 24
+ 848      6420696E 
+ 848      7400
+ 849              	.LASF9:
+ 850 00f5 75696E74 		.ascii	"uint8\000"
+ 850      3800
+ 851              	.LASF12:
+ 852 00fb 646F7562 		.ascii	"double\000"
+ 852      6C6500
+ 853              	.LASF30:
+ 854 0102 49324353 		.ascii	"I2CS_SCBCLK_Stop\000"
+ 854      5F534342 
+ 854      434C4B5F 
+ 854      53746F70 
+ 854      00
+ 855              	.LASF10:
+ 856 0113 75696E74 		.ascii	"uint32\000"
+ 856      333200
+ 857              	.LASF8:
+ 858 011a 756E7369 		.ascii	"unsigned int\000"
+ 858      676E6564 
+ 858      20696E74 
+ 858      00
+ 859              	.LASF7:
+ 860 0127 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 860      206C6F6E 
+ 860      6720756E 
+ 860      7369676E 
+ 860      65642069 
+ 861              	.LASF28:
+ 862 013e 4379496E 		.ascii	"CyIntSetPriority\000"
+ 862      74536574 
+ 862      5072696F 
+ 862      72697479 
+ 862      00
+ 863              	.LASF25:
+ 864 014f 49324353 		.ascii	"I2CS_slRdBufIndex\000"
+ 864      5F736C52 
+ 864      64427566 
+ 864      496E6465 
+ 864      7800
+ 865              	.LASF19:
+ 866 0161 49324353 		.ascii	"I2CS_I2CInit\000"
+ 866      5F493243 
+ 866      496E6974 
+ 866      00
+ 867              	.LASF16:
+ 868 016e 73697A65 		.ascii	"sizetype\000"
+ 868      74797065 
+ 868      00
+ 869              	.LASF6:
+ 870 0177 6C6F6E67 		.ascii	"long long int\000"
+ 870      206C6F6E 
+ 870      6720696E 
+ 870      7400
+ 871              	.LASF13:
+ 872 0185 63686172 		.ascii	"char\000"
+ 872      00
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccw2CJJW.s 			page 24
 
 
- 871      6720696E 
- 871      7400
- 872              	.LASF13:
- 873 01ce 63686172 		.ascii	"char\000"
- 873      00
- 874              	.LASF22:
- 875 01d3 49324353 		.ascii	"I2CS_state\000"
- 875      5F737461 
- 875      746500
- 876              	.LASF27:
- 877 01de 4379496E 		.ascii	"CyIntDisable\000"
- 877      74446973 
- 877      61626C65 
- 877      00
- 878              	.LASF20:
- 879 01eb 49324353 		.ascii	"I2CS_I2CSaveConfig\000"
- 879      5F493243 
- 879      53617665 
- 879      436F6E66 
- 879      696700
- 880              	.LASF2:
- 881 01fe 73686F72 		.ascii	"short int\000"
- 881      7420696E 
- 881      7400
- 882              	.LASF21:
- 883 0208 49324353 		.ascii	"I2CS_I2CRestoreConfig\000"
- 883      5F493243 
- 883      52657374 
- 883      6F726543 
- 883      6F6E6669 
- 884              	.LASF31:
- 885 021e 49324353 		.ascii	"I2CS_SCBCLK_StartEx\000"
- 885      5F534342 
- 885      434C4B5F 
- 885      53746172 
- 885      74457800 
- 886              	.LASF4:
- 887 0232 6C6F6E67 		.ascii	"long int\000"
- 887      20696E74 
- 887      00
- 888              	.LASF14:
- 889 023b 72656733 		.ascii	"reg32\000"
- 889      3200
- 890              	.LASF15:
- 891 0241 6C6F6E67 		.ascii	"long double\000"
- 891      20646F75 
- 891      626C6500 
- 892              	.LASF34:
- 893 024d 433A5C55 		.ascii	"C:\\Users\\michael.machate\\Desktop\\Mutal\\FirstTe"
- 893      73657273 
- 893      5C6D6963 
- 893      6861656C 
- 893      2E6D6163 
- 894 027b 73744D75 		.ascii	"stMutal.cydsn\000"
- 894      74616C2E 
- 894      63796473 
- 894      6E00
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccHp0lkf.s 			page 25
+ 873              	.LASF22:
+ 874 018a 49324353 		.ascii	"I2CS_state\000"
+ 874      5F737461 
+ 874      746500
+ 875              	.LASF27:
+ 876 0195 4379496E 		.ascii	"CyIntDisable\000"
+ 876      74446973 
+ 876      61626C65 
+ 876      00
+ 877              	.LASF20:
+ 878 01a2 49324353 		.ascii	"I2CS_I2CSaveConfig\000"
+ 878      5F493243 
+ 878      53617665 
+ 878      436F6E66 
+ 878      696700
+ 879              	.LASF2:
+ 880 01b5 73686F72 		.ascii	"short int\000"
+ 880      7420696E 
+ 880      7400
+ 881              	.LASF21:
+ 882 01bf 49324353 		.ascii	"I2CS_I2CRestoreConfig\000"
+ 882      5F493243 
+ 882      52657374 
+ 882      6F726543 
+ 882      6F6E6669 
+ 883              	.LASF31:
+ 884 01d5 49324353 		.ascii	"I2CS_SCBCLK_StartEx\000"
+ 884      5F534342 
+ 884      434C4B5F 
+ 884      53746172 
+ 884      74457800 
+ 885              	.LASF4:
+ 886 01e9 6C6F6E67 		.ascii	"long int\000"
+ 886      20696E74 
+ 886      00
+ 887              	.LASF14:
+ 888 01f2 72656733 		.ascii	"reg32\000"
+ 888      3200
+ 889              	.LASF15:
+ 890 01f8 6C6F6E67 		.ascii	"long double\000"
+ 890      20646F75 
+ 890      626C6500 
+ 891              	.LASF32:
+ 892 0204 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
+ 892      43313120 
+ 892      352E342E 
+ 892      31203230 
+ 892      31363036 
+ 893 0237 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m0plus -mthumb -"
+ 893      20726576 
+ 893      6973696F 
+ 893      6E203233 
+ 893      37373135 
+ 894 026a 67202D4F 		.ascii	"g -Og -ffunction-sections -ffat-lto-objects\000"
+ 894      67202D66 
+ 894      66756E63 
+ 894      74696F6E 
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccw2CJJW.s 			page 25
 
 
+ 894      2D736563 
  895              	.LASF0:
- 896 0289 7369676E 		.ascii	"signed char\000"
+ 896 0296 7369676E 		.ascii	"signed char\000"
  896      65642063 
  896      68617200 
  897              	.LASF18:
- 898 0295 49324353 		.ascii	"I2CS_I2CFwBlockReset\000"
+ 898 02a2 49324353 		.ascii	"I2CS_I2CFwBlockReset\000"
  898      5F493243 
  898      4677426C 
  898      6F636B52 
