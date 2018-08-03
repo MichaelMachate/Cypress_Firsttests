@@ -1,4 +1,4 @@
---------------- Build Started: 08/02/2018 19:24:51 Project: FirstTestMutal, Configuration: ARM GCC 5.4-2016-q2-update Debug ---------------
+--------------- Build Started: 08/03/2018 10:08:37 Project: FirstTestMutal, Configuration: ARM GCC 5.4-2016-q2-update Debug ---------------
 cydsfit.exe -.appdatapath "C:\Users\michael.machate\AppData\Local\Cypress Semiconductor\PSoC Creator\4.2" -.fdsnotice -.fdswarpdepfile=warp_dependencies.txt -.fdselabdepfile=elab_dependencies.txt -.fdsbldfile=generated_files.txt -.fdsreffile=referenced_files.txt -p C:\Users\michael.machate\Desktop\Cypress_Firsttests\FirstTestMutal.cydsn\FirstTestMutal.cyprj -d CY8C4045AZI-S413 -s C:\Users\michael.machate\Desktop\Cypress_Firsttests\FirstTestMutal.cydsn\Generated_Source\PSoC4 -- -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE
 Elaborating Design...
 ADD: sdb.M0061: information: Info from component: CapSense_1. Enabling the multi-frequency scan reduces the IMO accuracy to +/-10%. Timing of asynchronous communication may be affected.
@@ -35,4 +35,4 @@ Checksum calculated and stored in ELF section .cymeta
 cyelftool.exe -S C:\Users\michael.machate\Desktop\Cypress_Firsttests\FirstTestMutal.cydsn\CortexM0p\ARM_GCC_541\Debug\FirstTestMutal.elf
 Flash used: 8054 of 32768 bytes (24,6 %).
 SRAM used: 1992 of 4096 bytes (48,6 %). Stack: 1024 bytes. Heap: 128 bytes.
---------------- Build Succeeded: 08/02/2018 19:25:05 ---------------
+--------------- Build Succeeded: 08/03/2018 10:08:49 ---------------

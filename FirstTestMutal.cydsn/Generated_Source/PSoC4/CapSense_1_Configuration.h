@@ -632,8 +632,8 @@ typedef uint16 CapSense_1_THRESHOLD_TYPE;
 /* CSX scan method settings */
 #define CapSense_1_CSX_SCANSPEED_DIVIDER        (1u)
 #define CapSense_1_CSX_COMMON_TX_CLK_EN         (1u)
-#define CapSense_1_CSX_TX_CLK_SOURCE            (CapSense_1_CLK_SOURCE_SSC1)
-#define CapSense_1_CSX_TX_CLK_DIVIDER           (480u)
+#define CapSense_1_CSX_TX_CLK_SOURCE            (CapSense_1_CLK_SOURCE_SSC4)
+#define CapSense_1_CSX_TX_CLK_DIVIDER           (160u)
 #define CapSense_1_CSX_MAX_FINGERS              (1u)
 #define CapSense_1_CSX_MAX_LOCAL_PEAKS          (5u)
 #define CapSense_1_CSX_IDAC_AUTOCAL_EN          (1u)
@@ -669,7 +669,7 @@ typedef uint16 CapSense_1_THRESHOLD_TYPE;
 
 /* ISX scan method settings */
 #define CapSense_1_ISX_SCANSPEED_DIVIDER        (2u)
-#define CapSense_1_ISX_LX_CLK_DIVIDER           (240u)
+#define CapSense_1_ISX_LX_CLK_DIVIDER           (80u)
 #define CapSense_1_ISX_IDAC_AUTOCAL_EN          (0u)
 #define CapSense_1_ISX_IDAC_BITS_USED           (7u)
 #define CapSense_1_ISX_RAWCOUNT_CAL_LEVEL       (30u)
@@ -701,7 +701,7 @@ typedef uint16 CapSense_1_THRESHOLD_TYPE;
                                        || (0u != CapSense_1_ISX_IDAC_AUTOCAL_EN)) \
                                        || (0u != CapSense_1_CSD_IDAC_AUTOCAL_EN))
 /* RAM Global Parameters Definitions */
-#define CapSense_1_CONFIG_ID                    (0xD04Eu)
+#define CapSense_1_CONFIG_ID                    (0x9972u)
 #define CapSense_1_DEVICE_ID                    (0x0900u)
 #define CapSense_1_HW_CLOCK                     (0x1770u)
 #define CapSense_1_CSD0_CONFIG                  (0x0009u)
@@ -716,7 +716,7 @@ typedef uint16 CapSense_1_THRESHOLD_TYPE;
 * Button0 initialization values for RAM data structure
 *******************************************************************************/
 #define CapSense_1_BUTTON0_RESOLUTION           (50u)
-#define CapSense_1_BUTTON0_FINGER_TH            (1000u)
+#define CapSense_1_BUTTON0_FINGER_TH            (600u)
 #define CapSense_1_BUTTON0_NOISE_TH             (75u)
 #define CapSense_1_BUTTON0_NNOISE_TH            (75u)
 #define CapSense_1_BUTTON0_HYSTERESIS           (20u)
@@ -734,7 +734,7 @@ typedef uint16 CapSense_1_THRESHOLD_TYPE;
 * Button1 initialization values for RAM data structure
 *******************************************************************************/
 #define CapSense_1_BUTTON1_RESOLUTION           (50u)
-#define CapSense_1_BUTTON1_FINGER_TH            (1000u)
+#define CapSense_1_BUTTON1_FINGER_TH            (600u)
 #define CapSense_1_BUTTON1_NOISE_TH             (40u)
 #define CapSense_1_BUTTON1_NNOISE_TH            (40u)
 #define CapSense_1_BUTTON1_HYSTERESIS           (10u)
@@ -752,7 +752,7 @@ typedef uint16 CapSense_1_THRESHOLD_TYPE;
 * Button2 initialization values for RAM data structure
 *******************************************************************************/
 #define CapSense_1_BUTTON2_RESOLUTION           (50u)
-#define CapSense_1_BUTTON2_FINGER_TH            (1000u)
+#define CapSense_1_BUTTON2_FINGER_TH            (600u)
 #define CapSense_1_BUTTON2_NOISE_TH             (40u)
 #define CapSense_1_BUTTON2_NNOISE_TH            (40u)
 #define CapSense_1_BUTTON2_HYSTERESIS           (10u)
@@ -770,7 +770,7 @@ typedef uint16 CapSense_1_THRESHOLD_TYPE;
 * Button3 initialization values for RAM data structure
 *******************************************************************************/
 #define CapSense_1_BUTTON3_RESOLUTION           (50u)
-#define CapSense_1_BUTTON3_FINGER_TH            (1000u)
+#define CapSense_1_BUTTON3_FINGER_TH            (600u)
 #define CapSense_1_BUTTON3_NOISE_TH             (40u)
 #define CapSense_1_BUTTON3_NNOISE_TH            (40u)
 #define CapSense_1_BUTTON3_HYSTERESIS           (10u)
@@ -788,7 +788,7 @@ typedef uint16 CapSense_1_THRESHOLD_TYPE;
 * Button4 initialization values for RAM data structure
 *******************************************************************************/
 #define CapSense_1_BUTTON4_RESOLUTION           (50u)
-#define CapSense_1_BUTTON4_FINGER_TH            (1000u)
+#define CapSense_1_BUTTON4_FINGER_TH            (600u)
 #define CapSense_1_BUTTON4_NOISE_TH             (40u)
 #define CapSense_1_BUTTON4_NNOISE_TH            (40u)
 #define CapSense_1_BUTTON4_HYSTERESIS           (10u)

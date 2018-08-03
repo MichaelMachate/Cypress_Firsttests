@@ -234,6 +234,7 @@
 <OpenDocs>
 <name v=".\TopDesign\TopDesign.cysch" />
 <name v=".\FirstTestMutal.cydwr" />
+<name v=".\main.c" />
 </OpenDocs>
 <OpenDocsLayout><![CDATA[<?xml version="1.0"?><!--
 
@@ -241,7 +242,7 @@
   Copyright (c) 2001-2016 Actipro Software LLC.  All rights reserved.
   http://www.actiprosoftware.com
 
---><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1194, 653" SelectedTabbedMdiWindow="5976679f-5d77-4f20-af28-d2cba85370ad"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="e8ff90b1-191d-49a2-982f-685e05b8f433" /><DocumentWindow Key="C:\Users\michael.machate\Desktop\Mutal\FirstTestMutal.cydsn\TopDesign\TopDesign.cysch" Guid="5976679f-5d77-4f20-af28-d2cba85370ad" /><DocumentWindow Key="C:\Users\michael.machate\Desktop\Mutal\FirstTestMutal.cydsn\FirstTestMutal.cydwr" Guid="8a4cae94-2de8-4c0c-9cb0-1be76802d0b6" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
+--><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1375, 711" SelectedTabbedMdiWindow="3f2b3935-853d-4e6a-b2d3-4ced8163cb95"><DocumentWindow Key="C:\Users\michael.machate\Desktop\Cypress_Firsttests\FirstTestMutal.cydsn\TopDesign\TopDesign.cysch" Guid="3f2b3935-853d-4e6a-b2d3-4ced8163cb95" /><DocumentWindow Key="C:\Users\michael.machate\Desktop\Cypress_Firsttests\FirstTestMutal.cydsn\FirstTestMutal.cydwr" Guid="327e6d87-04a9-46d4-8bb3-2e52f7a9686c" /><DocumentWindow Key="C:\Users\michael.machate\Desktop\Cypress_Firsttests\FirstTestMutal.cydsn\main.c" Guid="6d7ad8eb-571e-4285-af27-fb37873182e3" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
 <config v="" />
 <AutoUpdate v="true" />
 </CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21>
