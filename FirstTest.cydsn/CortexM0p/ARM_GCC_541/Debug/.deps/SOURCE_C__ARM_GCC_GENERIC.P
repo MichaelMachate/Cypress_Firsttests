@@ -1,112 +1,146 @@
-Z:/Transfer/Jan/FirstTest.cydsn/CortexM0p/ARM_GCC_541/Debug/main.o : Z:/Transfer/Jan/FirstTest.cydsn/Generated_Source/PSoC4/CapSense_1.h Z:/Transfer/Jan/FirstTest.cydsn/Generated_Source/PSoC4/CapSense_1_Configuration.h Z:/Transfer/Jan/FirstTest.cydsn/Generated_Source/PSoC4/CapSense_1_Control.h Z:/Transfer/Jan/FirstTest.cydsn/Generated_Source/PSoC4/CapSense_1_Filter.h Z:/Transfer/Jan/FirstTest.cydsn/Generated_Source/PSoC4/CapSense_1_ISR.h Z:/Transfer/Jan/FirstTest.cydsn/Generated_Source/PSoC4/CapSense_1_Processing.h Z:/Transfer/Jan/FirstTest.cydsn/Generated_Source/PSoC4/CapSense_1_RegisterMap.h Z:/Transfer/Jan/FirstTest.cydsn/Generated_Source/PSoC4/CapSense_1_Sensing.h Z:/Transfer/Jan/FirstTest.cydsn/Generated_Source/PSoC4/CapSense_1_SensingCSD_LL.h Z:/Transfer/Jan/FirstTest.cydsn/Generated_Source/PSoC4/CapSense_1_SmartSense_LL.h Z:/Transfer/Jan/FirstTest.cydsn/Generated_Source/PSoC4/CapSense_1_Structure.h Z:/Transfer/Jan/FirstTest.cydsn/Generated_Source/PSoC4/CapSense_1_Tuner.h Z:/Transfer/Jan/FirstTest.cydsn/Generated_Source/PSoC4/Capsense_1.h Z:/Transfer/Jan/FirstTest.cydsn/Generated_Source/PSoC4/CyFlash.h Z:/Transfer/Jan/FirstTest.cydsn/Generated_Source/PSoC4/CyLFClk.h Z:/Transfer/Jan/FirstTest.cydsn/Generated_Source/PSoC4/CyLib.h Z:/Transfer/Jan/FirstTest.cydsn/Generated_Source/PSoC4/I2CS.h Z:/Transfer/Jan/FirstTest.cydsn/Generated_Source/PSoC4/I2CS_BOOT.h Z:/Transfer/Jan/FirstTest.cydsn/Generated_Source/PSoC4/I2CS_I2C.h Z:/Transfer/Jan/FirstTest.cydsn/Generated_Source/PSoC4/I2CS_I2C_PVT.h Z:/Transfer/Jan/FirstTest.cydsn/Generated_Source/PSoC4/I2CS_PINS.h Z:/Transfer/Jan/FirstTest.cydsn/Generated_Source/PSoC4/I2CS_PVT.h Z:/Transfer/Jan/FirstTest.cydsn/Generated_Source/PSoC4/I2CS_SCBCLK.h Z:/Transfer/Jan/FirstTest.cydsn/Generated_Source/PSoC4/I2CS_SCB_IRQ.h Z:/Transfer/Jan/FirstTest.cydsn/Generated_Source/PSoC4/I2CS_scl.h Z:/Transfer/Jan/FirstTest.cydsn/Generated_Source/PSoC4/I2CS_scl_aliases.h Z:/Transfer/Jan/FirstTest.cydsn/Generated_Source/PSoC4/I2CS_sda.h Z:/Transfer/Jan/FirstTest.cydsn/Generated_Source/PSoC4/I2CS_sda_aliases.h Z:/Transfer/Jan/FirstTest.cydsn/Generated_Source/PSoC4/LED1.h Z:/Transfer/Jan/FirstTest.cydsn/Generated_Source/PSoC4/LED1_aliases.h Z:/Transfer/Jan/FirstTest.cydsn/Generated_Source/PSoC4/UART.h Z:/Transfer/Jan/FirstTest.cydsn/Generated_Source/PSoC4/UART_BOOT.h Z:/Transfer/Jan/FirstTest.cydsn/Generated_Source/PSoC4/UART_PINS.h Z:/Transfer/Jan/FirstTest.cydsn/Generated_Source/PSoC4/UART_PVT.h Z:/Transfer/Jan/FirstTest.cydsn/Generated_Source/PSoC4/UART_SCBCLK.h Z:/Transfer/Jan/FirstTest.cydsn/Generated_Source/PSoC4/UART_SPI_UART.h Z:/Transfer/Jan/FirstTest.cydsn/Generated_Source/PSoC4/UART_SPI_UART_PVT.h Z:/Transfer/Jan/FirstTest.cydsn/Generated_Source/PSoC4/UART_rx.h Z:/Transfer/Jan/FirstTest.cydsn/Generated_Source/PSoC4/UART_rx_aliases.h Z:/Transfer/Jan/FirstTest.cydsn/Generated_Source/PSoC4/UART_tx.h Z:/Transfer/Jan/FirstTest.cydsn/Generated_Source/PSoC4/UART_tx_aliases.h Z:/Transfer/Jan/FirstTest.cydsn/Generated_Source/PSoC4/cmsis_armcc.h Z:/Transfer/Jan/FirstTest.cydsn/Generated_Source/PSoC4/cmsis_compiler.h Z:/Transfer/Jan/FirstTest.cydsn/Generated_Source/PSoC4/cmsis_gcc.h Z:/Transfer/Jan/FirstTest.cydsn/Generated_Source/PSoC4/core_cm0plus.h Z:/Transfer/Jan/FirstTest.cydsn/Generated_Source/PSoC4/core_cm0plus_psoc4.h Z:/Transfer/Jan/FirstTest.cydsn/Generated_Source/PSoC4/cyPm.h Z:/Transfer/Jan/FirstTest.cydsn/Generated_Source/PSoC4/cy_em_eeprom.h Z:/Transfer/Jan/FirstTest.cydsn/Generated_Source/PSoC4/cydevice_trm.h Z:/Transfer/Jan/FirstTest.cydsn/Generated_Source/PSoC4/cydisabledsheets.h Z:/Transfer/Jan/FirstTest.cydsn/Generated_Source/PSoC4/cyfitter.h Z:/Transfer/Jan/FirstTest.cydsn/Generated_Source/PSoC4/cyfitter_cfg.h Z:/Transfer/Jan/FirstTest.cydsn/Generated_Source/PSoC4/cypins.h Z:/Transfer/Jan/FirstTest.cydsn/Generated_Source/PSoC4/cytypes.h Z:/Transfer/Jan/FirstTest.cydsn/Generated_Source/PSoC4/project.h Z:/Transfer/Jan/FirstTest.cydsn/main.c 
+C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/CortexM0p/ARM_GCC_541/Debug/CapSense_1_Control.o : C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/CapSense_1_Configuration.h C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/CapSense_1_Control.c C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/CapSense_1_Control.h C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/CapSense_1_Filter.h C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/CapSense_1_ISR.h C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/CapSense_1_Processing.h C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/CapSense_1_Sensing.h C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/CapSense_1_SmartSense_LL.h C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/CapSense_1_Structure.h C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/CapSense_1_Tuner.h C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/CyLFClk.h C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/CyLib.h C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/cyPm.h C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/cypins.h C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/cytypes.h 
 
-Z:/Transfer/Jan/FirstTest.cydsn/Generated_Source/PSoC4/CapSense_1.h : 
+C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/CapSense_1_Configuration.h : 
 
-Z:/Transfer/Jan/FirstTest.cydsn/Generated_Source/PSoC4/CapSense_1_Configuration.h : 
+C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/CapSense_1_Control.c : 
 
-Z:/Transfer/Jan/FirstTest.cydsn/Generated_Source/PSoC4/CapSense_1_Control.h : 
+C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/CapSense_1_Control.h : 
 
-Z:/Transfer/Jan/FirstTest.cydsn/Generated_Source/PSoC4/CapSense_1_Filter.h : 
+C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/CapSense_1_Filter.h : 
 
-Z:/Transfer/Jan/FirstTest.cydsn/Generated_Source/PSoC4/CapSense_1_ISR.h : 
+C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/CapSense_1_ISR.h : 
 
-Z:/Transfer/Jan/FirstTest.cydsn/Generated_Source/PSoC4/CapSense_1_Processing.h : 
+C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/CapSense_1_Processing.h : 
 
-Z:/Transfer/Jan/FirstTest.cydsn/Generated_Source/PSoC4/CapSense_1_RegisterMap.h : 
+C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/CapSense_1_Sensing.h : 
 
-Z:/Transfer/Jan/FirstTest.cydsn/Generated_Source/PSoC4/CapSense_1_Sensing.h : 
+C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/CapSense_1_SmartSense_LL.h : 
 
-Z:/Transfer/Jan/FirstTest.cydsn/Generated_Source/PSoC4/CapSense_1_SensingCSD_LL.h : 
+C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/CapSense_1_Structure.h : 
 
-Z:/Transfer/Jan/FirstTest.cydsn/Generated_Source/PSoC4/CapSense_1_SmartSense_LL.h : 
+C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/CapSense_1_Tuner.h : 
 
-Z:/Transfer/Jan/FirstTest.cydsn/Generated_Source/PSoC4/CapSense_1_Structure.h : 
+C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/CyLFClk.h : 
 
-Z:/Transfer/Jan/FirstTest.cydsn/Generated_Source/PSoC4/CapSense_1_Tuner.h : 
+C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/CyLib.h : 
 
-Z:/Transfer/Jan/FirstTest.cydsn/Generated_Source/PSoC4/CyFlash.h : 
+C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/cyPm.h : 
 
-Z:/Transfer/Jan/FirstTest.cydsn/Generated_Source/PSoC4/CyLFClk.h : 
+C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/cydevice_trm.h : 
 
-Z:/Transfer/Jan/FirstTest.cydsn/Generated_Source/PSoC4/CyLib.h : 
+C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/cyfitter.h : 
 
-Z:/Transfer/Jan/FirstTest.cydsn/Generated_Source/PSoC4/I2CS.h : 
+C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/cypins.h : 
 
-Z:/Transfer/Jan/FirstTest.cydsn/Generated_Source/PSoC4/I2CS_BOOT.h : 
+C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/cytypes.h : 
 
-Z:/Transfer/Jan/FirstTest.cydsn/Generated_Source/PSoC4/I2CS_I2C.h : 
+C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/CortexM0p/ARM_GCC_541/Debug/CapSense_1_Filter.o : C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/CapSense_1_Configuration.h C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/CapSense_1_Filter.c C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/CapSense_1_Filter.h C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/CapSense_1_SmartSense_LL.h C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/CapSense_1_Structure.h C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/CyLFClk.h C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/CyLib.h C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/cytypes.h 
 
-Z:/Transfer/Jan/FirstTest.cydsn/Generated_Source/PSoC4/I2CS_I2C_PVT.h : 
+C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/CapSense_1_Filter.c : 
 
-Z:/Transfer/Jan/FirstTest.cydsn/Generated_Source/PSoC4/I2CS_PINS.h : 
+C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/CortexM0p/ARM_GCC_541/Debug/CapSense_1_INT.o : C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/CapSense_1_Configuration.h C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/CapSense_1_INT.c C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/CapSense_1_ISR.h C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/CapSense_1_Sensing.h C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/CapSense_1_SensingCSD_LL.h C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/CapSense_1_SmartSense_LL.h C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/CapSense_1_Structure.h C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/CyLFClk.h C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/CyLib.h C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/cypins.h C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/cytypes.h C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/cyapicallbacks.h 
 
-Z:/Transfer/Jan/FirstTest.cydsn/Generated_Source/PSoC4/I2CS_PVT.h : 
+C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/CapSense_1_INT.c : 
 
-Z:/Transfer/Jan/FirstTest.cydsn/Generated_Source/PSoC4/I2CS_SCBCLK.h : 
+C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/CapSense_1_SensingCSD_LL.h : 
 
-Z:/Transfer/Jan/FirstTest.cydsn/Generated_Source/PSoC4/I2CS_SCB_IRQ.h : 
+C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/cyapicallbacks.h : 
 
-Z:/Transfer/Jan/FirstTest.cydsn/Generated_Source/PSoC4/I2CS_scl.h : 
+C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/CortexM0p/ARM_GCC_541/Debug/CapSense_1_Processing.o : C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/CapSense_1_Configuration.h C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/CapSense_1_Filter.h C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/CapSense_1_Processing.c C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/CapSense_1_Processing.h C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/CapSense_1_SmartSense_LL.h C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/CapSense_1_Structure.h C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/CyLFClk.h C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/CyLib.h C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/cytypes.h 
 
-Z:/Transfer/Jan/FirstTest.cydsn/Generated_Source/PSoC4/I2CS_scl_aliases.h : 
+C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/CapSense_1_Processing.c : 
 
-Z:/Transfer/Jan/FirstTest.cydsn/Generated_Source/PSoC4/I2CS_sda.h : 
+C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/CortexM0p/ARM_GCC_541/Debug/CapSense_1_Sensing.o : C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/CapSense_1_Configuration.h C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/CapSense_1_ISR.h C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/CapSense_1_Sensing.c C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/CapSense_1_Sensing.h C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/CapSense_1_SensingCSD_LL.h C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/CapSense_1_SmartSense_LL.h C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/CapSense_1_Structure.h C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/CyLFClk.h C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/CyLib.h C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/cypins.h C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/cytypes.h 
 
-Z:/Transfer/Jan/FirstTest.cydsn/Generated_Source/PSoC4/I2CS_sda_aliases.h : 
+C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/CapSense_1_Sensing.c : 
 
-Z:/Transfer/Jan/FirstTest.cydsn/Generated_Source/PSoC4/LED1.h : 
+C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/CortexM0p/ARM_GCC_541/Debug/CapSense_1_SensingCSD_LL.o : C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/CapSense_1_Configuration.h C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/CapSense_1_ISR.h C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/CapSense_1_Sensing.h C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/CapSense_1_SensingCSD_LL.c C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/CapSense_1_SensingCSD_LL.h C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/CapSense_1_SmartSense_LL.h C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/CapSense_1_Structure.h C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/CyLFClk.h C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/CyLib.h C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/cypins.h C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/cytypes.h C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/cyapicallbacks.h 
 
-Z:/Transfer/Jan/FirstTest.cydsn/Generated_Source/PSoC4/LED1_aliases.h : 
+C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/CapSense_1_SensingCSD_LL.c : 
 
-Z:/Transfer/Jan/FirstTest.cydsn/Generated_Source/PSoC4/UART.h : 
+C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/CortexM0p/ARM_GCC_541/Debug/CapSense_1_Structure.o : C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/CapSense_1_Configuration.h C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/CapSense_1_SmartSense_LL.h C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/CapSense_1_Structure.c C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/CapSense_1_Structure.h C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/CyLFClk.h C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/CyLib.h C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/cytypes.h 
 
-Z:/Transfer/Jan/FirstTest.cydsn/Generated_Source/PSoC4/UART_BOOT.h : 
+C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/CapSense_1_Structure.c : 
 
-Z:/Transfer/Jan/FirstTest.cydsn/Generated_Source/PSoC4/UART_PINS.h : 
+C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/CortexM0p/ARM_GCC_541/Debug/CapSense_1_Tuner.o : C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/CapSense_1_Configuration.h C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/CapSense_1_Control.h C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/CapSense_1_SmartSense_LL.h C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/CapSense_1_Structure.h C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/CapSense_1_Tuner.c C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/CapSense_1_Tuner.h C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/CyLFClk.h C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/CyLib.h C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/cytypes.h 
 
-Z:/Transfer/Jan/FirstTest.cydsn/Generated_Source/PSoC4/UART_PVT.h : 
+C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/CapSense_1_Tuner.c : 
 
-Z:/Transfer/Jan/FirstTest.cydsn/Generated_Source/PSoC4/UART_SCBCLK.h : 
+C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/CortexM0p/ARM_GCC_541/Debug/main.o : C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/CapSense_1.h C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/CapSense_1_RegisterMap.h C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/Capsense_1.h C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/CyFlash.h C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/I2CS.h C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/I2CS_BOOT.h C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/I2CS_I2C.h C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/I2CS_I2C_PVT.h C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/I2CS_PINS.h C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/I2CS_PVT.h C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/I2CS_SCBCLK.h C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/I2CS_SCB_IRQ.h C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/I2CS_scl.h C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/I2CS_scl_aliases.h C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/I2CS_sda.h C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/I2CS_sda_aliases.h C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/LED1.h C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/LED1_aliases.h C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/UART.h C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/UART_BOOT.h C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/UART_PINS.h C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/UART_PVT.h C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/UART_SCBCLK.h C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/UART_SPI_UART.h C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/UART_SPI_UART_PVT.h C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/UART_rx.h C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/UART_rx_aliases.h C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/UART_tx.h C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/UART_tx_aliases.h C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/cmsis_armcc.h C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/cmsis_compiler.h C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/cmsis_gcc.h C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/core_cm0plus.h C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/core_cm0plus_psoc4.h C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/cy_em_eeprom.h C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/cydisabledsheets.h C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/cyfitter_cfg.h C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/project.h C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/CapSense_1_Configuration.h C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/CapSense_1_Control.h C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/CapSense_1_Filter.h C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/CapSense_1_ISR.h C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/CapSense_1_Processing.h C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/CapSense_1_Sensing.h C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/CapSense_1_SensingCSD_LL.h C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/CapSense_1_SmartSense_LL.h C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/CapSense_1_Structure.h C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/CapSense_1_Tuner.h C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/CyLFClk.h C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/CyLib.h C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/cyPm.h C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/cypins.h C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/cytypes.h C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/main.c 
 
-Z:/Transfer/Jan/FirstTest.cydsn/Generated_Source/PSoC4/UART_SPI_UART.h : 
+C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/CapSense_1.h : 
 
-Z:/Transfer/Jan/FirstTest.cydsn/Generated_Source/PSoC4/UART_SPI_UART_PVT.h : 
+C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/CapSense_1_RegisterMap.h : 
 
-Z:/Transfer/Jan/FirstTest.cydsn/Generated_Source/PSoC4/UART_rx.h : 
+C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/CyFlash.h : 
 
-Z:/Transfer/Jan/FirstTest.cydsn/Generated_Source/PSoC4/UART_rx_aliases.h : 
+C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/I2CS.h : 
 
-Z:/Transfer/Jan/FirstTest.cydsn/Generated_Source/PSoC4/UART_tx.h : 
+C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/I2CS_BOOT.h : 
 
-Z:/Transfer/Jan/FirstTest.cydsn/Generated_Source/PSoC4/UART_tx_aliases.h : 
+C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/I2CS_I2C.h : 
 
-Z:/Transfer/Jan/FirstTest.cydsn/Generated_Source/PSoC4/cmsis_armcc.h : 
+C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/I2CS_I2C_PVT.h : 
 
-Z:/Transfer/Jan/FirstTest.cydsn/Generated_Source/PSoC4/cmsis_compiler.h : 
+C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/I2CS_PINS.h : 
 
-Z:/Transfer/Jan/FirstTest.cydsn/Generated_Source/PSoC4/cmsis_gcc.h : 
+C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/I2CS_PVT.h : 
 
-Z:/Transfer/Jan/FirstTest.cydsn/Generated_Source/PSoC4/core_cm0plus.h : 
+C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/I2CS_SCBCLK.h : 
 
-Z:/Transfer/Jan/FirstTest.cydsn/Generated_Source/PSoC4/core_cm0plus_psoc4.h : 
+C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/I2CS_SCB_IRQ.h : 
 
-Z:/Transfer/Jan/FirstTest.cydsn/Generated_Source/PSoC4/cyPm.h : 
+C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/I2CS_scl.h : 
 
-Z:/Transfer/Jan/FirstTest.cydsn/Generated_Source/PSoC4/cy_em_eeprom.h : 
+C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/I2CS_scl_aliases.h : 
 
-Z:/Transfer/Jan/FirstTest.cydsn/Generated_Source/PSoC4/cydevice_trm.h : 
+C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/I2CS_sda.h : 
 
-Z:/Transfer/Jan/FirstTest.cydsn/Generated_Source/PSoC4/cydisabledsheets.h : 
+C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/I2CS_sda_aliases.h : 
 
-Z:/Transfer/Jan/FirstTest.cydsn/Generated_Source/PSoC4/cyfitter.h : 
+C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/LED1.h : 
 
-Z:/Transfer/Jan/FirstTest.cydsn/Generated_Source/PSoC4/cyfitter_cfg.h : 
+C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/LED1_aliases.h : 
 
-Z:/Transfer/Jan/FirstTest.cydsn/Generated_Source/PSoC4/cypins.h : 
+C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/UART.h : 
 
-Z:/Transfer/Jan/FirstTest.cydsn/Generated_Source/PSoC4/cytypes.h : 
+C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/UART_BOOT.h : 
 
-Z:/Transfer/Jan/FirstTest.cydsn/Generated_Source/PSoC4/project.h : 
+C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/UART_PINS.h : 
 
-Z:/Transfer/Jan/FirstTest.cydsn/main.c : 
+C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/UART_PVT.h : 
+
+C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/UART_SCBCLK.h : 
+
+C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/UART_SPI_UART.h : 
+
+C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/UART_SPI_UART_PVT.h : 
+
+C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/UART_rx.h : 
+
+C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/UART_rx_aliases.h : 
+
+C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/UART_tx.h : 
+
+C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/UART_tx_aliases.h : 
+
+C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/cmsis_armcc.h : 
+
+C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/cmsis_compiler.h : 
+
+C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/cmsis_gcc.h : 
+
+C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/core_cm0plus.h : 
+
+C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/core_cm0plus_psoc4.h : 
+
+C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/cy_em_eeprom.h : 
+
+C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/cydisabledsheets.h : 
+
+C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/cyfitter_cfg.h : 
+
+C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/Generated_Source/PSoC4/project.h : 
+
+C:/Users/michael.machate/Desktop/Cypress_Firsttests/FirstTest.cydsn/main.c : 
 

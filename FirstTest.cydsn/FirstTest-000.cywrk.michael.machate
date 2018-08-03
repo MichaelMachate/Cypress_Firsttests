@@ -18,7 +18,7 @@
 <v>Output</v>
 </TreeKeys>
 <TreeStates>
-<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="FirstTest-000">
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="FirstTest-000\FirstTest\TopDesign">
 <ExpandedNodeIds>
 <v>FirstTest-000</v>
 <v>FirstTest-000\FirstTest</v>
@@ -159,6 +159,26 @@
 <v>FirstTest-000\FirstTest\CortexM0p\ARM_GCC_541\Debug\Listing Files\I2CS.lst</v>
 <v>FirstTest-000\FirstTest\CortexM0p\ARM_GCC_541\Debug\Listing Files\I2CS_BOOT.lst</v>
 <v>FirstTest-000\FirstTest\CortexM0p\ARM_GCC_541\Debug\Listing Files\I2CS_I2C.lst</v>
+<v>FirstTest-000\FirstTest\CortexM0p\ARM_GCC_541\Debug\Listing Files\I2CS_I2C_BOOT.lst</v>
+<v>FirstTest-000\FirstTest\CortexM0p\ARM_GCC_541\Debug\Listing Files\I2CS_I2C_INT.lst</v>
+<v>FirstTest-000\FirstTest\CortexM0p\ARM_GCC_541\Debug\Listing Files\I2CS_I2C_SLAVE.lst</v>
+<v>FirstTest-000\FirstTest\CortexM0p\ARM_GCC_541\Debug\Listing Files\I2CS_PM.lst</v>
+<v>FirstTest-000\FirstTest\CortexM0p\ARM_GCC_541\Debug\Listing Files\I2CS_SCB_IRQ.lst</v>
+<v>FirstTest-000\FirstTest\CortexM0p\ARM_GCC_541\Debug\Listing Files\I2CS_SCBCLK.lst</v>
+<v>FirstTest-000\FirstTest\CortexM0p\ARM_GCC_541\Debug\Listing Files\I2CS_scl.lst</v>
+<v>FirstTest-000\FirstTest\CortexM0p\ARM_GCC_541\Debug\Listing Files\I2CS_scl_PM.lst</v>
+<v>FirstTest-000\FirstTest\CortexM0p\ARM_GCC_541\Debug\Listing Files\I2CS_sda.lst</v>
+<v>FirstTest-000\FirstTest\CortexM0p\ARM_GCC_541\Debug\Listing Files\I2CS_sda_PM.lst</v>
+<v>FirstTest-000\FirstTest\CortexM0p\ARM_GCC_541\Debug\Listing Files\LED1.lst</v>
+<v>FirstTest-000\FirstTest\CortexM0p\ARM_GCC_541\Debug\Listing Files\LED1_PM.lst</v>
+<v>FirstTest-000\FirstTest\CortexM0p\ARM_GCC_541\Debug\Listing Files\main.lst</v>
+<v>FirstTest-000\FirstTest\CortexM0p\ARM_GCC_541\Debug\Listing Files\UART.lst</v>
+<v>FirstTest-000\FirstTest\CortexM0p\ARM_GCC_541\Debug\Listing Files\UART_BOOT.lst</v>
+<v>FirstTest-000\FirstTest\CortexM0p\ARM_GCC_541\Debug\Listing Files\UART_PM.lst</v>
+<v>FirstTest-000\FirstTest\CortexM0p\ARM_GCC_541\Debug\Listing Files\UART_SCBCLK.lst</v>
+<v>FirstTest-000\FirstTest\CortexM0p\ARM_GCC_541\Debug\Listing Files\UART_SPI_UART.lst</v>
+<v>FirstTest-000\FirstTest\CortexM0p\ARM_GCC_541\Debug\Listing Files\UART_SPI_UART_INT.lst</v>
+<v>FirstTest-000\FirstTest\CortexM0p\ARM_GCC_541\Debug\Listing Files\UART_tx.lst</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 </TreeStates>
@@ -201,9 +221,7 @@
 </CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997>
 <Unloaded />
 <OpenDocs>
-<name v=".\main.c" />
 <name v=".\TopDesign\TopDesign.cysch" />
-<name v=".\FirstTest.cydwr" />
 </OpenDocs>
 <OpenDocsLayout><![CDATA[<?xml version="1.0"?><!--
 
@@ -211,7 +229,7 @@
   Copyright (c) 2001-2016 Actipro Software LLC.  All rights reserved.
   http://www.actiprosoftware.com
 
---><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="538, 426" SelectedTabbedMdiWindow="0160ec70-e183-4426-9c02-6aa3e85fe808"><DocumentWindow Key="Z:\Transfer\Jan\FirstTest.cydsn\main.c" Guid="84813443-7041-4b1c-8a3f-ae6475e80361" /><DocumentWindow Key="Z:\Transfer\Jan\FirstTest.cydsn\TopDesign\TopDesign.cysch" Guid="0160ec70-e183-4426-9c02-6aa3e85fe808" /><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="e8ff90b1-191d-49a2-982f-685e05b8f433" /><DocumentWindow Key="Z:\Transfer\Jan\FirstTest.cydsn\FirstTest.cydwr" Guid="3875b0cf-7211-4543-8582-5de25eecae04" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
+--><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1375, 711" SelectedTabbedMdiWindow="b551b417-0eb5-481f-9eb3-77baf478ab4f"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="e8ff90b1-191d-49a2-982f-685e05b8f433" /><DocumentWindow Key="C:\Users\michael.machate\Desktop\Cypress_Firsttests\FirstTest.cydsn\TopDesign\TopDesign.cysch" Guid="b551b417-0eb5-481f-9eb3-77baf478ab4f" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
 <config v="" />
 <AutoUpdate v="true" />
 </CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21>

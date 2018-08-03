@@ -82,11 +82,6 @@ static uint8 CapSense_1_debounceButton0[CapSense_1_BUTTON0_NUM_SENSORS];
 
 
 /***************************************************************************//**
-* Declares Noise Envelope data structures
-*******************************************************************************/
-static SMARTSENSE_CSD_NOISE_ENVELOPE_STRUCT CapSense_1_noiseEnvlpButton0[CapSense_1_BUTTON0_NUM_SENSORS];
-
-/***************************************************************************//**
 * Declares Filter History Objects
 *******************************************************************************/
 static CapSense_1_REGULAR_FLTR_STRUCT CapSense_1_fltrHistoryButton0[CapSense_1_BUTTON0_NUM_SENSORS];
@@ -119,7 +114,6 @@ const CapSense_1_FLASH_STRUCT CapSense_1_dsFlash =
             CapSense_1_BUTTON0_NUM_SENSORS,
             (uint8)CapSense_1_WD_BUTTON_E,
             CapSense_1_BUTTON0_NUM_SENSORS,
-            CapSense_1_noiseEnvlpButton0,
         },
     },
 };
@@ -163,8 +157,6 @@ const CapSense_1_RAM_WD_LIST_STRUCT CapSense_1_ramWidgetInit =
         },
         CapSense_1_BUTTON0_SNS_CLK,
         CapSense_1_BUTTON0_SNS_CLK_SOURCE,
-        CapSense_1_BUTTON0_FINGER_CAP,
-        CapSense_1_BUTTON0_SIGPFC,
     },
 };
 

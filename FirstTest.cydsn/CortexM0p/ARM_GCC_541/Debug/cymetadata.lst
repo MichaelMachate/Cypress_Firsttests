@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccb1s52b.s 			page 1
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccoSzhuX.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccb1s52b.s 			page 1
   51              		.text
   52              	.Letext0:
   53              		.file 1 "c:\\program files (x86)\\cypress\\psoc creator\\4.2\\psoc creator\\import\\gnu\\arm\\5.4.
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccb1s52b.s 			page 2
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccoSzhuX.s 			page 2
 
 
   54              		.file 2 "c:\\program files (x86)\\cypress\\psoc creator\\4.2\\psoc creator\\import\\gnu\\arm\\5.4.
@@ -70,15 +70,15 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccb1s52b.s 			page 1
   60 0006 00000000 		.4byte	.Ldebug_abbrev0
   61 000a 04       		.byte	0x4
   62 000b 01       		.uleb128 0x1
-  63 000c 16010000 		.4byte	.LASF15
+  63 000c 30010000 		.4byte	.LASF15
   64 0010 0C       		.byte	0xc
   65 0011 38000000 		.4byte	.LASF16
-  66 0015 EC000000 		.4byte	.LASF17
+  66 0015 E3000000 		.4byte	.LASF17
   67 0019 00000000 		.4byte	.Ldebug_line0
   68 001d 02       		.uleb128 0x2
   69 001e 01       		.byte	0x1
   70 001f 06       		.byte	0x6
-  71 0020 A8010000 		.4byte	.LASF0
+  71 0020 C2010000 		.4byte	.LASF0
   72 0024 03       		.uleb128 0x3
   73 0025 00000000 		.4byte	.LASF9
   74 0029 01       		.byte	0x1
@@ -99,7 +99,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccb1s52b.s 			page 1
   89 0044 02       		.uleb128 0x2
   90 0045 04       		.byte	0x4
   91 0046 05       		.byte	0x5
-  92 0047 E3000000 		.4byte	.LASF4
+  92 0047 27010000 		.4byte	.LASF4
   93 004b 02       		.uleb128 0x2
   94 004c 04       		.byte	0x4
   95 004d 07       		.byte	0x7
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccb1s52b.s 			page 1
  108 0063 696E7400 		.ascii	"int\000"
  109 0067 02       		.uleb128 0x2
  110 0068 04       		.byte	0x4
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccb1s52b.s 			page 3
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccoSzhuX.s 			page 3
 
 
  111 0069 07       		.byte	0x7
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccb1s52b.s 			page 1
  165 00e1 08       		.uleb128 0x8
  166 00e2 0A000000 		.4byte	.LASF14
  167 00e6 03       		.byte	0x3
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccb1s52b.s 			page 4
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccoSzhuX.s 			page 4
 
 
  168 00e7 3F       		.byte	0x3f
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccb1s52b.s 			page 1
  222 002c 3E       		.uleb128 0x3e
  223 002d 0B       		.uleb128 0xb
  224 002e 03       		.uleb128 0x3
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccb1s52b.s 			page 5
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccoSzhuX.s 			page 5
 
 
  225 002f 08       		.uleb128 0x8
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccb1s52b.s 			page 1
  279 0010 00000000 		.4byte	0
  280 0014 00000000 		.4byte	0
  281              		.section	.debug_line,"",%progbits
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccb1s52b.s 			page 6
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccoSzhuX.s 			page 6
 
 
  282              	.Ldebug_line0:
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccb1s52b.s 			page 1
  302              	.LASF10:
  303 00a5 75696E74 		.ascii	"uint8_t\000"
  303      385F7400 
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccb1s52b.s 			page 7
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccoSzhuX.s 			page 7
 
 
  304              	.LASF12:
@@ -380,34 +380,39 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccb1s52b.s 			page 1
  311 00d9 73686F72 		.ascii	"short int\000"
  311      7420696E 
  311      7400
- 312              	.LASF4:
- 313 00e3 6C6F6E67 		.ascii	"long int\000"
- 313      20696E74 
- 313      00
- 314              	.LASF17:
- 315 00ec 433A5C55 		.ascii	"C:\\Users\\Public\\Documents\\FirstTest.cydsn\000"
- 315      73657273 
- 315      5C507562 
- 315      6C69635C 
- 315      446F6375 
- 316              	.LASF15:
- 317 0116 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
- 317      43313120 
- 317      352E342E 
- 317      31203230 
- 317      31363036 
- 318 0149 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m0plus -mthumb -"
- 318      20726576 
- 318      6973696F 
- 318      6E203233 
- 318      37373135 
- 319 017c 67202D4F 		.ascii	"g -Og -ffunction-sections -ffat-lto-objects\000"
- 319      67202D66 
- 319      66756E63 
- 319      74696F6E 
- 319      2D736563 
- 320              	.LASF0:
- 321 01a8 7369676E 		.ascii	"signed char\000"
- 321      65642063 
- 321      68617200 
- 322              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran
+ 312              	.LASF17:
+ 313 00e3 433A5C55 		.ascii	"C:\\Users\\michael.machate\\Desktop\\Cypress_Firstt"
+ 313      73657273 
+ 313      5C6D6963 
+ 313      6861656C 
+ 313      2E6D6163 
+ 314 0112 65737473 		.ascii	"ests\\FirstTest.cydsn\000"
+ 314      5C466972 
+ 314      73745465 
+ 314      73742E63 
+ 314      7964736E 
+ 315              	.LASF4:
+ 316 0127 6C6F6E67 		.ascii	"long int\000"
+ 316      20696E74 
+ 316      00
+ 317              	.LASF15:
+ 318 0130 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
+ 318      43313120 
+ 318      352E342E 
+ 318      31203230 
+ 318      31363036 
+ 319 0163 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m0plus -mthumb -"
+ 319      20726576 
+ 319      6973696F 
+ 319      6E203233 
+ 319      37373135 
+ 320 0196 67202D4F 		.ascii	"g -Og -ffunction-sections -ffat-lto-objects\000"
+ 320      67202D66 
+ 320      66756E63 
+ 320      74696F6E 
+ 320      2D736563 
+ 321              	.LASF0:
+ 322 01c2 7369676E 		.ascii	"signed char\000"
+ 322      65642063 
+ 322      68617200 
+ 323              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran

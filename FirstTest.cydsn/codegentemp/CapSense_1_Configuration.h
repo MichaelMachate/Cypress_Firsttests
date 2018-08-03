@@ -249,7 +249,7 @@
 #define CapSense_1_CSD_SS_HWTH_EN     (CapSense_1_CSD_SS_HW_EN | \
                                              CapSense_1_CSD_SS_TH_EN)
 
-#define CapSense_1_CSD_AUTOTUNE       CapSense_1_CSD_SS_HWTH_EN
+#define CapSense_1_CSD_AUTOTUNE       CapSense_1_CSD_SS_DIS
 
 
 /*******************************************************************************
@@ -535,7 +535,7 @@ typedef uint16 CapSense_1_THRESHOLD_TYPE;
 #define CapSense_1_CSD_TOTAL_SHIELD_COUNT       (0u)
 #define CapSense_1_CSD_SCANSPEED_DIVIDER        (1u)
 #define CapSense_1_CSD_COMMON_SNS_CLK_EN        (0u)
-#define CapSense_1_CSD_SNS_CLK_SOURCE           (CapSense_1_CLK_SOURCE_PRSAUTO)
+#define CapSense_1_CSD_SNS_CLK_SOURCE           (CapSense_1_CLK_SOURCE_PRS8)
 #define CapSense_1_CSD_SNS_CLK_DIVIDER          (1024u)
 #define CapSense_1_CSD_INACTIVE_SNS_CONNECTION  (CapSense_1_SNS_CONNECTION_GROUND)
 #define CapSense_1_CSD_IDAC_COMP_EN             (1u)
@@ -639,7 +639,7 @@ typedef uint16 CapSense_1_THRESHOLD_TYPE;
                                        || (0u != CapSense_1_ISX_IDAC_AUTOCAL_EN)) \
                                        || (0u != CapSense_1_CSD_IDAC_AUTOCAL_EN))
 /* RAM Global Parameters Definitions */
-#define CapSense_1_CONFIG_ID                    (0x4826u)
+#define CapSense_1_CONFIG_ID                    (0x4400u)
 #define CapSense_1_DEVICE_ID                    (0x0900u)
 #define CapSense_1_HW_CLOCK                     (0x1770u)
 #define CapSense_1_CSD0_CONFIG                  (0x0008u)
@@ -654,17 +654,15 @@ typedef uint16 CapSense_1_THRESHOLD_TYPE;
 * Button0 initialization values for RAM data structure
 *******************************************************************************/
 #define CapSense_1_BUTTON0_RESOLUTION           (CapSense_1_RES16BIT)
-#define CapSense_1_BUTTON0_FINGER_TH            (100u)
-#define CapSense_1_BUTTON0_NOISE_TH             (40u)
-#define CapSense_1_BUTTON0_NNOISE_TH            (40u)
-#define CapSense_1_BUTTON0_HYSTERESIS           (10u)
+#define CapSense_1_BUTTON0_FINGER_TH            (2000u)
+#define CapSense_1_BUTTON0_NOISE_TH             (20u)
+#define CapSense_1_BUTTON0_NNOISE_TH            (20u)
+#define CapSense_1_BUTTON0_HYSTERESIS           (5u)
 #define CapSense_1_BUTTON0_ON_DEBOUNCE          (3u)
 #define CapSense_1_BUTTON0_LOW_BSLN_RST         (30u)
 #define CapSense_1_BUTTON0_IDAC_MOD0            (32u)
-#define CapSense_1_BUTTON0_SNS_CLK              (4u)
+#define CapSense_1_BUTTON0_SNS_CLK              (32u)
 #define CapSense_1_BUTTON0_SNS_CLK_SOURCE       (0u)
-#define CapSense_1_BUTTON0_FINGER_CAP           (1000u)
-#define CapSense_1_BUTTON0_SIGPFC               (0u)
 
 /* RAM Sensor Parameters Definitions */
 #define CapSense_1_BUTTON0_SNS0_IDAC_COMP0      (32u)

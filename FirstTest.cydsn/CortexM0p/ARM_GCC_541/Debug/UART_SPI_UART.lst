@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccD0KgDa.s 			page 1
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccZQRMvi.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccD0KgDa.s 			page 1
   28:Generated_Source\PSoC4/UART_SPI_UART.c ****     volatile uint32 UART_rxBufferHead;
   29:Generated_Source\PSoC4/UART_SPI_UART.c ****     /* Start index to get data from the software receive buffer.*/
   30:Generated_Source\PSoC4/UART_SPI_UART.c ****     volatile uint32 UART_rxBufferTail;
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccD0KgDa.s 			page 2
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccZQRMvi.s 			page 2
 
 
   31:Generated_Source\PSoC4/UART_SPI_UART.c ****     /**
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccD0KgDa.s 			page 1
   85:Generated_Source\PSoC4/UART_SPI_UART.c ****         uint32 rxData = 0u;
   86:Generated_Source\PSoC4/UART_SPI_UART.c **** 
   87:Generated_Source\PSoC4/UART_SPI_UART.c ****     #if (UART_INTERNAL_RX_SW_BUFFER_CONST)
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccD0KgDa.s 			page 3
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccZQRMvi.s 			page 3
 
 
   88:Generated_Source\PSoC4/UART_SPI_UART.c ****         uint32 locTail;
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccD0KgDa.s 			page 1
  142:Generated_Source\PSoC4/UART_SPI_UART.c ****     *   - RX software buffer disabled: returns the number of used entries in
  143:Generated_Source\PSoC4/UART_SPI_UART.c ****     *     RX FIFO.
  144:Generated_Source\PSoC4/UART_SPI_UART.c ****     *   - RX software buffer enabled: returns the number of elements which were
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccD0KgDa.s 			page 4
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccZQRMvi.s 			page 4
 
 
  145:Generated_Source\PSoC4/UART_SPI_UART.c ****     *     placed in the receive buffer. This does not include the hardware RX FIFO.
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccD0KgDa.s 			page 1
  199:Generated_Source\PSoC4/UART_SPI_UART.c ****     *******************************************************************************/
  200:Generated_Source\PSoC4/UART_SPI_UART.c ****     void UART_SpiUartClearRxBuffer(void)
  201:Generated_Source\PSoC4/UART_SPI_UART.c ****     {
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccD0KgDa.s 			page 5
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccZQRMvi.s 			page 5
 
 
  202:Generated_Source\PSoC4/UART_SPI_UART.c ****         #if (UART_CHECK_RX_SW_BUFFER)
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccD0KgDa.s 			page 1
  256:Generated_Source\PSoC4/UART_SPI_UART.c ****     *******************************************************************************/
  257:Generated_Source\PSoC4/UART_SPI_UART.c ****     void UART_SpiUartWriteTxData(uint32 txData)
  258:Generated_Source\PSoC4/UART_SPI_UART.c ****     {
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccD0KgDa.s 			page 6
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccZQRMvi.s 			page 6
 
 
   28              		.loc 1 258 0
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccD0KgDa.s 			page 1
  306:Generated_Source\PSoC4/UART_SPI_UART.c ****         #else
  307:Generated_Source\PSoC4/UART_SPI_UART.c ****         {
  308:Generated_Source\PSoC4/UART_SPI_UART.c ****             /* Wait until TX FIFO has space to put data element */
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccD0KgDa.s 			page 7
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccZQRMvi.s 			page 7
 
 
  309:Generated_Source\PSoC4/UART_SPI_UART.c ****             while (UART_SPI_UART_FIFO_SIZE == UART_GET_TX_FIFO_ENTRIES)
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccD0KgDa.s 			page 1
  334:Generated_Source\PSoC4/UART_SPI_UART.c ****     *  UART_txBufferHead - the start index to put data into the 
  335:Generated_Source\PSoC4/UART_SPI_UART.c ****     *  software transmit buffer.
  336:Generated_Source\PSoC4/UART_SPI_UART.c ****     *  UART_txBufferTail - start index to get data from the software
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccD0KgDa.s 			page 8
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccZQRMvi.s 			page 8
 
 
  337:Generated_Source\PSoC4/UART_SPI_UART.c ****     *  transmit buffer.
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccD0KgDa.s 			page 1
  104              		.align	2
  105              		.global	UART_SpiUartGetTxBufferSize
  106              		.code	16
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccD0KgDa.s 			page 9
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccZQRMvi.s 			page 9
 
 
  107              		.thumb_func
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccD0KgDa.s 			page 1
  394:Generated_Source\PSoC4/UART_SPI_UART.c ****         #else
  395:Generated_Source\PSoC4/UART_SPI_UART.c ****         {
  396:Generated_Source\PSoC4/UART_SPI_UART.c ****             size = UART_GET_TX_FIFO_ENTRIES;
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccD0KgDa.s 			page 10
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccZQRMvi.s 			page 10
 
 
  116              		.loc 1 396 0
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccD0KgDa.s 			page 1
  422:Generated_Source\PSoC4/UART_SPI_UART.c ****             UART_DisableInt();
  423:Generated_Source\PSoC4/UART_SPI_UART.c **** 
  424:Generated_Source\PSoC4/UART_SPI_UART.c ****             /* Flush TX software buffer */
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccD0KgDa.s 			page 11
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccZQRMvi.s 			page 11
 
 
  425:Generated_Source\PSoC4/UART_SPI_UART.c ****             UART_txBufferHead = UART_txBufferTail;
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccD0KgDa.s 			page 1
  449:Generated_Source\PSoC4/UART_SPI_UART.c **** *
  450:Generated_Source\PSoC4/UART_SPI_UART.c **** *  \return
  451:Generated_Source\PSoC4/UART_SPI_UART.c **** *   Returns the RX interrupt sources enabled before the function call.
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccD0KgDa.s 			page 12
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccZQRMvi.s 			page 12
 
 
  452:Generated_Source\PSoC4/UART_SPI_UART.c **** *
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccD0KgDa.s 			page 1
  476:Generated_Source\PSoC4/UART_SPI_UART.c **** uint32 UART_SpiUartDisableIntTx(void)
  477:Generated_Source\PSoC4/UART_SPI_UART.c **** {
  205              		.loc 1 477 0
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccD0KgDa.s 			page 13
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccZQRMvi.s 			page 13
 
 
  206              		.cfi_startproc
@@ -760,9 +760,9 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccD0KgDa.s 			page 1
  234 0006 00000000 		.4byte	.Ldebug_abbrev0
  235 000a 04       		.byte	0x4
  236 000b 01       		.uleb128 0x1
- 237 000c BE010000 		.4byte	.LASF28
+ 237 000c E2010000 		.4byte	.LASF28
  238 0010 0C       		.byte	0xc
- 239 0011 7D010000 		.4byte	.LASF29
+ 239 0011 A1010000 		.4byte	.LASF29
  240 0015 08010000 		.4byte	.LASF30
  241 0019 00000000 		.4byte	.Ldebug_ranges0+0
  242 001d 00000000 		.4byte	0
@@ -770,7 +770,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccD0KgDa.s 			page 1
  244 0025 02       		.uleb128 0x2
  245 0026 01       		.byte	0x1
  246 0027 06       		.byte	0x6
- 247 0028 50020000 		.4byte	.LASF0
+ 247 0028 74020000 		.4byte	.LASF0
  248 002c 02       		.uleb128 0x2
  249 002d 01       		.byte	0x1
  250 002e 08       		.byte	0x8
@@ -778,10 +778,10 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccD0KgDa.s 			page 1
  252 0033 02       		.uleb128 0x2
  253 0034 02       		.byte	0x2
  254 0035 05       		.byte	0x5
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccD0KgDa.s 			page 14
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccZQRMvi.s 			page 14
 
 
- 255 0036 73010000 		.4byte	.LASF2
+ 255 0036 97010000 		.4byte	.LASF2
  256 003a 02       		.uleb128 0x2
  257 003b 02       		.byte	0x2
  258 003c 07       		.byte	0x7
@@ -789,7 +789,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccD0KgDa.s 			page 1
  260 0041 02       		.uleb128 0x2
  261 0042 04       		.byte	0x4
  262 0043 05       		.byte	0x5
- 263 0044 A4010000 		.4byte	.LASF4
+ 263 0044 C8010000 		.4byte	.LASF4
  264 0048 02       		.uleb128 0x2
  265 0049 04       		.byte	0x4
  266 004a 07       		.byte	0x7
@@ -797,7 +797,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccD0KgDa.s 			page 1
  268 004f 02       		.uleb128 0x2
  269 0050 08       		.byte	0x8
  270 0051 05       		.byte	0x5
- 271 0052 31010000 		.4byte	.LASF6
+ 271 0052 55010000 		.4byte	.LASF6
  272 0056 02       		.uleb128 0x2
  273 0057 08       		.byte	0x8
  274 0058 07       		.byte	0x7
@@ -831,27 +831,27 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccD0KgDa.s 			page 1
  302 0091 02       		.uleb128 0x2
  303 0092 01       		.byte	0x1
  304 0093 08       		.byte	0x8
- 305 0094 AD010000 		.4byte	.LASF13
+ 305 0094 D1010000 		.4byte	.LASF13
  306 0098 04       		.uleb128 0x4
  307 0099 00000000 		.4byte	.LASF14
  308 009d 02       		.byte	0x2
  309 009e 9002     		.2byte	0x290
  310 00a0 A4000000 		.4byte	0xa4
  311 00a4 05       		.uleb128 0x5
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccD0KgDa.s 			page 15
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccZQRMvi.s 			page 15
 
 
  312 00a5 77000000 		.4byte	0x77
  313 00a9 02       		.uleb128 0x2
  314 00aa 08       		.byte	0x8
  315 00ab 04       		.byte	0x4
- 316 00ac B2010000 		.4byte	.LASF15
+ 316 00ac D6010000 		.4byte	.LASF15
  317 00b0 02       		.uleb128 0x2
  318 00b1 04       		.byte	0x4
  319 00b2 07       		.byte	0x7
- 320 00b3 28010000 		.4byte	.LASF16
+ 320 00b3 4C010000 		.4byte	.LASF16
  321 00b7 06       		.uleb128 0x6
- 322 00b8 3F010000 		.4byte	.LASF17
+ 322 00b8 63010000 		.4byte	.LASF17
  323 00bc 01       		.byte	0x1
  324 00bd 0101     		.2byte	0x101
  325 00bf 00000000 		.4byte	.LFB1
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccD0KgDa.s 			page 1
  366 0121 10000000 		.4byte	.LVL4
  367 0125 B7000000 		.4byte	0xb7
  368 0129 00       		.byte	0
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccD0KgDa.s 			page 16
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccZQRMvi.s 			page 16
 
 
  369 012a 0B       		.uleb128 0xb
@@ -907,7 +907,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccD0KgDa.s 			page 1
  372 0130 0C       		.uleb128 0xc
  373 0131 6B000000 		.4byte	0x6b
  374 0135 0D       		.uleb128 0xd
- 375 0136 57010000 		.4byte	.LASF23
+ 375 0136 7B010000 		.4byte	.LASF23
  376 013a 01       		.byte	0x1
  377 013b 7501     		.2byte	0x175
  378 013d 77000000 		.4byte	0x77
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccD0KgDa.s 			page 1
  423 01a5 00000000 		.4byte	.LFB6
  424 01a9 10000000 		.4byte	.LFE6-.LFB6
  425 01ad 01       		.uleb128 0x1
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccD0KgDa.s 			page 17
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccZQRMvi.s 			page 17
 
 
  426 01ae 9C       		.byte	0x9c
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccD0KgDa.s 			page 1
  480 002a 16       		.uleb128 0x16
  481 002b 00       		.byte	0
  482 002c 03       		.uleb128 0x3
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccD0KgDa.s 			page 18
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccZQRMvi.s 			page 18
 
 
  483 002d 0E       		.uleb128 0xe
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccD0KgDa.s 			page 1
  537 0064 00       		.byte	0
  538 0065 00       		.byte	0
  539 0066 08       		.uleb128 0x8
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccD0KgDa.s 			page 19
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccZQRMvi.s 			page 19
 
 
  540 0067 05       		.uleb128 0x5
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccD0KgDa.s 			page 1
  594 009f 0D       		.uleb128 0xd
  595 00a0 2E       		.uleb128 0x2e
  596 00a1 01       		.byte	0x1
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccD0KgDa.s 			page 20
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccZQRMvi.s 			page 20
 
 
  597 00a2 3F       		.uleb128 0x3f
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccD0KgDa.s 			page 1
  651 00d9 12       		.uleb128 0x12
  652 00da 06       		.uleb128 0x6
  653 00db 40       		.uleb128 0x40
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccD0KgDa.s 			page 21
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccZQRMvi.s 			page 21
 
 
  654 00dc 18       		.uleb128 0x18
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccD0KgDa.s 			page 1
  708 0034 0100     		.2byte	0x1
  709 0036 51       		.byte	0x51
  710 0037 0A000000 		.4byte	.LVL3
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccD0KgDa.s 			page 22
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccZQRMvi.s 			page 22
 
 
  711 003b 16000000 		.4byte	.LVL7
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccD0KgDa.s 			page 1
  765 0018 00000000 		.4byte	.LFB4
  766 001c 20000000 		.4byte	.LFE4
  767 0020 00000000 		.4byte	.LFB5
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccD0KgDa.s 			page 23
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccZQRMvi.s 			page 23
 
 
  768 0024 10000000 		.4byte	.LFE5
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccD0KgDa.s 			page 1
  795      6420696E 
  795      7400
  796              	.LASF9:
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccD0KgDa.s 			page 24
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccZQRMvi.s 			page 24
 
 
  797 0082 75696E74 		.ascii	"uint8\000"
@@ -1425,74 +1425,82 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccD0KgDa.s 			page 1
  815      7369676E 
  815      65642069 
  816              	.LASF30:
- 817 0108 5A3A5C54 		.ascii	"Z:\\Transfer\\Jan\\FirstTest.cydsn\000"
- 817      72616E73 
- 817      6665725C 
- 817      4A616E5C 
- 817      46697273 
- 818              	.LASF16:
- 819 0128 73697A65 		.ascii	"sizetype\000"
- 819      74797065 
- 819      00
- 820              	.LASF6:
- 821 0131 6C6F6E67 		.ascii	"long long int\000"
- 821      206C6F6E 
- 821      6720696E 
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccD0KgDa.s 			page 25
+ 817 0108 433A5C55 		.ascii	"C:\\Users\\michael.machate\\Desktop\\Cypress_Firstt"
+ 817      73657273 
+ 817      5C6D6963 
+ 817      6861656C 
+ 817      2E6D6163 
+ 818 0137 65737473 		.ascii	"ests\\FirstTest.cydsn\000"
+ 818      5C466972 
+ 818      73745465 
+ 818      73742E63 
+ 818      7964736E 
+ 819              	.LASF16:
+ 820 014c 73697A65 		.ascii	"sizetype\000"
+ 820      74797065 
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccZQRMvi.s 			page 25
 
 
- 821      7400
- 822              	.LASF17:
- 823 013f 55415254 		.ascii	"UART_SpiUartWriteTxData\000"
- 823      5F537069 
- 823      55617274 
- 823      57726974 
- 823      65547844 
- 824              	.LASF23:
- 825 0157 55415254 		.ascii	"UART_SpiUartGetTxBufferSize\000"
- 825      5F537069 
- 825      55617274 
- 825      47657454 
- 825      78427566 
- 826              	.LASF2:
- 827 0173 73686F72 		.ascii	"short int\000"
- 827      7420696E 
- 827      7400
- 828              	.LASF29:
- 829 017d 47656E65 		.ascii	"Generated_Source\\PSoC4\\UART_SPI_UART.c\000"
- 829      72617465 
- 829      645F536F 
- 829      75726365 
- 829      5C50536F 
- 830              	.LASF4:
- 831 01a4 6C6F6E67 		.ascii	"long int\000"
- 831      20696E74 
- 831      00
- 832              	.LASF13:
- 833 01ad 63686172 		.ascii	"char\000"
- 833      00
- 834              	.LASF15:
- 835 01b2 6C6F6E67 		.ascii	"long double\000"
- 835      20646F75 
- 835      626C6500 
- 836              	.LASF28:
- 837 01be 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
- 837      43313120 
- 837      352E342E 
- 837      31203230 
- 837      31363036 
- 838 01f1 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m0plus -mthumb -"
- 838      20726576 
- 838      6973696F 
- 838      6E203233 
- 838      37373135 
- 839 0224 67202D4F 		.ascii	"g -Og -ffunction-sections -ffat-lto-objects\000"
- 839      67202D66 
- 839      66756E63 
- 839      74696F6E 
- 839      2D736563 
- 840              	.LASF0:
- 841 0250 7369676E 		.ascii	"signed char\000"
- 841      65642063 
- 841      68617200 
- 842              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran
+ 820      00
+ 821              	.LASF6:
+ 822 0155 6C6F6E67 		.ascii	"long long int\000"
+ 822      206C6F6E 
+ 822      6720696E 
+ 822      7400
+ 823              	.LASF17:
+ 824 0163 55415254 		.ascii	"UART_SpiUartWriteTxData\000"
+ 824      5F537069 
+ 824      55617274 
+ 824      57726974 
+ 824      65547844 
+ 825              	.LASF23:
+ 826 017b 55415254 		.ascii	"UART_SpiUartGetTxBufferSize\000"
+ 826      5F537069 
+ 826      55617274 
+ 826      47657454 
+ 826      78427566 
+ 827              	.LASF2:
+ 828 0197 73686F72 		.ascii	"short int\000"
+ 828      7420696E 
+ 828      7400
+ 829              	.LASF29:
+ 830 01a1 47656E65 		.ascii	"Generated_Source\\PSoC4\\UART_SPI_UART.c\000"
+ 830      72617465 
+ 830      645F536F 
+ 830      75726365 
+ 830      5C50536F 
+ 831              	.LASF4:
+ 832 01c8 6C6F6E67 		.ascii	"long int\000"
+ 832      20696E74 
+ 832      00
+ 833              	.LASF13:
+ 834 01d1 63686172 		.ascii	"char\000"
+ 834      00
+ 835              	.LASF15:
+ 836 01d6 6C6F6E67 		.ascii	"long double\000"
+ 836      20646F75 
+ 836      626C6500 
+ 837              	.LASF28:
+ 838 01e2 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
+ 838      43313120 
+ 838      352E342E 
+ 838      31203230 
+ 838      31363036 
+ 839 0215 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m0plus -mthumb -"
+ 839      20726576 
+ 839      6973696F 
+ 839      6E203233 
+ 839      37373135 
+ 840 0248 67202D4F 		.ascii	"g -Og -ffunction-sections -ffat-lto-objects\000"
+ 840      67202D66 
+ 840      66756E63 
+ 840      74696F6E 
+ 840      2D736563 
+ 841              	.LASF0:
+ 842 0274 7369676E 		.ascii	"signed char\000"
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccZQRMvi.s 			page 26
+
+
+ 842      65642063 
+ 842      68617200 
+ 843              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran

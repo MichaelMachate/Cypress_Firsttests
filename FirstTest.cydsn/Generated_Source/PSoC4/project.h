@@ -42,7 +42,6 @@
 #include "CapSense_1_Configuration.h"
 #include "CapSense_1_SensingCSD_LL.h"
 #include "CapSense_1_RegisterMap.h"
-#include "CapSense_1_SmartSense_LL.h"
 #include "UART_SCBCLK.h"
 #include "UART_tx.h"
 #include "UART_tx_aliases.h"
