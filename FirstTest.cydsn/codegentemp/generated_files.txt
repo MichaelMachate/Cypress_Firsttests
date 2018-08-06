@@ -13,10 +13,10 @@
   <file name="C:\Users\michael.machate\Desktop\Cypress_Firsttests\FirstTest.cydsn\codegentemp\cyfitteriar.inc" value="HEADER;;;;;" />
   <file name="C:\Users\michael.machate\Desktop\Cypress_Firsttests\FirstTest.cydsn\codegentemp\cyfitter.h" value="HEADER;;;;;" />
   <file name="C:\Users\michael.machate\Desktop\Cypress_Firsttests\FirstTest.cydsn\codegentemp\cydisabledsheets.h" value="HEADER;;;;;" />
-  <file name="C:\Users\michael.machate\Desktop\Cypress_Firsttests\FirstTest.cydsn\codegentemp\LED1.c" value="SOURCE_C;CortexM0p;;;;LED1" />
-  <file name="C:\Users\michael.machate\Desktop\Cypress_Firsttests\FirstTest.cydsn\codegentemp\LED1.h" value="HEADER;;;;;LED1" />
-  <file name="C:\Users\michael.machate\Desktop\Cypress_Firsttests\FirstTest.cydsn\codegentemp\LED1_aliases.h" value="HEADER;;;;;LED1" />
-  <file name="C:\Users\michael.machate\Desktop\Cypress_Firsttests\FirstTest.cydsn\codegentemp\LED1_PM.c" value="SOURCE_C;CortexM0p;;;;LED1" />
+  <file name="C:\Users\michael.machate\Desktop\Cypress_Firsttests\FirstTest.cydsn\codegentemp\LED0.c" value="SOURCE_C;CortexM0p;;;;LED0" />
+  <file name="C:\Users\michael.machate\Desktop\Cypress_Firsttests\FirstTest.cydsn\codegentemp\LED0.h" value="HEADER;;;;;LED0" />
+  <file name="C:\Users\michael.machate\Desktop\Cypress_Firsttests\FirstTest.cydsn\codegentemp\LED0_aliases.h" value="HEADER;;;;;LED0" />
+  <file name="C:\Users\michael.machate\Desktop\Cypress_Firsttests\FirstTest.cydsn\codegentemp\LED0_PM.c" value="SOURCE_C;CortexM0p;;;;LED0" />
   <file name="C:\Users\michael.machate\Desktop\Cypress_Firsttests\FirstTest.cydsn\codegentemp\UART.c" value="SOURCE_C;CortexM0p;;;;UART" />
   <file name="C:\Users\michael.machate\Desktop\Cypress_Firsttests\FirstTest.cydsn\codegentemp\UART.h" value="HEADER;;;;;UART" />
   <file name="C:\Users\michael.machate\Desktop\Cypress_Firsttests\FirstTest.cydsn\codegentemp\UART_SPI_UART.h" value="HEADER;;;;;UART" />
@@ -61,6 +61,23 @@
   <file name="C:\Users\michael.machate\Desktop\Cypress_Firsttests\FirstTest.cydsn\codegentemp\CapSense_1_SensingCSD_LL.c" value="SOURCE_C;CortexM0p;;;;CapSense_1" />
   <file name="C:\Users\michael.machate\Desktop\Cypress_Firsttests\FirstTest.cydsn\codegentemp\CapSense_1_SensingCSD_LL.h" value="HEADER;;;;;CapSense_1" />
   <file name="C:\Users\michael.machate\Desktop\Cypress_Firsttests\FirstTest.cydsn\codegentemp\CapSense_1_RegisterMap.h" value="HEADER;;;;;CapSense_1" />
+  <file name="C:\Users\michael.machate\Desktop\Cypress_Firsttests\FirstTest.cydsn\codegentemp\CapSense_1_SmartSense_LL.h" value="HEADER;;;;;CapSense_1" />
+  <file name="C:\Users\michael.machate\Desktop\Cypress_Firsttests\FirstTest.cydsn\codegentemp\LED1.c" value="SOURCE_C;CortexM0p;;;;LED1" />
+  <file name="C:\Users\michael.machate\Desktop\Cypress_Firsttests\FirstTest.cydsn\codegentemp\LED1.h" value="HEADER;;;;;LED1" />
+  <file name="C:\Users\michael.machate\Desktop\Cypress_Firsttests\FirstTest.cydsn\codegentemp\LED1_aliases.h" value="HEADER;;;;;LED1" />
+  <file name="C:\Users\michael.machate\Desktop\Cypress_Firsttests\FirstTest.cydsn\codegentemp\LED1_PM.c" value="SOURCE_C;CortexM0p;;;;LED1" />
+  <file name="C:\Users\michael.machate\Desktop\Cypress_Firsttests\FirstTest.cydsn\codegentemp\LED2.c" value="SOURCE_C;CortexM0p;;;;LED2" />
+  <file name="C:\Users\michael.machate\Desktop\Cypress_Firsttests\FirstTest.cydsn\codegentemp\LED2.h" value="HEADER;;;;;LED2" />
+  <file name="C:\Users\michael.machate\Desktop\Cypress_Firsttests\FirstTest.cydsn\codegentemp\LED2_aliases.h" value="HEADER;;;;;LED2" />
+  <file name="C:\Users\michael.machate\Desktop\Cypress_Firsttests\FirstTest.cydsn\codegentemp\LED2_PM.c" value="SOURCE_C;CortexM0p;;;;LED2" />
+  <file name="C:\Users\michael.machate\Desktop\Cypress_Firsttests\FirstTest.cydsn\codegentemp\LED3.c" value="SOURCE_C;CortexM0p;;;;LED3" />
+  <file name="C:\Users\michael.machate\Desktop\Cypress_Firsttests\FirstTest.cydsn\codegentemp\LED3.h" value="HEADER;;;;;LED3" />
+  <file name="C:\Users\michael.machate\Desktop\Cypress_Firsttests\FirstTest.cydsn\codegentemp\LED3_aliases.h" value="HEADER;;;;;LED3" />
+  <file name="C:\Users\michael.machate\Desktop\Cypress_Firsttests\FirstTest.cydsn\codegentemp\LED3_PM.c" value="SOURCE_C;CortexM0p;;;;LED3" />
+  <file name="C:\Users\michael.machate\Desktop\Cypress_Firsttests\FirstTest.cydsn\codegentemp\LED4.c" value="SOURCE_C;CortexM0p;;;;LED4" />
+  <file name="C:\Users\michael.machate\Desktop\Cypress_Firsttests\FirstTest.cydsn\codegentemp\LED4.h" value="HEADER;;;;;LED4" />
+  <file name="C:\Users\michael.machate\Desktop\Cypress_Firsttests\FirstTest.cydsn\codegentemp\LED4_aliases.h" value="HEADER;;;;;LED4" />
+  <file name="C:\Users\michael.machate\Desktop\Cypress_Firsttests\FirstTest.cydsn\codegentemp\LED4_PM.c" value="SOURCE_C;CortexM0p;;;;LED4" />
   <file name="C:\Users\michael.machate\Desktop\Cypress_Firsttests\FirstTest.cydsn\codegentemp\UART_SCBCLK.c" value="SOURCE_C;CortexM0p;;;;UART_SCBCLK" />
   <file name="C:\Users\michael.machate\Desktop\Cypress_Firsttests\FirstTest.cydsn\codegentemp\UART_SCBCLK.h" value="HEADER;;;;;UART_SCBCLK" />
   <file name="C:\Users\michael.machate\Desktop\Cypress_Firsttests\FirstTest.cydsn\codegentemp\UART_tx.c" value="SOURCE_C;CortexM0p;;;;UART_tx" />

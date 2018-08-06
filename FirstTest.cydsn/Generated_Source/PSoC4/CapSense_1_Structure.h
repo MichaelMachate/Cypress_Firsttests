@@ -199,6 +199,17 @@ typedef struct
      *  Register for internal use
      */
     uint8  snsClkSource;
+
+    /**
+     *  Widget Finger capacitance parameter. Available only if the 
+     *  SmartSense is enabled. Not used for the CSX/ISX Widgets.
+     */
+    uint16 fingerCap;
+
+    /**
+     *  The 75% of signal per user-defined finger capacitance
+     */
+    uint16 sigPFC;
 } CapSense_1_RAM_WD_BASE_STRUCT;
 
 /***************************************************************************//**
@@ -264,6 +275,17 @@ typedef struct
      *  Register for internal use
      */
     uint8  snsClkSource;
+
+    /**
+     *  Widget Finger capacitance parameter. Available only if the 
+     *  SmartSense is enabled. Not used for the CSX/ISX Widgets.
+     */
+    uint16 fingerCap;
+
+    /**
+     *  The 75% of signal per user-defined finger capacitance
+     */
+    uint16 sigPFC;
 } CapSense_1_RAM_WD_BUTTON_STRUCT;
 
 
@@ -276,6 +298,26 @@ typedef struct
      *  Button0 widget RAM structure
      */
     CapSense_1_RAM_WD_BUTTON_STRUCT button0;
+
+    /**
+     *  Button1 widget RAM structure
+     */
+    CapSense_1_RAM_WD_BUTTON_STRUCT button1;
+
+    /**
+     *  Button2 widget RAM structure
+     */
+    CapSense_1_RAM_WD_BUTTON_STRUCT button2;
+
+    /**
+     *  Button3 widget RAM structure
+     */
+    CapSense_1_RAM_WD_BUTTON_STRUCT button3;
+
+    /**
+     *  Button4 widget RAM structure
+     */
+    CapSense_1_RAM_WD_BUTTON_STRUCT button4;
 } CapSense_1_RAM_WD_LIST_STRUCT;
 
 
@@ -326,6 +368,26 @@ typedef struct
      *  Button0 sensors RAM structures array
      */
     CapSense_1_RAM_SNS_STRUCT button0 [CapSense_1_BUTTON0_NUM_SENSORS];
+
+    /**
+     *  Button1 sensors RAM structures array
+     */
+    CapSense_1_RAM_SNS_STRUCT button1 [CapSense_1_BUTTON1_NUM_SENSORS];
+
+    /**
+     *  Button2 sensors RAM structures array
+     */
+    CapSense_1_RAM_SNS_STRUCT button2 [CapSense_1_BUTTON2_NUM_SENSORS];
+
+    /**
+     *  Button3 sensors RAM structures array
+     */
+    CapSense_1_RAM_SNS_STRUCT button3 [CapSense_1_BUTTON3_NUM_SENSORS];
+
+    /**
+     *  Button4 sensors RAM structures array
+     */
+    CapSense_1_RAM_SNS_STRUCT button4 [CapSense_1_BUTTON4_NUM_SENSORS];
 } CapSense_1_RAM_SNS_LIST_STRUCT;
 
 
@@ -604,6 +666,14 @@ typedef struct
      *  of the Rx electrodes.
      */
     uint8  numCols;
+
+    /**
+     *  The pointer to the array with the sensor noise envelope data. 
+     *  Set to the valid value only for the CSD widgets. For the CSX 
+     *  widgets this pointer is set to NULL. The pointed array is not 
+     *  part of the data structure.
+     */
+    SMARTSENSE_CSD_NOISE_ENVELOPE_STRUCT * ptr2NoiseEnvlp;
 } CapSense_1_FLASH_WD_STRUCT;
 
 
