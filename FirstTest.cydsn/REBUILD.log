@@ -1,4 +1,4 @@
---------------- Rebuild Started: 08/06/2018 19:48:23 Project: FirstTest, Configuration: ARM GCC 5.4-2016-q2-update Debug ---------------
+--------------- Rebuild Started: 08/07/2018 09:31:42 Project: FirstTest, Configuration: ARM GCC 5.4-2016-q2-update Debug ---------------
 Deleting file ".\CortexM0p\ARM_GCC_541\Debug\main.o"
 Deleting file ".\CortexM0p\ARM_GCC_541\Debug\cyfitter_cfg.o"
 Deleting file ".\CortexM0p\ARM_GCC_541\Debug\cymetadata.o"
@@ -53,6 +53,7 @@ Deleting file ".\CortexM0p\ARM_GCC_541\Debug\LED3_PM.o"
 Deleting file ".\CortexM0p\ARM_GCC_541\Debug\LED4.o"
 Deleting file ".\CortexM0p\ARM_GCC_541\Debug\LED4_PM.o"
 Deleting file ".\CortexM0p\ARM_GCC_541\Debug\FirstTest.hex"
+Deleting file ".\CortexM0p\ARM_GCC_541\Debug\FirstTest.elf"
 Deleting file ".\CortexM0p\ARM_GCC_541\Debug\FirstTest.map"
 Deleting file ".\FirstTest.cycdx"
 Deleting file ".\FirstTest.rpt"
@@ -135,6 +136,6 @@ No ELF section .cychecksum found, creating one
 Application checksum calculated and stored in ELF section .cychecksum
 Checksum calculated and stored in ELF section .cymeta
 cyelftool.exe -S C:\Users\michael.machate\Desktop\Cypress_Firsttests\FirstTest.cydsn\CortexM0p\ARM_GCC_541\Debug\FirstTest.elf
-Flash used: 9726 of 32768 bytes (29,7 %).
+Flash used: 10070 of 32768 bytes (30,7 %).
 SRAM used: 1800 of 4096 bytes (43,9 %). Stack: 1024 bytes. Heap: 128 bytes.
---------------- Rebuild Succeeded: 08/06/2018 19:48:41 ---------------
+--------------- Rebuild Succeeded: 08/07/2018 09:32:02 ---------------

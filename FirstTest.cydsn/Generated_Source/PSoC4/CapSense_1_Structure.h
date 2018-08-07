@@ -188,28 +188,9 @@ typedef struct
     uint8  idacMod [CapSense_1_NUM_SCAN_FREQS];
 
     /**
-     *  Specifies the sense clock divider. Present only if individual 
-     *  clock dividers are enabled. Specifies the sense clock divider 
-     *  for the Column sensors for the Matrix Buttons and Touchpad 
-     *  widgets. Sets Tx clock divider for CSX Widgets.
-     */
-    uint16 snsClk;
-
-    /**
      *  Register for internal use
      */
     uint8  snsClkSource;
-
-    /**
-     *  Widget Finger capacitance parameter. Available only if the 
-     *  SmartSense is enabled. Not used for the CSX/ISX Widgets.
-     */
-    uint16 fingerCap;
-
-    /**
-     *  The 75% of signal per user-defined finger capacitance
-     */
-    uint16 sigPFC;
 } CapSense_1_RAM_WD_BASE_STRUCT;
 
 /***************************************************************************//**
@@ -264,28 +245,9 @@ typedef struct
     uint8  idacMod [CapSense_1_NUM_SCAN_FREQS];
 
     /**
-     *  Specifies the sense clock divider. Present only if individual 
-     *  clock dividers are enabled. Specifies the sense clock divider 
-     *  for the Column sensors for the Matrix Buttons and Touchpad 
-     *  widgets. Sets Tx clock divider for CSX Widgets.
-     */
-    uint16 snsClk;
-
-    /**
      *  Register for internal use
      */
     uint8  snsClkSource;
-
-    /**
-     *  Widget Finger capacitance parameter. Available only if the 
-     *  SmartSense is enabled. Not used for the CSX/ISX Widgets.
-     */
-    uint16 fingerCap;
-
-    /**
-     *  The 75% of signal per user-defined finger capacitance
-     */
-    uint16 sigPFC;
 } CapSense_1_RAM_WD_BUTTON_STRUCT;
 
 
@@ -468,6 +430,11 @@ typedef struct
      *  The modulator clock divider for the CSD widgets.
      */
     uint8  modCsdClk;
+
+    /**
+     *  The global sense clock divider for the CSD widgets.
+     */
+    uint16 snsCsdClk;
 
     /**
      *  RAM Widget Objects.
@@ -666,14 +633,6 @@ typedef struct
      *  of the Rx electrodes.
      */
     uint8  numCols;
-
-    /**
-     *  The pointer to the array with the sensor noise envelope data. 
-     *  Set to the valid value only for the CSD widgets. For the CSX 
-     *  widgets this pointer is set to NULL. The pointed array is not 
-     *  part of the data structure.
-     */
-    SMARTSENSE_CSD_NOISE_ENVELOPE_STRUCT * ptr2NoiseEnvlp;
 } CapSense_1_FLASH_WD_STRUCT;
 
 
@@ -1108,7 +1067,7 @@ extern CapSense_1_RAM_STRUCT            CapSense_1_dsRam;
 extern const CapSense_1_FLASH_STRUCT    CapSense_1_dsFlash;
 extern const CapSense_1_FLASH_IO_STRUCT CapSense_1_ioList[CapSense_1_TOTAL_ELECTRODES];
 extern const CapSense_1_RAM_WD_LIST_STRUCT CapSense_1_ramWidgetInit;
-extern const uint8 CapSense_1_ramIdacInit[CapSense_1_TOTAL_SENSORS];
+extern const uint8 CapSense_1_ramIdacInit[CapSense_1_TOTAL_SENSORS * 3u];
 
 
 

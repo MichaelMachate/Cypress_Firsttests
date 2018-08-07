@@ -61,7 +61,6 @@
   <file name="C:\Users\michael.machate\Desktop\Cypress_Firsttests\FirstTest.cydsn\codegentemp\CapSense_1_SensingCSD_LL.c" value="SOURCE_C;CortexM0p;;;;CapSense_1" />
   <file name="C:\Users\michael.machate\Desktop\Cypress_Firsttests\FirstTest.cydsn\codegentemp\CapSense_1_SensingCSD_LL.h" value="HEADER;;;;;CapSense_1" />
   <file name="C:\Users\michael.machate\Desktop\Cypress_Firsttests\FirstTest.cydsn\codegentemp\CapSense_1_RegisterMap.h" value="HEADER;;;;;CapSense_1" />
-  <file name="C:\Users\michael.machate\Desktop\Cypress_Firsttests\FirstTest.cydsn\codegentemp\CapSense_1_SmartSense_LL.h" value="HEADER;;;;;CapSense_1" />
   <file name="C:\Users\michael.machate\Desktop\Cypress_Firsttests\FirstTest.cydsn\codegentemp\LED1.c" value="SOURCE_C;CortexM0p;;;;LED1" />
   <file name="C:\Users\michael.machate\Desktop\Cypress_Firsttests\FirstTest.cydsn\codegentemp\LED1.h" value="HEADER;;;;;LED1" />
   <file name="C:\Users\michael.machate\Desktop\Cypress_Firsttests\FirstTest.cydsn\codegentemp\LED1_aliases.h" value="HEADER;;;;;LED1" />

@@ -42,7 +42,6 @@
 #include "CapSense_1_Configuration.h"
 #include "CapSense_1_SensingCSD_LL.h"
 #include "CapSense_1_RegisterMap.h"
-#include "CapSense_1_SmartSense_LL.h"
 #include "LED1.h"
 #include "LED1_aliases.h"
 #include "LED2.h"

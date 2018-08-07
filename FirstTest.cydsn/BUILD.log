@@ -1,6 +1,8 @@
---------------- Build Started: 08/06/2018 19:59:14 Project: FirstTest, Configuration: ARM GCC 5.4-2016-q2-update Debug ---------------
+--------------- Build Started: 08/07/2018 11:07:39 Project: FirstTest, Configuration: ARM GCC 5.4-2016-q2-update Debug ---------------
 cydsfit.exe -.appdatapath "C:\Users\michael.machate\AppData\Local\Cypress Semiconductor\PSoC Creator\4.2" -.fdsnotice -.fdswarpdepfile=warp_dependencies.txt -.fdselabdepfile=elab_dependencies.txt -.fdsbldfile=generated_files.txt -.fdsreffile=referenced_files.txt -p C:\Users\michael.machate\Desktop\Cypress_Firsttests\FirstTest.cydsn\FirstTest.cyprj -d CY8C4045AZI-S413 -s C:\Users\michael.machate\Desktop\Cypress_Firsttests\FirstTest.cydsn\Generated_Source\PSoC4 -- -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE
 Elaborating Design...
+ADD: sdb.M0061: information: Info from component: CapSense_1. Enabling the multi-frequency scan reduces the IMO accuracy to +/-10%. Timing of asynchronous communication may be affected.
+ * C:\Users\michael.machate\Desktop\Cypress_Firsttests\FirstTest.cydsn\TopDesign\TopDesign.cysch (Instance:CapSense_1)
 HDL Generation...
 Synthesis...
 Tech Mapping...
@@ -32,6 +34,6 @@ No ELF section .cychecksum found, creating one
 Application checksum calculated and stored in ELF section .cychecksum
 Checksum calculated and stored in ELF section .cymeta
 cyelftool.exe -S C:\Users\michael.machate\Desktop\Cypress_Firsttests\FirstTest.cydsn\CortexM0p\ARM_GCC_541\Debug\FirstTest.elf
-Flash used: 9726 of 32768 bytes (29,7 %).
-SRAM used: 1800 of 4096 bytes (43,9 %). Stack: 1024 bytes. Heap: 128 bytes.
---------------- Build Succeeded: 08/06/2018 19:59:25 ---------------
+Flash used: 8894 of 32768 bytes (27,1 %).
+SRAM used: 1912 of 4096 bytes (46,7 %). Stack: 1024 bytes. Heap: 128 bytes.
+--------------- Build Succeeded: 08/07/2018 11:07:50 ---------------
