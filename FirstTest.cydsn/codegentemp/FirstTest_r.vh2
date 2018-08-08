@@ -1,5 +1,5 @@
 -- Project:   FirstTest
--- Generated: 08/07/2018 11:07:43
+-- Generated: 08/07/2018 16:44:04
 -- PSoC Creator  4.2
 
 ENTITY FirstTest IS
@@ -12,11 +12,11 @@ ENTITY FirstTest IS
         LED2(0)_PAD : OUT std_ulogic;
         LED3(0)_PAD : OUT std_ulogic;
         LED4(0)_PAD : OUT std_ulogic);
-    ATTRIBUTE voltage_VDDA OF __DEFAULT__ : ENTITY IS 3.3e0;
-    ATTRIBUTE voltage_VDDD_2 OF __DEFAULT__ : ENTITY IS 3.3e0;
-    ATTRIBUTE voltage_VDDD_1 OF __DEFAULT__ : ENTITY IS 3.3e0;
-    ATTRIBUTE voltage_VDDQ_1 OF __DEFAULT__ : ENTITY IS 3.3e0;
-    ATTRIBUTE voltage_VDDD OF __DEFAULT__ : ENTITY IS 3.3e0;
+    ATTRIBUTE voltage_VDDA OF __DEFAULT__ : ENTITY IS 5e0;
+    ATTRIBUTE voltage_VDDD_2 OF __DEFAULT__ : ENTITY IS 5e0;
+    ATTRIBUTE voltage_VDDD_1 OF __DEFAULT__ : ENTITY IS 5e0;
+    ATTRIBUTE voltage_VDDQ_1 OF __DEFAULT__ : ENTITY IS 5e0;
+    ATTRIBUTE voltage_VDDD OF __DEFAULT__ : ENTITY IS 5e0;
 END FirstTest;
 
 ARCHITECTURE __DEFAULT__ OF FirstTest IS

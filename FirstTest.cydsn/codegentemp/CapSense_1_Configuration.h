@@ -555,12 +555,12 @@ typedef uint16 CapSense_1_THRESHOLD_TYPE;
 #define CapSense_1_CSD_SNS_CLK_DIVIDER          (8u)
 #define CapSense_1_CSD_INACTIVE_SNS_CONNECTION  (CapSense_1_SNS_CONNECTION_GROUND)
 #define CapSense_1_CSD_IDAC_COMP_EN             (1u)
-#define CapSense_1_CSD_IDAC_CONFIG              (CapSense_1_IDAC_SOURCING)
+#define CapSense_1_CSD_IDAC_CONFIG              (CapSense_1_IDAC_SINKING)
 #define CapSense_1_CSD_RAWCOUNT_CAL_LEVEL       (85u)
 #define CapSense_1_CSD_DUALIDAC_LEVEL           (50u)
 #define CapSense_1_CSD_PRESCAN_SETTLING_TIME    (5u)
 #define CapSense_1_CSD_SNSCLK_R_CONST           (1000u)
-#define CapSense_1_CSD_VREF_MV                  (2021u)
+#define CapSense_1_CSD_VREF_MV                  (2743u)
 
 /* CSD settings - Fourth-generation HW block */
 #define CapSense_1_CSD_ANALOG_STARTUP_DELAY_US  (10u)
@@ -573,7 +573,7 @@ typedef uint16 CapSense_1_THRESHOLD_TYPE;
 #define CapSense_1_CSD_INIT_SWITCH_RES          (CapSense_1_INIT_SW_RES_MEDIUM)
 #define CapSense_1_CSD_SENSING_METHOD           (0)
 #define CapSense_1_CSD_SHIELD_SWITCH_RES        (CapSense_1_SHIELD_SW_RES_HIGH)
-#define CapSense_1_CSD_GAIN                     (18Lu)
+#define CapSense_1_CSD_GAIN                     (13Lu)
 
 #define CapSense_1_CSD_MFS_METHOD               (u)
 #define CapSense_1_CSD_MFS_DIVIDER_OFFSET_F1    (1u)
@@ -655,7 +655,7 @@ typedef uint16 CapSense_1_THRESHOLD_TYPE;
                                        || (0u != CapSense_1_ISX_IDAC_AUTOCAL_EN)) \
                                        || (0u != CapSense_1_CSD_IDAC_AUTOCAL_EN))
 /* RAM Global Parameters Definitions */
-#define CapSense_1_CONFIG_ID                    (0xF4CCu)
+#define CapSense_1_CONFIG_ID                    (0x8E40u)
 #define CapSense_1_DEVICE_ID                    (0x0900u)
 #define CapSense_1_HW_CLOCK                     (0x1770u)
 #define CapSense_1_CSD0_CONFIG                  (0x0009u)
@@ -670,8 +670,8 @@ typedef uint16 CapSense_1_THRESHOLD_TYPE;
 * Button0 initialization values for RAM data structure
 *******************************************************************************/
 #define CapSense_1_BUTTON0_RESOLUTION           (CapSense_1_RES13BIT)
-#define CapSense_1_BUTTON0_FINGER_TH            (61u)
-#define CapSense_1_BUTTON0_NOISE_TH             (30u)
+#define CapSense_1_BUTTON0_FINGER_TH            (400u)
+#define CapSense_1_BUTTON0_NOISE_TH             (200u)
 #define CapSense_1_BUTTON0_NNOISE_TH            (30u)
 #define CapSense_1_BUTTON0_HYSTERESIS           (7u)
 #define CapSense_1_BUTTON0_ON_DEBOUNCE          (3u)
@@ -691,8 +691,8 @@ typedef uint16 CapSense_1_THRESHOLD_TYPE;
 * Button1 initialization values for RAM data structure
 *******************************************************************************/
 #define CapSense_1_BUTTON1_RESOLUTION           (CapSense_1_RES13BIT)
-#define CapSense_1_BUTTON1_FINGER_TH            (63u)
-#define CapSense_1_BUTTON1_NOISE_TH             (31u)
+#define CapSense_1_BUTTON1_FINGER_TH            (400u)
+#define CapSense_1_BUTTON1_NOISE_TH             (200u)
 #define CapSense_1_BUTTON1_NNOISE_TH            (31u)
 #define CapSense_1_BUTTON1_HYSTERESIS           (7u)
 #define CapSense_1_BUTTON1_ON_DEBOUNCE          (3u)
@@ -712,8 +712,8 @@ typedef uint16 CapSense_1_THRESHOLD_TYPE;
 * Button2 initialization values for RAM data structure
 *******************************************************************************/
 #define CapSense_1_BUTTON2_RESOLUTION           (CapSense_1_RES13BIT)
-#define CapSense_1_BUTTON2_FINGER_TH            (54u)
-#define CapSense_1_BUTTON2_NOISE_TH             (27u)
+#define CapSense_1_BUTTON2_FINGER_TH            (400u)
+#define CapSense_1_BUTTON2_NOISE_TH             (200u)
 #define CapSense_1_BUTTON2_NNOISE_TH            (27u)
 #define CapSense_1_BUTTON2_HYSTERESIS           (6u)
 #define CapSense_1_BUTTON2_ON_DEBOUNCE          (3u)
@@ -733,8 +733,8 @@ typedef uint16 CapSense_1_THRESHOLD_TYPE;
 * Button3 initialization values for RAM data structure
 *******************************************************************************/
 #define CapSense_1_BUTTON3_RESOLUTION           (CapSense_1_RES13BIT)
-#define CapSense_1_BUTTON3_FINGER_TH            (54u)
-#define CapSense_1_BUTTON3_NOISE_TH             (27u)
+#define CapSense_1_BUTTON3_FINGER_TH            (400u)
+#define CapSense_1_BUTTON3_NOISE_TH             (200u)
 #define CapSense_1_BUTTON3_NNOISE_TH            (27u)
 #define CapSense_1_BUTTON3_HYSTERESIS           (6u)
 #define CapSense_1_BUTTON3_ON_DEBOUNCE          (3u)
@@ -754,8 +754,8 @@ typedef uint16 CapSense_1_THRESHOLD_TYPE;
 * Button4 initialization values for RAM data structure
 *******************************************************************************/
 #define CapSense_1_BUTTON4_RESOLUTION           (CapSense_1_RES13BIT)
-#define CapSense_1_BUTTON4_FINGER_TH            (54u)
-#define CapSense_1_BUTTON4_NOISE_TH             (27u)
+#define CapSense_1_BUTTON4_FINGER_TH            (400u)
+#define CapSense_1_BUTTON4_NOISE_TH             (200u)
 #define CapSense_1_BUTTON4_NNOISE_TH            (27u)
 #define CapSense_1_BUTTON4_HYSTERESIS           (6u)
 #define CapSense_1_BUTTON4_ON_DEBOUNCE          (3u)
@@ -802,9 +802,9 @@ typedef uint16 CapSense_1_THRESHOLD_TYPE;
 #define CapSense_1_ADC_SELECT_AMUXB_CH          (0u)
 #define CapSense_1_ADC_AZ_EN                    (1Lu)
 #define CapSense_1_ADC_AZ_TIME                  (5u)
-#define CapSense_1_ADC_VREF_MV                  (2133u)
-#define CapSense_1_ADC_GAIN                     (17Lu)
-#define CapSense_1_ADC_IDAC_DEFAULT             (30u)
+#define CapSense_1_ADC_VREF_MV                  (3840u)
+#define CapSense_1_ADC_GAIN                     (9Lu)
+#define CapSense_1_ADC_IDAC_DEFAULT             (53u)
 #define CapSense_1_ADC_MODCLK_DIV_DEFAULT       (1u)
 #define CapSense_1_ADC_MEASURE_MODE             (CapSense_1_ADC_FULLRANGE_MODE)
 #define CapSense_1_ADC_ANALOG_STARTUP_DELAY_US  (5u)

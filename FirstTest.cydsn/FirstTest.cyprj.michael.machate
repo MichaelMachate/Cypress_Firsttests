@@ -819,10 +819,6 @@
 <dep name=".\cyapicallbacks.h" />
 </file>
 <file name=".\Generated_Source\PSoC4\cyfitter_cfg.c" />
-<file name=".\CortexM0p\ARM_GCC_541\Debug\cymetadata.o">
-<dep name=".\Generated_Source\PSoC4\cymetadata.c" />
-</file>
-<file name=".\Generated_Source\PSoC4\cymetadata.c" />
 <file name=".\CortexM0p\ARM_GCC_541\Debug\cyutils.o">
 <dep name=".\Generated_Source\PSoC4\cydevice_trm.h" />
 <dep name=".\Generated_Source\PSoC4\cyfitter.h" />
@@ -838,6 +834,10 @@
 <file name=".\Generated_Source\PSoC4\CyBootAsmGnu.s" />
 <file name=".\Generated_Source\PSoC4\cydevicegnu_trm.inc" />
 <file name=".\Generated_Source\PSoC4\cyfittergnu.inc" />
+<file name=".\CortexM0p\ARM_GCC_541\Debug\cymetadata.o">
+<dep name=".\Generated_Source\PSoC4\cymetadata.c" />
+</file>
+<file name=".\Generated_Source\PSoC4\cymetadata.c" />
 <file name=".\CortexM0p\ARM_GCC_541\Debug\UART_rx.o">
 <dep name=".\Generated_Source\PSoC4\UART_rx.c" />
 <dep name=".\Generated_Source\PSoC4\UART_rx.h" />
@@ -1965,7 +1965,7 @@
 <v>C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\warp\lib\common\stdlogic\mod_genv.vif</v>
 <v>C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\warp\lib\common\stdlogic\rtlpkg.vif</v>
 </warp_dep>
-<deps_time v="131781064668139185" />
+<deps_time v="131782005942288332" />
 <top_block v="TopDesign" />
 <last_generation v="8" />
 <pdl_path v="" />
@@ -1975,15 +1975,16 @@
 <dataGuid v="769d31ea-68b1-4f0c-b90a-7c10a43ee563">
 <CyGuid_769d31ea-68b1-4f0c-b90a-7c10a43ee563 type_name="CyDesigner.Common.ProjMgmt.Model.CyLinkCustomData" version="1">
 <link_deps_times>
-<name_val_pair name="c9323d49-d323-40b8-9b59-cc008d68a989@Debug@CortexM0p" v="131781064707638703" />
+<name_val_pair name="c9323d49-d323-40b8-9b59-cc008d68a989@Debug@CortexM0p" v="131782005619793002" />
 </link_deps_times>
 </CyGuid_769d31ea-68b1-4f0c-b90a-7c10a43ee563>
 </dataGuid>
 <dataGuid v="237c8ed1-e161-4c9d-af97-582eda6d6952">
-<CyGuid_d442b0b8-dd66-4eee-b5be-1cb213792b31 type_name="CyDesigner.Device.FitterPSoC.Common.DesignWideResources.DeviceEditor.CyCustomAnalogDevData" version="1" ZoomToPage="True" ZoomScale="1.716649" ScrollX="1618" ScrollY="539">
+<CyGuid_d442b0b8-dd66-4eee-b5be-1cb213792b31 type_name="CyDesigner.Device.FitterPSoC.Common.DesignWideResources.DeviceEditor.CyCustomAnalogDevData" version="1" ZoomToPage="True" ZoomScale="1.66318941" ScrollX="1568" ScrollY="483">
 <ComponentStates>
 <CyGuid_50eb6c77-9735-4e57-8808-b714f60fbc0d type_name="CyDesigner.Device.FitterPSoC.Common.DesignWideResources.DeviceEditor.CyItemState" version="1" Name="\CapSense_1:Net_150\" Color="-9580801" />
 <CyGuid_50eb6c77-9735-4e57-8808-b714f60fbc0d type_name="CyDesigner.Device.FitterPSoC.Common.DesignWideResources.DeviceEditor.CyItemState" version="1" Name="\CapSense_1:Net_2\" Color="-8213505" />
+<CyGuid_50eb6c77-9735-4e57-8808-b714f60fbc0d type_name="CyDesigner.Device.FitterPSoC.Common.DesignWideResources.DeviceEditor.CyItemState" version="1" Name="\CapSense_1:Net_2_0\" Color="-9580801" />
 </ComponentStates>
 </CyGuid_d442b0b8-dd66-4eee-b5be-1cb213792b31>
 </dataGuid>

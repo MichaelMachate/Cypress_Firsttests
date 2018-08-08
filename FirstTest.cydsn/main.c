@@ -63,9 +63,11 @@ int main (void){
                 //Code if any button was pressed
             }                          
             CapSense_1_ScanAllWidgets();          /* Start next scan */
+            
+            LED4_Write(!LED4_Read());
         }
         /* CPU Sleep */
-        CySysPmSleep();
+        //CySysPmSleep();
     }
 }
 
@@ -76,7 +78,7 @@ void LED_Control()
     LED1_Write(CapSense_1_IsWidgetActive(CapSense_1_BUTTON1_WDGT_ID) ? LED_ON : LED_OFF );
     LED2_Write(CapSense_1_IsWidgetActive(CapSense_1_BUTTON2_WDGT_ID) ? LED_ON : LED_OFF );
     LED3_Write(CapSense_1_IsWidgetActive(CapSense_1_BUTTON3_WDGT_ID) ? LED_ON : LED_OFF );
-    LED4_Write(CapSense_1_IsWidgetActive(CapSense_1_BUTTON4_WDGT_ID) ? LED_ON : LED_OFF );
+    //LED4_Write(CapSense_1_IsWidgetActive(CapSense_1_BUTTON4_WDGT_ID) ? LED_ON : LED_OFF );
 }
 
 /* [] END OF FILE */

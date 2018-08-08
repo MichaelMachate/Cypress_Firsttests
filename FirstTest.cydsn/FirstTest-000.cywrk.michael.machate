@@ -18,7 +18,7 @@
 <v>Output</v>
 </TreeKeys>
 <TreeStates>
-<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="FirstTest-000\FirstTest">
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="FirstTest-000\FirstTest\TopDesign">
 <ExpandedNodeIds>
 <v>FirstTest-000</v>
 <v>FirstTest-000\FirstTest</v>
@@ -36,7 +36,7 @@
 <v>FirstTest-000\FirstTest\Source Files</v>
 <v>FirstTest-000\FirstTest\Source Files\main.c</v>
 <v>FirstTest-000\FirstTest\Generated_Source</v>
-<v>FirstTest-000\FirstTest\Generated_Source\PSoC4</v>
+<v>FirstTest-000\FirstTest\Generated_Source\PSoC4\CapSense_1</v>
 </ExpandedNodeIds>
 <VisibleNodeIds>
 <v>FirstTest-000</v>
@@ -56,38 +56,6 @@
 <v>FirstTest-000\FirstTest\Source Files\main.c</v>
 <v>FirstTest-000\FirstTest\Generated_Source</v>
 <v>FirstTest-000\FirstTest\Generated_Source\PSoC4</v>
-<v>FirstTest-000\FirstTest\Generated_Source\PSoC4\CapSense_1</v>
-<v>FirstTest-000\FirstTest\Generated_Source\PSoC4\CapSense_1_ISR</v>
-<v>FirstTest-000\FirstTest\Generated_Source\PSoC4\cy_boot</v>
-<v>FirstTest-000\FirstTest\Generated_Source\PSoC4\cy_lfclk</v>
-<v>FirstTest-000\FirstTest\Generated_Source\PSoC4\Em_EEPROM_Dynamic</v>
-<v>FirstTest-000\FirstTest\Generated_Source\PSoC4\I2CS</v>
-<v>FirstTest-000\FirstTest\Generated_Source\PSoC4\I2CS_SCB_IRQ</v>
-<v>FirstTest-000\FirstTest\Generated_Source\PSoC4\I2CS_SCBCLK</v>
-<v>FirstTest-000\FirstTest\Generated_Source\PSoC4\I2CS_scl</v>
-<v>FirstTest-000\FirstTest\Generated_Source\PSoC4\I2CS_sda</v>
-<v>FirstTest-000\FirstTest\Generated_Source\PSoC4\LED0</v>
-<v>FirstTest-000\FirstTest\Generated_Source\PSoC4\LED1</v>
-<v>FirstTest-000\FirstTest\Generated_Source\PSoC4\LED2</v>
-<v>FirstTest-000\FirstTest\Generated_Source\PSoC4\LED3</v>
-<v>FirstTest-000\FirstTest\Generated_Source\PSoC4\LED4</v>
-<v>FirstTest-000\FirstTest\Generated_Source\PSoC4\UART</v>
-<v>FirstTest-000\FirstTest\Generated_Source\PSoC4\UART_SCBCLK</v>
-<v>FirstTest-000\FirstTest\Generated_Source\PSoC4\UART_tx</v>
-<v>FirstTest-000\FirstTest\Generated_Source\PSoC4\cycodeshareexport.ld</v>
-<v>FirstTest-000\FirstTest\Generated_Source\PSoC4\cycodeshareimport.ld</v>
-<v>FirstTest-000\FirstTest\Generated_Source\PSoC4\cycodeshareimport.scat</v>
-<v>FirstTest-000\FirstTest\Generated_Source\PSoC4\cydevice_trm.h</v>
-<v>FirstTest-000\FirstTest\Generated_Source\PSoC4\cydevicegnu_trm.inc</v>
-<v>FirstTest-000\FirstTest\Generated_Source\PSoC4\cydeviceiar_trm.inc</v>
-<v>FirstTest-000\FirstTest\Generated_Source\PSoC4\cydevicerv_trm.inc</v>
-<v>FirstTest-000\FirstTest\Generated_Source\PSoC4\cydisabledsheets.h</v>
-<v>FirstTest-000\FirstTest\Generated_Source\PSoC4\cyfitter.h</v>
-<v>FirstTest-000\FirstTest\Generated_Source\PSoC4\cyfitter_cfg.c</v>
-<v>FirstTest-000\FirstTest\Generated_Source\PSoC4\cyfitter_cfg.h</v>
-<v>FirstTest-000\FirstTest\Generated_Source\PSoC4\cyfittergnu.inc</v>
-<v>FirstTest-000\FirstTest\Generated_Source\PSoC4\cyfitteriar.inc</v>
-<v>FirstTest-000\FirstTest\Generated_Source\PSoC4\cyfitterrv.inc</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 <CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
@@ -267,6 +235,10 @@
 <Unloaded />
 <OpenDocs>
 <name v=".\TopDesign\TopDesign.cysch" />
+<name v=".\main.c" />
+<name v=".\FirstTest.cydwr" />
+<name v=".\Generated_Source\PSoC4\CapSense_1_Filter.c" />
+<name v=".\Generated_Source\PSoC4\CapSense_1_Filter.h" />
 </OpenDocs>
 <OpenDocsLayout><![CDATA[<?xml version="1.0"?><!--
 
@@ -274,7 +246,7 @@
   Copyright (c) 2001-2016 Actipro Software LLC.  All rights reserved.
   http://www.actiprosoftware.com
 
---><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1375, 711" SelectedTabbedMdiWindow="b551b417-0eb5-481f-9eb3-77baf478ab4f"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="e8ff90b1-191d-49a2-982f-685e05b8f433" /><DocumentWindow Key="C:\Users\michael.machate\Desktop\Cypress_Firsttests\FirstTest.cydsn\TopDesign\TopDesign.cysch" Guid="b551b417-0eb5-481f-9eb3-77baf478ab4f" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
+--><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1258, 711" SelectedTabbedMdiWindow="b551b417-0eb5-481f-9eb3-77baf478ab4f"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="e8ff90b1-191d-49a2-982f-685e05b8f433" /><DocumentWindow Key="C:\Users\michael.machate\Desktop\Cypress_Firsttests\FirstTest.cydsn\TopDesign\TopDesign.cysch" Guid="b551b417-0eb5-481f-9eb3-77baf478ab4f" /><DocumentWindow Key="C:\Users\michael.machate\Desktop\Cypress_Firsttests\FirstTest.cydsn\main.c" Guid="67d3db95-d008-40a7-b3e4-a693409ac7c4" /><DocumentWindow Key="C:\Users\michael.machate\Desktop\Cypress_Firsttests\FirstTest.cydsn\FirstTest.cydwr" Guid="f03f9de7-e9cd-44d1-8473-1e910d8790af" /><DocumentWindow Key="C:\Users\michael.machate\Desktop\Cypress_Firsttests\FirstTest.cydsn\Generated_Source\PSoC4\CapSense_1_Filter.c" Guid="a93b9196-a0f1-44bd-9aa1-e0fd4ed184cb" /><DocumentWindow Key="C:\Users\michael.machate\Desktop\Cypress_Firsttests\FirstTest.cydsn\Generated_Source\PSoC4\CapSense_1_Filter.h" Guid="895d80fa-be13-4979-b233-704eaa44ccc8" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
 <config v="" />
 <AutoUpdate v="true" />
 </CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21>

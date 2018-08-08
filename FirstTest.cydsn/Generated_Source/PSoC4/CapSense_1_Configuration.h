@@ -140,9 +140,9 @@
 /*******************************************************************************
 * Definitions for number of widgets and sensors
 *******************************************************************************/
-#define CapSense_1_TOTAL_WIDGETS                      (5u)
-#define CapSense_1_TOTAL_CSD_WIDGETS                  (5u)
-#define CapSense_1_TOTAL_CSD_SENSORS                  (5u)
+#define CapSense_1_TOTAL_WIDGETS                      (10u)
+#define CapSense_1_TOTAL_CSD_WIDGETS                  (10u)
+#define CapSense_1_TOTAL_CSD_SENSORS                  (10u)
 #define CapSense_1_TOTAL_CSX_WIDGETS                  (0u)
 #define CapSense_1_TOTAL_ISX_WIDGETS                  (0u)
 #define CapSense_1_TOTAL_CSX_NODES                    (0u)
@@ -158,7 +158,7 @@
 /*******************************************************************************
 * Total number of scan slots (used only when dual-channel scan is enabled)
 *******************************************************************************/
-#define CapSense_1_TOTAL_SCAN_SLOTS         (5u)
+#define CapSense_1_TOTAL_SCAN_SLOTS         (10u)
 
 /*******************************************************************************
 * Defines widget IDs
@@ -168,6 +168,11 @@
 #define CapSense_1_BUTTON2_WDGT_ID              (2u)
 #define CapSense_1_BUTTON3_WDGT_ID              (3u)
 #define CapSense_1_BUTTON4_WDGT_ID              (4u)
+#define CapSense_1_BUTTON5_WDGT_ID              (5u)
+#define CapSense_1_BUTTON6_WDGT_ID              (6u)
+#define CapSense_1_BUTTON7_WDGT_ID              (7u)
+#define CapSense_1_BUTTON8_WDGT_ID              (8u)
+#define CapSense_1_BUTTON9_WDGT_ID              (9u)
 
 /*******************************************************************************
 * Defines sensor IDs
@@ -187,6 +192,21 @@
 
 /* Button4 sensor names */
 #define CapSense_1_BUTTON4_SNS0_ID              (0u)
+
+/* Button5 sensor names */
+#define CapSense_1_BUTTON5_SNS0_ID              (0u)
+
+/* Button6 sensor names */
+#define CapSense_1_BUTTON6_SNS0_ID              (0u)
+
+/* Button7 sensor names */
+#define CapSense_1_BUTTON7_SNS0_ID              (0u)
+
+/* Button8 sensor names */
+#define CapSense_1_BUTTON8_SNS0_ID              (0u)
+
+/* Button9 sensor names */
+#define CapSense_1_BUTTON9_SNS0_ID              (0u)
 
 
 
@@ -240,14 +260,14 @@
 /*******************************************************************************
 * Total number of all used electrodes (NOT unique)
 *******************************************************************************/
-#define CapSense_1_TOTAL_ELECTRODES         (5u)
+#define CapSense_1_TOTAL_ELECTRODES         (10u)
 /* Obsolete */
 #define CapSense_1_TOTAL_SENSOR_IOS         CapSense_1_TOTAL_ELECTRODES
 
 /*******************************************************************************
 * Total number of used physical IOs (unique)
 *******************************************************************************/
-#define CapSense_1_TOTAL_IO_CNT             (5u)
+#define CapSense_1_TOTAL_IO_CNT             (10u)
 
 /*******************************************************************************
 * Array length for widget status registers
@@ -371,7 +391,7 @@ typedef uint16 CapSense_1_THRESHOLD_TYPE;
 #define CapSense_1_REGULAR_IIR_RC_TYPE          (CapSense_1_IIR_FILTER_STANDARD)
 
 /* IIR raw count filter coefficients for regular sensors */
-#define CapSense_1_REGULAR_IIR_RC_N             (128u)
+#define CapSense_1_REGULAR_IIR_RC_N             (100u)
 #define CapSense_1_REGULAR_IIR_RC_SHIFT         (0u)
 
 /* IIR raw count filter algorithm for proximity sensors*/
@@ -655,7 +675,7 @@ typedef uint16 CapSense_1_THRESHOLD_TYPE;
                                        || (0u != CapSense_1_ISX_IDAC_AUTOCAL_EN)) \
                                        || (0u != CapSense_1_CSD_IDAC_AUTOCAL_EN))
 /* RAM Global Parameters Definitions */
-#define CapSense_1_CONFIG_ID                    (0xF4CCu)
+#define CapSense_1_CONFIG_ID                    (0x4E54u)
 #define CapSense_1_DEVICE_ID                    (0x0900u)
 #define CapSense_1_HW_CLOCK                     (0x1770u)
 #define CapSense_1_CSD0_CONFIG                  (0x0009u)
@@ -669,11 +689,11 @@ typedef uint16 CapSense_1_THRESHOLD_TYPE;
 /*******************************************************************************
 * Button0 initialization values for RAM data structure
 *******************************************************************************/
-#define CapSense_1_BUTTON0_RESOLUTION           (CapSense_1_RES13BIT)
-#define CapSense_1_BUTTON0_FINGER_TH            (61u)
-#define CapSense_1_BUTTON0_NOISE_TH             (30u)
-#define CapSense_1_BUTTON0_NNOISE_TH            (30u)
-#define CapSense_1_BUTTON0_HYSTERESIS           (7u)
+#define CapSense_1_BUTTON0_RESOLUTION           (CapSense_1_RES12BIT)
+#define CapSense_1_BUTTON0_FINGER_TH            (72u)
+#define CapSense_1_BUTTON0_NOISE_TH             (36u)
+#define CapSense_1_BUTTON0_NNOISE_TH            (36u)
+#define CapSense_1_BUTTON0_HYSTERESIS           (9u)
 #define CapSense_1_BUTTON0_ON_DEBOUNCE          (3u)
 #define CapSense_1_BUTTON0_LOW_BSLN_RST         (30u)
 #define CapSense_1_BUTTON0_IDAC_MOD0            (32u)
@@ -690,11 +710,11 @@ typedef uint16 CapSense_1_THRESHOLD_TYPE;
 /*******************************************************************************
 * Button1 initialization values for RAM data structure
 *******************************************************************************/
-#define CapSense_1_BUTTON1_RESOLUTION           (CapSense_1_RES13BIT)
-#define CapSense_1_BUTTON1_FINGER_TH            (63u)
-#define CapSense_1_BUTTON1_NOISE_TH             (31u)
-#define CapSense_1_BUTTON1_NNOISE_TH            (31u)
-#define CapSense_1_BUTTON1_HYSTERESIS           (7u)
+#define CapSense_1_BUTTON1_RESOLUTION           (CapSense_1_RES12BIT)
+#define CapSense_1_BUTTON1_FINGER_TH            (72u)
+#define CapSense_1_BUTTON1_NOISE_TH             (36u)
+#define CapSense_1_BUTTON1_NNOISE_TH            (36u)
+#define CapSense_1_BUTTON1_HYSTERESIS           (9u)
 #define CapSense_1_BUTTON1_ON_DEBOUNCE          (3u)
 #define CapSense_1_BUTTON1_LOW_BSLN_RST         (30u)
 #define CapSense_1_BUTTON1_IDAC_MOD0            (32u)
@@ -711,11 +731,11 @@ typedef uint16 CapSense_1_THRESHOLD_TYPE;
 /*******************************************************************************
 * Button2 initialization values for RAM data structure
 *******************************************************************************/
-#define CapSense_1_BUTTON2_RESOLUTION           (CapSense_1_RES13BIT)
-#define CapSense_1_BUTTON2_FINGER_TH            (54u)
-#define CapSense_1_BUTTON2_NOISE_TH             (27u)
-#define CapSense_1_BUTTON2_NNOISE_TH            (27u)
-#define CapSense_1_BUTTON2_HYSTERESIS           (6u)
+#define CapSense_1_BUTTON2_RESOLUTION           (CapSense_1_RES12BIT)
+#define CapSense_1_BUTTON2_FINGER_TH            (72u)
+#define CapSense_1_BUTTON2_NOISE_TH             (36u)
+#define CapSense_1_BUTTON2_NNOISE_TH            (36u)
+#define CapSense_1_BUTTON2_HYSTERESIS           (9u)
 #define CapSense_1_BUTTON2_ON_DEBOUNCE          (3u)
 #define CapSense_1_BUTTON2_LOW_BSLN_RST         (30u)
 #define CapSense_1_BUTTON2_IDAC_MOD0            (32u)
@@ -732,11 +752,11 @@ typedef uint16 CapSense_1_THRESHOLD_TYPE;
 /*******************************************************************************
 * Button3 initialization values for RAM data structure
 *******************************************************************************/
-#define CapSense_1_BUTTON3_RESOLUTION           (CapSense_1_RES13BIT)
-#define CapSense_1_BUTTON3_FINGER_TH            (54u)
-#define CapSense_1_BUTTON3_NOISE_TH             (27u)
-#define CapSense_1_BUTTON3_NNOISE_TH            (27u)
-#define CapSense_1_BUTTON3_HYSTERESIS           (6u)
+#define CapSense_1_BUTTON3_RESOLUTION           (CapSense_1_RES12BIT)
+#define CapSense_1_BUTTON3_FINGER_TH            (72u)
+#define CapSense_1_BUTTON3_NOISE_TH             (36u)
+#define CapSense_1_BUTTON3_NNOISE_TH            (36u)
+#define CapSense_1_BUTTON3_HYSTERESIS           (9u)
 #define CapSense_1_BUTTON3_ON_DEBOUNCE          (3u)
 #define CapSense_1_BUTTON3_LOW_BSLN_RST         (30u)
 #define CapSense_1_BUTTON3_IDAC_MOD0            (32u)
@@ -753,17 +773,122 @@ typedef uint16 CapSense_1_THRESHOLD_TYPE;
 /*******************************************************************************
 * Button4 initialization values for RAM data structure
 *******************************************************************************/
-#define CapSense_1_BUTTON4_RESOLUTION           (CapSense_1_RES13BIT)
-#define CapSense_1_BUTTON4_FINGER_TH            (54u)
-#define CapSense_1_BUTTON4_NOISE_TH             (27u)
-#define CapSense_1_BUTTON4_NNOISE_TH            (27u)
-#define CapSense_1_BUTTON4_HYSTERESIS           (6u)
+#define CapSense_1_BUTTON4_RESOLUTION           (CapSense_1_RES12BIT)
+#define CapSense_1_BUTTON4_FINGER_TH            (72u)
+#define CapSense_1_BUTTON4_NOISE_TH             (36u)
+#define CapSense_1_BUTTON4_NNOISE_TH            (36u)
+#define CapSense_1_BUTTON4_HYSTERESIS           (9u)
 #define CapSense_1_BUTTON4_ON_DEBOUNCE          (3u)
 #define CapSense_1_BUTTON4_LOW_BSLN_RST         (30u)
 #define CapSense_1_BUTTON4_IDAC_MOD0            (32u)
 #define CapSense_1_BUTTON4_IDAC_MOD1            (32u)
 #define CapSense_1_BUTTON4_IDAC_MOD2            (32u)
 #define CapSense_1_BUTTON4_SNS_CLK_SOURCE       (0u)
+
+/*******************************************************************************
+* Button5 initialization values for FLASH data structure
+*******************************************************************************/
+#define CapSense_1_BUTTON5_STATIC_CONFIG        (10240u)
+#define CapSense_1_BUTTON5_NUM_SENSORS          (1u)
+
+/*******************************************************************************
+* Button5 initialization values for RAM data structure
+*******************************************************************************/
+#define CapSense_1_BUTTON5_RESOLUTION           (CapSense_1_RES16BIT)
+#define CapSense_1_BUTTON5_FINGER_TH            (100u)
+#define CapSense_1_BUTTON5_NOISE_TH             (40u)
+#define CapSense_1_BUTTON5_NNOISE_TH            (40u)
+#define CapSense_1_BUTTON5_HYSTERESIS           (10u)
+#define CapSense_1_BUTTON5_ON_DEBOUNCE          (3u)
+#define CapSense_1_BUTTON5_LOW_BSLN_RST         (30u)
+#define CapSense_1_BUTTON5_IDAC_MOD0            (32u)
+#define CapSense_1_BUTTON5_IDAC_MOD1            (32u)
+#define CapSense_1_BUTTON5_IDAC_MOD2            (32u)
+#define CapSense_1_BUTTON5_SNS_CLK_SOURCE       (0u)
+
+/*******************************************************************************
+* Button6 initialization values for FLASH data structure
+*******************************************************************************/
+#define CapSense_1_BUTTON6_STATIC_CONFIG        (10240u)
+#define CapSense_1_BUTTON6_NUM_SENSORS          (1u)
+
+/*******************************************************************************
+* Button6 initialization values for RAM data structure
+*******************************************************************************/
+#define CapSense_1_BUTTON6_RESOLUTION           (CapSense_1_RES16BIT)
+#define CapSense_1_BUTTON6_FINGER_TH            (100u)
+#define CapSense_1_BUTTON6_NOISE_TH             (40u)
+#define CapSense_1_BUTTON6_NNOISE_TH            (40u)
+#define CapSense_1_BUTTON6_HYSTERESIS           (10u)
+#define CapSense_1_BUTTON6_ON_DEBOUNCE          (3u)
+#define CapSense_1_BUTTON6_LOW_BSLN_RST         (30u)
+#define CapSense_1_BUTTON6_IDAC_MOD0            (32u)
+#define CapSense_1_BUTTON6_IDAC_MOD1            (32u)
+#define CapSense_1_BUTTON6_IDAC_MOD2            (32u)
+#define CapSense_1_BUTTON6_SNS_CLK_SOURCE       (0u)
+
+/*******************************************************************************
+* Button7 initialization values for FLASH data structure
+*******************************************************************************/
+#define CapSense_1_BUTTON7_STATIC_CONFIG        (10240u)
+#define CapSense_1_BUTTON7_NUM_SENSORS          (1u)
+
+/*******************************************************************************
+* Button7 initialization values for RAM data structure
+*******************************************************************************/
+#define CapSense_1_BUTTON7_RESOLUTION           (CapSense_1_RES16BIT)
+#define CapSense_1_BUTTON7_FINGER_TH            (100u)
+#define CapSense_1_BUTTON7_NOISE_TH             (40u)
+#define CapSense_1_BUTTON7_NNOISE_TH            (40u)
+#define CapSense_1_BUTTON7_HYSTERESIS           (10u)
+#define CapSense_1_BUTTON7_ON_DEBOUNCE          (3u)
+#define CapSense_1_BUTTON7_LOW_BSLN_RST         (30u)
+#define CapSense_1_BUTTON7_IDAC_MOD0            (32u)
+#define CapSense_1_BUTTON7_IDAC_MOD1            (32u)
+#define CapSense_1_BUTTON7_IDAC_MOD2            (32u)
+#define CapSense_1_BUTTON7_SNS_CLK_SOURCE       (0u)
+
+/*******************************************************************************
+* Button8 initialization values for FLASH data structure
+*******************************************************************************/
+#define CapSense_1_BUTTON8_STATIC_CONFIG        (10240u)
+#define CapSense_1_BUTTON8_NUM_SENSORS          (1u)
+
+/*******************************************************************************
+* Button8 initialization values for RAM data structure
+*******************************************************************************/
+#define CapSense_1_BUTTON8_RESOLUTION           (CapSense_1_RES16BIT)
+#define CapSense_1_BUTTON8_FINGER_TH            (100u)
+#define CapSense_1_BUTTON8_NOISE_TH             (40u)
+#define CapSense_1_BUTTON8_NNOISE_TH            (40u)
+#define CapSense_1_BUTTON8_HYSTERESIS           (10u)
+#define CapSense_1_BUTTON8_ON_DEBOUNCE          (3u)
+#define CapSense_1_BUTTON8_LOW_BSLN_RST         (30u)
+#define CapSense_1_BUTTON8_IDAC_MOD0            (32u)
+#define CapSense_1_BUTTON8_IDAC_MOD1            (32u)
+#define CapSense_1_BUTTON8_IDAC_MOD2            (32u)
+#define CapSense_1_BUTTON8_SNS_CLK_SOURCE       (0u)
+
+/*******************************************************************************
+* Button9 initialization values for FLASH data structure
+*******************************************************************************/
+#define CapSense_1_BUTTON9_STATIC_CONFIG        (10240u)
+#define CapSense_1_BUTTON9_NUM_SENSORS          (1u)
+
+/*******************************************************************************
+* Button9 initialization values for RAM data structure
+*******************************************************************************/
+#define CapSense_1_BUTTON9_RESOLUTION           (CapSense_1_RES16BIT)
+#define CapSense_1_BUTTON9_FINGER_TH            (100u)
+#define CapSense_1_BUTTON9_NOISE_TH             (40u)
+#define CapSense_1_BUTTON9_NNOISE_TH            (40u)
+#define CapSense_1_BUTTON9_HYSTERESIS           (10u)
+#define CapSense_1_BUTTON9_ON_DEBOUNCE          (3u)
+#define CapSense_1_BUTTON9_LOW_BSLN_RST         (30u)
+#define CapSense_1_BUTTON9_IDAC_MOD0            (32u)
+#define CapSense_1_BUTTON9_IDAC_MOD1            (32u)
+#define CapSense_1_BUTTON9_IDAC_MOD2            (32u)
+#define CapSense_1_BUTTON9_SNS_CLK_SOURCE       (0u)
 
 /* RAM Sensor Parameters Definitions */
 #define CapSense_1_BUTTON0_SNS0_IDAC_COMP0      (32u)
@@ -781,6 +906,21 @@ typedef uint16 CapSense_1_THRESHOLD_TYPE;
 #define CapSense_1_BUTTON4_SNS0_IDAC_COMP0      (32u)
 #define CapSense_1_BUTTON4_SNS0_IDAC_COMP1      (32u)
 #define CapSense_1_BUTTON4_SNS0_IDAC_COMP2      (32u)
+#define CapSense_1_BUTTON5_SNS0_IDAC_COMP0      (32u)
+#define CapSense_1_BUTTON5_SNS0_IDAC_COMP1      (32u)
+#define CapSense_1_BUTTON5_SNS0_IDAC_COMP2      (32u)
+#define CapSense_1_BUTTON6_SNS0_IDAC_COMP0      (32u)
+#define CapSense_1_BUTTON6_SNS0_IDAC_COMP1      (32u)
+#define CapSense_1_BUTTON6_SNS0_IDAC_COMP2      (32u)
+#define CapSense_1_BUTTON7_SNS0_IDAC_COMP0      (32u)
+#define CapSense_1_BUTTON7_SNS0_IDAC_COMP1      (32u)
+#define CapSense_1_BUTTON7_SNS0_IDAC_COMP2      (32u)
+#define CapSense_1_BUTTON8_SNS0_IDAC_COMP0      (32u)
+#define CapSense_1_BUTTON8_SNS0_IDAC_COMP1      (32u)
+#define CapSense_1_BUTTON8_SNS0_IDAC_COMP2      (32u)
+#define CapSense_1_BUTTON9_SNS0_IDAC_COMP0      (32u)
+#define CapSense_1_BUTTON9_SNS0_IDAC_COMP1      (32u)
+#define CapSense_1_BUTTON9_SNS0_IDAC_COMP2      (32u)
 
 
 

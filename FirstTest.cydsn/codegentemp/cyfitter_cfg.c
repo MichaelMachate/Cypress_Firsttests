@@ -218,7 +218,7 @@ static void ClockSetup(void)
 static void AnalogSetDefault(void);
 static void AnalogSetDefault(void)
 {
-	SetAnalogRoutingPumps(1);
+	/* Variable VDDA is selected; no pumps are enabled by default */
 }
 
 
