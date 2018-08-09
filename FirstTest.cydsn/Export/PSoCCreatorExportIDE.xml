@@ -67,19 +67,6 @@
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\UART_SPI_UART_PVT.h</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\UART_PVT.h</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\UART_BOOT.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\I2CS.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\I2CS.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\I2CS_I2C.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\I2CS_I2C_INT.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\I2CS_I2C.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\I2CS_I2C_BOOT.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\I2CS_I2C_SLAVE.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\I2CS_PM.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\I2CS_BOOT.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\I2CS_PINS.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\I2CS_I2C_PVT.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\I2CS_PVT.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\I2CS_BOOT.h</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\CapSense_1.h</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\CapSense_1_Control.c</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\CapSense_1_Processing.c</File>
@@ -104,18 +91,6 @@
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\UART_tx.h</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\UART_tx_aliases.h</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\UART_tx_PM.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\I2CS_SCBCLK.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\I2CS_SCBCLK.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\I2CS_sda.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\I2CS_sda.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\I2CS_sda_aliases.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\I2CS_sda_PM.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\I2CS_scl.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\I2CS_scl.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\I2CS_scl_aliases.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\I2CS_scl_PM.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\I2CS_SCB_IRQ.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\I2CS_SCB_IRQ.h</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\CapSense_1_ISR.c</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\CapSense_1_ISR.h</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\cy_em_eeprom.c</File>

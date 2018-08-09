@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccEfWwMh.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
   28:Generated_Source\PSoC4/CapSense_1_Filter.c **** * WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.
   29:Generated_Source\PSoC4/CapSense_1_Filter.c **** * Cypress reserves the right to make changes without further notice to the
   30:Generated_Source\PSoC4/CapSense_1_Filter.c **** * materials described herein. Cypress does not assume any liability arising out
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 2
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccEfWwMh.s 			page 2
 
 
   31:Generated_Source\PSoC4/CapSense_1_Filter.c **** * of the application or use of any product or circuit described herein. Cypress
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
   85:Generated_Source\PSoC4/CapSense_1_Filter.c **** *  of this function (or any other function with a baseline updating task)
   86:Generated_Source\PSoC4/CapSense_1_Filter.c **** *  without scanning leads to unexpected behavior.
   87:Generated_Source\PSoC4/CapSense_1_Filter.c **** *
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 3
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccEfWwMh.s 			page 3
 
 
   88:Generated_Source\PSoC4/CapSense_1_Filter.c **** *  If the Self-test library is enabled, this function executes the baseline duplication
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
  142:Generated_Source\PSoC4/CapSense_1_Filter.c **** *******************************************************************************/
  143:Generated_Source\PSoC4/CapSense_1_Filter.c **** cystatus CapSense_1_UpdateWidgetBaseline(uint32 widgetId)
  144:Generated_Source\PSoC4/CapSense_1_Filter.c **** {
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 4
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccEfWwMh.s 			page 4
 
 
  145:Generated_Source\PSoC4/CapSense_1_Filter.c ****     uint32 sensorId;
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
  199:Generated_Source\PSoC4/CapSense_1_Filter.c **** *******************************************************************************/
  200:Generated_Source\PSoC4/CapSense_1_Filter.c **** cystatus CapSense_1_UpdateSensorBaseline(uint32 widgetId, uint32 sensorId)
  201:Generated_Source\PSoC4/CapSense_1_Filter.c **** {
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 5
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccEfWwMh.s 			page 5
 
 
  202:Generated_Source\PSoC4/CapSense_1_Filter.c ****     uint32 result = CYRET_SUCCESS;
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
  256:Generated_Source\PSoC4/CapSense_1_Filter.c ****                                 CapSense_1_RAM_WD_BASE_STRUCT *ptrWidgetRam,
  257:Generated_Source\PSoC4/CapSense_1_Filter.c ****                                 CapSense_1_RAM_SNS_STRUCT *ptrSensor,
  258:Generated_Source\PSoC4/CapSense_1_Filter.c ****                                 uint32 wdType)
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 6
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccEfWwMh.s 			page 6
 
 
  259:Generated_Source\PSoC4/CapSense_1_Filter.c **** {
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
  313:Generated_Source\PSoC4/CapSense_1_Filter.c ****                 {
  314:Generated_Source\PSoC4/CapSense_1_Filter.c ****             #endif /* (CapSense_1_CSD_AUTO_RESET == CapSense_1_CSD_AUTO_RESET_DISABLE) */
  315:Generated_Source\PSoC4/CapSense_1_Filter.c **** 
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 7
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccEfWwMh.s 			page 7
 
 
  316:Generated_Source\PSoC4/CapSense_1_Filter.c ****             #if (CapSense_1_BASELINE_TYPE == CapSense_1_IIR_BASELINE)
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
  370:Generated_Source\PSoC4/CapSense_1_Filter.c ****                             ptrSensor->bslnExt[freqChannel] = LO8(history);
  371:Generated_Source\PSoC4/CapSense_1_Filter.c ****                         #else
  372:Generated_Source\PSoC4/CapSense_1_Filter.c ****                             ptrSensor->bsln[freqChannel] = LO16(history);
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 8
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccEfWwMh.s 			page 8
 
 
  373:Generated_Source\PSoC4/CapSense_1_Filter.c ****                         #endif /* (CapSense_1_PROX_IIR_BL_TYPE == CapSense_1_IIR_FILTER_PERFORMANCE
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
  427:Generated_Source\PSoC4/CapSense_1_Filter.c **** }
  428:Generated_Source\PSoC4/CapSense_1_Filter.c **** 
  429:Generated_Source\PSoC4/CapSense_1_Filter.c **** 
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 9
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccEfWwMh.s 			page 9
 
 
  430:Generated_Source\PSoC4/CapSense_1_Filter.c **** /*******************************************************************************
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
  484:Generated_Source\PSoC4/CapSense_1_Filter.c **** * \param widgetId
  485:Generated_Source\PSoC4/CapSense_1_Filter.c **** *  Specifies the ID number of a widget to initialize the baseline of the sensor
  486:Generated_Source\PSoC4/CapSense_1_Filter.c **** *  in the widget.
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 10
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccEfWwMh.s 			page 10
 
 
  487:Generated_Source\PSoC4/CapSense_1_Filter.c **** *  A macro for the widget ID can be found in the
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
  541:Generated_Source\PSoC4/CapSense_1_Filter.c **** }
  542:Generated_Source\PSoC4/CapSense_1_Filter.c **** 
  543:Generated_Source\PSoC4/CapSense_1_Filter.c **** 
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 11
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccEfWwMh.s 			page 11
 
 
  544:Generated_Source\PSoC4/CapSense_1_Filter.c **** /*******************************************************************************
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
  581:Generated_Source\PSoC4/CapSense_1_Filter.c ****                     ptrSensor->bslnExt[channel] = 0u;
  582:Generated_Source\PSoC4/CapSense_1_Filter.c ****                 #endif /* (CapSense_1_PROX_IIR_BL_TYPE == CapSense_1_IIR_FILTER_PERFORMANCE) */
  583:Generated_Source\PSoC4/CapSense_1_Filter.c ****             #endif /* (CapSense_1_PROX_SENSOR_EN) */
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 12
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccEfWwMh.s 			page 12
 
 
  584:Generated_Source\PSoC4/CapSense_1_Filter.c ****         }
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
  537:Generated_Source\PSoC4/CapSense_1_Filter.c ****     {
   83              		.loc 1 537 0
   84 0006 0323     		movs	r3, #3
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 13
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccEfWwMh.s 			page 13
 
 
   85 0008 05E0     		b	.L4
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
  133 0002 094C     		ldr	r4, .L7
  134 0004 C300     		lsls	r3, r0, #3
  135 0006 1D1A     		subs	r5, r3, r0
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 14
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccEfWwMh.s 			page 14
 
 
  136 0008 AA00     		lsls	r2, r5, #2
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
  186 0002 0500     		movs	r5, r0
  187              	.LVL21:
  463:Generated_Source\PSoC4/CapSense_1_Filter.c **** 
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 15
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccEfWwMh.s 			page 15
 
 
  188              		.loc 1 463 0
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
  236              		@ args = 0, pretend = 0, frame = 0
  237              		@ frame_needed = 0, uses_anonymous_args = 0
  238 0000 10B5     		push	{r4, lr}
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 16
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccEfWwMh.s 			page 16
 
 
  239              		.cfi_def_cfa_offset 8
@@ -907,7 +907,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
  242              	.LVL29:
  423:Generated_Source\PSoC4/CapSense_1_Filter.c ****     {
  243              		.loc 1 423 0
- 244 0002 0A23     		movs	r3, #10
+ 244 0002 0C23     		movs	r3, #12
  245 0004 03E0     		b	.L15
  246              	.LVL30:
  247              	.L16:
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
  611:Generated_Source\PSoC4/CapSense_1_Filter.c **** *  Initializes the raw count filter history for all the sensors of all the
  612:Generated_Source\PSoC4/CapSense_1_Filter.c **** *  widgets. Also, this function can be used to re-initialize baselines.
  613:Generated_Source\PSoC4/CapSense_1_Filter.c **** *  CapSense_1_Start() calls this API as part of CapSense_1
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 17
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccEfWwMh.s 			page 17
 
 
  614:Generated_Source\PSoC4/CapSense_1_Filter.c **** *  operation initialization.
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
  668:Generated_Source\PSoC4/CapSense_1_Filter.c **** 
  669:Generated_Source\PSoC4/CapSense_1_Filter.c ****     /* Find total amount of sensors in specified widget */
  670:Generated_Source\PSoC4/CapSense_1_Filter.c ****     sensorsNumber = CapSense_1_GET_SNS_CNT_BY_PTR(ptrWidget);
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 18
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccEfWwMh.s 			page 18
 
 
  671:Generated_Source\PSoC4/CapSense_1_Filter.c **** 
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
  725:Generated_Source\PSoC4/CapSense_1_Filter.c ****             {
  726:Generated_Source\PSoC4/CapSense_1_Filter.c ****                 SmartSense_InitializeNoiseEnvelope(ptrSensor->raw[0u], ptrWidgetRam->sigPFC, ptrNoi
  727:Generated_Source\PSoC4/CapSense_1_Filter.c ****             }
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 19
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccEfWwMh.s 			page 19
 
 
  728:Generated_Source\PSoC4/CapSense_1_Filter.c ****         #endif /* (0u != (CapSense_1_CSD_AUTOTUNE & CapSense_1_CSD_SS_TH_EN)) */
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
  782:Generated_Source\PSoC4/CapSense_1_Filter.c **** /*******************************************************************************
  783:Generated_Source\PSoC4/CapSense_1_Filter.c **** * Function Name: CapSense_1_RunIIR
  784:Generated_Source\PSoC4/CapSense_1_Filter.c **** ****************************************************************************//**
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 20
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccEfWwMh.s 			page 20
 
 
  785:Generated_Source\PSoC4/CapSense_1_Filter.c **** *
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
  839:Generated_Source\PSoC4/CapSense_1_Filter.c **** *
  840:Generated_Source\PSoC4/CapSense_1_Filter.c **** * \param ptrFilterHistObj
  841:Generated_Source\PSoC4/CapSense_1_Filter.c **** *  The pointer to the filter RAM object of the sensor.
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 21
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccEfWwMh.s 			page 21
 
 
  842:Generated_Source\PSoC4/CapSense_1_Filter.c **** *
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
  306 0018 2300     		movs	r3, r4
  307              	.LVL38:
  308              	.L18:
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 22
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccEfWwMh.s 			page 22
 
 
  855:Generated_Source\PSoC4/CapSense_1_Filter.c ****     {
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
  344 0006 C200     		lsls	r2, r0, #3
  345 0008 111A     		subs	r1, r2, r0
  346              	.LVL43:
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 23
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccEfWwMh.s 			page 23
 
 
  347 000a 8C00     		lsls	r4, r1, #2
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
  395              		.align	2
  396              		.global	CapSense_1_InitializeMedianInternal
  397              		.code	16
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 24
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccEfWwMh.s 			page 24
 
 
  398              		.thumb_func
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
  931:Generated_Source\PSoC4/CapSense_1_Filter.c ****                 #endif /* (CapSense_1_REGULAR_IIR_RC_TYPE == CapSense_1_IIR_FILTER_PERFORMANCE) */
  932:Generated_Source\PSoC4/CapSense_1_Filter.c ****             #endif /* (CapSense_1_REGULAR_SENSOR_EN) */
  933:Generated_Source\PSoC4/CapSense_1_Filter.c ****         }
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 25
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccEfWwMh.s 			page 25
 
 
  934:Generated_Source\PSoC4/CapSense_1_Filter.c ****         else
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
  988:Generated_Source\PSoC4/CapSense_1_Filter.c ****     ptrSensor = ptrWidget->ptr2SnsRam;
  989:Generated_Source\PSoC4/CapSense_1_Filter.c ****     ptrSensor = &ptrSensor[sensorId];
  990:Generated_Source\PSoC4/CapSense_1_Filter.c **** 
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 26
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccEfWwMh.s 			page 26
 
 
  991:Generated_Source\PSoC4/CapSense_1_Filter.c ****     /* Find pointer to specified filter sensor object */
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
 1045:Generated_Source\PSoC4/CapSense_1_Filter.c ****         #if (CapSense_1_REGULAR_SENSOR_EN)
 1046:Generated_Source\PSoC4/CapSense_1_Filter.c ****             ptrFilterHistObj.ptrRegular = &ptrFilterHistObj.ptrRegular[sensorId];
 1047:Generated_Source\PSoC4/CapSense_1_Filter.c ****         #endif /* (CapSense_1_REGULAR_SENSOR_EN) */
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 27
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccEfWwMh.s 			page 27
 
 
 1048:Generated_Source\PSoC4/CapSense_1_Filter.c ****     }
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
  418              	.LVL55:
  419              	.L28:
 1086:Generated_Source\PSoC4/CapSense_1_Filter.c ****     {
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 28
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccEfWwMh.s 			page 28
 
 
 1087:Generated_Source\PSoC4/CapSense_1_Filter.c ****         if ((CapSense_1_WD_TYPE_ENUM)wdType != CapSense_1_WD_PROXIMITY_E)
@@ -1678,7 +1678,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
  456              		.thumb_func
  457              		.type	CapSense_1_InitializeMedian, %function
  458              	CapSense_1_InitializeMedian:
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 29
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccEfWwMh.s 			page 29
 
 
  459              	.LFB17:
@@ -1738,7 +1738,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
  507              	.L30:
  508              	.LVL67:
 1007:Generated_Source\PSoC4/CapSense_1_Filter.c **** }
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 30
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccEfWwMh.s 			page 30
 
 
  509              		.loc 1 1007 0
@@ -1798,7 +1798,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
 1132:Generated_Source\PSoC4/CapSense_1_Filter.c ****         uint32 temp;
 1133:Generated_Source\PSoC4/CapSense_1_Filter.c ****     #endif
 1134:Generated_Source\PSoC4/CapSense_1_Filter.c **** 
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 31
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccEfWwMh.s 			page 31
 
 
 1135:Generated_Source\PSoC4/CapSense_1_Filter.c ****     for(freqChannel = CapSense_1_NUM_SCAN_FREQS; freqChannel-- > 0u;)
@@ -1858,7 +1858,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
 1189:Generated_Source\PSoC4/CapSense_1_Filter.c ****     CapSense_1_PTR_FILTER_VARIANT ptrFilterHistObj;
 1190:Generated_Source\PSoC4/CapSense_1_Filter.c **** 
 1191:Generated_Source\PSoC4/CapSense_1_Filter.c ****     /* Find pointer to specified sensor object */
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 32
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccEfWwMh.s 			page 32
 
 
 1192:Generated_Source\PSoC4/CapSense_1_Filter.c ****     ptrSensor = ptrWidget->ptr2SnsRam;
@@ -1918,7 +1918,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
 1246:Generated_Source\PSoC4/CapSense_1_Filter.c **** 
 1247:Generated_Source\PSoC4/CapSense_1_Filter.c ****     if ((CapSense_1_WD_TYPE_ENUM)ptrWidget->wdgtType != CapSense_1_WD_PROXIMITY_E)
 1248:Generated_Source\PSoC4/CapSense_1_Filter.c ****     {
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 33
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccEfWwMh.s 			page 33
 
 
 1249:Generated_Source\PSoC4/CapSense_1_Filter.c ****         #if (CapSense_1_REGULAR_SENSOR_EN)
@@ -1978,7 +1978,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
  546              		.loc 1 1289 0
  547 0002 0323     		movs	r3, #3
  548 0004 0EE0     		b	.L34
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 34
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccEfWwMh.s 			page 34
 
 
  549              	.LVL73:
@@ -2038,7 +2038,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
 1312:Generated_Source\PSoC4/CapSense_1_Filter.c **** }
  579              		.loc 1 1312 0
  580              		@ sp needed
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 35
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccEfWwMh.s 			page 35
 
 
  581              	.LVL76:
@@ -2098,7 +2098,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
  631 0020 D318     		adds	r3, r2, r3
  632              	.LVL82:
  676:Generated_Source\PSoC4/CapSense_1_Filter.c **** 
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 36
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccEfWwMh.s 			page 36
 
 
  633              		.loc 1 676 0
@@ -2158,7 +2158,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
  679              		.loc 1 672 0 is_stmt 0 discriminator 1
  680 0060 5E1E     		subs	r6, r3, #1
  681              	.LVL91:
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 37
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccEfWwMh.s 			page 37
 
 
  682 0062 002B     		cmp	r3, #0
@@ -2199,7 +2199,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
  715              	.LVL95:
  621:Generated_Source\PSoC4/CapSense_1_Filter.c ****     {
  716              		.loc 1 621 0
- 717 0002 0A23     		movs	r3, #10
+ 717 0002 0C23     		movs	r3, #12
  718 0004 03E0     		b	.L44
  719              	.LVL96:
  720              	.L45:
@@ -2218,7 +2218,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
  730 000e 5C1E     		subs	r4, r3, #1
  731              	.LVL99:
  732 0010 002B     		cmp	r3, #0
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 38
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccEfWwMh.s 			page 38
 
 
  733 0012 F8D1     		bne	.L45
@@ -2278,7 +2278,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
  782              		.cfi_offset 5, -12
  783              		.cfi_offset 7, -8
  784              		.cfi_offset 14, -4
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 39
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccEfWwMh.s 			page 39
 
 
  785 0002 0B00     		movs	r3, r1
@@ -2338,7 +2338,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
  832              	.L50:
  833 003a C046     		.align	2
  834              	.L49:
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 40
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccEfWwMh.s 			page 40
 
 
  835 003c 00000000 		.word	CapSense_1_dsFlash
@@ -2398,7 +2398,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
  860              		.loc 1 1341 0
  861 0002 0323     		movs	r3, #3
  862 0004 19E0     		b	.L52
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 41
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccEfWwMh.s 			page 41
 
 
  863              	.LVL116:
@@ -2458,7 +2458,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
 1359:Generated_Source\PSoC4/CapSense_1_Filter.c ****                     ptrFilterHistObj.ptrRegular->regularChannel[freqChannel].avgHistory[1u] =
 1360:Generated_Source\PSoC4/CapSense_1_Filter.c ****                     ptrFilterHistObj.ptrRegular->regularChannel[freqChannel].avgHistory[0];
  896              		.loc 1 1360 0
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 42
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccEfWwMh.s 			page 42
 
 
  897 002e DD88     		ldrh	r5, [r3, #6]
@@ -2518,7 +2518,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
  918              	.LVL121:
  919 0040 F0BD     		pop	{r4, r5, r6, r7, pc}
  920              		.cfi_endproc
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 43
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccEfWwMh.s 			page 43
 
 
  921              	.LFE24:
@@ -2578,7 +2578,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
  970 0026 062A     		cmp	r2, #6
  971 0028 03D0     		beq	.L56
 1250:Generated_Source\PSoC4/CapSense_1_Filter.c ****         #endif /* (CapSense_1_REGULAR_SENSOR_EN) */
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 44
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccEfWwMh.s 			page 44
 
 
  972              		.loc 1 1250 0
@@ -2638,7 +2638,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
 1411:Generated_Source\PSoC4/CapSense_1_Filter.c **** void CapSense_1_InitializeALP(uint32 widgetId, uint32 sensorId)
 1412:Generated_Source\PSoC4/CapSense_1_Filter.c **** {
 1413:Generated_Source\PSoC4/CapSense_1_Filter.c ****     CapSense_1_FLASH_WD_STRUCT const *ptrWidget = &CapSense_1_dsFlash.wdgtArray[widgetId];
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 45
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccEfWwMh.s 			page 45
 
 
 1414:Generated_Source\PSoC4/CapSense_1_Filter.c ****     CapSense_1_RAM_SNS_STRUCT *ptrSensor = NULL;
@@ -2698,7 +2698,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
 1468:Generated_Source\PSoC4/CapSense_1_Filter.c ****     ptrFilterHistObj.ptrAlp = &ptrFilterHistObj.ptrAlp[sensorId];
 1469:Generated_Source\PSoC4/CapSense_1_Filter.c **** 
 1470:Generated_Source\PSoC4/CapSense_1_Filter.c ****     if ((CapSense_1_WD_TYPE_ENUM)ptrWidget->wdgtType != CapSense_1_WD_PROXIMITY_E)
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 46
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccEfWwMh.s 			page 46
 
 
 1471:Generated_Source\PSoC4/CapSense_1_Filter.c ****     {
@@ -2758,7 +2758,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
 1525:Generated_Source\PSoC4/CapSense_1_Filter.c ****             #endif
 1526:Generated_Source\PSoC4/CapSense_1_Filter.c ****         }
 1527:Generated_Source\PSoC4/CapSense_1_Filter.c ****     }
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 47
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccEfWwMh.s 			page 47
 
 
 1528:Generated_Source\PSoC4/CapSense_1_Filter.c **** }
@@ -2818,7 +2818,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
 1582:Generated_Source\PSoC4/CapSense_1_Filter.c **** * \param ptrAlpFilterConfig
 1583:Generated_Source\PSoC4/CapSense_1_Filter.c **** *  The pointer to the filter configuration object of the sensor.
 1584:Generated_Source\PSoC4/CapSense_1_Filter.c **** *
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 48
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccEfWwMh.s 			page 48
 
 
 1585:Generated_Source\PSoC4/CapSense_1_Filter.c **** * \param ptrSensorObj
@@ -2878,7 +2878,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
 1639:Generated_Source\PSoC4/CapSense_1_Filter.c **** {
 1640:Generated_Source\PSoC4/CapSense_1_Filter.c ****     CapSense_1_FLASH_WD_STRUCT const *ptrWidget = &CapSense_1_dsFlash.wdgtArray[widgetId];
 1641:Generated_Source\PSoC4/CapSense_1_Filter.c ****     CapSense_1_RAM_SNS_STRUCT *ptrSensor = NULL;
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 49
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccEfWwMh.s 			page 49
 
 
 1642:Generated_Source\PSoC4/CapSense_1_Filter.c ****     CapSense_1_PTR_FILTER_VARIANT ptrFilterHistObj;
@@ -2938,7 +2938,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
 1696:Generated_Source\PSoC4/CapSense_1_Filter.c ****                                                   CapSense_1_RAM_SNS_STRUCT *ptrSensorObj, uint32 w
 1697:Generated_Source\PSoC4/CapSense_1_Filter.c **** {
 1698:Generated_Source\PSoC4/CapSense_1_Filter.c ****     #if (CapSense_1_REGULAR_RC_MEDIAN_FILTER_EN || CapSense_1_PROX_RC_MEDIAN_FILTER_EN)
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 50
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccEfWwMh.s 			page 50
 
 
 1699:Generated_Source\PSoC4/CapSense_1_Filter.c ****         CapSense_1_RunMedianInternal(ptrFilterHistObj, ptrSensorObj, wdType);
@@ -2998,7 +2998,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
 1753:Generated_Source\PSoC4/CapSense_1_Filter.c **** * Function Name: CapSense_1_InitializeNoiseEnvelope
 1754:Generated_Source\PSoC4/CapSense_1_Filter.c **** ****************************************************************************//**
 1755:Generated_Source\PSoC4/CapSense_1_Filter.c **** *
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 51
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccEfWwMh.s 			page 51
 
 
 1756:Generated_Source\PSoC4/CapSense_1_Filter.c **** * \brief
@@ -3058,7 +3058,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
 1810:Generated_Source\PSoC4/CapSense_1_Filter.c **** *  Returns the median value of input arguments.
 1811:Generated_Source\PSoC4/CapSense_1_Filter.c **** *
 1812:Generated_Source\PSoC4/CapSense_1_Filter.c **** *******************************************************************************/
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 52
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccEfWwMh.s 			page 52
 
 
 1813:Generated_Source\PSoC4/CapSense_1_Filter.c **** uint32 CapSense_1_FtMedian(uint32 x1, uint32 x2, uint32 x3)
@@ -3118,7 +3118,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
  1039              		.size	CapSense_1_FtMedian, .-CapSense_1_FtMedian
  1040              		.section	.text.CapSense_1_RunMedianInternal,"ax",%progbits
  1041              		.align	2
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 53
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccEfWwMh.s 			page 53
 
 
  1042              		.global	CapSense_1_RunMedianInternal
@@ -3178,7 +3178,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
  1091 0026 4444     		add	r4, r4, r8
  1092 0028 6388     		ldrh	r3, [r4, #2]
  1093 002a 9946     		mov	r9, r3
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 54
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccEfWwMh.s 			page 54
 
 
 1142:Generated_Source\PSoC4/CapSense_1_Filter.c ****                 ptrFilterHistObj.ptrRegular->regularChannel[freqChannel].medHistory[1u] = \
@@ -3238,7 +3238,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
  1140              	.LFB18:
 1031:Generated_Source\PSoC4/CapSense_1_Filter.c ****     CapSense_1_FLASH_WD_STRUCT const *ptrWidget = &CapSense_1_dsFlash.wdgtArray[widgetId];
  1141              		.loc 1 1031 0
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 55
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccEfWwMh.s 			page 55
 
 
  1142              		.cfi_startproc
@@ -3298,7 +3298,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
  1190              		.loc 1 1056 0
  1191 0032 2000     		movs	r0, r4
  1192 0034 FFF7FEFF 		bl	CapSense_1_RunMedianInternal
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 56
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccEfWwMh.s 			page 56
 
 
  1193              	.LVL161:
@@ -3358,7 +3358,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
  1214              		.loc 1 1862 0
  1215              		.cfi_startproc
  1216              		@ args = 0, pretend = 0, frame = 0
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 57
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccEfWwMh.s 			page 57
 
 
  1217              		@ frame_needed = 0, uses_anonymous_args = 0
@@ -3418,7 +3418,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
  1258              		.cfi_offset 6, -12
  1259              		.cfi_offset 7, -8
  1260              		.cfi_offset 14, -4
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 58
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccEfWwMh.s 			page 58
 
 
  1261 0002 4F46     		mov	r7, r9
@@ -3478,7 +3478,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
  1306 0032 7779     		ldrb	r7, [r6, #5]
  1307 0034 BB42     		cmp	r3, r7
  1308 0036 0ED9     		bls	.L78
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 59
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccEfWwMh.s 			page 59
 
 
  298:Generated_Source\PSoC4/CapSense_1_Filter.c ****             {
@@ -3538,7 +3538,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
  1354              		.loc 1 322 0
  1355 0070 0902     		lsls	r1, r1, #8
  1356              	.LVL184:
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 60
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccEfWwMh.s 			page 60
 
 
  323:Generated_Source\PSoC4/CapSense_1_Filter.c ****                         #else
@@ -3598,7 +3598,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
  1405              		.thumb_func
  1406              		.type	CapSense_1_UpdateSensorBaseline, %function
  1407              	CapSense_1_UpdateSensorBaseline:
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 61
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccEfWwMh.s 			page 61
 
 
  1408              	.LFB4:
@@ -3658,7 +3658,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
  1456              	.L84:
  1457 0028 00000000 		.word	CapSense_1_dsFlash
  1458              		.cfi_endproc
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 62
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccEfWwMh.s 			page 62
 
 
  1459              	.LFE4:
@@ -3718,7 +3718,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
  154:Generated_Source\PSoC4/CapSense_1_Filter.c ****     {
  1507              		.loc 1 154 0 is_stmt 0 discriminator 1
  1508 0020 5C1E     		subs	r4, r3, #1
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 63
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccEfWwMh.s 			page 63
 
 
  1509              	.LVL213:
@@ -3764,7 +3764,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
  1546 0002 0025     		movs	r5, #0
  102:Generated_Source\PSoC4/CapSense_1_Filter.c ****     {
  1547              		.loc 1 102 0
- 1548 0004 0A23     		movs	r3, #10
+ 1548 0004 0C23     		movs	r3, #12
  1549 0006 04E0     		b	.L92
  1550              	.LVL218:
  1551              	.L93:
@@ -3778,7 +3778,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
  102:Generated_Source\PSoC4/CapSense_1_Filter.c ****     {
  1558              		.loc 1 102 0
  1559 0010 2300     		movs	r3, r4
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 64
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccEfWwMh.s 			page 64
 
 
  1560              	.LVL221:
@@ -3838,7 +3838,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
  1609              		.loc 1 911 0
  1610 0010 FF23     		movs	r3, #255
  1611 0012 4246     		mov	r2, r8
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 65
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccEfWwMh.s 			page 65
 
 
  1612 0014 1340     		ands	r3, r2
@@ -3898,7 +3898,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
  1658              		.size	CapSense_1_RunIIRInternal, .-CapSense_1_RunIIRInternal
  1659              		.section	.text.CapSense_1_RunIIR,"ax",%progbits
  1660              		.align	2
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 66
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccEfWwMh.s 			page 66
 
 
  1661              		.global	CapSense_1_RunIIR
@@ -3958,7 +3958,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
  1709 002a D800     		lsls	r0, r3, #3
  1710 002c C318     		adds	r3, r0, r3
  1711              	.LVL245:
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 67
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccEfWwMh.s 			page 67
 
 
  1712 002e 9C00     		lsls	r4, r3, #2
@@ -4018,7 +4018,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
  1761 0010 2000     		movs	r0, r4
  1762 0012 FFF7FEFF 		bl	CapSense_1_RunIIRInternal
  1763              	.LVL253:
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 68
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccEfWwMh.s 			page 68
 
 
 1707:Generated_Source\PSoC4/CapSense_1_Filter.c ****     #endif /* (CapSense_1_REGULAR_RC_AVERAGE_FILTER_EN || CapSense_1_PROX_RC_AVERAGE_FILTER_EN) */
@@ -4078,7 +4078,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
  1813 0016 AC46     		mov	ip, r5
  1814 0018 6144     		add	r1, r1, ip
  1815              	.LVL262:
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 69
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccEfWwMh.s 			page 69
 
 
 1649:Generated_Source\PSoC4/CapSense_1_Filter.c **** 
@@ -4138,7 +4138,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
  1865 0010 0C       		.byte	0xc
  1866 0011 68030000 		.4byte	.LASF115
  1867 0015 FD070000 		.4byte	.LASF116
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 70
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccEfWwMh.s 			page 70
 
 
  1868 0019 00000000 		.4byte	.Ldebug_ranges0+0
@@ -4198,7 +4198,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
  1922 0084 59020000 		.4byte	.LASF11
  1923 0088 02       		.byte	0x2
  1924 0089 E601     		.2byte	0x1e6
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 71
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccEfWwMh.s 			page 71
 
 
  1925 008b 48000000 		.4byte	0x48
@@ -4232,12 +4232,12 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
  1953 00c0 04       		.uleb128 0x4
  1954 00c1 A1010000 		.4byte	.LASF18
  1955 00c5 03       		.byte	0x3
- 1956 00c6 4101     		.2byte	0x141
+ 1956 00c6 4901     		.2byte	0x149
  1957 00c8 77000000 		.4byte	0x77
  1958 00cc 04       		.uleb128 0x4
  1959 00cd 05060000 		.4byte	.LASF19
  1960 00d1 03       		.byte	0x3
- 1961 00d2 4501     		.2byte	0x145
+ 1961 00d2 4D01     		.2byte	0x14d
  1962 00d4 6B000000 		.4byte	0x6b
  1963 00d8 06       		.uleb128 0x6
  1964 00d9 01       		.byte	0x1
@@ -4258,7 +4258,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
  1979 00f7 5C060000 		.4byte	.LASF23
  1980 00fb 04       		.byte	0x4
  1981 00fc 07       		.uleb128 0x7
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 72
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccEfWwMh.s 			page 72
 
 
  1982 00fd 99060000 		.4byte	.LASF24
@@ -4318,7 +4318,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
  2036 0169 07       		.byte	0x7
  2037 016a 0A       		.uleb128 0xa
  2038 016b 93030000 		.4byte	.LASF34
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 73
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccEfWwMh.s 			page 73
 
 
  2039 016f 04       		.byte	0x4
@@ -4353,45 +4353,45 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
  2068 01aa 0D       		.uleb128 0xd
  2069 01ab 18       		.byte	0x18
  2070 01ac 04       		.byte	0x4
- 2071 01ad 3A01     		.2byte	0x13a
+ 2071 01ad 4401     		.2byte	0x144
  2072 01af 02020000 		.4byte	0x202
  2073 01b3 0E       		.uleb128 0xe
  2074 01b4 72617700 		.ascii	"raw\000"
  2075 01b8 04       		.byte	0x4
- 2076 01b9 3F01     		.2byte	0x13f
+ 2076 01b9 4901     		.2byte	0x149
  2077 01bb 02020000 		.4byte	0x202
  2078 01bf 00       		.byte	0
  2079 01c0 0F       		.uleb128 0xf
  2080 01c1 F5020000 		.4byte	.LASF38
  2081 01c5 04       		.byte	0x4
- 2082 01c6 4401     		.2byte	0x144
+ 2082 01c6 4E01     		.2byte	0x14e
  2083 01c8 02020000 		.4byte	0x202
  2084 01cc 06       		.byte	0x6
  2085 01cd 0F       		.uleb128 0xf
  2086 01ce 8B020000 		.4byte	.LASF39
  2087 01d2 04       		.byte	0x4
- 2088 01d3 4A01     		.2byte	0x14a
+ 2088 01d3 5401     		.2byte	0x154
  2089 01d5 8F010000 		.4byte	0x18f
  2090 01d9 0C       		.byte	0xc
  2091 01da 0F       		.uleb128 0xf
  2092 01db 31010000 		.4byte	.LASF40
  2093 01df 04       		.byte	0x4
- 2094 01e0 4F01     		.2byte	0x14f
+ 2094 01e0 5901     		.2byte	0x159
  2095 01e2 C0000000 		.4byte	0xc0
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 74
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccEfWwMh.s 			page 74
 
 
  2096 01e6 10       		.byte	0x10
  2097 01e7 0F       		.uleb128 0xf
  2098 01e8 9B070000 		.4byte	.LASF41
  2099 01ec 04       		.byte	0x4
- 2100 01ed 5401     		.2byte	0x154
+ 2100 01ed 5E01     		.2byte	0x15e
  2101 01ef 12020000 		.4byte	0x212
  2102 01f3 12       		.byte	0x12
  2103 01f4 0F       		.uleb128 0xf
  2104 01f5 44070000 		.4byte	.LASF42
  2105 01f9 04       		.byte	0x4
- 2106 01fa 5901     		.2byte	0x159
+ 2106 01fa 6301     		.2byte	0x163
  2107 01fc 8F010000 		.4byte	0x18f
  2108 0200 15       		.byte	0x15
  2109 0201 00       		.byte	0
@@ -4412,68 +4412,68 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
  2124 0222 04       		.uleb128 0x4
  2125 0223 77050000 		.4byte	.LASF43
  2126 0227 04       		.byte	0x4
- 2127 0228 5A01     		.2byte	0x15a
+ 2127 0228 6401     		.2byte	0x164
  2128 022a AA010000 		.4byte	0x1aa
  2129 022e 0D       		.uleb128 0xd
  2130 022f 1C       		.byte	0x1c
  2131 0230 04       		.byte	0x4
- 2132 0231 6D02     		.2byte	0x26d
+ 2132 0231 8102     		.2byte	0x281
  2133 0233 AD020000 		.4byte	0x2ad
  2134 0237 0F       		.uleb128 0xf
  2135 0238 F5000000 		.4byte	.LASF44
  2136 023c 04       		.byte	0x4
- 2137 023d 7602     		.2byte	0x276
+ 2137 023d 8A02     		.2byte	0x28a
  2138 023f AD020000 		.4byte	0x2ad
  2139 0243 00       		.byte	0
  2140 0244 0F       		.uleb128 0xf
  2141 0245 4E040000 		.4byte	.LASF45
  2142 0249 04       		.byte	0x4
- 2143 024a 7D02     		.2byte	0x27d
+ 2143 024a 9102     		.2byte	0x291
  2144 024c BE000000 		.4byte	0xbe
  2145 0250 04       		.byte	0x4
  2146 0251 0F       		.uleb128 0xf
  2147 0252 0A020000 		.4byte	.LASF46
  2148 0256 04       		.byte	0x4
- 2149 0257 8302     		.2byte	0x283
+ 2149 0257 9702     		.2byte	0x297
  2150 0259 B4020000 		.4byte	0x2b4
  2151 025d 08       		.byte	0x8
  2152 025e 0F       		.uleb128 0xf
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 75
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccEfWwMh.s 			page 75
 
 
  2153 025f 4C060000 		.4byte	.LASF47
  2154 0263 04       		.byte	0x4
- 2155 0264 8902     		.2byte	0x289
+ 2155 0264 9D02     		.2byte	0x29d
  2156 0266 BE000000 		.4byte	0xbe
  2157 026a 0C       		.byte	0xc
  2158 026b 0F       		.uleb128 0xf
  2159 026c B5070000 		.4byte	.LASF48
  2160 0270 04       		.byte	0x4
- 2161 0271 9002     		.2byte	0x290
+ 2161 0271 A402     		.2byte	0x2a4
  2162 0273 BA020000 		.4byte	0x2ba
  2163 0277 10       		.byte	0x10
  2164 0278 0F       		.uleb128 0xf
  2165 0279 F8040000 		.4byte	.LASF49
  2166 027d 04       		.byte	0x4
- 2167 027e 9502     		.2byte	0x295
+ 2167 027e A902     		.2byte	0x2a9
  2168 0280 83000000 		.4byte	0x83
  2169 0284 14       		.byte	0x14
  2170 0285 0F       		.uleb128 0xf
  2171 0286 A9070000 		.4byte	.LASF50
  2172 028a 04       		.byte	0x4
- 2173 028b 9C02     		.2byte	0x29c
+ 2173 028b B002     		.2byte	0x2b0
  2174 028d 77000000 		.4byte	0x77
  2175 0291 18       		.byte	0x18
  2176 0292 0F       		.uleb128 0xf
  2177 0293 0E050000 		.4byte	.LASF51
  2178 0297 04       		.byte	0x4
- 2179 0298 A302     		.2byte	0x2a3
+ 2179 0298 B702     		.2byte	0x2b7
  2180 029a 6B000000 		.4byte	0x6b
  2181 029e 1A       		.byte	0x1a
  2182 029f 0F       		.uleb128 0xf
  2183 02a0 D1040000 		.4byte	.LASF52
  2184 02a4 04       		.byte	0x4
- 2185 02a5 AD02     		.2byte	0x2ad
+ 2185 02a5 C102     		.2byte	0x2c1
  2186 02a7 6B000000 		.4byte	0x6b
  2187 02ab 1B       		.byte	0x1b
  2188 02ac 00       		.byte	0
@@ -4490,20 +4490,20 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
  2199 02c0 04       		.uleb128 0x4
  2200 02c1 D2030000 		.4byte	.LASF53
  2201 02c5 04       		.byte	0x4
- 2202 02c6 AE02     		.2byte	0x2ae
+ 2202 02c6 C202     		.2byte	0x2c2
  2203 02c8 2E020000 		.4byte	0x22e
  2204 02cc 12       		.uleb128 0x12
- 2205 02cd 1801     		.2byte	0x118
+ 2205 02cd 5001     		.2byte	0x150
  2206 02cf 04       		.byte	0x4
- 2207 02d0 B402     		.2byte	0x2b4
+ 2207 02d0 C802     		.2byte	0x2c8
  2208 02d2 E4020000 		.4byte	0x2e4
  2209 02d6 0F       		.uleb128 0xf
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 76
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccEfWwMh.s 			page 76
 
 
  2210 02d7 C6020000 		.4byte	.LASF54
  2211 02db 04       		.byte	0x4
- 2212 02dc B902     		.2byte	0x2b9
+ 2212 02dc CD02     		.2byte	0x2cd
  2213 02de E4020000 		.4byte	0x2e4
  2214 02e2 00       		.byte	0
  2215 02e3 00       		.byte	0
@@ -4512,34 +4512,34 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
  2218 02e9 F4020000 		.4byte	0x2f4
  2219 02ed 0C       		.uleb128 0xc
  2220 02ee B7000000 		.4byte	0xb7
- 2221 02f2 09       		.byte	0x9
+ 2221 02f2 0B       		.byte	0xb
  2222 02f3 00       		.byte	0
  2223 02f4 04       		.uleb128 0x4
  2224 02f5 36040000 		.4byte	.LASF55
  2225 02f9 04       		.byte	0x4
- 2226 02fa BA02     		.2byte	0x2ba
+ 2226 02fa CE02     		.2byte	0x2ce
  2227 02fc CC020000 		.4byte	0x2cc
  2228 0300 0D       		.uleb128 0xd
  2229 0301 0C       		.byte	0xc
  2230 0302 04       		.byte	0x4
- 2231 0303 EF02     		.2byte	0x2ef
+ 2231 0303 0303     		.2byte	0x303
  2232 0305 31030000 		.4byte	0x331
  2233 0309 0F       		.uleb128 0xf
  2234 030a 8E060000 		.4byte	.LASF56
  2235 030e 04       		.byte	0x4
- 2236 030f F402     		.2byte	0x2f4
+ 2236 030f 0803     		.2byte	0x308
  2237 0311 77000000 		.4byte	0x77
  2238 0315 00       		.byte	0
  2239 0316 0F       		.uleb128 0xf
  2240 0317 5D030000 		.4byte	.LASF57
  2241 031b 04       		.byte	0x4
- 2242 031c FA02     		.2byte	0x2fa
+ 2242 031c 0E03     		.2byte	0x30e
  2243 031e 31030000 		.4byte	0x331
  2244 0322 02       		.byte	0x2
  2245 0323 0F       		.uleb128 0xf
  2246 0324 3B050000 		.4byte	.LASF58
  2247 0328 04       		.byte	0x4
- 2248 0329 FF02     		.2byte	0x2ff
+ 2248 0329 1303     		.2byte	0x313
  2249 032b 02020000 		.4byte	0x202
  2250 032f 06       		.byte	0x6
  2251 0330 00       		.byte	0
@@ -4553,20 +4553,20 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
  2259 0341 04       		.uleb128 0x4
  2260 0342 DA010000 		.4byte	.LASF59
  2261 0346 04       		.byte	0x4
- 2262 0347 0003     		.2byte	0x300
+ 2262 0347 1403     		.2byte	0x314
  2263 0349 00030000 		.4byte	0x300
  2264 034d 0D       		.uleb128 0xd
  2265 034e 24       		.byte	0x24
  2266 034f 04       		.byte	0x4
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 77
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccEfWwMh.s 			page 77
 
 
- 2267 0350 0503     		.2byte	0x305
+ 2267 0350 1903     		.2byte	0x319
  2268 0352 64030000 		.4byte	0x364
  2269 0356 0F       		.uleb128 0xf
  2270 0357 27040000 		.4byte	.LASF60
  2271 035b 04       		.byte	0x4
- 2272 035c 0A03     		.2byte	0x30a
+ 2272 035c 1E03     		.2byte	0x31e
  2273 035e 64030000 		.4byte	0x364
  2274 0362 00       		.byte	0
  2275 0363 00       		.byte	0
@@ -4580,22 +4580,22 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
  2283 0374 04       		.uleb128 0x4
  2284 0375 97080000 		.4byte	.LASF61
  2285 0379 04       		.byte	0x4
- 2286 037a 0B03     		.2byte	0x30b
+ 2286 037a 1F03     		.2byte	0x31f
  2287 037c 4D030000 		.4byte	0x34d
  2288 0380 13       		.uleb128 0x13
  2289 0381 04       		.byte	0x4
  2290 0382 04       		.byte	0x4
- 2291 0383 1003     		.2byte	0x310
+ 2291 0383 2403     		.2byte	0x324
  2292 0385 A2030000 		.4byte	0x3a2
  2293 0389 14       		.uleb128 0x14
  2294 038a 70747200 		.ascii	"ptr\000"
  2295 038e 04       		.byte	0x4
- 2296 038f 1503     		.2byte	0x315
+ 2296 038f 2903     		.2byte	0x329
  2297 0391 BE000000 		.4byte	0xbe
  2298 0395 15       		.uleb128 0x15
  2299 0396 DC080000 		.4byte	.LASF62
  2300 039a 04       		.byte	0x4
- 2301 039b 1A03     		.2byte	0x31a
+ 2301 039b 2E03     		.2byte	0x32e
  2302 039d A2030000 		.4byte	0x3a2
  2303 03a1 00       		.byte	0
  2304 03a2 10       		.uleb128 0x10
@@ -4604,7 +4604,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
  2307 03a8 04       		.uleb128 0x4
  2308 03a9 09040000 		.4byte	.LASF63
  2309 03ad 04       		.byte	0x4
- 2310 03ae 1B03     		.2byte	0x31b
+ 2310 03ae 2F03     		.2byte	0x32f
  2311 03b0 80030000 		.4byte	0x380
  2312 03b4 16       		.uleb128 0x16
  2313 03b5 36030000 		.4byte	.LASF67
@@ -4618,7 +4618,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
  2321 03ca 17       		.uleb128 0x17
  2322 03cb 8D080000 		.4byte	.LASF64
  2323 03cf 01       		.byte	0x1
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 78
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccEfWwMh.s 			page 78
 
 
  2324 03d0 3602     		.2byte	0x236
@@ -4678,7 +4678,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
  2378 044f 01       		.uleb128 0x1
  2379 0450 51       		.byte	0x51
  2380 0451 02       		.uleb128 0x2
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 79
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccEfWwMh.s 			page 79
 
 
  2381 0452 75       		.byte	0x75
@@ -4738,7 +4738,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
  2435 04c0 F3       		.byte	0xf3
  2436 04c1 01       		.uleb128 0x1
  2437 04c2 51       		.byte	0x51
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 80
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccEfWwMh.s 			page 80
 
 
  2438 04c3 22       		.byte	0x22
@@ -4798,7 +4798,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
  2492 0516 2E020000 		.4byte	.LASF71
  2493 051a 01       		.byte	0x1
  2494 051b C901     		.2byte	0x1c9
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 81
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccEfWwMh.s 			page 81
 
 
  2495 051d 83000000 		.4byte	0x83
@@ -4858,7 +4858,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
  2549 058d 00       		.byte	0
  2550 058e 00       		.byte	0
  2551 058f 16       		.uleb128 0x16
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 82
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccEfWwMh.s 			page 82
 
 
  2552 0590 B1030000 		.4byte	.LASF77
@@ -4918,7 +4918,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
  2606 060c F002     		.2byte	0x2f0
  2607 060e 83000000 		.4byte	0x83
  2608 0612 86020000 		.4byte	.LLST14
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 83
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccEfWwMh.s 			page 83
 
 
  2609 0616 1C       		.uleb128 0x1c
@@ -4978,7 +4978,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
  2663 068b 3904     		.2byte	0x439
  2664 068d 83000000 		.4byte	0x83
  2665 0691 01       		.uleb128 0x1
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 84
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccEfWwMh.s 			page 84
 
 
  2666 0692 52       		.byte	0x52
@@ -5038,7 +5038,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
  2720 0714 00       		.sleb128 0
  2721 0715 00       		.byte	0
  2722 0716 00       		.byte	0
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 85
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccEfWwMh.s 			page 85
 
 
  2723 0717 16       		.uleb128 0x16
@@ -5098,7 +5098,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
  2777 0793 01       		.byte	0x1
  2778 0794 8902     		.2byte	0x289
  2779 0796 83000000 		.4byte	0x83
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 86
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccEfWwMh.s 			page 86
 
 
  2780 079a 7B040000 		.4byte	.LLST24
@@ -5158,7 +5158,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
  2834 080a 02       		.uleb128 0x2
  2835 080b 75       		.byte	0x75
  2836 080c 00       		.sleb128 0
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 87
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccEfWwMh.s 			page 87
 
 
  2837 080d 1B       		.uleb128 0x1b
@@ -5218,7 +5218,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
  2891 0866 1B       		.uleb128 0x1b
  2892 0867 01       		.uleb128 0x1
  2893 0868 50       		.byte	0x50
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 88
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccEfWwMh.s 			page 88
 
 
  2894 0869 02       		.uleb128 0x2
@@ -5278,7 +5278,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
  2948 08e7 A8030000 		.4byte	0x3a8
  2949 08eb 19060000 		.4byte	.LLST32
  2950 08ef 1A       		.uleb128 0x1a
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 89
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccEfWwMh.s 			page 89
 
 
  2951 08f0 38000000 		.4byte	.LVL111
@@ -5338,7 +5338,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
  3005 0962 0E030000 		.4byte	.LASF90
  3006 0966 01       		.byte	0x1
  3007 0967 D204     		.2byte	0x4d2
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 90
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccEfWwMh.s 			page 90
 
 
  3008 0969 00000000 		.4byte	.LFB22
@@ -5398,7 +5398,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
  3062 09ea 260A0000 		.4byte	0xa26
  3063 09ee 22       		.uleb128 0x22
  3064 09ef 783100   		.ascii	"x1\000"
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 91
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccEfWwMh.s 			page 91
 
 
  3065 09f2 01       		.byte	0x1
@@ -5458,7 +5458,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
  3119 0a74 83000000 		.4byte	0x83
  3120 0a78 07080000 		.4byte	.LLST44
  3121 0a7c 19       		.uleb128 0x19
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 92
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccEfWwMh.s 			page 92
 
 
  3122 0a7d C1020000 		.4byte	.LASF89
@@ -5518,7 +5518,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
  3176 0aff 1A       		.uleb128 0x1a
  3177 0b00 38000000 		.4byte	.LVL161
  3178 0b04 260A0000 		.4byte	0xa26
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 93
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccEfWwMh.s 			page 93
 
 
  3179 0b08 1B       		.uleb128 0x1b
@@ -5578,7 +5578,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
  3233 0b7e 83000000 		.4byte	0x83
  3234 0b82 00000000 		.4byte	.LFB5
  3235 0b86 A0000000 		.4byte	.LFE5-.LFB5
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 94
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccEfWwMh.s 			page 94
 
 
  3236 0b8a 01       		.uleb128 0x1
@@ -5638,7 +5638,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
  3290 0c13 0B01     		.2byte	0x10b
  3291 0c15 83000000 		.4byte	0x83
  3292 0c19 E20A0000 		.4byte	.LLST61
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 95
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccEfWwMh.s 			page 95
 
 
  3293 0c1d 1E       		.uleb128 0x1e
@@ -5698,7 +5698,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
  3347 0c77 C8       		.byte	0xc8
  3348 0c78 83000000 		.4byte	0x83
  3349 0c7c 000B0000 		.4byte	.LLST62
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 96
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccEfWwMh.s 			page 96
 
 
  3350 0c80 28       		.uleb128 0x28
@@ -5758,7 +5758,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
  3404 0ce6 00       		.sleb128 0
  3405 0ce7 22       		.byte	0x22
  3406 0ce8 1B       		.uleb128 0x1b
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 97
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccEfWwMh.s 			page 97
 
 
  3407 0ce9 01       		.uleb128 0x1
@@ -5818,7 +5818,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
  3461 0d49 2A       		.uleb128 0x2a
  3462 0d4a E2040000 		.4byte	.LASF75
  3463 0d4e 01       		.byte	0x1
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 98
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccEfWwMh.s 			page 98
 
 
  3464 0d4f 94       		.byte	0x94
@@ -5878,7 +5878,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
  3518 0dbe 74       		.byte	0x74
  3519 0dbf 00       		.sleb128 0
  3520 0dc0 00       		.byte	0
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 99
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccEfWwMh.s 			page 99
 
 
  3521 0dc1 00       		.byte	0
@@ -5938,7 +5938,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
  3575 0e3c 00       		.byte	0
  3576 0e3d 00       		.byte	0
  3577 0e3e 16       		.uleb128 0x16
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 100
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccEfWwMh.s 			page 100
 
 
  3578 0e3f 46050000 		.4byte	.LASF111
@@ -5998,7 +5998,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
  3632 0ec1 01       		.uleb128 0x1
  3633 0ec2 9C       		.byte	0x9c
  3634 0ec3 540F0000 		.4byte	0xf54
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 101
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccEfWwMh.s 			page 101
 
 
  3635 0ec7 18       		.uleb128 0x18
@@ -6058,7 +6058,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
  3689 0f2d 02       		.uleb128 0x2
  3690 0f2e 75       		.byte	0x75
  3691 0f2f 00       		.sleb128 0
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 102
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccEfWwMh.s 			page 102
 
 
  3692 0f30 1B       		.uleb128 0x1b
@@ -6118,7 +6118,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
  3746 0f90 6806     		.2byte	0x668
  3747 0f92 E4040000 		.4byte	0x4e4
  3748 0f96 19       		.uleb128 0x19
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 103
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccEfWwMh.s 			page 103
 
 
  3749 0f97 8D080000 		.4byte	.LASF64
@@ -6146,7 +6146,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
  3771 0fc7 2B       		.uleb128 0x2b
  3772 0fc8 F2050000 		.4byte	.LASF117
  3773 0fcc 04       		.byte	0x4
- 3774 0fcd 5D04     		.2byte	0x45d
+ 3774 0fcd 7104     		.2byte	0x471
  3775 0fcf D30F0000 		.4byte	0xfd3
  3776 0fd3 1D       		.uleb128 0x1d
  3777 0fd4 F4020000 		.4byte	0x2f4
@@ -6178,7 +6178,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
  3803 0016 0B       		.uleb128 0xb
  3804 0017 0B       		.uleb128 0xb
  3805 0018 3E       		.uleb128 0x3e
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 104
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccEfWwMh.s 			page 104
 
 
  3806 0019 0B       		.uleb128 0xb
@@ -6238,7 +6238,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
  3860 004f 03       		.uleb128 0x3
  3861 0050 0E       		.uleb128 0xe
  3862 0051 1C       		.uleb128 0x1c
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 105
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccEfWwMh.s 			page 105
 
 
  3863 0052 0B       		.uleb128 0xb
@@ -6298,7 +6298,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
  3917 0088 21       		.uleb128 0x21
  3918 0089 00       		.byte	0
  3919 008a 49       		.uleb128 0x49
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 106
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccEfWwMh.s 			page 106
 
 
  3920 008b 13       		.uleb128 0x13
@@ -6358,7 +6358,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
  3974 00c1 13       		.uleb128 0x13
  3975 00c2 00       		.byte	0
  3976 00c3 00       		.byte	0
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 107
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccEfWwMh.s 			page 107
 
 
  3977 00c4 11       		.uleb128 0x11
@@ -6418,7 +6418,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
  4031 00fa 13       		.uleb128 0x13
  4032 00fb 00       		.byte	0
  4033 00fc 00       		.byte	0
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 108
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccEfWwMh.s 			page 108
 
 
  4034 00fd 16       		.uleb128 0x16
@@ -6478,7 +6478,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
  4088 0134 00       		.byte	0
  4089 0135 19       		.uleb128 0x19
  4090 0136 34       		.uleb128 0x34
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 109
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccEfWwMh.s 			page 109
 
 
  4091 0137 00       		.byte	0
@@ -6538,7 +6538,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
  4145 0174 11       		.uleb128 0x11
  4146 0175 01       		.uleb128 0x1
  4147 0176 31       		.uleb128 0x31
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 110
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccEfWwMh.s 			page 110
 
 
  4148 0177 13       		.uleb128 0x13
@@ -6598,7 +6598,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
  4202 01b0 11       		.uleb128 0x11
  4203 01b1 01       		.uleb128 0x1
  4204 01b2 12       		.uleb128 0x12
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 111
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccEfWwMh.s 			page 111
 
 
  4205 01b3 06       		.uleb128 0x6
@@ -6658,7 +6658,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
  4259 01ea 00       		.byte	0
  4260 01eb 03       		.uleb128 0x3
  4261 01ec 0E       		.uleb128 0xe
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 112
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccEfWwMh.s 			page 112
 
 
  4262 01ed 3A       		.uleb128 0x3a
@@ -6718,7 +6718,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
  4316 0224 00       		.byte	0
  4317 0225 03       		.uleb128 0x3
  4318 0226 0E       		.uleb128 0xe
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 113
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccEfWwMh.s 			page 113
 
 
  4319 0227 3A       		.uleb128 0x3a
@@ -6778,7 +6778,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
  4373 025d 00       		.byte	0
  4374 025e 00       		.byte	0
  4375              		.section	.debug_loc,"",%progbits
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 114
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccEfWwMh.s 			page 114
 
 
  4376              	.Ldebug_loc0:
@@ -6838,7 +6838,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
  4430 0081 0100     		.2byte	0x1
  4431 0083 55       		.byte	0x55
  4432 0084 1C000000 		.4byte	.LVL10
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 115
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccEfWwMh.s 			page 115
 
 
  4433 0088 1E000000 		.4byte	.LFE9
@@ -6898,7 +6898,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
  4487 010c 2C000000 		.4byte	.LFE8
  4488 0110 0400     		.2byte	0x4
  4489 0112 F3       		.byte	0xf3
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 116
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccEfWwMh.s 			page 116
 
 
  4490 0113 01       		.uleb128 0x1
@@ -6958,7 +6958,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
  4544 0184 9F       		.byte	0x9f
  4545 0185 00000000 		.4byte	0
  4546 0189 00000000 		.4byte	0
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 117
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccEfWwMh.s 			page 117
 
 
  4547              	.LLST9:
@@ -6997,7 +6997,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
  4580 01e1 02000000 		.4byte	.LVL29
  4581 01e5 06000000 		.4byte	.LVL30
  4582 01e9 0200     		.2byte	0x2
- 4583 01eb 3A       		.byte	0x3a
+ 4583 01eb 3C       		.byte	0x3c
  4584 01ec 9F       		.byte	0x9f
  4585 01ed 06000000 		.4byte	.LVL30
  4586 01f1 0E000000 		.4byte	.LVL32
@@ -7018,7 +7018,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
  4601 0219 7F       		.sleb128 -1
  4602 021a 9F       		.byte	0x9f
  4603 021b 00000000 		.4byte	0
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 118
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccEfWwMh.s 			page 118
 
 
  4604 021f 00000000 		.4byte	0
@@ -7078,7 +7078,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
  4658 02a7 01       		.uleb128 0x1
  4659 02a8 51       		.byte	0x51
  4660 02a9 9F       		.byte	0x9f
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 119
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccEfWwMh.s 			page 119
 
 
  4661 02aa 00000000 		.4byte	0
@@ -7138,7 +7138,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
  4715 0309 38000000 		.4byte	.LVL51
  4716 030d 0100     		.2byte	0x1
  4717 030f 54       		.byte	0x54
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 120
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccEfWwMh.s 			page 120
 
 
  4718 0310 00000000 		.4byte	0
@@ -7198,7 +7198,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
  4772 039b F3       		.byte	0xf3
  4773 039c 01       		.uleb128 0x1
  4774 039d 51       		.byte	0x51
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 121
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccEfWwMh.s 			page 121
 
 
  4775 039e 9F       		.byte	0x9f
@@ -7258,7 +7258,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
  4829 03fa 32000000 		.4byte	.LVL67
  4830 03fe 38000000 		.4byte	.LVL69
  4831 0402 0100     		.2byte	0x1
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 122
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccEfWwMh.s 			page 122
 
 
  4832 0404 54       		.byte	0x54
@@ -7318,7 +7318,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
  4886 048e 0100     		.2byte	0x1
  4887 0490 56       		.byte	0x56
  4888 0491 60000000 		.4byte	.LVL90
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 123
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccEfWwMh.s 			page 123
 
 
  4889 0495 62000000 		.4byte	.LVL91
@@ -7378,7 +7378,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
  4943 0504 73       		.byte	0x73
  4944 0505 08       		.sleb128 8
  4945 0506 2E000000 		.4byte	.LVL84
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 124
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccEfWwMh.s 			page 124
 
 
  4946 050a 60000000 		.4byte	.LVL90
@@ -7401,7 +7401,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
  4963 0537 02000000 		.4byte	.LVL95
  4964 053b 06000000 		.4byte	.LVL96
  4965 053f 0200     		.2byte	0x2
- 4966 0541 3A       		.byte	0x3a
+ 4966 0541 3C       		.byte	0x3c
  4967 0542 9F       		.byte	0x9f
  4968 0543 06000000 		.4byte	.LVL96
  4969 0547 0E000000 		.4byte	.LVL98
@@ -7438,7 +7438,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
  5000 0592 00000000 		.4byte	0
  5001 0596 00000000 		.4byte	0
  5002              	.LLST30:
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 125
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccEfWwMh.s 			page 125
 
 
  5003 059a 00000000 		.4byte	.LVL102
@@ -7498,7 +7498,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
  5057 0606 1C       		.byte	0x1c
  5058 0607 32       		.byte	0x32
  5059 0608 24       		.byte	0x24
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 126
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccEfWwMh.s 			page 126
 
 
  5060 0609 77       		.byte	0x77
@@ -7558,7 +7558,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
  5114 068b 50       		.byte	0x50
  5115 068c 22000000 		.4byte	.LVL128
  5116 0690 40000000 		.4byte	.LFE22
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 127
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccEfWwMh.s 			page 127
 
 
  5117 0694 0400     		.2byte	0x4
@@ -7618,7 +7618,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
  5171 0706 F3       		.byte	0xf3
  5172 0707 01       		.uleb128 0x1
  5173 0708 50       		.byte	0x50
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 128
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccEfWwMh.s 			page 128
 
 
  5174 0709 33       		.byte	0x33
@@ -7678,7 +7678,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
  5228 0783 0100     		.2byte	0x1
  5229 0785 50       		.byte	0x50
  5230 0786 22000000 		.4byte	.LVL143
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 129
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccEfWwMh.s 			page 129
 
 
  5231 078a 50000000 		.4byte	.LFE20
@@ -7738,7 +7738,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
  5285 0812 9F       		.byte	0x9f
  5286 0813 14000000 		.4byte	.LVL141
  5287 0817 40000000 		.4byte	.LVL147
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 130
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccEfWwMh.s 			page 130
 
 
  5288 081b 0100     		.2byte	0x1
@@ -7798,7 +7798,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
  5342 08a0 9F       		.byte	0x9f
  5343 08a1 00000000 		.4byte	0
  5344 08a5 00000000 		.4byte	0
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 131
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccEfWwMh.s 			page 131
 
 
  5345              	.LLST48:
@@ -7858,7 +7858,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
  5399 0906 54       		.byte	0x54
  5400 0907 00000000 		.4byte	0
  5401 090b 00000000 		.4byte	0
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 132
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccEfWwMh.s 			page 132
 
 
  5402              	.LLST50:
@@ -7918,7 +7918,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
  5456 098b 00000000 		.4byte	0
  5457 098f 00000000 		.4byte	0
  5458              	.LLST54:
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 133
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccEfWwMh.s 			page 133
 
 
  5459 0993 00000000 		.4byte	.LVL170
@@ -7978,7 +7978,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
  5513 0a1f 0400     		.2byte	0x4
  5514 0a21 F3       		.byte	0xf3
  5515 0a22 01       		.uleb128 0x1
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 134
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccEfWwMh.s 			page 134
 
 
  5516 0a23 52       		.byte	0x52
@@ -8038,7 +8038,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
  5570 0aae 92000000 		.4byte	.LVL190
  5571 0ab2 98000000 		.4byte	.LVL191
  5572 0ab6 0100     		.2byte	0x1
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 135
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccEfWwMh.s 			page 135
 
 
  5573 0ab8 54       		.byte	0x54
@@ -8098,7 +8098,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
  5627 0b3a 00000000 		.4byte	0
  5628 0b3e 00000000 		.4byte	0
  5629              	.LLST64:
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 136
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccEfWwMh.s 			page 136
 
 
  5630 0b42 02000000 		.4byte	.LVL196
@@ -8158,7 +8158,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
  5684 0bba 01       		.uleb128 0x1
  5685 0bbb 50       		.byte	0x50
  5686 0bbc 33       		.byte	0x33
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 137
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccEfWwMh.s 			page 137
 
 
  5687 0bbd 24       		.byte	0x24
@@ -8218,7 +8218,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
  5741 0c35 9F       		.byte	0x9f
  5742 0c36 00000000 		.4byte	0
  5743 0c3a 00000000 		.4byte	0
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 138
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccEfWwMh.s 			page 138
 
 
  5744              	.LLST69:
@@ -8248,7 +8248,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
  5768 0c7b 02000000 		.4byte	.LVL217
  5769 0c7f 08000000 		.4byte	.LVL218
  5770 0c83 0200     		.2byte	0x2
- 5771 0c85 3A       		.byte	0x3a
+ 5771 0c85 3C       		.byte	0x3c
  5772 0c86 9F       		.byte	0x9f
  5773 0c87 08000000 		.4byte	.LVL218
  5774 0c8b 12000000 		.4byte	.LVL221
@@ -8278,7 +8278,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
  5798 0cc8 9F       		.byte	0x9f
  5799 0cc9 08000000 		.4byte	.LVL218
  5800 0ccd 1A000000 		.4byte	.LVL224
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 139
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccEfWwMh.s 			page 139
 
 
  5801 0cd1 0100     		.2byte	0x1
@@ -8338,7 +8338,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
  5855 0d5d 3E000000 		.4byte	.LVL237
  5856 0d61 44000000 		.4byte	.LFE16
  5857 0d65 0400     		.2byte	0x4
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 140
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccEfWwMh.s 			page 140
 
 
  5858 0d67 F3       		.byte	0xf3
@@ -8398,7 +8398,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
  5912 0de9 00000000 		.4byte	.LVL238
  5913 0ded 0A000000 		.4byte	.LVL240
  5914 0df1 0100     		.2byte	0x1
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 141
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccEfWwMh.s 			page 141
 
 
  5915 0df3 51       		.byte	0x51
@@ -8458,7 +8458,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
  5969 0e58 77       		.byte	0x77
  5970 0e59 00       		.sleb128 0
  5971 0e5a 22       		.byte	0x22
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 142
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccEfWwMh.s 			page 142
 
 
  5972 0e5b 23       		.byte	0x23
@@ -8518,7 +8518,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
  6026 0ee3 0400     		.2byte	0x4
  6027 0ee5 F3       		.byte	0xf3
  6028 0ee6 01       		.uleb128 0x1
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 143
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccEfWwMh.s 			page 143
 
 
  6029 0ee7 52       		.byte	0x52
@@ -8578,7 +8578,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
  6083 0f6b F3       		.byte	0xf3
  6084 0f6c 01       		.uleb128 0x1
  6085 0f6d 51       		.byte	0x51
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 144
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccEfWwMh.s 			page 144
 
 
  6086 0f6e 31       		.byte	0x31
@@ -8638,7 +8638,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
  6140 0038 00000000 		.4byte	.LFB15
  6141 003c 22000000 		.4byte	.LFE15-.LFB15
  6142 0040 00000000 		.4byte	.LFB13
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 145
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccEfWwMh.s 			page 145
 
 
  6143 0044 40000000 		.4byte	.LFE13-.LFB13
@@ -8698,7 +8698,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
  6197 001c 28000000 		.4byte	.LFE7
  6198 0020 00000000 		.4byte	.LFB6
  6199 0024 16000000 		.4byte	.LFE6
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 146
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccEfWwMh.s 			page 146
 
 
  6200 0028 00000000 		.4byte	.LFB15
@@ -8758,7 +8758,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
  6250      01010101 
  6251              	.LASF10:
  6252 0000 75696E74 		.ascii	"uint16\000"
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 147
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccEfWwMh.s 			page 147
 
 
  6252      313600
@@ -8818,7 +8818,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
  6272      536E7346 
  6272      6C617368 
  6272      00
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 148
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccEfWwMh.s 			page 148
 
 
  6273              	.LASF20:
@@ -8878,7 +8878,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
  6294      656E7365 
  6294      5F315F46 
  6294      7452756E 
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 149
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccEfWwMh.s 			page 149
 
 
  6294      456E6162 
@@ -8938,7 +8938,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
  6322 0293 43617053 		.ascii	"CapSense_1_FtInitializeBaseline\000"
  6322      656E7365 
  6322      5F315F46 
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 150
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccEfWwMh.s 			page 150
 
 
  6322      74496E69 
@@ -8998,7 +8998,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
  6346 0368 47656E65 		.ascii	"Generated_Source\\PSoC4\\CapSense_1_Filter.c\000"
  6346      72617465 
  6346      645F536F 
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 151
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccEfWwMh.s 			page 151
 
 
  6346      75726365 
@@ -9058,7 +9058,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
  6366      5F315F46 
  6366      74557064 
  6366      61746542 
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 152
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccEfWwMh.s 			page 152
 
 
  6367              	.LASF108:
@@ -9118,7 +9118,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
  6392      656E7365 
  6392      5F315F49 
  6392      6E697469 
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 153
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccEfWwMh.s 			page 153
 
 
  6392      616C697A 
@@ -9178,7 +9178,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
  6415              	.LASF117:
  6416 05f2 43617053 		.ascii	"CapSense_1_dsFlash\000"
  6416      656E7365 
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 154
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccEfWwMh.s 			page 154
 
 
  6416      5F315F64 
@@ -9238,7 +9238,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
  6437      20726576 
  6437      6973696F 
  6437      6E203233 
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 155
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccEfWwMh.s 			page 155
 
 
  6437      37373135 
@@ -9298,7 +9298,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
  6460 07e9 43617053 		.ascii	"CapSense_1_FtMedian\000"
  6460      656E7365 
  6460      5F315F46 
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 156
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccEfWwMh.s 			page 156
 
 
  6460      744D6564 
@@ -9358,7 +9358,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 1
  6481      5F315F52 
  6481      756E4D65 
  6481      6469616E 
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccpk9hcx.s 			page 157
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccEfWwMh.s 			page 157
 
 
  6482              	.LASF62:

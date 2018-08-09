@@ -18,7 +18,7 @@
 <v>Output</v>
 </TreeKeys>
 <TreeStates>
-<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="FirstTest-000\FirstTest\TopDesign">
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="FirstTest-000\FirstTest\FirstTest.cydwr\System">
 <ExpandedNodeIds>
 <v>FirstTest-000</v>
 <v>FirstTest-000\FirstTest</v>
@@ -99,19 +99,6 @@
 <v>FirstTest-000\FirstTest\CortexM0p\ARM_GCC_541\Debug\Listing Files\cymetadata.lst</v>
 <v>FirstTest-000\FirstTest\CortexM0p\ARM_GCC_541\Debug\Listing Files\cyPm.lst</v>
 <v>FirstTest-000\FirstTest\CortexM0p\ARM_GCC_541\Debug\Listing Files\cyutils.lst</v>
-<v>FirstTest-000\FirstTest\CortexM0p\ARM_GCC_541\Debug\Listing Files\I2CS.lst</v>
-<v>FirstTest-000\FirstTest\CortexM0p\ARM_GCC_541\Debug\Listing Files\I2CS_BOOT.lst</v>
-<v>FirstTest-000\FirstTest\CortexM0p\ARM_GCC_541\Debug\Listing Files\I2CS_I2C.lst</v>
-<v>FirstTest-000\FirstTest\CortexM0p\ARM_GCC_541\Debug\Listing Files\I2CS_I2C_BOOT.lst</v>
-<v>FirstTest-000\FirstTest\CortexM0p\ARM_GCC_541\Debug\Listing Files\I2CS_I2C_INT.lst</v>
-<v>FirstTest-000\FirstTest\CortexM0p\ARM_GCC_541\Debug\Listing Files\I2CS_I2C_SLAVE.lst</v>
-<v>FirstTest-000\FirstTest\CortexM0p\ARM_GCC_541\Debug\Listing Files\I2CS_PM.lst</v>
-<v>FirstTest-000\FirstTest\CortexM0p\ARM_GCC_541\Debug\Listing Files\I2CS_SCB_IRQ.lst</v>
-<v>FirstTest-000\FirstTest\CortexM0p\ARM_GCC_541\Debug\Listing Files\I2CS_SCBCLK.lst</v>
-<v>FirstTest-000\FirstTest\CortexM0p\ARM_GCC_541\Debug\Listing Files\I2CS_scl.lst</v>
-<v>FirstTest-000\FirstTest\CortexM0p\ARM_GCC_541\Debug\Listing Files\I2CS_scl_PM.lst</v>
-<v>FirstTest-000\FirstTest\CortexM0p\ARM_GCC_541\Debug\Listing Files\I2CS_sda.lst</v>
-<v>FirstTest-000\FirstTest\CortexM0p\ARM_GCC_541\Debug\Listing Files\I2CS_sda_PM.lst</v>
 <v>FirstTest-000\FirstTest\CortexM0p\ARM_GCC_541\Debug\Listing Files\LED0.lst</v>
 <v>FirstTest-000\FirstTest\CortexM0p\ARM_GCC_541\Debug\Listing Files\LED0_PM.lst</v>
 <v>FirstTest-000\FirstTest\CortexM0p\ARM_GCC_541\Debug\Listing Files\LED1.lst</v>
@@ -166,19 +153,6 @@
 <v>FirstTest-000\FirstTest\CortexM0p\ARM_GCC_541\Debug\Listing Files\cymetadata.lst</v>
 <v>FirstTest-000\FirstTest\CortexM0p\ARM_GCC_541\Debug\Listing Files\cyPm.lst</v>
 <v>FirstTest-000\FirstTest\CortexM0p\ARM_GCC_541\Debug\Listing Files\cyutils.lst</v>
-<v>FirstTest-000\FirstTest\CortexM0p\ARM_GCC_541\Debug\Listing Files\I2CS.lst</v>
-<v>FirstTest-000\FirstTest\CortexM0p\ARM_GCC_541\Debug\Listing Files\I2CS_BOOT.lst</v>
-<v>FirstTest-000\FirstTest\CortexM0p\ARM_GCC_541\Debug\Listing Files\I2CS_I2C.lst</v>
-<v>FirstTest-000\FirstTest\CortexM0p\ARM_GCC_541\Debug\Listing Files\I2CS_I2C_BOOT.lst</v>
-<v>FirstTest-000\FirstTest\CortexM0p\ARM_GCC_541\Debug\Listing Files\I2CS_I2C_INT.lst</v>
-<v>FirstTest-000\FirstTest\CortexM0p\ARM_GCC_541\Debug\Listing Files\I2CS_I2C_SLAVE.lst</v>
-<v>FirstTest-000\FirstTest\CortexM0p\ARM_GCC_541\Debug\Listing Files\I2CS_PM.lst</v>
-<v>FirstTest-000\FirstTest\CortexM0p\ARM_GCC_541\Debug\Listing Files\I2CS_SCB_IRQ.lst</v>
-<v>FirstTest-000\FirstTest\CortexM0p\ARM_GCC_541\Debug\Listing Files\I2CS_SCBCLK.lst</v>
-<v>FirstTest-000\FirstTest\CortexM0p\ARM_GCC_541\Debug\Listing Files\I2CS_scl.lst</v>
-<v>FirstTest-000\FirstTest\CortexM0p\ARM_GCC_541\Debug\Listing Files\I2CS_scl_PM.lst</v>
-<v>FirstTest-000\FirstTest\CortexM0p\ARM_GCC_541\Debug\Listing Files\I2CS_sda.lst</v>
-<v>FirstTest-000\FirstTest\CortexM0p\ARM_GCC_541\Debug\Listing Files\I2CS_sda_PM.lst</v>
 <v>FirstTest-000\FirstTest\CortexM0p\ARM_GCC_541\Debug\Listing Files\LED0.lst</v>
 <v>FirstTest-000\FirstTest\CortexM0p\ARM_GCC_541\Debug\Listing Files\LED0_PM.lst</v>
 <v>FirstTest-000\FirstTest\CortexM0p\ARM_GCC_541\Debug\Listing Files\LED1.lst</v>
@@ -190,6 +164,19 @@
 <v>FirstTest-000\FirstTest\CortexM0p\ARM_GCC_541\Debug\Listing Files\LED4.lst</v>
 <v>FirstTest-000\FirstTest\CortexM0p\ARM_GCC_541\Debug\Listing Files\LED4_PM.lst</v>
 <v>FirstTest-000\FirstTest\CortexM0p\ARM_GCC_541\Debug\Listing Files\main.lst</v>
+<v>FirstTest-000\FirstTest\CortexM0p\ARM_GCC_541\Debug\Listing Files\UART.lst</v>
+<v>FirstTest-000\FirstTest\CortexM0p\ARM_GCC_541\Debug\Listing Files\UART_BOOT.lst</v>
+<v>FirstTest-000\FirstTest\CortexM0p\ARM_GCC_541\Debug\Listing Files\UART_PM.lst</v>
+<v>FirstTest-000\FirstTest\CortexM0p\ARM_GCC_541\Debug\Listing Files\UART_SCBCLK.lst</v>
+<v>FirstTest-000\FirstTest\CortexM0p\ARM_GCC_541\Debug\Listing Files\UART_SPI_UART.lst</v>
+<v>FirstTest-000\FirstTest\CortexM0p\ARM_GCC_541\Debug\Listing Files\UART_SPI_UART_INT.lst</v>
+<v>FirstTest-000\FirstTest\CortexM0p\ARM_GCC_541\Debug\Listing Files\UART_tx.lst</v>
+<v>FirstTest-000\FirstTest\CortexM0p\ARM_GCC_541\Debug\Listing Files\UART_tx_PM.lst</v>
+<v>FirstTest-000\FirstTest\CortexM0p\ARM_GCC_541\Debug\Listing Files\UART_UART.lst</v>
+<v>FirstTest-000\FirstTest\CortexM0p\ARM_GCC_541\Debug\Listing Files\UART_UART_BOOT.lst</v>
+<v>FirstTest-000\FirstTest\CortexM0p\ARM_GCC_541\Debug\FirstTest.elf</v>
+<v>FirstTest-000\FirstTest\CortexM0p\ARM_GCC_541\Debug\FirstTest.hex</v>
+<v>FirstTest-000\FirstTest\CortexM0p\ARM_GCC_541\Debug\FirstTest.map</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 </TreeStates>
@@ -209,8 +196,7 @@
 <v>FirstTest-000\FirstTest\CapSense_P4_v5_20.pdf</v>
 <v>FirstTest-000\FirstTest\cy_pins_v2_20</v>
 <v>FirstTest-000\FirstTest\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
-<v>FirstTest-000\FirstTest\SCB_P4_v4_0</v>
-<v>FirstTest-000\FirstTest\SCB_P4_v4_0\SCB_P4_v4_0.pdf</v>
+<v>FirstTest-000\FirstTest\SCB_P4_v4_0.pdf</v>
 </ExpandedNodeIds>
 <VisibleNodeIds>
 <v>FirstTest-000</v>
@@ -223,8 +209,7 @@
 <v>FirstTest-000\FirstTest\CapSense_P4_v5_20.pdf</v>
 <v>FirstTest-000\FirstTest\cy_pins_v2_20</v>
 <v>FirstTest-000\FirstTest\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
-<v>FirstTest-000\FirstTest\SCB_P4_v4_0</v>
-<v>FirstTest-000\FirstTest\SCB_P4_v4_0\SCB_P4_v4_0.pdf</v>
+<v>FirstTest-000\FirstTest\SCB_P4_v4_0.pdf</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 </TreeStatesV2>
@@ -246,7 +231,7 @@
   Copyright (c) 2001-2016 Actipro Software LLC.  All rights reserved.
   http://www.actiprosoftware.com
 
---><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1258, 711" SelectedTabbedMdiWindow="b551b417-0eb5-481f-9eb3-77baf478ab4f"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="e8ff90b1-191d-49a2-982f-685e05b8f433" /><DocumentWindow Key="C:\Users\michael.machate\Desktop\Cypress_Firsttests\FirstTest.cydsn\TopDesign\TopDesign.cysch" Guid="b551b417-0eb5-481f-9eb3-77baf478ab4f" /><DocumentWindow Key="C:\Users\michael.machate\Desktop\Cypress_Firsttests\FirstTest.cydsn\main.c" Guid="67d3db95-d008-40a7-b3e4-a693409ac7c4" /><DocumentWindow Key="C:\Users\michael.machate\Desktop\Cypress_Firsttests\FirstTest.cydsn\FirstTest.cydwr" Guid="f03f9de7-e9cd-44d1-8473-1e910d8790af" /><DocumentWindow Key="C:\Users\michael.machate\Desktop\Cypress_Firsttests\FirstTest.cydsn\Generated_Source\PSoC4\CapSense_1_Filter.c" Guid="a93b9196-a0f1-44bd-9aa1-e0fd4ed184cb" /><DocumentWindow Key="C:\Users\michael.machate\Desktop\Cypress_Firsttests\FirstTest.cydsn\Generated_Source\PSoC4\CapSense_1_Filter.h" Guid="895d80fa-be13-4979-b233-704eaa44ccc8" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
+--><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1512, 711" SelectedTabbedMdiWindow="f03f9de7-e9cd-44d1-8473-1e910d8790af"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="e8ff90b1-191d-49a2-982f-685e05b8f433" /><DocumentWindow Key="C:\Users\michael.machate\Desktop\Cypress_Firsttests\FirstTest.cydsn\TopDesign\TopDesign.cysch" Guid="b551b417-0eb5-481f-9eb3-77baf478ab4f" /><DocumentWindow Key="C:\Users\michael.machate\Desktop\Cypress_Firsttests\FirstTest.cydsn\main.c" Guid="67d3db95-d008-40a7-b3e4-a693409ac7c4" /><DocumentWindow Key="C:\Users\michael.machate\Desktop\Cypress_Firsttests\FirstTest.cydsn\FirstTest.cydwr" Guid="f03f9de7-e9cd-44d1-8473-1e910d8790af" /><DocumentWindow Key="C:\Users\michael.machate\Desktop\Cypress_Firsttests\FirstTest.cydsn\Generated_Source\PSoC4\CapSense_1_Filter.c" Guid="a93b9196-a0f1-44bd-9aa1-e0fd4ed184cb" /><DocumentWindow Key="C:\Users\michael.machate\Desktop\Cypress_Firsttests\FirstTest.cydsn\Generated_Source\PSoC4\CapSense_1_Filter.h" Guid="895d80fa-be13-4979-b233-704eaa44ccc8" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
 <config v="" />
 <AutoUpdate v="true" />
 </CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21>

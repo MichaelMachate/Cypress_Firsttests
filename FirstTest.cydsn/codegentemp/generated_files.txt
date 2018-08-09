@@ -30,19 +30,6 @@
   <file name="C:\Users\michael.machate\Desktop\Cypress_Firsttests\FirstTest.cydsn\codegentemp\UART_SPI_UART_PVT.h" value="HEADER;;;;;UART" />
   <file name="C:\Users\michael.machate\Desktop\Cypress_Firsttests\FirstTest.cydsn\codegentemp\UART_PVT.h" value="HEADER;;;;;UART" />
   <file name="C:\Users\michael.machate\Desktop\Cypress_Firsttests\FirstTest.cydsn\codegentemp\UART_BOOT.h" value="HEADER;;;;;UART" />
-  <file name="C:\Users\michael.machate\Desktop\Cypress_Firsttests\FirstTest.cydsn\codegentemp\I2CS.c" value="SOURCE_C;CortexM0p;;;;I2CS" />
-  <file name="C:\Users\michael.machate\Desktop\Cypress_Firsttests\FirstTest.cydsn\codegentemp\I2CS.h" value="HEADER;;;;;I2CS" />
-  <file name="C:\Users\michael.machate\Desktop\Cypress_Firsttests\FirstTest.cydsn\codegentemp\I2CS_I2C.h" value="HEADER;;;;;I2CS" />
-  <file name="C:\Users\michael.machate\Desktop\Cypress_Firsttests\FirstTest.cydsn\codegentemp\I2CS_I2C_INT.c" value="SOURCE_C;CortexM0p;;;;I2CS" />
-  <file name="C:\Users\michael.machate\Desktop\Cypress_Firsttests\FirstTest.cydsn\codegentemp\I2CS_I2C.c" value="SOURCE_C;CortexM0p;;;;I2CS" />
-  <file name="C:\Users\michael.machate\Desktop\Cypress_Firsttests\FirstTest.cydsn\codegentemp\I2CS_I2C_BOOT.c" value="SOURCE_C;CortexM0p;;;;I2CS" />
-  <file name="C:\Users\michael.machate\Desktop\Cypress_Firsttests\FirstTest.cydsn\codegentemp\I2CS_I2C_SLAVE.c" value="SOURCE_C;CortexM0p;;;;I2CS" />
-  <file name="C:\Users\michael.machate\Desktop\Cypress_Firsttests\FirstTest.cydsn\codegentemp\I2CS_PM.c" value="SOURCE_C;CortexM0p;;;;I2CS" />
-  <file name="C:\Users\michael.machate\Desktop\Cypress_Firsttests\FirstTest.cydsn\codegentemp\I2CS_BOOT.c" value="SOURCE_C;CortexM0p;;;;I2CS" />
-  <file name="C:\Users\michael.machate\Desktop\Cypress_Firsttests\FirstTest.cydsn\codegentemp\I2CS_PINS.h" value="HEADER;;;;;I2CS" />
-  <file name="C:\Users\michael.machate\Desktop\Cypress_Firsttests\FirstTest.cydsn\codegentemp\I2CS_I2C_PVT.h" value="HEADER;;;;;I2CS" />
-  <file name="C:\Users\michael.machate\Desktop\Cypress_Firsttests\FirstTest.cydsn\codegentemp\I2CS_PVT.h" value="HEADER;;;;;I2CS" />
-  <file name="C:\Users\michael.machate\Desktop\Cypress_Firsttests\FirstTest.cydsn\codegentemp\I2CS_BOOT.h" value="HEADER;;;;;I2CS" />
   <file name="C:\Users\michael.machate\Desktop\Cypress_Firsttests\FirstTest.cydsn\codegentemp\CapSense_1.h" value="HEADER;;;;;CapSense_1" />
   <file name="C:\Users\michael.machate\Desktop\Cypress_Firsttests\FirstTest.cydsn\codegentemp\CapSense_1_Control.c" value="SOURCE_C;CortexM0p;;;;CapSense_1" />
   <file name="C:\Users\michael.machate\Desktop\Cypress_Firsttests\FirstTest.cydsn\codegentemp\CapSense_1_Processing.c" value="SOURCE_C;CortexM0p;;;;CapSense_1" />
@@ -83,18 +70,6 @@
   <file name="C:\Users\michael.machate\Desktop\Cypress_Firsttests\FirstTest.cydsn\codegentemp\UART_tx.h" value="HEADER;;;;;UART_tx" />
   <file name="C:\Users\michael.machate\Desktop\Cypress_Firsttests\FirstTest.cydsn\codegentemp\UART_tx_aliases.h" value="HEADER;;;;;UART_tx" />
   <file name="C:\Users\michael.machate\Desktop\Cypress_Firsttests\FirstTest.cydsn\codegentemp\UART_tx_PM.c" value="SOURCE_C;CortexM0p;;;;UART_tx" />
-  <file name="C:\Users\michael.machate\Desktop\Cypress_Firsttests\FirstTest.cydsn\codegentemp\I2CS_SCBCLK.c" value="SOURCE_C;CortexM0p;;;;I2CS_SCBCLK" />
-  <file name="C:\Users\michael.machate\Desktop\Cypress_Firsttests\FirstTest.cydsn\codegentemp\I2CS_SCBCLK.h" value="HEADER;;;;;I2CS_SCBCLK" />
-  <file name="C:\Users\michael.machate\Desktop\Cypress_Firsttests\FirstTest.cydsn\codegentemp\I2CS_sda.c" value="SOURCE_C;CortexM0p;;;;I2CS_sda" />
-  <file name="C:\Users\michael.machate\Desktop\Cypress_Firsttests\FirstTest.cydsn\codegentemp\I2CS_sda.h" value="HEADER;;;;;I2CS_sda" />
-  <file name="C:\Users\michael.machate\Desktop\Cypress_Firsttests\FirstTest.cydsn\codegentemp\I2CS_sda_aliases.h" value="HEADER;;;;;I2CS_sda" />
-  <file name="C:\Users\michael.machate\Desktop\Cypress_Firsttests\FirstTest.cydsn\codegentemp\I2CS_sda_PM.c" value="SOURCE_C;CortexM0p;;;;I2CS_sda" />
-  <file name="C:\Users\michael.machate\Desktop\Cypress_Firsttests\FirstTest.cydsn\codegentemp\I2CS_scl.c" value="SOURCE_C;CortexM0p;;;;I2CS_scl" />
-  <file name="C:\Users\michael.machate\Desktop\Cypress_Firsttests\FirstTest.cydsn\codegentemp\I2CS_scl.h" value="HEADER;;;;;I2CS_scl" />
-  <file name="C:\Users\michael.machate\Desktop\Cypress_Firsttests\FirstTest.cydsn\codegentemp\I2CS_scl_aliases.h" value="HEADER;;;;;I2CS_scl" />
-  <file name="C:\Users\michael.machate\Desktop\Cypress_Firsttests\FirstTest.cydsn\codegentemp\I2CS_scl_PM.c" value="SOURCE_C;CortexM0p;;;;I2CS_scl" />
-  <file name="C:\Users\michael.machate\Desktop\Cypress_Firsttests\FirstTest.cydsn\codegentemp\I2CS_SCB_IRQ.c" value="SOURCE_C;CortexM0p;;;;I2CS_SCB_IRQ" />
-  <file name="C:\Users\michael.machate\Desktop\Cypress_Firsttests\FirstTest.cydsn\codegentemp\I2CS_SCB_IRQ.h" value="HEADER;;;;;I2CS_SCB_IRQ" />
   <file name="C:\Users\michael.machate\Desktop\Cypress_Firsttests\FirstTest.cydsn\codegentemp\CapSense_1_ISR.c" value="SOURCE_C;CortexM0p;;;;CapSense_1_ISR" />
   <file name="C:\Users\michael.machate\Desktop\Cypress_Firsttests\FirstTest.cydsn\codegentemp\CapSense_1_ISR.h" value="HEADER;;;;;CapSense_1_ISR" />
   <file name="C:\Users\michael.machate\Desktop\Cypress_Firsttests\FirstTest.cydsn\codegentemp\cy_em_eeprom.c" value="SOURCE_C;CortexM0p;;;;Em_EEPROM_Dynamic" />

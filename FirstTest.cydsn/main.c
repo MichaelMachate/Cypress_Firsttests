@@ -50,7 +50,7 @@ int main (void){
          if(!CapSense_1_IsBusy()){
             CapSense_1_ProcessAllWidgets();       /* Process all widgets */
             CapSense_1_RunTuner();                /* To sync with Tuner application */
-            LED_Control();
+            //LED_Control();
             
             /* Send packet header */
             UART_SpiUartPutArray((uint8*)(&header),sizeof(header));

@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccBo18Vh.s 			page 1
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\cccvcXd6.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccBo18Vh.s 			page 1
   28:Generated_Source\PSoC4/CapSense_1_Tuner.c **** * Cypress reserves the right to make changes without further notice to the
   29:Generated_Source\PSoC4/CapSense_1_Tuner.c **** * materials described herein. Cypress does not assume any liability arising out
   30:Generated_Source\PSoC4/CapSense_1_Tuner.c **** * of the application or use of any product or circuit described herein. Cypress
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccBo18Vh.s 			page 2
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\cccvcXd6.s 			page 2
 
 
   31:Generated_Source\PSoC4/CapSense_1_Tuner.c **** * does not authorize its products for use as critical components in life-support
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccBo18Vh.s 			page 1
   39 0006 024A     		ldr	r2, .L2+4
   40 0008 1360     		str	r3, [r2]
   74:Generated_Source\PSoC4/CapSense_1_Tuner.c **** }
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccBo18Vh.s 			page 3
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\cccvcXd6.s 			page 3
 
 
   41              		.loc 1 74 0
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccBo18Vh.s 			page 1
  110:Generated_Source\PSoC4/CapSense_1_Tuner.c **** *      Component was restarted.
  111:Generated_Source\PSoC4/CapSense_1_Tuner.c **** *    -  CapSense_1_STATUS_RESTART_NONE - No restart was executed by this
  112:Generated_Source\PSoC4/CapSense_1_Tuner.c **** *      function.
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccBo18Vh.s 			page 4
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\cccvcXd6.s 			page 4
 
 
  113:Generated_Source\PSoC4/CapSense_1_Tuner.c **** *
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccBo18Vh.s 			page 1
   87 0014 424B     		ldr	r3, .L18+4
   88 0016 DA80     		strh	r2, [r3, #6]
  139:Generated_Source\PSoC4/CapSense_1_Tuner.c ****             CyExitCriticalSection(interruptState);
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccBo18Vh.s 			page 5
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\cccvcXd6.s 			page 5
 
 
   89              		.loc 1 139 0
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccBo18Vh.s 			page 1
  130 003a 384B     		ldr	r3, .L18
  131 003c 1A60     		str	r2, [r3]
  132              	.LVL8:
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccBo18Vh.s 			page 6
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\cccvcXd6.s 			page 6
 
 
  153:Generated_Source\PSoC4/CapSense_1_Tuner.c ****             updateFlag = 1Lu;
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccBo18Vh.s 			page 1
  169 0060 1A60     		str	r2, [r3]
  170              	.LVL15:
  170:Generated_Source\PSoC4/CapSense_1_Tuner.c ****             updateFlag = 1Lu;
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccBo18Vh.s 			page 7
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\cccvcXd6.s 			page 7
 
 
  171              		.loc 1 170 0
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccBo18Vh.s 			page 1
  205              	.L15:
  191:Generated_Source\PSoC4/CapSense_1_Tuner.c ****             }
  192:Generated_Source\PSoC4/CapSense_1_Tuner.c ****             CyExitCriticalSection(interruptState);
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccBo18Vh.s 			page 8
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\cccvcXd6.s 			page 8
 
 
  206              		.loc 1 192 0
@@ -447,14 +447,14 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccBo18Vh.s 			page 1
  201:Generated_Source\PSoC4/CapSense_1_Tuner.c ****         widgetId = ptrDsRam->snrTestWidgetId;
  221              		.loc 1 201 0
  222 009e 204A     		ldr	r2, .L18+4
- 223 00a0 A333     		adds	r3, r3, #163
+ 223 00a0 F133     		adds	r3, r3, #241
  224 00a2 FF33     		adds	r3, r3, #255
  225 00a4 D35C     		ldrb	r3, [r2, r3]
  226 00a6 DBB2     		uxtb	r3, r3
  227              	.LVL22:
  202:Generated_Source\PSoC4/CapSense_1_Tuner.c ****         sensorId = ptrDsRam->snrTestSensorId;
  228              		.loc 1 202 0
- 229 00a8 A621     		movs	r1, #166
+ 229 00a8 F421     		movs	r1, #244
  230 00aa FF31     		adds	r1, r1, #255
  231 00ac 525C     		ldrb	r2, [r2, r1]
  232 00ae D2B2     		uxtb	r2, r2
@@ -465,7 +465,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccBo18Vh.s 			page 1
  206:Generated_Source\PSoC4/CapSense_1_Tuner.c ****          */
  207:Generated_Source\PSoC4/CapSense_1_Tuner.c ****         if ((widgetId < CapSense_1_TOTAL_WIDGETS)              &&
  234              		.loc 1 207 0
- 235 00b0 092B     		cmp	r3, #9
+ 235 00b0 0B2B     		cmp	r3, #11
  236 00b2 30D8     		bhi	.L17
  208:Generated_Source\PSoC4/CapSense_1_Tuner.c ****             (sensorId < CapSense_1_GET_SENSOR_COUNT(widgetId)) &&
  237              		.loc 1 208 0 discriminator 1
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccBo18Vh.s 			page 1
  207:Generated_Source\PSoC4/CapSense_1_Tuner.c ****             (sensorId < CapSense_1_GET_SENSOR_COUNT(widgetId)) &&
  244              		.loc 1 207 0 discriminator 1
  245 00c0 8A42     		cmp	r2, r1
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccBo18Vh.s 			page 9
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\cccvcXd6.s 			page 9
 
 
  246 00c2 28D2     		bcs	.L17
@@ -487,7 +487,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccBo18Vh.s 			page 1
  248 00c4 1649     		ldr	r1, .L18+4
  249 00c6 0889     		ldrh	r0, [r1, #8]
  250 00c8 80B2     		uxth	r0, r0
- 251 00ca D324     		movs	r4, #211
+ 251 00ca FA24     		movs	r4, #250
  252              	.LVL24:
  253 00cc 6400     		lsls	r4, r4, #1
  254 00ce 095B     		ldrh	r1, [r1, r4]
@@ -527,7 +527,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccBo18Vh.s 			page 1
  279 00ee 0C4B     		ldr	r3, .L18+4
  280 00f0 1A89     		ldrh	r2, [r3, #8]
  281 00f2 92B2     		uxth	r2, r2
- 282 00f4 D321     		movs	r1, #211
+ 282 00f4 FA21     		movs	r1, #250
  283 00f6 4900     		lsls	r1, r1, #1
  284 00f8 5A52     		strh	r2, [r3, r1]
  218:Generated_Source\PSoC4/CapSense_1_Tuner.c ****             ptrDsRam->snrTestRawCount[0u] = ptrSnsTmp->raw[0u];
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccBo18Vh.s 			page 1
  289 0100 5A52     		strh	r2, [r3, r1]
  219:Generated_Source\PSoC4/CapSense_1_Tuner.c **** 
  220:Generated_Source\PSoC4/CapSense_1_Tuner.c ****             #if (0u != CapSense_1_MULTI_FREQ_SCAN_EN)
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccBo18Vh.s 			page 10
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\cccvcXd6.s 			page 10
 
 
  221:Generated_Source\PSoC4/CapSense_1_Tuner.c ****                 ptrDsRam->snrTestRawCount[1u] = ptrSnsTmp->raw[1u];
@@ -598,18 +598,18 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccBo18Vh.s 			page 1
  335              		.file 7 "Generated_Source\\PSoC4\\CapSense_1_Control.h"
  336              		.section	.debug_info,"",%progbits
  337              	.Ldebug_info0:
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccBo18Vh.s 			page 11
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\cccvcXd6.s 			page 11
 
 
- 338 0000 AE060000 		.4byte	0x6ae
+ 338 0000 E4060000 		.4byte	0x6e4
  339 0004 0400     		.2byte	0x4
  340 0006 00000000 		.4byte	.Ldebug_abbrev0
  341 000a 04       		.byte	0x4
  342 000b 01       		.uleb128 0x1
- 343 000c FE040000 		.4byte	.LASF100
+ 343 000c FE040000 		.4byte	.LASF102
  344 0010 0C       		.byte	0xc
- 345 0011 AC040000 		.4byte	.LASF101
- 346 0015 E3050000 		.4byte	.LASF102
+ 345 0011 AC040000 		.4byte	.LASF103
+ 346 0015 F5050000 		.4byte	.LASF104
  347 0019 00000000 		.4byte	.Ldebug_ranges0+0
  348 001d 00000000 		.4byte	0
  349 0021 00000000 		.4byte	.Ldebug_line0
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccBo18Vh.s 			page 1
  392 0070 02       		.byte	0x2
  393 0071 E401     		.2byte	0x1e4
  394 0073 2C000000 		.4byte	0x2c
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccBo18Vh.s 			page 12
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\cccvcXd6.s 			page 12
 
 
  395 0077 04       		.uleb128 0x4
@@ -682,7 +682,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccBo18Vh.s 			page 1
  413 009d 02       		.uleb128 0x2
  414 009e 01       		.byte	0x1
  415 009f 08       		.byte	0x8
- 416 00a0 90050000 		.4byte	.LASF14
+ 416 00a0 A2050000 		.4byte	.LASF14
  417 00a4 05       		.uleb128 0x5
  418 00a5 83000000 		.4byte	0x83
  419 00a9 02       		.uleb128 0x2
@@ -698,12 +698,12 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccBo18Vh.s 			page 1
  429 00b9 04       		.uleb128 0x4
  430 00ba 01010000 		.4byte	.LASF17
  431 00be 03       		.byte	0x3
- 432 00bf 4101     		.2byte	0x141
+ 432 00bf 4901     		.2byte	0x149
  433 00c1 77000000 		.4byte	0x77
  434 00c5 04       		.uleb128 0x4
- 435 00c6 4E060000 		.4byte	.LASF18
+ 435 00c6 60060000 		.4byte	.LASF18
  436 00ca 03       		.byte	0x3
- 437 00cb 4501     		.2byte	0x145
+ 437 00cb 4D01     		.2byte	0x14d
  438 00cd 6B000000 		.4byte	0x6b
  439 00d1 07       		.uleb128 0x7
  440 00d2 6B000000 		.4byte	0x6b
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccBo18Vh.s 			page 1
  449 00e4 C7       		.byte	0xc7
  450 00e5 56010000 		.4byte	0x156
  451 00e9 0A       		.uleb128 0xa
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccBo18Vh.s 			page 13
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\cccvcXd6.s 			page 13
 
 
  452 00ea EA040000 		.4byte	.LASF19
@@ -727,13 +727,13 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccBo18Vh.s 			page 1
  455 00f0 77000000 		.4byte	0x77
  456 00f4 00       		.byte	0
  457 00f5 0A       		.uleb128 0xa
- 458 00f6 6B060000 		.4byte	.LASF20
+ 458 00f6 7D060000 		.4byte	.LASF20
  459 00fa 04       		.byte	0x4
  460 00fb D1       		.byte	0xd1
  461 00fc B9000000 		.4byte	0xb9
  462 0100 02       		.byte	0x2
  463 0101 0A       		.uleb128 0xa
- 464 0102 87060000 		.4byte	.LASF21
+ 464 0102 99060000 		.4byte	.LASF21
  465 0106 04       		.byte	0x4
  466 0107 D6       		.byte	0xd6
  467 0108 6B000000 		.4byte	0x6b
@@ -751,7 +751,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccBo18Vh.s 			page 1
  479 0120 6B000000 		.4byte	0x6b
  480 0124 06       		.byte	0x6
  481 0125 0A       		.uleb128 0xa
- 482 0126 95050000 		.4byte	.LASF24
+ 482 0126 A7050000 		.4byte	.LASF24
  483 012a 04       		.byte	0x4
  484 012b E7       		.byte	0xe7
  485 012c 6B000000 		.4byte	0x6b
@@ -769,7 +769,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccBo18Vh.s 			page 1
  497 0144 D1000000 		.4byte	0xd1
  498 0148 09       		.byte	0x9
  499 0149 0A       		.uleb128 0xa
- 500 014a 38060000 		.4byte	.LASF27
+ 500 014a 4A060000 		.4byte	.LASF27
  501 014e 04       		.byte	0x4
  502 014f FA       		.byte	0xfa
  503 0150 6B000000 		.4byte	0x6b
@@ -778,16 +778,16 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccBo18Vh.s 			page 1
  506 0156 0B       		.uleb128 0xb
  507 0157 51020000 		.4byte	.LASF28
  508 015b 04       		.byte	0x4
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccBo18Vh.s 			page 14
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\cccvcXd6.s 			page 14
 
 
  509 015c FB       		.byte	0xfb
  510 015d E1000000 		.4byte	0xe1
  511 0161 0C       		.uleb128 0xc
- 512 0162 8C       		.byte	0x8c
+ 512 0162 A8       		.byte	0xa8
  513 0163 04       		.byte	0x4
  514 0164 0101     		.2byte	0x101
- 515 0166 ED010000 		.4byte	0x1ed
+ 515 0166 07020000 		.4byte	0x207
  516 016a 0D       		.uleb128 0xd
  517 016b B9000000 		.4byte	.LASF29
  518 016f 04       		.byte	0x4
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccBo18Vh.s 			page 1
  563 01d1 62       		.byte	0x62
  564 01d2 0D       		.uleb128 0xd
  565 01d3 F9000000 		.4byte	.LASF37
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccBo18Vh.s 			page 15
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\cccvcXd6.s 			page 15
 
 
  566 01d7 04       		.byte	0x4
@@ -851,1680 +851,1712 @@ ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccBo18Vh.s 			page 1
  573 01e5 3301     		.2byte	0x133
  574 01e7 56010000 		.4byte	0x156
  575 01eb 7E       		.byte	0x7e
- 576 01ec 00       		.byte	0
- 577 01ed 04       		.uleb128 0x4
- 578 01ee 65040000 		.4byte	.LASF39
- 579 01f2 04       		.byte	0x4
- 580 01f3 3401     		.2byte	0x134
- 581 01f5 61010000 		.4byte	0x161
- 582 01f9 0C       		.uleb128 0xc
- 583 01fa 18       		.byte	0x18
- 584 01fb 04       		.byte	0x4
- 585 01fc 3A01     		.2byte	0x13a
- 586 01fe 51020000 		.4byte	0x251
- 587 0202 0E       		.uleb128 0xe
- 588 0203 72617700 		.ascii	"raw\000"
- 589 0207 04       		.byte	0x4
- 590 0208 3F01     		.2byte	0x13f
- 591 020a 51020000 		.4byte	0x251
- 592 020e 00       		.byte	0
- 593 020f 0D       		.uleb128 0xd
- 594 0210 BC010000 		.4byte	.LASF40
- 595 0214 04       		.byte	0x4
- 596 0215 4401     		.2byte	0x144
- 597 0217 51020000 		.4byte	0x251
- 598 021b 06       		.byte	0x6
- 599 021c 0D       		.uleb128 0xd
- 600 021d 7B010000 		.4byte	.LASF41
+ 576 01ec 0D       		.uleb128 0xd
+ 577 01ed 90050000 		.4byte	.LASF39
+ 578 01f1 04       		.byte	0x4
+ 579 01f2 3801     		.2byte	0x138
+ 580 01f4 56010000 		.4byte	0x156
+ 581 01f8 8C       		.byte	0x8c
+ 582 01f9 0D       		.uleb128 0xd
+ 583 01fa 99050000 		.4byte	.LASF40
+ 584 01fe 04       		.byte	0x4
+ 585 01ff 3D01     		.2byte	0x13d
+ 586 0201 56010000 		.4byte	0x156
+ 587 0205 9A       		.byte	0x9a
+ 588 0206 00       		.byte	0
+ 589 0207 04       		.uleb128 0x4
+ 590 0208 65040000 		.4byte	.LASF41
+ 591 020c 04       		.byte	0x4
+ 592 020d 3E01     		.2byte	0x13e
+ 593 020f 61010000 		.4byte	0x161
+ 594 0213 0C       		.uleb128 0xc
+ 595 0214 18       		.byte	0x18
+ 596 0215 04       		.byte	0x4
+ 597 0216 4401     		.2byte	0x144
+ 598 0218 6B020000 		.4byte	0x26b
+ 599 021c 0E       		.uleb128 0xe
+ 600 021d 72617700 		.ascii	"raw\000"
  601 0221 04       		.byte	0x4
- 602 0222 4A01     		.2byte	0x14a
- 603 0224 D1000000 		.4byte	0xd1
- 604 0228 0C       		.byte	0xc
+ 602 0222 4901     		.2byte	0x149
+ 603 0224 6B020000 		.4byte	0x26b
+ 604 0228 00       		.byte	0
  605 0229 0D       		.uleb128 0xd
- 606 022a 61000000 		.4byte	.LASF42
+ 606 022a BC010000 		.4byte	.LASF42
  607 022e 04       		.byte	0x4
- 608 022f 4F01     		.2byte	0x14f
- 609 0231 B9000000 		.4byte	0xb9
- 610 0235 10       		.byte	0x10
+ 608 022f 4E01     		.2byte	0x14e
+ 609 0231 6B020000 		.4byte	0x26b
+ 610 0235 06       		.byte	0x6
  611 0236 0D       		.uleb128 0xd
- 612 0237 A9050000 		.4byte	.LASF43
+ 612 0237 7B010000 		.4byte	.LASF43
  613 023b 04       		.byte	0x4
  614 023c 5401     		.2byte	0x154
- 615 023e 61020000 		.4byte	0x261
- 616 0242 12       		.byte	0x12
+ 615 023e D1000000 		.4byte	0xd1
+ 616 0242 0C       		.byte	0xc
  617 0243 0D       		.uleb128 0xd
- 618 0244 A0050000 		.4byte	.LASF44
+ 618 0244 61000000 		.4byte	.LASF44
  619 0248 04       		.byte	0x4
  620 0249 5901     		.2byte	0x159
- 621 024b D1000000 		.4byte	0xd1
- 622 024f 15       		.byte	0x15
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccBo18Vh.s 			page 16
+ 621 024b B9000000 		.4byte	0xb9
+ 622 024f 10       		.byte	0x10
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\cccvcXd6.s 			page 16
 
 
- 623 0250 00       		.byte	0
- 624 0251 07       		.uleb128 0x7
- 625 0252 77000000 		.4byte	0x77
- 626 0256 61020000 		.4byte	0x261
- 627 025a 08       		.uleb128 0x8
- 628 025b B0000000 		.4byte	0xb0
- 629 025f 02       		.byte	0x2
- 630 0260 00       		.byte	0
- 631 0261 07       		.uleb128 0x7
- 632 0262 C5000000 		.4byte	0xc5
- 633 0266 71020000 		.4byte	0x271
- 634 026a 08       		.uleb128 0x8
- 635 026b B0000000 		.4byte	0xb0
- 636 026f 02       		.byte	0x2
- 637 0270 00       		.byte	0
- 638 0271 04       		.uleb128 0x4
- 639 0272 ED030000 		.4byte	.LASF45
- 640 0276 04       		.byte	0x4
- 641 0277 5A01     		.2byte	0x15a
- 642 0279 F9010000 		.4byte	0x1f9
- 643 027d 0C       		.uleb128 0xc
- 644 027e F0       		.byte	0xf0
- 645 027f 04       		.byte	0x4
- 646 0280 6001     		.2byte	0x160
- 647 0282 09030000 		.4byte	0x309
- 648 0286 0D       		.uleb128 0xd
- 649 0287 B9000000 		.4byte	.LASF29
- 650 028b 04       		.byte	0x4
- 651 028c 6501     		.2byte	0x165
- 652 028e 09030000 		.4byte	0x309
- 653 0292 00       		.byte	0
- 654 0293 0D       		.uleb128 0xd
- 655 0294 C1000000 		.4byte	.LASF30
- 656 0298 04       		.byte	0x4
- 657 0299 6A01     		.2byte	0x16a
- 658 029b 09030000 		.4byte	0x309
- 659 029f 18       		.byte	0x18
- 660 02a0 0D       		.uleb128 0xd
- 661 02a1 C9000000 		.4byte	.LASF31
- 662 02a5 04       		.byte	0x4
- 663 02a6 6F01     		.2byte	0x16f
- 664 02a8 09030000 		.4byte	0x309
- 665 02ac 30       		.byte	0x30
- 666 02ad 0D       		.uleb128 0xd
- 667 02ae D1000000 		.4byte	.LASF32
- 668 02b2 04       		.byte	0x4
- 669 02b3 7401     		.2byte	0x174
- 670 02b5 09030000 		.4byte	0x309
- 671 02b9 48       		.byte	0x48
- 672 02ba 0D       		.uleb128 0xd
- 673 02bb D9000000 		.4byte	.LASF33
- 674 02bf 04       		.byte	0x4
- 675 02c0 7901     		.2byte	0x179
- 676 02c2 09030000 		.4byte	0x309
- 677 02c6 60       		.byte	0x60
- 678 02c7 0D       		.uleb128 0xd
- 679 02c8 E1000000 		.4byte	.LASF34
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccBo18Vh.s 			page 17
+ 623 0250 0D       		.uleb128 0xd
+ 624 0251 BB050000 		.4byte	.LASF45
+ 625 0255 04       		.byte	0x4
+ 626 0256 5E01     		.2byte	0x15e
+ 627 0258 7B020000 		.4byte	0x27b
+ 628 025c 12       		.byte	0x12
+ 629 025d 0D       		.uleb128 0xd
+ 630 025e B2050000 		.4byte	.LASF46
+ 631 0262 04       		.byte	0x4
+ 632 0263 6301     		.2byte	0x163
+ 633 0265 D1000000 		.4byte	0xd1
+ 634 0269 15       		.byte	0x15
+ 635 026a 00       		.byte	0
+ 636 026b 07       		.uleb128 0x7
+ 637 026c 77000000 		.4byte	0x77
+ 638 0270 7B020000 		.4byte	0x27b
+ 639 0274 08       		.uleb128 0x8
+ 640 0275 B0000000 		.4byte	0xb0
+ 641 0279 02       		.byte	0x2
+ 642 027a 00       		.byte	0
+ 643 027b 07       		.uleb128 0x7
+ 644 027c C5000000 		.4byte	0xc5
+ 645 0280 8B020000 		.4byte	0x28b
+ 646 0284 08       		.uleb128 0x8
+ 647 0285 B0000000 		.4byte	0xb0
+ 648 0289 02       		.byte	0x2
+ 649 028a 00       		.byte	0
+ 650 028b 04       		.uleb128 0x4
+ 651 028c ED030000 		.4byte	.LASF47
+ 652 0290 04       		.byte	0x4
+ 653 0291 6401     		.2byte	0x164
+ 654 0293 13020000 		.4byte	0x213
+ 655 0297 0F       		.uleb128 0xf
+ 656 0298 2001     		.2byte	0x120
+ 657 029a 04       		.byte	0x4
+ 658 029b 6A01     		.2byte	0x16a
+ 659 029d 3F030000 		.4byte	0x33f
+ 660 02a1 0D       		.uleb128 0xd
+ 661 02a2 B9000000 		.4byte	.LASF29
+ 662 02a6 04       		.byte	0x4
+ 663 02a7 6F01     		.2byte	0x16f
+ 664 02a9 3F030000 		.4byte	0x33f
+ 665 02ad 00       		.byte	0
+ 666 02ae 0D       		.uleb128 0xd
+ 667 02af C1000000 		.4byte	.LASF30
+ 668 02b3 04       		.byte	0x4
+ 669 02b4 7401     		.2byte	0x174
+ 670 02b6 3F030000 		.4byte	0x33f
+ 671 02ba 18       		.byte	0x18
+ 672 02bb 0D       		.uleb128 0xd
+ 673 02bc C9000000 		.4byte	.LASF31
+ 674 02c0 04       		.byte	0x4
+ 675 02c1 7901     		.2byte	0x179
+ 676 02c3 3F030000 		.4byte	0x33f
+ 677 02c7 30       		.byte	0x30
+ 678 02c8 0D       		.uleb128 0xd
+ 679 02c9 D1000000 		.4byte	.LASF32
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\cccvcXd6.s 			page 17
 
 
- 680 02cc 04       		.byte	0x4
- 681 02cd 7E01     		.2byte	0x17e
- 682 02cf 09030000 		.4byte	0x309
- 683 02d3 78       		.byte	0x78
- 684 02d4 0D       		.uleb128 0xd
- 685 02d5 E9000000 		.4byte	.LASF35
- 686 02d9 04       		.byte	0x4
- 687 02da 8301     		.2byte	0x183
- 688 02dc 09030000 		.4byte	0x309
- 689 02e0 90       		.byte	0x90
- 690 02e1 0D       		.uleb128 0xd
- 691 02e2 F1000000 		.4byte	.LASF36
- 692 02e6 04       		.byte	0x4
- 693 02e7 8801     		.2byte	0x188
- 694 02e9 09030000 		.4byte	0x309
- 695 02ed A8       		.byte	0xa8
- 696 02ee 0D       		.uleb128 0xd
- 697 02ef F9000000 		.4byte	.LASF37
- 698 02f3 04       		.byte	0x4
- 699 02f4 8D01     		.2byte	0x18d
- 700 02f6 09030000 		.4byte	0x309
- 701 02fa C0       		.byte	0xc0
- 702 02fb 0D       		.uleb128 0xd
- 703 02fc E2040000 		.4byte	.LASF38
- 704 0300 04       		.byte	0x4
- 705 0301 9201     		.2byte	0x192
- 706 0303 09030000 		.4byte	0x309
- 707 0307 D8       		.byte	0xd8
- 708 0308 00       		.byte	0
- 709 0309 07       		.uleb128 0x7
- 710 030a 71020000 		.4byte	0x271
- 711 030e 19030000 		.4byte	0x319
- 712 0312 08       		.uleb128 0x8
- 713 0313 B0000000 		.4byte	0xb0
- 714 0317 00       		.byte	0
- 715 0318 00       		.byte	0
- 716 0319 04       		.uleb128 0x4
- 717 031a 94020000 		.4byte	.LASF46
- 718 031e 04       		.byte	0x4
- 719 031f 9301     		.2byte	0x193
- 720 0321 7D020000 		.4byte	0x27d
- 721 0325 0F       		.uleb128 0xf
- 722 0326 B001     		.2byte	0x1b0
- 723 0328 04       		.byte	0x4
- 724 0329 9901     		.2byte	0x199
- 725 032b 1E040000 		.4byte	0x41e
- 726 032f 0D       		.uleb128 0xd
- 727 0330 1D000000 		.4byte	.LASF47
- 728 0334 04       		.byte	0x4
- 729 0335 A001     		.2byte	0x1a0
- 730 0337 77000000 		.4byte	0x77
- 731 033b 00       		.byte	0
- 732 033c 0D       		.uleb128 0xd
- 733 033d D4020000 		.4byte	.LASF48
- 734 0341 04       		.byte	0x4
- 735 0342 A501     		.2byte	0x1a5
- 736 0344 77000000 		.4byte	0x77
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccBo18Vh.s 			page 18
+ 680 02cd 04       		.byte	0x4
+ 681 02ce 7E01     		.2byte	0x17e
+ 682 02d0 3F030000 		.4byte	0x33f
+ 683 02d4 48       		.byte	0x48
+ 684 02d5 0D       		.uleb128 0xd
+ 685 02d6 D9000000 		.4byte	.LASF33
+ 686 02da 04       		.byte	0x4
+ 687 02db 8301     		.2byte	0x183
+ 688 02dd 3F030000 		.4byte	0x33f
+ 689 02e1 60       		.byte	0x60
+ 690 02e2 0D       		.uleb128 0xd
+ 691 02e3 E1000000 		.4byte	.LASF34
+ 692 02e7 04       		.byte	0x4
+ 693 02e8 8801     		.2byte	0x188
+ 694 02ea 3F030000 		.4byte	0x33f
+ 695 02ee 78       		.byte	0x78
+ 696 02ef 0D       		.uleb128 0xd
+ 697 02f0 E9000000 		.4byte	.LASF35
+ 698 02f4 04       		.byte	0x4
+ 699 02f5 8D01     		.2byte	0x18d
+ 700 02f7 3F030000 		.4byte	0x33f
+ 701 02fb 90       		.byte	0x90
+ 702 02fc 0D       		.uleb128 0xd
+ 703 02fd F1000000 		.4byte	.LASF36
+ 704 0301 04       		.byte	0x4
+ 705 0302 9201     		.2byte	0x192
+ 706 0304 3F030000 		.4byte	0x33f
+ 707 0308 A8       		.byte	0xa8
+ 708 0309 0D       		.uleb128 0xd
+ 709 030a F9000000 		.4byte	.LASF37
+ 710 030e 04       		.byte	0x4
+ 711 030f 9701     		.2byte	0x197
+ 712 0311 3F030000 		.4byte	0x33f
+ 713 0315 C0       		.byte	0xc0
+ 714 0316 0D       		.uleb128 0xd
+ 715 0317 E2040000 		.4byte	.LASF38
+ 716 031b 04       		.byte	0x4
+ 717 031c 9C01     		.2byte	0x19c
+ 718 031e 3F030000 		.4byte	0x33f
+ 719 0322 D8       		.byte	0xd8
+ 720 0323 0D       		.uleb128 0xd
+ 721 0324 90050000 		.4byte	.LASF39
+ 722 0328 04       		.byte	0x4
+ 723 0329 A101     		.2byte	0x1a1
+ 724 032b 3F030000 		.4byte	0x33f
+ 725 032f F0       		.byte	0xf0
+ 726 0330 10       		.uleb128 0x10
+ 727 0331 99050000 		.4byte	.LASF40
+ 728 0335 04       		.byte	0x4
+ 729 0336 A601     		.2byte	0x1a6
+ 730 0338 3F030000 		.4byte	0x33f
+ 731 033c 0801     		.2byte	0x108
+ 732 033e 00       		.byte	0
+ 733 033f 07       		.uleb128 0x7
+ 734 0340 8B020000 		.4byte	0x28b
+ 735 0344 4F030000 		.4byte	0x34f
+ 736 0348 08       		.uleb128 0x8
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\cccvcXd6.s 			page 18
 
 
- 737 0348 02       		.byte	0x2
- 738 0349 0D       		.uleb128 0xd
- 739 034a AB030000 		.4byte	.LASF49
- 740 034e 04       		.byte	0x4
- 741 034f AA01     		.2byte	0x1aa
- 742 0351 77000000 		.4byte	0x77
- 743 0355 04       		.byte	0x4
- 744 0356 0D       		.uleb128 0xd
- 745 0357 DE030000 		.4byte	.LASF50
- 746 035b 04       		.byte	0x4
- 747 035c B001     		.2byte	0x1b0
- 748 035e 77000000 		.4byte	0x77
- 749 0362 06       		.byte	0x6
- 750 0363 0D       		.uleb128 0xd
- 751 0364 BC030000 		.4byte	.LASF51
- 752 0368 04       		.byte	0x4
- 753 0369 B501     		.2byte	0x1b5
- 754 036b 77000000 		.4byte	0x77
- 755 036f 08       		.byte	0x8
- 756 0370 0D       		.uleb128 0xd
- 757 0371 DC050000 		.4byte	.LASF52
- 758 0375 04       		.byte	0x4
- 759 0376 BA01     		.2byte	0x1ba
- 760 0378 A4000000 		.4byte	0xa4
- 761 037c 0C       		.byte	0xc
- 762 037d 0D       		.uleb128 0xd
- 763 037e F8010000 		.4byte	.LASF53
- 764 0382 04       		.byte	0x4
- 765 0383 C001     		.2byte	0x1c0
- 766 0385 1E040000 		.4byte	0x41e
- 767 0389 10       		.byte	0x10
- 768 038a 0D       		.uleb128 0xd
- 769 038b A7010000 		.4byte	.LASF54
- 770 038f 04       		.byte	0x4
- 771 0390 C701     		.2byte	0x1c7
- 772 0392 1E040000 		.4byte	0x41e
- 773 0396 14       		.byte	0x14
- 774 0397 0D       		.uleb128 0xd
- 775 0398 1B010000 		.4byte	.LASF55
- 776 039c 04       		.byte	0x4
- 777 039d D701     		.2byte	0x1d7
- 778 039f 2E040000 		.4byte	0x42e
- 779 03a3 18       		.byte	0x18
- 780 03a4 0D       		.uleb128 0xd
- 781 03a5 BD020000 		.4byte	.LASF56
- 782 03a9 04       		.byte	0x4
- 783 03aa DD01     		.2byte	0x1dd
- 784 03ac 77000000 		.4byte	0x77
- 785 03b0 22       		.byte	0x22
- 786 03b1 0D       		.uleb128 0xd
- 787 03b2 2E010000 		.4byte	.LASF57
- 788 03b6 04       		.byte	0x4
- 789 03b7 E201     		.2byte	0x1e2
- 790 03b9 6B000000 		.4byte	0x6b
- 791 03bd 24       		.byte	0x24
- 792 03be 0D       		.uleb128 0xd
- 793 03bf B3020000 		.4byte	.LASF58
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccBo18Vh.s 			page 19
+ 737 0349 B0000000 		.4byte	0xb0
+ 738 034d 00       		.byte	0
+ 739 034e 00       		.byte	0
+ 740 034f 04       		.uleb128 0x4
+ 741 0350 94020000 		.4byte	.LASF48
+ 742 0354 04       		.byte	0x4
+ 743 0355 A701     		.2byte	0x1a7
+ 744 0357 97020000 		.4byte	0x297
+ 745 035b 0F       		.uleb128 0xf
+ 746 035c FC01     		.2byte	0x1fc
+ 747 035e 04       		.byte	0x4
+ 748 035f AD01     		.2byte	0x1ad
+ 749 0361 54040000 		.4byte	0x454
+ 750 0365 0D       		.uleb128 0xd
+ 751 0366 1D000000 		.4byte	.LASF49
+ 752 036a 04       		.byte	0x4
+ 753 036b B401     		.2byte	0x1b4
+ 754 036d 77000000 		.4byte	0x77
+ 755 0371 00       		.byte	0
+ 756 0372 0D       		.uleb128 0xd
+ 757 0373 D4020000 		.4byte	.LASF50
+ 758 0377 04       		.byte	0x4
+ 759 0378 B901     		.2byte	0x1b9
+ 760 037a 77000000 		.4byte	0x77
+ 761 037e 02       		.byte	0x2
+ 762 037f 0D       		.uleb128 0xd
+ 763 0380 AB030000 		.4byte	.LASF51
+ 764 0384 04       		.byte	0x4
+ 765 0385 BE01     		.2byte	0x1be
+ 766 0387 77000000 		.4byte	0x77
+ 767 038b 04       		.byte	0x4
+ 768 038c 0D       		.uleb128 0xd
+ 769 038d DE030000 		.4byte	.LASF52
+ 770 0391 04       		.byte	0x4
+ 771 0392 C401     		.2byte	0x1c4
+ 772 0394 77000000 		.4byte	0x77
+ 773 0398 06       		.byte	0x6
+ 774 0399 0D       		.uleb128 0xd
+ 775 039a BC030000 		.4byte	.LASF53
+ 776 039e 04       		.byte	0x4
+ 777 039f C901     		.2byte	0x1c9
+ 778 03a1 77000000 		.4byte	0x77
+ 779 03a5 08       		.byte	0x8
+ 780 03a6 0D       		.uleb128 0xd
+ 781 03a7 EE050000 		.4byte	.LASF54
+ 782 03ab 04       		.byte	0x4
+ 783 03ac CE01     		.2byte	0x1ce
+ 784 03ae A4000000 		.4byte	0xa4
+ 785 03b2 0C       		.byte	0xc
+ 786 03b3 0D       		.uleb128 0xd
+ 787 03b4 F8010000 		.4byte	.LASF55
+ 788 03b8 04       		.byte	0x4
+ 789 03b9 D401     		.2byte	0x1d4
+ 790 03bb 54040000 		.4byte	0x454
+ 791 03bf 10       		.byte	0x10
+ 792 03c0 0D       		.uleb128 0xd
+ 793 03c1 A7010000 		.4byte	.LASF56
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\cccvcXd6.s 			page 19
 
 
- 794 03c3 04       		.byte	0x4
- 795 03c4 E701     		.2byte	0x1e7
- 796 03c6 77000000 		.4byte	0x77
- 797 03ca 26       		.byte	0x26
- 798 03cb 0D       		.uleb128 0xd
- 799 03cc F5040000 		.4byte	.LASF59
- 800 03d0 04       		.byte	0x4
- 801 03d1 EC01     		.2byte	0x1ec
- 802 03d3 ED010000 		.4byte	0x1ed
- 803 03d7 28       		.byte	0x28
- 804 03d8 0D       		.uleb128 0xd
- 805 03d9 8C020000 		.4byte	.LASF60
- 806 03dd 04       		.byte	0x4
- 807 03de F101     		.2byte	0x1f1
- 808 03e0 19030000 		.4byte	0x319
- 809 03e4 B4       		.byte	0xb4
- 810 03e5 10       		.uleb128 0x10
- 811 03e6 CE010000 		.4byte	.LASF61
- 812 03ea 04       		.byte	0x4
- 813 03eb F601     		.2byte	0x1f6
- 814 03ed 6B000000 		.4byte	0x6b
- 815 03f1 A401     		.2byte	0x1a4
- 816 03f3 10       		.uleb128 0x10
- 817 03f4 7E000000 		.4byte	.LASF62
- 818 03f8 04       		.byte	0x4
- 819 03f9 FB01     		.2byte	0x1fb
- 820 03fb 6B000000 		.4byte	0x6b
- 821 03ff A501     		.2byte	0x1a5
- 822 0401 10       		.uleb128 0x10
- 823 0402 74060000 		.4byte	.LASF63
+ 794 03c5 04       		.byte	0x4
+ 795 03c6 DB01     		.2byte	0x1db
+ 796 03c8 54040000 		.4byte	0x454
+ 797 03cc 14       		.byte	0x14
+ 798 03cd 0D       		.uleb128 0xd
+ 799 03ce 1B010000 		.4byte	.LASF57
+ 800 03d2 04       		.byte	0x4
+ 801 03d3 EB01     		.2byte	0x1eb
+ 802 03d5 64040000 		.4byte	0x464
+ 803 03d9 18       		.byte	0x18
+ 804 03da 0D       		.uleb128 0xd
+ 805 03db BD020000 		.4byte	.LASF58
+ 806 03df 04       		.byte	0x4
+ 807 03e0 F101     		.2byte	0x1f1
+ 808 03e2 77000000 		.4byte	0x77
+ 809 03e6 24       		.byte	0x24
+ 810 03e7 0D       		.uleb128 0xd
+ 811 03e8 2E010000 		.4byte	.LASF59
+ 812 03ec 04       		.byte	0x4
+ 813 03ed F601     		.2byte	0x1f6
+ 814 03ef 6B000000 		.4byte	0x6b
+ 815 03f3 26       		.byte	0x26
+ 816 03f4 0D       		.uleb128 0xd
+ 817 03f5 B3020000 		.4byte	.LASF60
+ 818 03f9 04       		.byte	0x4
+ 819 03fa FB01     		.2byte	0x1fb
+ 820 03fc 77000000 		.4byte	0x77
+ 821 0400 28       		.byte	0x28
+ 822 0401 0D       		.uleb128 0xd
+ 823 0402 F5040000 		.4byte	.LASF61
  824 0406 04       		.byte	0x4
  825 0407 0002     		.2byte	0x200
- 826 0409 77000000 		.4byte	0x77
- 827 040d A601     		.2byte	0x1a6
- 828 040f 10       		.uleb128 0x10
- 829 0410 50010000 		.4byte	.LASF64
- 830 0414 04       		.byte	0x4
- 831 0415 0502     		.2byte	0x205
- 832 0417 51020000 		.4byte	0x251
- 833 041b A801     		.2byte	0x1a8
- 834 041d 00       		.byte	0
- 835 041e 07       		.uleb128 0x7
- 836 041f 83000000 		.4byte	0x83
- 837 0423 2E040000 		.4byte	0x42e
- 838 0427 08       		.uleb128 0x8
- 839 0428 B0000000 		.4byte	0xb0
- 840 042c 00       		.byte	0
- 841 042d 00       		.byte	0
- 842 042e 07       		.uleb128 0x7
- 843 042f 6B000000 		.4byte	0x6b
- 844 0433 3E040000 		.4byte	0x43e
- 845 0437 08       		.uleb128 0x8
- 846 0438 B0000000 		.4byte	0xb0
- 847 043c 09       		.byte	0x9
- 848 043d 00       		.byte	0
- 849 043e 04       		.uleb128 0x4
- 850 043f C8030000 		.4byte	.LASF65
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccBo18Vh.s 			page 20
+ 826 0409 07020000 		.4byte	0x207
+ 827 040d 2A       		.byte	0x2a
+ 828 040e 0D       		.uleb128 0xd
+ 829 040f 8C020000 		.4byte	.LASF62
+ 830 0413 04       		.byte	0x4
+ 831 0414 0502     		.2byte	0x205
+ 832 0416 4F030000 		.4byte	0x34f
+ 833 041a D2       		.byte	0xd2
+ 834 041b 10       		.uleb128 0x10
+ 835 041c CE010000 		.4byte	.LASF63
+ 836 0420 04       		.byte	0x4
+ 837 0421 0A02     		.2byte	0x20a
+ 838 0423 6B000000 		.4byte	0x6b
+ 839 0427 F201     		.2byte	0x1f2
+ 840 0429 10       		.uleb128 0x10
+ 841 042a 7E000000 		.4byte	.LASF64
+ 842 042e 04       		.byte	0x4
+ 843 042f 0F02     		.2byte	0x20f
+ 844 0431 6B000000 		.4byte	0x6b
+ 845 0435 F301     		.2byte	0x1f3
+ 846 0437 10       		.uleb128 0x10
+ 847 0438 86060000 		.4byte	.LASF65
+ 848 043c 04       		.byte	0x4
+ 849 043d 1402     		.2byte	0x214
+ 850 043f 77000000 		.4byte	0x77
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\cccvcXd6.s 			page 20
 
 
- 851 0443 04       		.byte	0x4
- 852 0444 0602     		.2byte	0x206
- 853 0446 25030000 		.4byte	0x325
- 854 044a 0C       		.uleb128 0xc
- 855 044b 1C       		.byte	0x1c
- 856 044c 04       		.byte	0x4
- 857 044d 6D02     		.2byte	0x26d
- 858 044f C9040000 		.4byte	0x4c9
- 859 0453 0D       		.uleb128 0xd
- 860 0454 54000000 		.4byte	.LASF66
- 861 0458 04       		.byte	0x4
- 862 0459 7602     		.2byte	0x276
- 863 045b C9040000 		.4byte	0x4c9
- 864 045f 00       		.byte	0
- 865 0460 0D       		.uleb128 0xd
- 866 0461 C8020000 		.4byte	.LASF67
- 867 0465 04       		.byte	0x4
- 868 0466 7D02     		.2byte	0x27d
- 869 0468 B7000000 		.4byte	0xb7
- 870 046c 04       		.byte	0x4
- 871 046d 0D       		.uleb128 0xd
- 872 046e 38010000 		.4byte	.LASF68
- 873 0472 04       		.byte	0x4
- 874 0473 8302     		.2byte	0x283
- 875 0475 D0040000 		.4byte	0x4d0
- 876 0479 08       		.byte	0x8
- 877 047a 0D       		.uleb128 0xd
- 878 047b 83040000 		.4byte	.LASF69
- 879 047f 04       		.byte	0x4
- 880 0480 8902     		.2byte	0x289
- 881 0482 B7000000 		.4byte	0xb7
- 882 0486 0C       		.byte	0xc
- 883 0487 0D       		.uleb128 0xd
- 884 0488 C3050000 		.4byte	.LASF70
- 885 048c 04       		.byte	0x4
- 886 048d 9002     		.2byte	0x290
- 887 048f D6040000 		.4byte	0x4d6
- 888 0493 10       		.byte	0x10
- 889 0494 0D       		.uleb128 0xd
- 890 0495 79030000 		.4byte	.LASF71
- 891 0499 04       		.byte	0x4
- 892 049a 9502     		.2byte	0x295
- 893 049c 83000000 		.4byte	0x83
- 894 04a0 14       		.byte	0x14
- 895 04a1 0D       		.uleb128 0xd
- 896 04a2 B7050000 		.4byte	.LASF72
- 897 04a6 04       		.byte	0x4
- 898 04a7 9C02     		.2byte	0x29c
- 899 04a9 77000000 		.4byte	0x77
- 900 04ad 18       		.byte	0x18
- 901 04ae 0D       		.uleb128 0xd
- 902 04af B3030000 		.4byte	.LASF73
- 903 04b3 04       		.byte	0x4
- 904 04b4 A302     		.2byte	0x2a3
- 905 04b6 6B000000 		.4byte	0x6b
- 906 04ba 1A       		.byte	0x1a
- 907 04bb 0D       		.uleb128 0xd
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccBo18Vh.s 			page 21
+ 851 0443 F401     		.2byte	0x1f4
+ 852 0445 10       		.uleb128 0x10
+ 853 0446 50010000 		.4byte	.LASF66
+ 854 044a 04       		.byte	0x4
+ 855 044b 1902     		.2byte	0x219
+ 856 044d 6B020000 		.4byte	0x26b
+ 857 0451 F601     		.2byte	0x1f6
+ 858 0453 00       		.byte	0
+ 859 0454 07       		.uleb128 0x7
+ 860 0455 83000000 		.4byte	0x83
+ 861 0459 64040000 		.4byte	0x464
+ 862 045d 08       		.uleb128 0x8
+ 863 045e B0000000 		.4byte	0xb0
+ 864 0462 00       		.byte	0
+ 865 0463 00       		.byte	0
+ 866 0464 07       		.uleb128 0x7
+ 867 0465 6B000000 		.4byte	0x6b
+ 868 0469 74040000 		.4byte	0x474
+ 869 046d 08       		.uleb128 0x8
+ 870 046e B0000000 		.4byte	0xb0
+ 871 0472 0B       		.byte	0xb
+ 872 0473 00       		.byte	0
+ 873 0474 04       		.uleb128 0x4
+ 874 0475 C8030000 		.4byte	.LASF67
+ 875 0479 04       		.byte	0x4
+ 876 047a 1A02     		.2byte	0x21a
+ 877 047c 5B030000 		.4byte	0x35b
+ 878 0480 0C       		.uleb128 0xc
+ 879 0481 1C       		.byte	0x1c
+ 880 0482 04       		.byte	0x4
+ 881 0483 8102     		.2byte	0x281
+ 882 0485 FF040000 		.4byte	0x4ff
+ 883 0489 0D       		.uleb128 0xd
+ 884 048a 54000000 		.4byte	.LASF68
+ 885 048e 04       		.byte	0x4
+ 886 048f 8A02     		.2byte	0x28a
+ 887 0491 FF040000 		.4byte	0x4ff
+ 888 0495 00       		.byte	0
+ 889 0496 0D       		.uleb128 0xd
+ 890 0497 C8020000 		.4byte	.LASF69
+ 891 049b 04       		.byte	0x4
+ 892 049c 9102     		.2byte	0x291
+ 893 049e B7000000 		.4byte	0xb7
+ 894 04a2 04       		.byte	0x4
+ 895 04a3 0D       		.uleb128 0xd
+ 896 04a4 38010000 		.4byte	.LASF70
+ 897 04a8 04       		.byte	0x4
+ 898 04a9 9702     		.2byte	0x297
+ 899 04ab 06050000 		.4byte	0x506
+ 900 04af 08       		.byte	0x8
+ 901 04b0 0D       		.uleb128 0xd
+ 902 04b1 83040000 		.4byte	.LASF71
+ 903 04b5 04       		.byte	0x4
+ 904 04b6 9D02     		.2byte	0x29d
+ 905 04b8 B7000000 		.4byte	0xb7
+ 906 04bc 0C       		.byte	0xc
+ 907 04bd 0D       		.uleb128 0xd
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\cccvcXd6.s 			page 21
 
 
- 908 04bc 27030000 		.4byte	.LASF74
- 909 04c0 04       		.byte	0x4
- 910 04c1 AD02     		.2byte	0x2ad
- 911 04c3 6B000000 		.4byte	0x6b
- 912 04c7 1B       		.byte	0x1b
- 913 04c8 00       		.byte	0
- 914 04c9 11       		.uleb128 0x11
- 915 04ca 04       		.byte	0x4
- 916 04cb CF040000 		.4byte	0x4cf
- 917 04cf 12       		.uleb128 0x12
- 918 04d0 11       		.uleb128 0x11
- 919 04d1 04       		.byte	0x4
- 920 04d2 71020000 		.4byte	0x271
- 921 04d6 11       		.uleb128 0x11
- 922 04d7 04       		.byte	0x4
- 923 04d8 6B000000 		.4byte	0x6b
- 924 04dc 04       		.uleb128 0x4
- 925 04dd 71020000 		.4byte	.LASF75
- 926 04e1 04       		.byte	0x4
- 927 04e2 AE02     		.2byte	0x2ae
- 928 04e4 4A040000 		.4byte	0x44a
- 929 04e8 0F       		.uleb128 0xf
- 930 04e9 1801     		.2byte	0x118
- 931 04eb 04       		.byte	0x4
- 932 04ec B402     		.2byte	0x2b4
- 933 04ee 00050000 		.4byte	0x500
- 934 04f2 0D       		.uleb128 0xd
- 935 04f3 B2010000 		.4byte	.LASF76
- 936 04f7 04       		.byte	0x4
- 937 04f8 B902     		.2byte	0x2b9
- 938 04fa 00050000 		.4byte	0x500
- 939 04fe 00       		.byte	0
- 940 04ff 00       		.byte	0
- 941 0500 07       		.uleb128 0x7
- 942 0501 DC040000 		.4byte	0x4dc
- 943 0505 10050000 		.4byte	0x510
- 944 0509 08       		.uleb128 0x8
- 945 050a B0000000 		.4byte	0xb0
- 946 050e 09       		.byte	0x9
- 947 050f 00       		.byte	0
- 948 0510 04       		.uleb128 0x4
- 949 0511 07040000 		.4byte	.LASF77
- 950 0515 04       		.byte	0x4
- 951 0516 BA02     		.2byte	0x2ba
- 952 0518 E8040000 		.4byte	0x4e8
- 953 051c 13       		.uleb128 0x13
- 954 051d 01       		.byte	0x1
- 955 051e 2C000000 		.4byte	0x2c
- 956 0522 05       		.byte	0x5
- 957 0523 2E       		.byte	0x2e
- 958 0524 53050000 		.4byte	0x553
- 959 0528 14       		.uleb128 0x14
- 960 0529 8E010000 		.4byte	.LASF78
- 961 052d 00       		.byte	0
- 962 052e 14       		.uleb128 0x14
- 963 052f 8F030000 		.4byte	.LASF79
- 964 0533 01       		.byte	0x1
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccBo18Vh.s 			page 22
+ 908 04be D5050000 		.4byte	.LASF72
+ 909 04c2 04       		.byte	0x4
+ 910 04c3 A402     		.2byte	0x2a4
+ 911 04c5 0C050000 		.4byte	0x50c
+ 912 04c9 10       		.byte	0x10
+ 913 04ca 0D       		.uleb128 0xd
+ 914 04cb 79030000 		.4byte	.LASF73
+ 915 04cf 04       		.byte	0x4
+ 916 04d0 A902     		.2byte	0x2a9
+ 917 04d2 83000000 		.4byte	0x83
+ 918 04d6 14       		.byte	0x14
+ 919 04d7 0D       		.uleb128 0xd
+ 920 04d8 C9050000 		.4byte	.LASF74
+ 921 04dc 04       		.byte	0x4
+ 922 04dd B002     		.2byte	0x2b0
+ 923 04df 77000000 		.4byte	0x77
+ 924 04e3 18       		.byte	0x18
+ 925 04e4 0D       		.uleb128 0xd
+ 926 04e5 B3030000 		.4byte	.LASF75
+ 927 04e9 04       		.byte	0x4
+ 928 04ea B702     		.2byte	0x2b7
+ 929 04ec 6B000000 		.4byte	0x6b
+ 930 04f0 1A       		.byte	0x1a
+ 931 04f1 0D       		.uleb128 0xd
+ 932 04f2 27030000 		.4byte	.LASF76
+ 933 04f6 04       		.byte	0x4
+ 934 04f7 C102     		.2byte	0x2c1
+ 935 04f9 6B000000 		.4byte	0x6b
+ 936 04fd 1B       		.byte	0x1b
+ 937 04fe 00       		.byte	0
+ 938 04ff 11       		.uleb128 0x11
+ 939 0500 04       		.byte	0x4
+ 940 0501 05050000 		.4byte	0x505
+ 941 0505 12       		.uleb128 0x12
+ 942 0506 11       		.uleb128 0x11
+ 943 0507 04       		.byte	0x4
+ 944 0508 8B020000 		.4byte	0x28b
+ 945 050c 11       		.uleb128 0x11
+ 946 050d 04       		.byte	0x4
+ 947 050e 6B000000 		.4byte	0x6b
+ 948 0512 04       		.uleb128 0x4
+ 949 0513 71020000 		.4byte	.LASF77
+ 950 0517 04       		.byte	0x4
+ 951 0518 C202     		.2byte	0x2c2
+ 952 051a 80040000 		.4byte	0x480
+ 953 051e 0F       		.uleb128 0xf
+ 954 051f 5001     		.2byte	0x150
+ 955 0521 04       		.byte	0x4
+ 956 0522 C802     		.2byte	0x2c8
+ 957 0524 36050000 		.4byte	0x536
+ 958 0528 0D       		.uleb128 0xd
+ 959 0529 B2010000 		.4byte	.LASF78
+ 960 052d 04       		.byte	0x4
+ 961 052e CD02     		.2byte	0x2cd
+ 962 0530 36050000 		.4byte	0x536
+ 963 0534 00       		.byte	0
+ 964 0535 00       		.byte	0
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\cccvcXd6.s 			page 22
 
 
- 965 0534 14       		.uleb128 0x14
- 966 0535 2D040000 		.4byte	.LASF80
- 967 0539 02       		.byte	0x2
- 968 053a 14       		.uleb128 0x14
- 969 053b 0B030000 		.4byte	.LASF81
- 970 053f 03       		.byte	0x3
- 971 0540 14       		.uleb128 0x14
- 972 0541 38030000 		.4byte	.LASF82
- 973 0545 04       		.byte	0x4
- 974 0546 14       		.uleb128 0x14
- 975 0547 93040000 		.4byte	.LASF83
- 976 054b 05       		.byte	0x5
- 977 054c 14       		.uleb128 0x14
- 978 054d DD020000 		.4byte	.LASF84
- 979 0551 06       		.byte	0x6
- 980 0552 00       		.byte	0
- 981 0553 0B       		.uleb128 0xb
- 982 0554 26000000 		.4byte	.LASF85
- 983 0558 05       		.byte	0x5
- 984 0559 36       		.byte	0x36
- 985 055a 1C050000 		.4byte	0x51c
- 986 055e 15       		.uleb128 0x15
- 987 055f 66000000 		.4byte	.LASF103
- 988 0563 01       		.byte	0x1
- 989 0564 44       		.byte	0x44
- 990 0565 00000000 		.4byte	.LFB1
- 991 0569 14000000 		.4byte	.LFE1-.LFB1
- 992 056d 01       		.uleb128 0x1
- 993 056e 9C       		.byte	0x9c
- 994 056f 7F050000 		.4byte	0x57f
- 995 0573 16       		.uleb128 0x16
- 996 0574 45060000 		.4byte	.LASF92
- 997 0578 01       		.byte	0x1
- 998 0579 46       		.byte	0x46
- 999 057a 7F050000 		.4byte	0x57f
- 1000 057e 00       		.byte	0
- 1001 057f 11       		.uleb128 0x11
- 1002 0580 04       		.byte	0x4
- 1003 0581 85050000 		.4byte	0x585
- 1004 0585 05       		.uleb128 0x5
- 1005 0586 3E040000 		.4byte	0x43e
- 1006 058a 17       		.uleb128 0x17
- 1007 058b 65030000 		.4byte	.LASF104
- 1008 058f 01       		.byte	0x1
- 1009 0590 73       		.byte	0x73
- 1010 0591 83000000 		.4byte	0x83
- 1011 0595 00000000 		.4byte	.LFB2
- 1012 0599 30010000 		.4byte	.LFE2-.LFB2
- 1013 059d 01       		.uleb128 0x1
- 1014 059e 9C       		.byte	0x9c
- 1015 059f 57060000 		.4byte	0x657
- 1016 05a3 18       		.uleb128 0x18
- 1017 05a4 03020000 		.4byte	.LASF86
- 1018 05a8 01       		.byte	0x1
- 1019 05a9 75       		.byte	0x75
- 1020 05aa 6B000000 		.4byte	0x6b
- 1021 05ae 00000000 		.4byte	.LLST0
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccBo18Vh.s 			page 23
+ 965 0536 07       		.uleb128 0x7
+ 966 0537 12050000 		.4byte	0x512
+ 967 053b 46050000 		.4byte	0x546
+ 968 053f 08       		.uleb128 0x8
+ 969 0540 B0000000 		.4byte	0xb0
+ 970 0544 0B       		.byte	0xb
+ 971 0545 00       		.byte	0
+ 972 0546 04       		.uleb128 0x4
+ 973 0547 07040000 		.4byte	.LASF79
+ 974 054b 04       		.byte	0x4
+ 975 054c CE02     		.2byte	0x2ce
+ 976 054e 1E050000 		.4byte	0x51e
+ 977 0552 13       		.uleb128 0x13
+ 978 0553 01       		.byte	0x1
+ 979 0554 2C000000 		.4byte	0x2c
+ 980 0558 05       		.byte	0x5
+ 981 0559 2E       		.byte	0x2e
+ 982 055a 89050000 		.4byte	0x589
+ 983 055e 14       		.uleb128 0x14
+ 984 055f 8E010000 		.4byte	.LASF80
+ 985 0563 00       		.byte	0
+ 986 0564 14       		.uleb128 0x14
+ 987 0565 8F030000 		.4byte	.LASF81
+ 988 0569 01       		.byte	0x1
+ 989 056a 14       		.uleb128 0x14
+ 990 056b 2D040000 		.4byte	.LASF82
+ 991 056f 02       		.byte	0x2
+ 992 0570 14       		.uleb128 0x14
+ 993 0571 0B030000 		.4byte	.LASF83
+ 994 0575 03       		.byte	0x3
+ 995 0576 14       		.uleb128 0x14
+ 996 0577 38030000 		.4byte	.LASF84
+ 997 057b 04       		.byte	0x4
+ 998 057c 14       		.uleb128 0x14
+ 999 057d 93040000 		.4byte	.LASF85
+ 1000 0581 05       		.byte	0x5
+ 1001 0582 14       		.uleb128 0x14
+ 1002 0583 DD020000 		.4byte	.LASF86
+ 1003 0587 06       		.byte	0x6
+ 1004 0588 00       		.byte	0
+ 1005 0589 0B       		.uleb128 0xb
+ 1006 058a 26000000 		.4byte	.LASF87
+ 1007 058e 05       		.byte	0x5
+ 1008 058f 36       		.byte	0x36
+ 1009 0590 52050000 		.4byte	0x552
+ 1010 0594 15       		.uleb128 0x15
+ 1011 0595 66000000 		.4byte	.LASF105
+ 1012 0599 01       		.byte	0x1
+ 1013 059a 44       		.byte	0x44
+ 1014 059b 00000000 		.4byte	.LFB1
+ 1015 059f 14000000 		.4byte	.LFE1-.LFB1
+ 1016 05a3 01       		.uleb128 0x1
+ 1017 05a4 9C       		.byte	0x9c
+ 1018 05a5 B5050000 		.4byte	0x5b5
+ 1019 05a9 16       		.uleb128 0x16
+ 1020 05aa 57060000 		.4byte	.LASF94
+ 1021 05ae 01       		.byte	0x1
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\cccvcXd6.s 			page 23
 
 
- 1022 05b2 18       		.uleb128 0x18
- 1023 05b3 FA020000 		.4byte	.LASF87
- 1024 05b7 01       		.byte	0x1
- 1025 05b8 76       		.byte	0x76
- 1026 05b9 83000000 		.4byte	0x83
- 1027 05bd 29000000 		.4byte	.LLST1
- 1028 05c1 18       		.uleb128 0x18
- 1029 05c2 60010000 		.4byte	.LASF88
- 1030 05c6 01       		.byte	0x1
- 1031 05c7 77       		.byte	0x77
- 1032 05c8 83000000 		.4byte	0x83
- 1033 05cc 3C000000 		.4byte	.LLST2
- 1034 05d0 18       		.uleb128 0x18
- 1035 05d1 83010000 		.4byte	.LASF89
- 1036 05d5 01       		.byte	0x1
- 1037 05d6 78       		.byte	0x78
- 1038 05d7 83000000 		.4byte	0x83
- 1039 05db 4F000000 		.4byte	.LLST3
- 1040 05df 18       		.uleb128 0x18
- 1041 05e0 DE010000 		.4byte	.LASF90
- 1042 05e4 01       		.byte	0x1
- 1043 05e5 79       		.byte	0x79
- 1044 05e6 53050000 		.4byte	0x553
- 1045 05ea 0F010000 		.4byte	.LLST4
- 1046 05ee 18       		.uleb128 0x18
- 1047 05ef D6040000 		.4byte	.LASF91
- 1048 05f3 01       		.byte	0x1
- 1049 05f4 7A       		.byte	0x7a
- 1050 05f5 83000000 		.4byte	0x83
- 1051 05f9 22010000 		.4byte	.LLST5
- 1052 05fd 16       		.uleb128 0x16
- 1053 05fe 45060000 		.4byte	.LASF92
- 1054 0602 01       		.byte	0x1
- 1055 0603 7C       		.byte	0x7c
- 1056 0604 7F050000 		.4byte	0x57f
- 1057 0608 18       		.uleb128 0x18
- 1058 0609 34020000 		.4byte	.LASF93
- 1059 060d 01       		.byte	0x1
- 1060 060e 7D       		.byte	0x7d
- 1061 060f 57060000 		.4byte	0x657
- 1062 0613 63010000 		.4byte	.LLST6
- 1063 0617 19       		.uleb128 0x19
- 1064 0618 12000000 		.4byte	.LVL3
- 1065 061c 90060000 		.4byte	0x690
- 1066 0620 19       		.uleb128 0x19
- 1067 0621 1C000000 		.4byte	.LVL4
- 1068 0625 9B060000 		.4byte	0x69b
- 1069 0629 19       		.uleb128 0x19
- 1070 062a 46000000 		.4byte	.LVL10
- 1071 062e A6060000 		.4byte	0x6a6
- 1072 0632 19       		.uleb128 0x19
- 1073 0633 76000000 		.4byte	.LVL19
- 1074 0637 90060000 		.4byte	0x690
- 1075 063b 19       		.uleb128 0x19
- 1076 063c 90000000 		.4byte	.LVL20
- 1077 0640 9B060000 		.4byte	0x69b
- 1078 0644 19       		.uleb128 0x19
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccBo18Vh.s 			page 24
+ 1022 05af 46       		.byte	0x46
+ 1023 05b0 B5050000 		.4byte	0x5b5
+ 1024 05b4 00       		.byte	0
+ 1025 05b5 11       		.uleb128 0x11
+ 1026 05b6 04       		.byte	0x4
+ 1027 05b7 BB050000 		.4byte	0x5bb
+ 1028 05bb 05       		.uleb128 0x5
+ 1029 05bc 74040000 		.4byte	0x474
+ 1030 05c0 17       		.uleb128 0x17
+ 1031 05c1 65030000 		.4byte	.LASF106
+ 1032 05c5 01       		.byte	0x1
+ 1033 05c6 73       		.byte	0x73
+ 1034 05c7 83000000 		.4byte	0x83
+ 1035 05cb 00000000 		.4byte	.LFB2
+ 1036 05cf 30010000 		.4byte	.LFE2-.LFB2
+ 1037 05d3 01       		.uleb128 0x1
+ 1038 05d4 9C       		.byte	0x9c
+ 1039 05d5 8D060000 		.4byte	0x68d
+ 1040 05d9 18       		.uleb128 0x18
+ 1041 05da 03020000 		.4byte	.LASF88
+ 1042 05de 01       		.byte	0x1
+ 1043 05df 75       		.byte	0x75
+ 1044 05e0 6B000000 		.4byte	0x6b
+ 1045 05e4 00000000 		.4byte	.LLST0
+ 1046 05e8 18       		.uleb128 0x18
+ 1047 05e9 FA020000 		.4byte	.LASF89
+ 1048 05ed 01       		.byte	0x1
+ 1049 05ee 76       		.byte	0x76
+ 1050 05ef 83000000 		.4byte	0x83
+ 1051 05f3 29000000 		.4byte	.LLST1
+ 1052 05f7 18       		.uleb128 0x18
+ 1053 05f8 60010000 		.4byte	.LASF90
+ 1054 05fc 01       		.byte	0x1
+ 1055 05fd 77       		.byte	0x77
+ 1056 05fe 83000000 		.4byte	0x83
+ 1057 0602 3C000000 		.4byte	.LLST2
+ 1058 0606 18       		.uleb128 0x18
+ 1059 0607 83010000 		.4byte	.LASF91
+ 1060 060b 01       		.byte	0x1
+ 1061 060c 78       		.byte	0x78
+ 1062 060d 83000000 		.4byte	0x83
+ 1063 0611 4F000000 		.4byte	.LLST3
+ 1064 0615 18       		.uleb128 0x18
+ 1065 0616 DE010000 		.4byte	.LASF92
+ 1066 061a 01       		.byte	0x1
+ 1067 061b 79       		.byte	0x79
+ 1068 061c 89050000 		.4byte	0x589
+ 1069 0620 0F010000 		.4byte	.LLST4
+ 1070 0624 18       		.uleb128 0x18
+ 1071 0625 D6040000 		.4byte	.LASF93
+ 1072 0629 01       		.byte	0x1
+ 1073 062a 7A       		.byte	0x7a
+ 1074 062b 83000000 		.4byte	0x83
+ 1075 062f 22010000 		.4byte	.LLST5
+ 1076 0633 16       		.uleb128 0x16
+ 1077 0634 57060000 		.4byte	.LASF94
+ 1078 0638 01       		.byte	0x1
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\cccvcXd6.s 			page 24
 
 
- 1079 0645 EE000000 		.4byte	.LVL29
- 1080 0649 90060000 		.4byte	0x690
- 1081 064d 19       		.uleb128 0x19
- 1082 064e 16010000 		.4byte	.LVL30
- 1083 0652 9B060000 		.4byte	0x69b
- 1084 0656 00       		.byte	0
- 1085 0657 11       		.uleb128 0x11
- 1086 0658 04       		.byte	0x4
- 1087 0659 5D060000 		.4byte	0x65d
- 1088 065d 05       		.uleb128 0x5
- 1089 065e 71020000 		.4byte	0x271
- 1090 0662 1A       		.uleb128 0x1a
- 1091 0663 D3050000 		.4byte	.LASF94
- 1092 0667 01       		.byte	0x1
- 1093 0668 35       		.byte	0x35
- 1094 0669 83000000 		.4byte	0x83
- 1095 066d 05       		.uleb128 0x5
- 1096 066e 03       		.byte	0x3
- 1097 066f 00000000 		.4byte	tunerFsm
- 1098 0673 1B       		.uleb128 0x1b
- 1099 0674 A8000000 		.4byte	.LASF95
- 1100 0678 04       		.byte	0x4
- 1101 0679 5C04     		.2byte	0x45c
- 1102 067b 3E040000 		.4byte	0x43e
- 1103 067f 1B       		.uleb128 0x1b
- 1104 0680 48040000 		.4byte	.LASF96
- 1105 0684 04       		.byte	0x4
- 1106 0685 5D04     		.2byte	0x45d
- 1107 0687 8B060000 		.4byte	0x68b
- 1108 068b 1C       		.uleb128 0x1c
- 1109 068c 10050000 		.4byte	0x510
- 1110 0690 1D       		.uleb128 0x1d
- 1111 0691 12020000 		.4byte	.LASF97
- 1112 0695 12020000 		.4byte	.LASF97
- 1113 0699 06       		.byte	0x6
- 1114 069a E5       		.byte	0xe5
- 1115 069b 1D       		.uleb128 0x1d
- 1116 069c 07000000 		.4byte	.LASF98
- 1117 06a0 07000000 		.4byte	.LASF98
- 1118 06a4 06       		.byte	0x6
- 1119 06a5 E6       		.byte	0xe6
- 1120 06a6 1D       		.uleb128 0x1d
- 1121 06a7 27060000 		.4byte	.LASF99
- 1122 06ab 27060000 		.4byte	.LASF99
- 1123 06af 07       		.byte	0x7
- 1124 06b0 3B       		.byte	0x3b
- 1125 06b1 00       		.byte	0
- 1126              		.section	.debug_abbrev,"",%progbits
- 1127              	.Ldebug_abbrev0:
- 1128 0000 01       		.uleb128 0x1
- 1129 0001 11       		.uleb128 0x11
- 1130 0002 01       		.byte	0x1
- 1131 0003 25       		.uleb128 0x25
- 1132 0004 0E       		.uleb128 0xe
- 1133 0005 13       		.uleb128 0x13
- 1134 0006 0B       		.uleb128 0xb
- 1135 0007 03       		.uleb128 0x3
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccBo18Vh.s 			page 25
+ 1079 0639 7C       		.byte	0x7c
+ 1080 063a B5050000 		.4byte	0x5b5
+ 1081 063e 18       		.uleb128 0x18
+ 1082 063f 34020000 		.4byte	.LASF95
+ 1083 0643 01       		.byte	0x1
+ 1084 0644 7D       		.byte	0x7d
+ 1085 0645 8D060000 		.4byte	0x68d
+ 1086 0649 63010000 		.4byte	.LLST6
+ 1087 064d 19       		.uleb128 0x19
+ 1088 064e 12000000 		.4byte	.LVL3
+ 1089 0652 C6060000 		.4byte	0x6c6
+ 1090 0656 19       		.uleb128 0x19
+ 1091 0657 1C000000 		.4byte	.LVL4
+ 1092 065b D1060000 		.4byte	0x6d1
+ 1093 065f 19       		.uleb128 0x19
+ 1094 0660 46000000 		.4byte	.LVL10
+ 1095 0664 DC060000 		.4byte	0x6dc
+ 1096 0668 19       		.uleb128 0x19
+ 1097 0669 76000000 		.4byte	.LVL19
+ 1098 066d C6060000 		.4byte	0x6c6
+ 1099 0671 19       		.uleb128 0x19
+ 1100 0672 90000000 		.4byte	.LVL20
+ 1101 0676 D1060000 		.4byte	0x6d1
+ 1102 067a 19       		.uleb128 0x19
+ 1103 067b EE000000 		.4byte	.LVL29
+ 1104 067f C6060000 		.4byte	0x6c6
+ 1105 0683 19       		.uleb128 0x19
+ 1106 0684 16010000 		.4byte	.LVL30
+ 1107 0688 D1060000 		.4byte	0x6d1
+ 1108 068c 00       		.byte	0
+ 1109 068d 11       		.uleb128 0x11
+ 1110 068e 04       		.byte	0x4
+ 1111 068f 93060000 		.4byte	0x693
+ 1112 0693 05       		.uleb128 0x5
+ 1113 0694 8B020000 		.4byte	0x28b
+ 1114 0698 1A       		.uleb128 0x1a
+ 1115 0699 E5050000 		.4byte	.LASF96
+ 1116 069d 01       		.byte	0x1
+ 1117 069e 35       		.byte	0x35
+ 1118 069f 83000000 		.4byte	0x83
+ 1119 06a3 05       		.uleb128 0x5
+ 1120 06a4 03       		.byte	0x3
+ 1121 06a5 00000000 		.4byte	tunerFsm
+ 1122 06a9 1B       		.uleb128 0x1b
+ 1123 06aa A8000000 		.4byte	.LASF97
+ 1124 06ae 04       		.byte	0x4
+ 1125 06af 7004     		.2byte	0x470
+ 1126 06b1 74040000 		.4byte	0x474
+ 1127 06b5 1B       		.uleb128 0x1b
+ 1128 06b6 48040000 		.4byte	.LASF98
+ 1129 06ba 04       		.byte	0x4
+ 1130 06bb 7104     		.2byte	0x471
+ 1131 06bd C1060000 		.4byte	0x6c1
+ 1132 06c1 1C       		.uleb128 0x1c
+ 1133 06c2 46050000 		.4byte	0x546
+ 1134 06c6 1D       		.uleb128 0x1d
+ 1135 06c7 12020000 		.4byte	.LASF99
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\cccvcXd6.s 			page 25
 
 
- 1136 0008 0E       		.uleb128 0xe
- 1137 0009 1B       		.uleb128 0x1b
- 1138 000a 0E       		.uleb128 0xe
- 1139 000b 55       		.uleb128 0x55
- 1140 000c 17       		.uleb128 0x17
- 1141 000d 11       		.uleb128 0x11
- 1142 000e 01       		.uleb128 0x1
- 1143 000f 10       		.uleb128 0x10
- 1144 0010 17       		.uleb128 0x17
- 1145 0011 00       		.byte	0
- 1146 0012 00       		.byte	0
- 1147 0013 02       		.uleb128 0x2
- 1148 0014 24       		.uleb128 0x24
- 1149 0015 00       		.byte	0
- 1150 0016 0B       		.uleb128 0xb
- 1151 0017 0B       		.uleb128 0xb
- 1152 0018 3E       		.uleb128 0x3e
- 1153 0019 0B       		.uleb128 0xb
- 1154 001a 03       		.uleb128 0x3
- 1155 001b 0E       		.uleb128 0xe
- 1156 001c 00       		.byte	0
- 1157 001d 00       		.byte	0
- 1158 001e 03       		.uleb128 0x3
- 1159 001f 24       		.uleb128 0x24
- 1160 0020 00       		.byte	0
- 1161 0021 0B       		.uleb128 0xb
- 1162 0022 0B       		.uleb128 0xb
- 1163 0023 3E       		.uleb128 0x3e
- 1164 0024 0B       		.uleb128 0xb
- 1165 0025 03       		.uleb128 0x3
- 1166 0026 08       		.uleb128 0x8
- 1167 0027 00       		.byte	0
- 1168 0028 00       		.byte	0
- 1169 0029 04       		.uleb128 0x4
- 1170 002a 16       		.uleb128 0x16
- 1171 002b 00       		.byte	0
- 1172 002c 03       		.uleb128 0x3
- 1173 002d 0E       		.uleb128 0xe
- 1174 002e 3A       		.uleb128 0x3a
- 1175 002f 0B       		.uleb128 0xb
- 1176 0030 3B       		.uleb128 0x3b
- 1177 0031 05       		.uleb128 0x5
- 1178 0032 49       		.uleb128 0x49
- 1179 0033 13       		.uleb128 0x13
- 1180 0034 00       		.byte	0
- 1181 0035 00       		.byte	0
- 1182 0036 05       		.uleb128 0x5
- 1183 0037 35       		.uleb128 0x35
- 1184 0038 00       		.byte	0
- 1185 0039 49       		.uleb128 0x49
- 1186 003a 13       		.uleb128 0x13
- 1187 003b 00       		.byte	0
- 1188 003c 00       		.byte	0
- 1189 003d 06       		.uleb128 0x6
- 1190 003e 0F       		.uleb128 0xf
- 1191 003f 00       		.byte	0
- 1192 0040 0B       		.uleb128 0xb
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccBo18Vh.s 			page 26
+ 1136 06cb 12020000 		.4byte	.LASF99
+ 1137 06cf 06       		.byte	0x6
+ 1138 06d0 E5       		.byte	0xe5
+ 1139 06d1 1D       		.uleb128 0x1d
+ 1140 06d2 07000000 		.4byte	.LASF100
+ 1141 06d6 07000000 		.4byte	.LASF100
+ 1142 06da 06       		.byte	0x6
+ 1143 06db E6       		.byte	0xe6
+ 1144 06dc 1D       		.uleb128 0x1d
+ 1145 06dd 39060000 		.4byte	.LASF101
+ 1146 06e1 39060000 		.4byte	.LASF101
+ 1147 06e5 07       		.byte	0x7
+ 1148 06e6 3B       		.byte	0x3b
+ 1149 06e7 00       		.byte	0
+ 1150              		.section	.debug_abbrev,"",%progbits
+ 1151              	.Ldebug_abbrev0:
+ 1152 0000 01       		.uleb128 0x1
+ 1153 0001 11       		.uleb128 0x11
+ 1154 0002 01       		.byte	0x1
+ 1155 0003 25       		.uleb128 0x25
+ 1156 0004 0E       		.uleb128 0xe
+ 1157 0005 13       		.uleb128 0x13
+ 1158 0006 0B       		.uleb128 0xb
+ 1159 0007 03       		.uleb128 0x3
+ 1160 0008 0E       		.uleb128 0xe
+ 1161 0009 1B       		.uleb128 0x1b
+ 1162 000a 0E       		.uleb128 0xe
+ 1163 000b 55       		.uleb128 0x55
+ 1164 000c 17       		.uleb128 0x17
+ 1165 000d 11       		.uleb128 0x11
+ 1166 000e 01       		.uleb128 0x1
+ 1167 000f 10       		.uleb128 0x10
+ 1168 0010 17       		.uleb128 0x17
+ 1169 0011 00       		.byte	0
+ 1170 0012 00       		.byte	0
+ 1171 0013 02       		.uleb128 0x2
+ 1172 0014 24       		.uleb128 0x24
+ 1173 0015 00       		.byte	0
+ 1174 0016 0B       		.uleb128 0xb
+ 1175 0017 0B       		.uleb128 0xb
+ 1176 0018 3E       		.uleb128 0x3e
+ 1177 0019 0B       		.uleb128 0xb
+ 1178 001a 03       		.uleb128 0x3
+ 1179 001b 0E       		.uleb128 0xe
+ 1180 001c 00       		.byte	0
+ 1181 001d 00       		.byte	0
+ 1182 001e 03       		.uleb128 0x3
+ 1183 001f 24       		.uleb128 0x24
+ 1184 0020 00       		.byte	0
+ 1185 0021 0B       		.uleb128 0xb
+ 1186 0022 0B       		.uleb128 0xb
+ 1187 0023 3E       		.uleb128 0x3e
+ 1188 0024 0B       		.uleb128 0xb
+ 1189 0025 03       		.uleb128 0x3
+ 1190 0026 08       		.uleb128 0x8
+ 1191 0027 00       		.byte	0
+ 1192 0028 00       		.byte	0
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\cccvcXd6.s 			page 26
 
 
- 1193 0041 0B       		.uleb128 0xb
- 1194 0042 00       		.byte	0
- 1195 0043 00       		.byte	0
- 1196 0044 07       		.uleb128 0x7
- 1197 0045 01       		.uleb128 0x1
- 1198 0046 01       		.byte	0x1
- 1199 0047 49       		.uleb128 0x49
- 1200 0048 13       		.uleb128 0x13
- 1201 0049 01       		.uleb128 0x1
- 1202 004a 13       		.uleb128 0x13
- 1203 004b 00       		.byte	0
- 1204 004c 00       		.byte	0
- 1205 004d 08       		.uleb128 0x8
- 1206 004e 21       		.uleb128 0x21
- 1207 004f 00       		.byte	0
- 1208 0050 49       		.uleb128 0x49
- 1209 0051 13       		.uleb128 0x13
- 1210 0052 2F       		.uleb128 0x2f
- 1211 0053 0B       		.uleb128 0xb
- 1212 0054 00       		.byte	0
- 1213 0055 00       		.byte	0
- 1214 0056 09       		.uleb128 0x9
- 1215 0057 13       		.uleb128 0x13
- 1216 0058 01       		.byte	0x1
- 1217 0059 0B       		.uleb128 0xb
- 1218 005a 0B       		.uleb128 0xb
- 1219 005b 3A       		.uleb128 0x3a
- 1220 005c 0B       		.uleb128 0xb
- 1221 005d 3B       		.uleb128 0x3b
- 1222 005e 0B       		.uleb128 0xb
- 1223 005f 01       		.uleb128 0x1
- 1224 0060 13       		.uleb128 0x13
- 1225 0061 00       		.byte	0
- 1226 0062 00       		.byte	0
- 1227 0063 0A       		.uleb128 0xa
- 1228 0064 0D       		.uleb128 0xd
- 1229 0065 00       		.byte	0
- 1230 0066 03       		.uleb128 0x3
- 1231 0067 0E       		.uleb128 0xe
- 1232 0068 3A       		.uleb128 0x3a
- 1233 0069 0B       		.uleb128 0xb
- 1234 006a 3B       		.uleb128 0x3b
- 1235 006b 0B       		.uleb128 0xb
- 1236 006c 49       		.uleb128 0x49
- 1237 006d 13       		.uleb128 0x13
- 1238 006e 38       		.uleb128 0x38
- 1239 006f 0B       		.uleb128 0xb
- 1240 0070 00       		.byte	0
- 1241 0071 00       		.byte	0
- 1242 0072 0B       		.uleb128 0xb
- 1243 0073 16       		.uleb128 0x16
- 1244 0074 00       		.byte	0
- 1245 0075 03       		.uleb128 0x3
- 1246 0076 0E       		.uleb128 0xe
- 1247 0077 3A       		.uleb128 0x3a
- 1248 0078 0B       		.uleb128 0xb
- 1249 0079 3B       		.uleb128 0x3b
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccBo18Vh.s 			page 27
+ 1193 0029 04       		.uleb128 0x4
+ 1194 002a 16       		.uleb128 0x16
+ 1195 002b 00       		.byte	0
+ 1196 002c 03       		.uleb128 0x3
+ 1197 002d 0E       		.uleb128 0xe
+ 1198 002e 3A       		.uleb128 0x3a
+ 1199 002f 0B       		.uleb128 0xb
+ 1200 0030 3B       		.uleb128 0x3b
+ 1201 0031 05       		.uleb128 0x5
+ 1202 0032 49       		.uleb128 0x49
+ 1203 0033 13       		.uleb128 0x13
+ 1204 0034 00       		.byte	0
+ 1205 0035 00       		.byte	0
+ 1206 0036 05       		.uleb128 0x5
+ 1207 0037 35       		.uleb128 0x35
+ 1208 0038 00       		.byte	0
+ 1209 0039 49       		.uleb128 0x49
+ 1210 003a 13       		.uleb128 0x13
+ 1211 003b 00       		.byte	0
+ 1212 003c 00       		.byte	0
+ 1213 003d 06       		.uleb128 0x6
+ 1214 003e 0F       		.uleb128 0xf
+ 1215 003f 00       		.byte	0
+ 1216 0040 0B       		.uleb128 0xb
+ 1217 0041 0B       		.uleb128 0xb
+ 1218 0042 00       		.byte	0
+ 1219 0043 00       		.byte	0
+ 1220 0044 07       		.uleb128 0x7
+ 1221 0045 01       		.uleb128 0x1
+ 1222 0046 01       		.byte	0x1
+ 1223 0047 49       		.uleb128 0x49
+ 1224 0048 13       		.uleb128 0x13
+ 1225 0049 01       		.uleb128 0x1
+ 1226 004a 13       		.uleb128 0x13
+ 1227 004b 00       		.byte	0
+ 1228 004c 00       		.byte	0
+ 1229 004d 08       		.uleb128 0x8
+ 1230 004e 21       		.uleb128 0x21
+ 1231 004f 00       		.byte	0
+ 1232 0050 49       		.uleb128 0x49
+ 1233 0051 13       		.uleb128 0x13
+ 1234 0052 2F       		.uleb128 0x2f
+ 1235 0053 0B       		.uleb128 0xb
+ 1236 0054 00       		.byte	0
+ 1237 0055 00       		.byte	0
+ 1238 0056 09       		.uleb128 0x9
+ 1239 0057 13       		.uleb128 0x13
+ 1240 0058 01       		.byte	0x1
+ 1241 0059 0B       		.uleb128 0xb
+ 1242 005a 0B       		.uleb128 0xb
+ 1243 005b 3A       		.uleb128 0x3a
+ 1244 005c 0B       		.uleb128 0xb
+ 1245 005d 3B       		.uleb128 0x3b
+ 1246 005e 0B       		.uleb128 0xb
+ 1247 005f 01       		.uleb128 0x1
+ 1248 0060 13       		.uleb128 0x13
+ 1249 0061 00       		.byte	0
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\cccvcXd6.s 			page 27
 
 
- 1250 007a 0B       		.uleb128 0xb
- 1251 007b 49       		.uleb128 0x49
- 1252 007c 13       		.uleb128 0x13
- 1253 007d 00       		.byte	0
- 1254 007e 00       		.byte	0
- 1255 007f 0C       		.uleb128 0xc
- 1256 0080 13       		.uleb128 0x13
- 1257 0081 01       		.byte	0x1
- 1258 0082 0B       		.uleb128 0xb
- 1259 0083 0B       		.uleb128 0xb
- 1260 0084 3A       		.uleb128 0x3a
- 1261 0085 0B       		.uleb128 0xb
- 1262 0086 3B       		.uleb128 0x3b
- 1263 0087 05       		.uleb128 0x5
- 1264 0088 01       		.uleb128 0x1
- 1265 0089 13       		.uleb128 0x13
- 1266 008a 00       		.byte	0
- 1267 008b 00       		.byte	0
- 1268 008c 0D       		.uleb128 0xd
- 1269 008d 0D       		.uleb128 0xd
- 1270 008e 00       		.byte	0
- 1271 008f 03       		.uleb128 0x3
- 1272 0090 0E       		.uleb128 0xe
- 1273 0091 3A       		.uleb128 0x3a
- 1274 0092 0B       		.uleb128 0xb
- 1275 0093 3B       		.uleb128 0x3b
- 1276 0094 05       		.uleb128 0x5
- 1277 0095 49       		.uleb128 0x49
- 1278 0096 13       		.uleb128 0x13
- 1279 0097 38       		.uleb128 0x38
- 1280 0098 0B       		.uleb128 0xb
- 1281 0099 00       		.byte	0
- 1282 009a 00       		.byte	0
- 1283 009b 0E       		.uleb128 0xe
- 1284 009c 0D       		.uleb128 0xd
- 1285 009d 00       		.byte	0
- 1286 009e 03       		.uleb128 0x3
- 1287 009f 08       		.uleb128 0x8
- 1288 00a0 3A       		.uleb128 0x3a
- 1289 00a1 0B       		.uleb128 0xb
- 1290 00a2 3B       		.uleb128 0x3b
- 1291 00a3 05       		.uleb128 0x5
- 1292 00a4 49       		.uleb128 0x49
- 1293 00a5 13       		.uleb128 0x13
- 1294 00a6 38       		.uleb128 0x38
- 1295 00a7 0B       		.uleb128 0xb
- 1296 00a8 00       		.byte	0
- 1297 00a9 00       		.byte	0
- 1298 00aa 0F       		.uleb128 0xf
- 1299 00ab 13       		.uleb128 0x13
- 1300 00ac 01       		.byte	0x1
- 1301 00ad 0B       		.uleb128 0xb
- 1302 00ae 05       		.uleb128 0x5
- 1303 00af 3A       		.uleb128 0x3a
- 1304 00b0 0B       		.uleb128 0xb
- 1305 00b1 3B       		.uleb128 0x3b
- 1306 00b2 05       		.uleb128 0x5
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccBo18Vh.s 			page 28
+ 1250 0062 00       		.byte	0
+ 1251 0063 0A       		.uleb128 0xa
+ 1252 0064 0D       		.uleb128 0xd
+ 1253 0065 00       		.byte	0
+ 1254 0066 03       		.uleb128 0x3
+ 1255 0067 0E       		.uleb128 0xe
+ 1256 0068 3A       		.uleb128 0x3a
+ 1257 0069 0B       		.uleb128 0xb
+ 1258 006a 3B       		.uleb128 0x3b
+ 1259 006b 0B       		.uleb128 0xb
+ 1260 006c 49       		.uleb128 0x49
+ 1261 006d 13       		.uleb128 0x13
+ 1262 006e 38       		.uleb128 0x38
+ 1263 006f 0B       		.uleb128 0xb
+ 1264 0070 00       		.byte	0
+ 1265 0071 00       		.byte	0
+ 1266 0072 0B       		.uleb128 0xb
+ 1267 0073 16       		.uleb128 0x16
+ 1268 0074 00       		.byte	0
+ 1269 0075 03       		.uleb128 0x3
+ 1270 0076 0E       		.uleb128 0xe
+ 1271 0077 3A       		.uleb128 0x3a
+ 1272 0078 0B       		.uleb128 0xb
+ 1273 0079 3B       		.uleb128 0x3b
+ 1274 007a 0B       		.uleb128 0xb
+ 1275 007b 49       		.uleb128 0x49
+ 1276 007c 13       		.uleb128 0x13
+ 1277 007d 00       		.byte	0
+ 1278 007e 00       		.byte	0
+ 1279 007f 0C       		.uleb128 0xc
+ 1280 0080 13       		.uleb128 0x13
+ 1281 0081 01       		.byte	0x1
+ 1282 0082 0B       		.uleb128 0xb
+ 1283 0083 0B       		.uleb128 0xb
+ 1284 0084 3A       		.uleb128 0x3a
+ 1285 0085 0B       		.uleb128 0xb
+ 1286 0086 3B       		.uleb128 0x3b
+ 1287 0087 05       		.uleb128 0x5
+ 1288 0088 01       		.uleb128 0x1
+ 1289 0089 13       		.uleb128 0x13
+ 1290 008a 00       		.byte	0
+ 1291 008b 00       		.byte	0
+ 1292 008c 0D       		.uleb128 0xd
+ 1293 008d 0D       		.uleb128 0xd
+ 1294 008e 00       		.byte	0
+ 1295 008f 03       		.uleb128 0x3
+ 1296 0090 0E       		.uleb128 0xe
+ 1297 0091 3A       		.uleb128 0x3a
+ 1298 0092 0B       		.uleb128 0xb
+ 1299 0093 3B       		.uleb128 0x3b
+ 1300 0094 05       		.uleb128 0x5
+ 1301 0095 49       		.uleb128 0x49
+ 1302 0096 13       		.uleb128 0x13
+ 1303 0097 38       		.uleb128 0x38
+ 1304 0098 0B       		.uleb128 0xb
+ 1305 0099 00       		.byte	0
+ 1306 009a 00       		.byte	0
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\cccvcXd6.s 			page 28
 
 
- 1307 00b3 01       		.uleb128 0x1
- 1308 00b4 13       		.uleb128 0x13
- 1309 00b5 00       		.byte	0
- 1310 00b6 00       		.byte	0
- 1311 00b7 10       		.uleb128 0x10
- 1312 00b8 0D       		.uleb128 0xd
- 1313 00b9 00       		.byte	0
- 1314 00ba 03       		.uleb128 0x3
- 1315 00bb 0E       		.uleb128 0xe
- 1316 00bc 3A       		.uleb128 0x3a
- 1317 00bd 0B       		.uleb128 0xb
- 1318 00be 3B       		.uleb128 0x3b
- 1319 00bf 05       		.uleb128 0x5
- 1320 00c0 49       		.uleb128 0x49
- 1321 00c1 13       		.uleb128 0x13
- 1322 00c2 38       		.uleb128 0x38
- 1323 00c3 05       		.uleb128 0x5
- 1324 00c4 00       		.byte	0
- 1325 00c5 00       		.byte	0
- 1326 00c6 11       		.uleb128 0x11
- 1327 00c7 0F       		.uleb128 0xf
- 1328 00c8 00       		.byte	0
- 1329 00c9 0B       		.uleb128 0xb
- 1330 00ca 0B       		.uleb128 0xb
- 1331 00cb 49       		.uleb128 0x49
- 1332 00cc 13       		.uleb128 0x13
- 1333 00cd 00       		.byte	0
- 1334 00ce 00       		.byte	0
- 1335 00cf 12       		.uleb128 0x12
- 1336 00d0 26       		.uleb128 0x26
- 1337 00d1 00       		.byte	0
- 1338 00d2 00       		.byte	0
- 1339 00d3 00       		.byte	0
- 1340 00d4 13       		.uleb128 0x13
- 1341 00d5 04       		.uleb128 0x4
- 1342 00d6 01       		.byte	0x1
- 1343 00d7 0B       		.uleb128 0xb
- 1344 00d8 0B       		.uleb128 0xb
- 1345 00d9 49       		.uleb128 0x49
- 1346 00da 13       		.uleb128 0x13
- 1347 00db 3A       		.uleb128 0x3a
- 1348 00dc 0B       		.uleb128 0xb
- 1349 00dd 3B       		.uleb128 0x3b
- 1350 00de 0B       		.uleb128 0xb
- 1351 00df 01       		.uleb128 0x1
- 1352 00e0 13       		.uleb128 0x13
- 1353 00e1 00       		.byte	0
- 1354 00e2 00       		.byte	0
- 1355 00e3 14       		.uleb128 0x14
- 1356 00e4 28       		.uleb128 0x28
- 1357 00e5 00       		.byte	0
- 1358 00e6 03       		.uleb128 0x3
- 1359 00e7 0E       		.uleb128 0xe
- 1360 00e8 1C       		.uleb128 0x1c
- 1361 00e9 0B       		.uleb128 0xb
- 1362 00ea 00       		.byte	0
- 1363 00eb 00       		.byte	0
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccBo18Vh.s 			page 29
+ 1307 009b 0E       		.uleb128 0xe
+ 1308 009c 0D       		.uleb128 0xd
+ 1309 009d 00       		.byte	0
+ 1310 009e 03       		.uleb128 0x3
+ 1311 009f 08       		.uleb128 0x8
+ 1312 00a0 3A       		.uleb128 0x3a
+ 1313 00a1 0B       		.uleb128 0xb
+ 1314 00a2 3B       		.uleb128 0x3b
+ 1315 00a3 05       		.uleb128 0x5
+ 1316 00a4 49       		.uleb128 0x49
+ 1317 00a5 13       		.uleb128 0x13
+ 1318 00a6 38       		.uleb128 0x38
+ 1319 00a7 0B       		.uleb128 0xb
+ 1320 00a8 00       		.byte	0
+ 1321 00a9 00       		.byte	0
+ 1322 00aa 0F       		.uleb128 0xf
+ 1323 00ab 13       		.uleb128 0x13
+ 1324 00ac 01       		.byte	0x1
+ 1325 00ad 0B       		.uleb128 0xb
+ 1326 00ae 05       		.uleb128 0x5
+ 1327 00af 3A       		.uleb128 0x3a
+ 1328 00b0 0B       		.uleb128 0xb
+ 1329 00b1 3B       		.uleb128 0x3b
+ 1330 00b2 05       		.uleb128 0x5
+ 1331 00b3 01       		.uleb128 0x1
+ 1332 00b4 13       		.uleb128 0x13
+ 1333 00b5 00       		.byte	0
+ 1334 00b6 00       		.byte	0
+ 1335 00b7 10       		.uleb128 0x10
+ 1336 00b8 0D       		.uleb128 0xd
+ 1337 00b9 00       		.byte	0
+ 1338 00ba 03       		.uleb128 0x3
+ 1339 00bb 0E       		.uleb128 0xe
+ 1340 00bc 3A       		.uleb128 0x3a
+ 1341 00bd 0B       		.uleb128 0xb
+ 1342 00be 3B       		.uleb128 0x3b
+ 1343 00bf 05       		.uleb128 0x5
+ 1344 00c0 49       		.uleb128 0x49
+ 1345 00c1 13       		.uleb128 0x13
+ 1346 00c2 38       		.uleb128 0x38
+ 1347 00c3 05       		.uleb128 0x5
+ 1348 00c4 00       		.byte	0
+ 1349 00c5 00       		.byte	0
+ 1350 00c6 11       		.uleb128 0x11
+ 1351 00c7 0F       		.uleb128 0xf
+ 1352 00c8 00       		.byte	0
+ 1353 00c9 0B       		.uleb128 0xb
+ 1354 00ca 0B       		.uleb128 0xb
+ 1355 00cb 49       		.uleb128 0x49
+ 1356 00cc 13       		.uleb128 0x13
+ 1357 00cd 00       		.byte	0
+ 1358 00ce 00       		.byte	0
+ 1359 00cf 12       		.uleb128 0x12
+ 1360 00d0 26       		.uleb128 0x26
+ 1361 00d1 00       		.byte	0
+ 1362 00d2 00       		.byte	0
+ 1363 00d3 00       		.byte	0
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\cccvcXd6.s 			page 29
 
 
- 1364 00ec 15       		.uleb128 0x15
- 1365 00ed 2E       		.uleb128 0x2e
- 1366 00ee 01       		.byte	0x1
- 1367 00ef 3F       		.uleb128 0x3f
- 1368 00f0 19       		.uleb128 0x19
- 1369 00f1 03       		.uleb128 0x3
- 1370 00f2 0E       		.uleb128 0xe
- 1371 00f3 3A       		.uleb128 0x3a
- 1372 00f4 0B       		.uleb128 0xb
- 1373 00f5 3B       		.uleb128 0x3b
- 1374 00f6 0B       		.uleb128 0xb
- 1375 00f7 27       		.uleb128 0x27
- 1376 00f8 19       		.uleb128 0x19
- 1377 00f9 11       		.uleb128 0x11
- 1378 00fa 01       		.uleb128 0x1
- 1379 00fb 12       		.uleb128 0x12
- 1380 00fc 06       		.uleb128 0x6
- 1381 00fd 40       		.uleb128 0x40
- 1382 00fe 18       		.uleb128 0x18
- 1383 00ff 9742     		.uleb128 0x2117
- 1384 0101 19       		.uleb128 0x19
- 1385 0102 01       		.uleb128 0x1
- 1386 0103 13       		.uleb128 0x13
- 1387 0104 00       		.byte	0
- 1388 0105 00       		.byte	0
- 1389 0106 16       		.uleb128 0x16
- 1390 0107 34       		.uleb128 0x34
- 1391 0108 00       		.byte	0
- 1392 0109 03       		.uleb128 0x3
- 1393 010a 0E       		.uleb128 0xe
- 1394 010b 3A       		.uleb128 0x3a
- 1395 010c 0B       		.uleb128 0xb
- 1396 010d 3B       		.uleb128 0x3b
- 1397 010e 0B       		.uleb128 0xb
- 1398 010f 49       		.uleb128 0x49
- 1399 0110 13       		.uleb128 0x13
- 1400 0111 00       		.byte	0
- 1401 0112 00       		.byte	0
- 1402 0113 17       		.uleb128 0x17
- 1403 0114 2E       		.uleb128 0x2e
- 1404 0115 01       		.byte	0x1
- 1405 0116 3F       		.uleb128 0x3f
- 1406 0117 19       		.uleb128 0x19
- 1407 0118 03       		.uleb128 0x3
- 1408 0119 0E       		.uleb128 0xe
- 1409 011a 3A       		.uleb128 0x3a
- 1410 011b 0B       		.uleb128 0xb
- 1411 011c 3B       		.uleb128 0x3b
- 1412 011d 0B       		.uleb128 0xb
- 1413 011e 27       		.uleb128 0x27
- 1414 011f 19       		.uleb128 0x19
- 1415 0120 49       		.uleb128 0x49
- 1416 0121 13       		.uleb128 0x13
- 1417 0122 11       		.uleb128 0x11
- 1418 0123 01       		.uleb128 0x1
- 1419 0124 12       		.uleb128 0x12
- 1420 0125 06       		.uleb128 0x6
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccBo18Vh.s 			page 30
+ 1364 00d4 13       		.uleb128 0x13
+ 1365 00d5 04       		.uleb128 0x4
+ 1366 00d6 01       		.byte	0x1
+ 1367 00d7 0B       		.uleb128 0xb
+ 1368 00d8 0B       		.uleb128 0xb
+ 1369 00d9 49       		.uleb128 0x49
+ 1370 00da 13       		.uleb128 0x13
+ 1371 00db 3A       		.uleb128 0x3a
+ 1372 00dc 0B       		.uleb128 0xb
+ 1373 00dd 3B       		.uleb128 0x3b
+ 1374 00de 0B       		.uleb128 0xb
+ 1375 00df 01       		.uleb128 0x1
+ 1376 00e0 13       		.uleb128 0x13
+ 1377 00e1 00       		.byte	0
+ 1378 00e2 00       		.byte	0
+ 1379 00e3 14       		.uleb128 0x14
+ 1380 00e4 28       		.uleb128 0x28
+ 1381 00e5 00       		.byte	0
+ 1382 00e6 03       		.uleb128 0x3
+ 1383 00e7 0E       		.uleb128 0xe
+ 1384 00e8 1C       		.uleb128 0x1c
+ 1385 00e9 0B       		.uleb128 0xb
+ 1386 00ea 00       		.byte	0
+ 1387 00eb 00       		.byte	0
+ 1388 00ec 15       		.uleb128 0x15
+ 1389 00ed 2E       		.uleb128 0x2e
+ 1390 00ee 01       		.byte	0x1
+ 1391 00ef 3F       		.uleb128 0x3f
+ 1392 00f0 19       		.uleb128 0x19
+ 1393 00f1 03       		.uleb128 0x3
+ 1394 00f2 0E       		.uleb128 0xe
+ 1395 00f3 3A       		.uleb128 0x3a
+ 1396 00f4 0B       		.uleb128 0xb
+ 1397 00f5 3B       		.uleb128 0x3b
+ 1398 00f6 0B       		.uleb128 0xb
+ 1399 00f7 27       		.uleb128 0x27
+ 1400 00f8 19       		.uleb128 0x19
+ 1401 00f9 11       		.uleb128 0x11
+ 1402 00fa 01       		.uleb128 0x1
+ 1403 00fb 12       		.uleb128 0x12
+ 1404 00fc 06       		.uleb128 0x6
+ 1405 00fd 40       		.uleb128 0x40
+ 1406 00fe 18       		.uleb128 0x18
+ 1407 00ff 9742     		.uleb128 0x2117
+ 1408 0101 19       		.uleb128 0x19
+ 1409 0102 01       		.uleb128 0x1
+ 1410 0103 13       		.uleb128 0x13
+ 1411 0104 00       		.byte	0
+ 1412 0105 00       		.byte	0
+ 1413 0106 16       		.uleb128 0x16
+ 1414 0107 34       		.uleb128 0x34
+ 1415 0108 00       		.byte	0
+ 1416 0109 03       		.uleb128 0x3
+ 1417 010a 0E       		.uleb128 0xe
+ 1418 010b 3A       		.uleb128 0x3a
+ 1419 010c 0B       		.uleb128 0xb
+ 1420 010d 3B       		.uleb128 0x3b
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\cccvcXd6.s 			page 30
 
 
- 1421 0126 40       		.uleb128 0x40
- 1422 0127 18       		.uleb128 0x18
- 1423 0128 9742     		.uleb128 0x2117
- 1424 012a 19       		.uleb128 0x19
- 1425 012b 01       		.uleb128 0x1
- 1426 012c 13       		.uleb128 0x13
- 1427 012d 00       		.byte	0
- 1428 012e 00       		.byte	0
- 1429 012f 18       		.uleb128 0x18
- 1430 0130 34       		.uleb128 0x34
- 1431 0131 00       		.byte	0
- 1432 0132 03       		.uleb128 0x3
- 1433 0133 0E       		.uleb128 0xe
- 1434 0134 3A       		.uleb128 0x3a
- 1435 0135 0B       		.uleb128 0xb
- 1436 0136 3B       		.uleb128 0x3b
- 1437 0137 0B       		.uleb128 0xb
- 1438 0138 49       		.uleb128 0x49
- 1439 0139 13       		.uleb128 0x13
- 1440 013a 02       		.uleb128 0x2
- 1441 013b 17       		.uleb128 0x17
- 1442 013c 00       		.byte	0
- 1443 013d 00       		.byte	0
- 1444 013e 19       		.uleb128 0x19
- 1445 013f 898201   		.uleb128 0x4109
- 1446 0142 00       		.byte	0
- 1447 0143 11       		.uleb128 0x11
- 1448 0144 01       		.uleb128 0x1
- 1449 0145 31       		.uleb128 0x31
- 1450 0146 13       		.uleb128 0x13
- 1451 0147 00       		.byte	0
- 1452 0148 00       		.byte	0
- 1453 0149 1A       		.uleb128 0x1a
- 1454 014a 34       		.uleb128 0x34
- 1455 014b 00       		.byte	0
- 1456 014c 03       		.uleb128 0x3
- 1457 014d 0E       		.uleb128 0xe
- 1458 014e 3A       		.uleb128 0x3a
- 1459 014f 0B       		.uleb128 0xb
- 1460 0150 3B       		.uleb128 0x3b
- 1461 0151 0B       		.uleb128 0xb
- 1462 0152 49       		.uleb128 0x49
- 1463 0153 13       		.uleb128 0x13
- 1464 0154 02       		.uleb128 0x2
- 1465 0155 18       		.uleb128 0x18
- 1466 0156 00       		.byte	0
- 1467 0157 00       		.byte	0
- 1468 0158 1B       		.uleb128 0x1b
- 1469 0159 34       		.uleb128 0x34
- 1470 015a 00       		.byte	0
- 1471 015b 03       		.uleb128 0x3
- 1472 015c 0E       		.uleb128 0xe
- 1473 015d 3A       		.uleb128 0x3a
- 1474 015e 0B       		.uleb128 0xb
- 1475 015f 3B       		.uleb128 0x3b
- 1476 0160 05       		.uleb128 0x5
- 1477 0161 49       		.uleb128 0x49
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccBo18Vh.s 			page 31
+ 1421 010e 0B       		.uleb128 0xb
+ 1422 010f 49       		.uleb128 0x49
+ 1423 0110 13       		.uleb128 0x13
+ 1424 0111 00       		.byte	0
+ 1425 0112 00       		.byte	0
+ 1426 0113 17       		.uleb128 0x17
+ 1427 0114 2E       		.uleb128 0x2e
+ 1428 0115 01       		.byte	0x1
+ 1429 0116 3F       		.uleb128 0x3f
+ 1430 0117 19       		.uleb128 0x19
+ 1431 0118 03       		.uleb128 0x3
+ 1432 0119 0E       		.uleb128 0xe
+ 1433 011a 3A       		.uleb128 0x3a
+ 1434 011b 0B       		.uleb128 0xb
+ 1435 011c 3B       		.uleb128 0x3b
+ 1436 011d 0B       		.uleb128 0xb
+ 1437 011e 27       		.uleb128 0x27
+ 1438 011f 19       		.uleb128 0x19
+ 1439 0120 49       		.uleb128 0x49
+ 1440 0121 13       		.uleb128 0x13
+ 1441 0122 11       		.uleb128 0x11
+ 1442 0123 01       		.uleb128 0x1
+ 1443 0124 12       		.uleb128 0x12
+ 1444 0125 06       		.uleb128 0x6
+ 1445 0126 40       		.uleb128 0x40
+ 1446 0127 18       		.uleb128 0x18
+ 1447 0128 9742     		.uleb128 0x2117
+ 1448 012a 19       		.uleb128 0x19
+ 1449 012b 01       		.uleb128 0x1
+ 1450 012c 13       		.uleb128 0x13
+ 1451 012d 00       		.byte	0
+ 1452 012e 00       		.byte	0
+ 1453 012f 18       		.uleb128 0x18
+ 1454 0130 34       		.uleb128 0x34
+ 1455 0131 00       		.byte	0
+ 1456 0132 03       		.uleb128 0x3
+ 1457 0133 0E       		.uleb128 0xe
+ 1458 0134 3A       		.uleb128 0x3a
+ 1459 0135 0B       		.uleb128 0xb
+ 1460 0136 3B       		.uleb128 0x3b
+ 1461 0137 0B       		.uleb128 0xb
+ 1462 0138 49       		.uleb128 0x49
+ 1463 0139 13       		.uleb128 0x13
+ 1464 013a 02       		.uleb128 0x2
+ 1465 013b 17       		.uleb128 0x17
+ 1466 013c 00       		.byte	0
+ 1467 013d 00       		.byte	0
+ 1468 013e 19       		.uleb128 0x19
+ 1469 013f 898201   		.uleb128 0x4109
+ 1470 0142 00       		.byte	0
+ 1471 0143 11       		.uleb128 0x11
+ 1472 0144 01       		.uleb128 0x1
+ 1473 0145 31       		.uleb128 0x31
+ 1474 0146 13       		.uleb128 0x13
+ 1475 0147 00       		.byte	0
+ 1476 0148 00       		.byte	0
+ 1477 0149 1A       		.uleb128 0x1a
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\cccvcXd6.s 			page 31
 
 
- 1478 0162 13       		.uleb128 0x13
- 1479 0163 3F       		.uleb128 0x3f
- 1480 0164 19       		.uleb128 0x19
- 1481 0165 3C       		.uleb128 0x3c
- 1482 0166 19       		.uleb128 0x19
- 1483 0167 00       		.byte	0
- 1484 0168 00       		.byte	0
- 1485 0169 1C       		.uleb128 0x1c
- 1486 016a 26       		.uleb128 0x26
- 1487 016b 00       		.byte	0
- 1488 016c 49       		.uleb128 0x49
- 1489 016d 13       		.uleb128 0x13
- 1490 016e 00       		.byte	0
- 1491 016f 00       		.byte	0
- 1492 0170 1D       		.uleb128 0x1d
- 1493 0171 2E       		.uleb128 0x2e
- 1494 0172 00       		.byte	0
- 1495 0173 3F       		.uleb128 0x3f
- 1496 0174 19       		.uleb128 0x19
- 1497 0175 3C       		.uleb128 0x3c
- 1498 0176 19       		.uleb128 0x19
- 1499 0177 6E       		.uleb128 0x6e
- 1500 0178 0E       		.uleb128 0xe
- 1501 0179 03       		.uleb128 0x3
- 1502 017a 0E       		.uleb128 0xe
- 1503 017b 3A       		.uleb128 0x3a
- 1504 017c 0B       		.uleb128 0xb
- 1505 017d 3B       		.uleb128 0x3b
- 1506 017e 0B       		.uleb128 0xb
- 1507 017f 00       		.byte	0
- 1508 0180 00       		.byte	0
- 1509 0181 00       		.byte	0
- 1510              		.section	.debug_loc,"",%progbits
- 1511              	.Ldebug_loc0:
- 1512              	.LLST0:
- 1513 0000 12000000 		.4byte	.LVL3
- 1514 0004 1B000000 		.4byte	.LVL4-1
- 1515 0008 0100     		.2byte	0x1
- 1516 000a 50       		.byte	0x50
- 1517 000b 76000000 		.4byte	.LVL19
- 1518 000f 8F000000 		.4byte	.LVL20-1
- 1519 0013 0100     		.2byte	0x1
- 1520 0015 50       		.byte	0x50
- 1521 0016 EE000000 		.4byte	.LVL29
- 1522 001a 15010000 		.4byte	.LVL30-1
- 1523 001e 0100     		.2byte	0x1
- 1524 0020 50       		.byte	0x50
- 1525 0021 00000000 		.4byte	0
- 1526 0025 00000000 		.4byte	0
- 1527              	.LLST1:
- 1528 0029 A8000000 		.4byte	.LVL22
- 1529 002d DA000000 		.4byte	.LVL25
- 1530 0031 0100     		.2byte	0x1
- 1531 0033 53       		.byte	0x53
- 1532 0034 00000000 		.4byte	0
- 1533 0038 00000000 		.4byte	0
- 1534              	.LLST2:
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccBo18Vh.s 			page 32
+ 1478 014a 34       		.uleb128 0x34
+ 1479 014b 00       		.byte	0
+ 1480 014c 03       		.uleb128 0x3
+ 1481 014d 0E       		.uleb128 0xe
+ 1482 014e 3A       		.uleb128 0x3a
+ 1483 014f 0B       		.uleb128 0xb
+ 1484 0150 3B       		.uleb128 0x3b
+ 1485 0151 0B       		.uleb128 0xb
+ 1486 0152 49       		.uleb128 0x49
+ 1487 0153 13       		.uleb128 0x13
+ 1488 0154 02       		.uleb128 0x2
+ 1489 0155 18       		.uleb128 0x18
+ 1490 0156 00       		.byte	0
+ 1491 0157 00       		.byte	0
+ 1492 0158 1B       		.uleb128 0x1b
+ 1493 0159 34       		.uleb128 0x34
+ 1494 015a 00       		.byte	0
+ 1495 015b 03       		.uleb128 0x3
+ 1496 015c 0E       		.uleb128 0xe
+ 1497 015d 3A       		.uleb128 0x3a
+ 1498 015e 0B       		.uleb128 0xb
+ 1499 015f 3B       		.uleb128 0x3b
+ 1500 0160 05       		.uleb128 0x5
+ 1501 0161 49       		.uleb128 0x49
+ 1502 0162 13       		.uleb128 0x13
+ 1503 0163 3F       		.uleb128 0x3f
+ 1504 0164 19       		.uleb128 0x19
+ 1505 0165 3C       		.uleb128 0x3c
+ 1506 0166 19       		.uleb128 0x19
+ 1507 0167 00       		.byte	0
+ 1508 0168 00       		.byte	0
+ 1509 0169 1C       		.uleb128 0x1c
+ 1510 016a 26       		.uleb128 0x26
+ 1511 016b 00       		.byte	0
+ 1512 016c 49       		.uleb128 0x49
+ 1513 016d 13       		.uleb128 0x13
+ 1514 016e 00       		.byte	0
+ 1515 016f 00       		.byte	0
+ 1516 0170 1D       		.uleb128 0x1d
+ 1517 0171 2E       		.uleb128 0x2e
+ 1518 0172 00       		.byte	0
+ 1519 0173 3F       		.uleb128 0x3f
+ 1520 0174 19       		.uleb128 0x19
+ 1521 0175 3C       		.uleb128 0x3c
+ 1522 0176 19       		.uleb128 0x19
+ 1523 0177 6E       		.uleb128 0x6e
+ 1524 0178 0E       		.uleb128 0xe
+ 1525 0179 03       		.uleb128 0x3
+ 1526 017a 0E       		.uleb128 0xe
+ 1527 017b 3A       		.uleb128 0x3a
+ 1528 017c 0B       		.uleb128 0xb
+ 1529 017d 3B       		.uleb128 0x3b
+ 1530 017e 0B       		.uleb128 0xb
+ 1531 017f 00       		.byte	0
+ 1532 0180 00       		.byte	0
+ 1533 0181 00       		.byte	0
+ 1534              		.section	.debug_loc,"",%progbits
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\cccvcXd6.s 			page 32
 
 
- 1535 003c B0000000 		.4byte	.LVL23
- 1536 0040 E6000000 		.4byte	.LVL27
- 1537 0044 0100     		.2byte	0x1
- 1538 0046 52       		.byte	0x52
- 1539 0047 00000000 		.4byte	0
- 1540 004b 00000000 		.4byte	0
- 1541              	.LLST3:
- 1542 004f 02000000 		.4byte	.LVL1
- 1543 0053 06000000 		.4byte	.LVL2
- 1544 0057 0200     		.2byte	0x2
- 1545 0059 30       		.byte	0x30
- 1546 005a 9F       		.byte	0x9f
- 1547 005b 06000000 		.4byte	.LVL2
- 1548 005f 34000000 		.4byte	.LVL6
- 1549 0063 0100     		.2byte	0x1
- 1550 0065 56       		.byte	0x56
- 1551 0066 34000000 		.4byte	.LVL6
- 1552 006a 38000000 		.4byte	.LVL7
- 1553 006e 0200     		.2byte	0x2
- 1554 0070 31       		.byte	0x31
- 1555 0071 9F       		.byte	0x9f
- 1556 0072 38000000 		.4byte	.LVL7
- 1557 0076 3E000000 		.4byte	.LVL8
- 1558 007a 0100     		.2byte	0x1
- 1559 007c 56       		.byte	0x56
- 1560 007d 3E000000 		.4byte	.LVL8
- 1561 0081 42000000 		.4byte	.LVL9
- 1562 0085 0200     		.2byte	0x2
- 1563 0087 31       		.byte	0x31
- 1564 0088 9F       		.byte	0x9f
- 1565 0089 42000000 		.4byte	.LVL9
- 1566 008d 4C000000 		.4byte	.LVL11
- 1567 0091 0100     		.2byte	0x1
- 1568 0093 56       		.byte	0x56
- 1569 0094 4C000000 		.4byte	.LVL11
- 1570 0098 52000000 		.4byte	.LVL12
- 1571 009c 0200     		.2byte	0x2
- 1572 009e 31       		.byte	0x31
- 1573 009f 9F       		.byte	0x9f
- 1574 00a0 52000000 		.4byte	.LVL12
- 1575 00a4 58000000 		.4byte	.LVL13
- 1576 00a8 0100     		.2byte	0x1
- 1577 00aa 56       		.byte	0x56
- 1578 00ab 58000000 		.4byte	.LVL13
- 1579 00af 5C000000 		.4byte	.LVL14
- 1580 00b3 0200     		.2byte	0x2
- 1581 00b5 31       		.byte	0x31
- 1582 00b6 9F       		.byte	0x9f
- 1583 00b7 5C000000 		.4byte	.LVL14
- 1584 00bb 62000000 		.4byte	.LVL15
- 1585 00bf 0100     		.2byte	0x1
- 1586 00c1 56       		.byte	0x56
- 1587 00c2 62000000 		.4byte	.LVL15
- 1588 00c6 66000000 		.4byte	.LVL16
- 1589 00ca 0200     		.2byte	0x2
- 1590 00cc 31       		.byte	0x31
- 1591 00cd 9F       		.byte	0x9f
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccBo18Vh.s 			page 33
+ 1535              	.Ldebug_loc0:
+ 1536              	.LLST0:
+ 1537 0000 12000000 		.4byte	.LVL3
+ 1538 0004 1B000000 		.4byte	.LVL4-1
+ 1539 0008 0100     		.2byte	0x1
+ 1540 000a 50       		.byte	0x50
+ 1541 000b 76000000 		.4byte	.LVL19
+ 1542 000f 8F000000 		.4byte	.LVL20-1
+ 1543 0013 0100     		.2byte	0x1
+ 1544 0015 50       		.byte	0x50
+ 1545 0016 EE000000 		.4byte	.LVL29
+ 1546 001a 15010000 		.4byte	.LVL30-1
+ 1547 001e 0100     		.2byte	0x1
+ 1548 0020 50       		.byte	0x50
+ 1549 0021 00000000 		.4byte	0
+ 1550 0025 00000000 		.4byte	0
+ 1551              	.LLST1:
+ 1552 0029 A8000000 		.4byte	.LVL22
+ 1553 002d DA000000 		.4byte	.LVL25
+ 1554 0031 0100     		.2byte	0x1
+ 1555 0033 53       		.byte	0x53
+ 1556 0034 00000000 		.4byte	0
+ 1557 0038 00000000 		.4byte	0
+ 1558              	.LLST2:
+ 1559 003c B0000000 		.4byte	.LVL23
+ 1560 0040 E6000000 		.4byte	.LVL27
+ 1561 0044 0100     		.2byte	0x1
+ 1562 0046 52       		.byte	0x52
+ 1563 0047 00000000 		.4byte	0
+ 1564 004b 00000000 		.4byte	0
+ 1565              	.LLST3:
+ 1566 004f 02000000 		.4byte	.LVL1
+ 1567 0053 06000000 		.4byte	.LVL2
+ 1568 0057 0200     		.2byte	0x2
+ 1569 0059 30       		.byte	0x30
+ 1570 005a 9F       		.byte	0x9f
+ 1571 005b 06000000 		.4byte	.LVL2
+ 1572 005f 34000000 		.4byte	.LVL6
+ 1573 0063 0100     		.2byte	0x1
+ 1574 0065 56       		.byte	0x56
+ 1575 0066 34000000 		.4byte	.LVL6
+ 1576 006a 38000000 		.4byte	.LVL7
+ 1577 006e 0200     		.2byte	0x2
+ 1578 0070 31       		.byte	0x31
+ 1579 0071 9F       		.byte	0x9f
+ 1580 0072 38000000 		.4byte	.LVL7
+ 1581 0076 3E000000 		.4byte	.LVL8
+ 1582 007a 0100     		.2byte	0x1
+ 1583 007c 56       		.byte	0x56
+ 1584 007d 3E000000 		.4byte	.LVL8
+ 1585 0081 42000000 		.4byte	.LVL9
+ 1586 0085 0200     		.2byte	0x2
+ 1587 0087 31       		.byte	0x31
+ 1588 0088 9F       		.byte	0x9f
+ 1589 0089 42000000 		.4byte	.LVL9
+ 1590 008d 4C000000 		.4byte	.LVL11
+ 1591 0091 0100     		.2byte	0x1
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\cccvcXd6.s 			page 33
 
 
- 1592 00ce 66000000 		.4byte	.LVL16
- 1593 00d2 6C000000 		.4byte	.LVL17
- 1594 00d6 0100     		.2byte	0x1
- 1595 00d8 56       		.byte	0x56
- 1596 00d9 6C000000 		.4byte	.LVL17
- 1597 00dd 6E000000 		.4byte	.LVL18
- 1598 00e1 0200     		.2byte	0x2
- 1599 00e3 30       		.byte	0x30
- 1600 00e4 9F       		.byte	0x9f
- 1601 00e5 6E000000 		.4byte	.LVL18
- 1602 00e9 90000000 		.4byte	.LVL20
- 1603 00ed 0100     		.2byte	0x1
- 1604 00ef 56       		.byte	0x56
- 1605 00f0 90000000 		.4byte	.LVL20
- 1606 00f4 92000000 		.4byte	.LVL21
- 1607 00f8 0200     		.2byte	0x2
- 1608 00fa 30       		.byte	0x30
- 1609 00fb 9F       		.byte	0x9f
- 1610 00fc 92000000 		.4byte	.LVL21
- 1611 0100 18010000 		.4byte	.LVL32
- 1612 0104 0100     		.2byte	0x1
- 1613 0106 56       		.byte	0x56
- 1614 0107 00000000 		.4byte	0
- 1615 010b 00000000 		.4byte	0
- 1616              	.LLST4:
- 1617 010f 22000000 		.4byte	.LVL5
- 1618 0113 CC000000 		.4byte	.LVL24
- 1619 0117 0100     		.2byte	0x1
- 1620 0119 54       		.byte	0x54
- 1621 011a 00000000 		.4byte	0
- 1622 011e 00000000 		.4byte	0
- 1623              	.LLST5:
- 1624 0122 02000000 		.4byte	.LVL1
- 1625 0126 06000000 		.4byte	.LVL2
- 1626 012a 0200     		.2byte	0x2
- 1627 012c 30       		.byte	0x30
- 1628 012d 9F       		.byte	0x9f
- 1629 012e 06000000 		.4byte	.LVL2
- 1630 0132 46000000 		.4byte	.LVL10
- 1631 0136 0100     		.2byte	0x1
- 1632 0138 55       		.byte	0x55
- 1633 0139 46000000 		.4byte	.LVL10
- 1634 013d 52000000 		.4byte	.LVL12
- 1635 0141 0200     		.2byte	0x2
- 1636 0143 31       		.byte	0x31
- 1637 0144 9F       		.byte	0x9f
- 1638 0145 52000000 		.4byte	.LVL12
- 1639 0149 18010000 		.4byte	.LVL31
- 1640 014d 0100     		.2byte	0x1
- 1641 014f 55       		.byte	0x55
- 1642 0150 18010000 		.4byte	.LVL31
- 1643 0154 30010000 		.4byte	.LFE2
- 1644 0158 0100     		.2byte	0x1
- 1645 015a 50       		.byte	0x50
- 1646 015b 00000000 		.4byte	0
- 1647 015f 00000000 		.4byte	0
- 1648              	.LLST6:
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccBo18Vh.s 			page 34
+ 1592 0093 56       		.byte	0x56
+ 1593 0094 4C000000 		.4byte	.LVL11
+ 1594 0098 52000000 		.4byte	.LVL12
+ 1595 009c 0200     		.2byte	0x2
+ 1596 009e 31       		.byte	0x31
+ 1597 009f 9F       		.byte	0x9f
+ 1598 00a0 52000000 		.4byte	.LVL12
+ 1599 00a4 58000000 		.4byte	.LVL13
+ 1600 00a8 0100     		.2byte	0x1
+ 1601 00aa 56       		.byte	0x56
+ 1602 00ab 58000000 		.4byte	.LVL13
+ 1603 00af 5C000000 		.4byte	.LVL14
+ 1604 00b3 0200     		.2byte	0x2
+ 1605 00b5 31       		.byte	0x31
+ 1606 00b6 9F       		.byte	0x9f
+ 1607 00b7 5C000000 		.4byte	.LVL14
+ 1608 00bb 62000000 		.4byte	.LVL15
+ 1609 00bf 0100     		.2byte	0x1
+ 1610 00c1 56       		.byte	0x56
+ 1611 00c2 62000000 		.4byte	.LVL15
+ 1612 00c6 66000000 		.4byte	.LVL16
+ 1613 00ca 0200     		.2byte	0x2
+ 1614 00cc 31       		.byte	0x31
+ 1615 00cd 9F       		.byte	0x9f
+ 1616 00ce 66000000 		.4byte	.LVL16
+ 1617 00d2 6C000000 		.4byte	.LVL17
+ 1618 00d6 0100     		.2byte	0x1
+ 1619 00d8 56       		.byte	0x56
+ 1620 00d9 6C000000 		.4byte	.LVL17
+ 1621 00dd 6E000000 		.4byte	.LVL18
+ 1622 00e1 0200     		.2byte	0x2
+ 1623 00e3 30       		.byte	0x30
+ 1624 00e4 9F       		.byte	0x9f
+ 1625 00e5 6E000000 		.4byte	.LVL18
+ 1626 00e9 90000000 		.4byte	.LVL20
+ 1627 00ed 0100     		.2byte	0x1
+ 1628 00ef 56       		.byte	0x56
+ 1629 00f0 90000000 		.4byte	.LVL20
+ 1630 00f4 92000000 		.4byte	.LVL21
+ 1631 00f8 0200     		.2byte	0x2
+ 1632 00fa 30       		.byte	0x30
+ 1633 00fb 9F       		.byte	0x9f
+ 1634 00fc 92000000 		.4byte	.LVL21
+ 1635 0100 18010000 		.4byte	.LVL32
+ 1636 0104 0100     		.2byte	0x1
+ 1637 0106 56       		.byte	0x56
+ 1638 0107 00000000 		.4byte	0
+ 1639 010b 00000000 		.4byte	0
+ 1640              	.LLST4:
+ 1641 010f 22000000 		.4byte	.LVL5
+ 1642 0113 CC000000 		.4byte	.LVL24
+ 1643 0117 0100     		.2byte	0x1
+ 1644 0119 54       		.byte	0x54
+ 1645 011a 00000000 		.4byte	0
+ 1646 011e 00000000 		.4byte	0
+ 1647              	.LLST5:
+ 1648 0122 02000000 		.4byte	.LVL1
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\cccvcXd6.s 			page 34
 
 
- 1649 0163 E2000000 		.4byte	.LVL26
- 1650 0167 16010000 		.4byte	.LVL30
- 1651 016b 0100     		.2byte	0x1
- 1652 016d 54       		.byte	0x54
- 1653 016e 00000000 		.4byte	0
- 1654 0172 00000000 		.4byte	0
- 1655              		.section	.debug_aranges,"",%progbits
- 1656 0000 24000000 		.4byte	0x24
- 1657 0004 0200     		.2byte	0x2
- 1658 0006 00000000 		.4byte	.Ldebug_info0
- 1659 000a 04       		.byte	0x4
- 1660 000b 00       		.byte	0
- 1661 000c 0000     		.2byte	0
- 1662 000e 0000     		.2byte	0
- 1663 0010 00000000 		.4byte	.LFB1
- 1664 0014 14000000 		.4byte	.LFE1-.LFB1
- 1665 0018 00000000 		.4byte	.LFB2
- 1666 001c 30010000 		.4byte	.LFE2-.LFB2
- 1667 0020 00000000 		.4byte	0
- 1668 0024 00000000 		.4byte	0
- 1669              		.section	.debug_ranges,"",%progbits
- 1670              	.Ldebug_ranges0:
- 1671 0000 00000000 		.4byte	.LFB1
- 1672 0004 14000000 		.4byte	.LFE1
- 1673 0008 00000000 		.4byte	.LFB2
- 1674 000c 30010000 		.4byte	.LFE2
- 1675 0010 00000000 		.4byte	0
- 1676 0014 00000000 		.4byte	0
- 1677              		.section	.debug_line,"",%progbits
- 1678              	.Ldebug_line0:
- 1679 0000 24010000 		.section	.debug_str,"MS",%progbits,1
- 1679      0200BE00 
- 1679      00000201 
- 1679      FB0E0D00 
- 1679      01010101 
- 1680              	.LASF10:
- 1681 0000 75696E74 		.ascii	"uint16\000"
- 1681      313600
- 1682              	.LASF98:
- 1683 0007 43794578 		.ascii	"CyExitCriticalSection\000"
- 1683      69744372 
- 1683      69746963 
- 1683      616C5365 
- 1683      6374696F 
- 1684              	.LASF47:
- 1685 001d 636F6E66 		.ascii	"configId\000"
- 1685      69674964 
- 1685      00
- 1686              	.LASF85:
- 1687 0026 43617053 		.ascii	"CapSense_1_TU_CMD_ENUM\000"
- 1687      656E7365 
- 1687      5F315F54 
- 1687      555F434D 
- 1687      445F454E 
- 1688              	.LASF7:
- 1689 003d 6C6F6E67 		.ascii	"long long unsigned int\000"
- 1689      206C6F6E 
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccBo18Vh.s 			page 35
+ 1649 0126 06000000 		.4byte	.LVL2
+ 1650 012a 0200     		.2byte	0x2
+ 1651 012c 30       		.byte	0x30
+ 1652 012d 9F       		.byte	0x9f
+ 1653 012e 06000000 		.4byte	.LVL2
+ 1654 0132 46000000 		.4byte	.LVL10
+ 1655 0136 0100     		.2byte	0x1
+ 1656 0138 55       		.byte	0x55
+ 1657 0139 46000000 		.4byte	.LVL10
+ 1658 013d 52000000 		.4byte	.LVL12
+ 1659 0141 0200     		.2byte	0x2
+ 1660 0143 31       		.byte	0x31
+ 1661 0144 9F       		.byte	0x9f
+ 1662 0145 52000000 		.4byte	.LVL12
+ 1663 0149 18010000 		.4byte	.LVL31
+ 1664 014d 0100     		.2byte	0x1
+ 1665 014f 55       		.byte	0x55
+ 1666 0150 18010000 		.4byte	.LVL31
+ 1667 0154 30010000 		.4byte	.LFE2
+ 1668 0158 0100     		.2byte	0x1
+ 1669 015a 50       		.byte	0x50
+ 1670 015b 00000000 		.4byte	0
+ 1671 015f 00000000 		.4byte	0
+ 1672              	.LLST6:
+ 1673 0163 E2000000 		.4byte	.LVL26
+ 1674 0167 16010000 		.4byte	.LVL30
+ 1675 016b 0100     		.2byte	0x1
+ 1676 016d 54       		.byte	0x54
+ 1677 016e 00000000 		.4byte	0
+ 1678 0172 00000000 		.4byte	0
+ 1679              		.section	.debug_aranges,"",%progbits
+ 1680 0000 24000000 		.4byte	0x24
+ 1681 0004 0200     		.2byte	0x2
+ 1682 0006 00000000 		.4byte	.Ldebug_info0
+ 1683 000a 04       		.byte	0x4
+ 1684 000b 00       		.byte	0
+ 1685 000c 0000     		.2byte	0
+ 1686 000e 0000     		.2byte	0
+ 1687 0010 00000000 		.4byte	.LFB1
+ 1688 0014 14000000 		.4byte	.LFE1-.LFB1
+ 1689 0018 00000000 		.4byte	.LFB2
+ 1690 001c 30010000 		.4byte	.LFE2-.LFB2
+ 1691 0020 00000000 		.4byte	0
+ 1692 0024 00000000 		.4byte	0
+ 1693              		.section	.debug_ranges,"",%progbits
+ 1694              	.Ldebug_ranges0:
+ 1695 0000 00000000 		.4byte	.LFB1
+ 1696 0004 14000000 		.4byte	.LFE1
+ 1697 0008 00000000 		.4byte	.LFB2
+ 1698 000c 30010000 		.4byte	.LFE2
+ 1699 0010 00000000 		.4byte	0
+ 1700 0014 00000000 		.4byte	0
+ 1701              		.section	.debug_line,"",%progbits
+ 1702              	.Ldebug_line0:
+ 1703 0000 24010000 		.section	.debug_str,"MS",%progbits,1
+ 1703      0200BE00 
+ 1703      00000201 
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\cccvcXd6.s 			page 35
 
 
- 1689      6720756E 
- 1689      7369676E 
- 1689      65642069 
- 1690              	.LASF66:
- 1691 0054 70747232 		.ascii	"ptr2SnsFlash\000"
- 1691      536E7346 
- 1691      6C617368 
- 1691      00
- 1692              	.LASF42:
- 1693 0061 64696666 		.ascii	"diff\000"
- 1693      00
- 1694              	.LASF103:
- 1695 0066 43617053 		.ascii	"CapSense_1_TuInitialize\000"
- 1695      656E7365 
- 1695      5F315F54 
- 1695      75496E69 
- 1695      7469616C 
- 1696              	.LASF62:
- 1697 007e 736E7254 		.ascii	"snrTestSensorId\000"
- 1697      65737453 
- 1697      656E736F 
- 1697      72496400 
- 1698              	.LASF6:
- 1699 008e 6C6F6E67 		.ascii	"long long int\000"
- 1699      206C6F6E 
- 1699      6720696E 
- 1699      7400
- 1700              	.LASF0:
- 1701 009c 7369676E 		.ascii	"signed char\000"
- 1701      65642063 
- 1701      68617200 
- 1702              	.LASF95:
- 1703 00a8 43617053 		.ascii	"CapSense_1_dsRam\000"
- 1703      656E7365 
- 1703      5F315F64 
- 1703      7352616D 
- 1703      00
- 1704              	.LASF29:
- 1705 00b9 62757474 		.ascii	"button0\000"
- 1705      6F6E3000 
- 1706              	.LASF30:
- 1707 00c1 62757474 		.ascii	"button1\000"
- 1707      6F6E3100 
- 1708              	.LASF31:
- 1709 00c9 62757474 		.ascii	"button2\000"
- 1709      6F6E3200 
- 1710              	.LASF32:
- 1711 00d1 62757474 		.ascii	"button3\000"
- 1711      6F6E3300 
- 1712              	.LASF33:
- 1713 00d9 62757474 		.ascii	"button4\000"
- 1713      6F6E3400 
- 1714              	.LASF34:
- 1715 00e1 62757474 		.ascii	"button5\000"
- 1715      6F6E3500 
- 1716              	.LASF35:
- 1717 00e9 62757474 		.ascii	"button6\000"
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccBo18Vh.s 			page 36
+ 1703      FB0E0D00 
+ 1703      01010101 
+ 1704              	.LASF10:
+ 1705 0000 75696E74 		.ascii	"uint16\000"
+ 1705      313600
+ 1706              	.LASF100:
+ 1707 0007 43794578 		.ascii	"CyExitCriticalSection\000"
+ 1707      69744372 
+ 1707      69746963 
+ 1707      616C5365 
+ 1707      6374696F 
+ 1708              	.LASF49:
+ 1709 001d 636F6E66 		.ascii	"configId\000"
+ 1709      69674964 
+ 1709      00
+ 1710              	.LASF87:
+ 1711 0026 43617053 		.ascii	"CapSense_1_TU_CMD_ENUM\000"
+ 1711      656E7365 
+ 1711      5F315F54 
+ 1711      555F434D 
+ 1711      445F454E 
+ 1712              	.LASF7:
+ 1713 003d 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 1713      206C6F6E 
+ 1713      6720756E 
+ 1713      7369676E 
+ 1713      65642069 
+ 1714              	.LASF68:
+ 1715 0054 70747232 		.ascii	"ptr2SnsFlash\000"
+ 1715      536E7346 
+ 1715      6C617368 
+ 1715      00
+ 1716              	.LASF44:
+ 1717 0061 64696666 		.ascii	"diff\000"
+ 1717      00
+ 1718              	.LASF105:
+ 1719 0066 43617053 		.ascii	"CapSense_1_TuInitialize\000"
+ 1719      656E7365 
+ 1719      5F315F54 
+ 1719      75496E69 
+ 1719      7469616C 
+ 1720              	.LASF64:
+ 1721 007e 736E7254 		.ascii	"snrTestSensorId\000"
+ 1721      65737453 
+ 1721      656E736F 
+ 1721      72496400 
+ 1722              	.LASF6:
+ 1723 008e 6C6F6E67 		.ascii	"long long int\000"
+ 1723      206C6F6E 
+ 1723      6720696E 
+ 1723      7400
+ 1724              	.LASF0:
+ 1725 009c 7369676E 		.ascii	"signed char\000"
+ 1725      65642063 
+ 1725      68617200 
+ 1726              	.LASF97:
+ 1727 00a8 43617053 		.ascii	"CapSense_1_dsRam\000"
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\cccvcXd6.s 			page 36
 
 
- 1717      6F6E3600 
- 1718              	.LASF36:
- 1719 00f1 62757474 		.ascii	"button7\000"
- 1719      6F6E3700 
- 1720              	.LASF37:
- 1721 00f9 62757474 		.ascii	"button8\000"
- 1721      6F6E3800 
- 1722              	.LASF17:
- 1723 0101 43617053 		.ascii	"CapSense_1_THRESHOLD_TYPE\000"
- 1723      656E7365 
- 1723      5F315F54 
- 1723      48524553 
- 1723      484F4C44 
- 1724              	.LASF55:
- 1725 011b 736E7353 		.ascii	"snsStatus\000"
- 1725      74617475 
- 1725      7300
- 1726              	.LASF4:
- 1727 0125 6C6F6E67 		.ascii	"long int\000"
- 1727      20696E74 
+ 1727      656E7365 
+ 1727      5F315F64 
+ 1727      7352616D 
  1727      00
- 1728              	.LASF57:
- 1729 012e 6D6F6443 		.ascii	"modCsdClk\000"
- 1729      7364436C 
- 1729      6B00
- 1730              	.LASF68:
- 1731 0138 70747232 		.ascii	"ptr2SnsRam\000"
- 1731      536E7352 
- 1731      616D00
- 1732              	.LASF9:
- 1733 0143 75696E74 		.ascii	"uint8\000"
- 1733      3800
- 1734              	.LASF13:
- 1735 0149 646F7562 		.ascii	"double\000"
- 1735      6C6500
- 1736              	.LASF64:
- 1737 0150 736E7254 		.ascii	"snrTestRawCount\000"
- 1737      65737452 
- 1737      6177436F 
- 1737      756E7400 
- 1738              	.LASF88:
- 1739 0160 73656E73 		.ascii	"sensorId\000"
- 1739      6F724964 
- 1739      00
- 1740              	.LASF11:
- 1741 0169 75696E74 		.ascii	"uint32\000"
- 1741      333200
- 1742              	.LASF23:
- 1743 0170 68797374 		.ascii	"hysteresis\000"
- 1743      65726573 
- 1743      697300
- 1744              	.LASF41:
- 1745 017b 62736C6E 		.ascii	"bslnExt\000"
- 1745      45787400 
- 1746              	.LASF89:
- 1747 0183 75706461 		.ascii	"updateFlag\000"
- 1747      7465466C 
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccBo18Vh.s 			page 37
+ 1728              	.LASF29:
+ 1729 00b9 62757474 		.ascii	"button0\000"
+ 1729      6F6E3000 
+ 1730              	.LASF30:
+ 1731 00c1 62757474 		.ascii	"button1\000"
+ 1731      6F6E3100 
+ 1732              	.LASF31:
+ 1733 00c9 62757474 		.ascii	"button2\000"
+ 1733      6F6E3200 
+ 1734              	.LASF32:
+ 1735 00d1 62757474 		.ascii	"button3\000"
+ 1735      6F6E3300 
+ 1736              	.LASF33:
+ 1737 00d9 62757474 		.ascii	"button4\000"
+ 1737      6F6E3400 
+ 1738              	.LASF34:
+ 1739 00e1 62757474 		.ascii	"button5\000"
+ 1739      6F6E3500 
+ 1740              	.LASF35:
+ 1741 00e9 62757474 		.ascii	"button6\000"
+ 1741      6F6E3600 
+ 1742              	.LASF36:
+ 1743 00f1 62757474 		.ascii	"button7\000"
+ 1743      6F6E3700 
+ 1744              	.LASF37:
+ 1745 00f9 62757474 		.ascii	"button8\000"
+ 1745      6F6E3800 
+ 1746              	.LASF17:
+ 1747 0101 43617053 		.ascii	"CapSense_1_THRESHOLD_TYPE\000"
+ 1747      656E7365 
+ 1747      5F315F54 
+ 1747      48524553 
+ 1747      484F4C44 
+ 1748              	.LASF57:
+ 1749 011b 736E7353 		.ascii	"snsStatus\000"
+ 1749      74617475 
+ 1749      7300
+ 1750              	.LASF4:
+ 1751 0125 6C6F6E67 		.ascii	"long int\000"
+ 1751      20696E74 
+ 1751      00
+ 1752              	.LASF59:
+ 1753 012e 6D6F6443 		.ascii	"modCsdClk\000"
+ 1753      7364436C 
+ 1753      6B00
+ 1754              	.LASF70:
+ 1755 0138 70747232 		.ascii	"ptr2SnsRam\000"
+ 1755      536E7352 
+ 1755      616D00
+ 1756              	.LASF9:
+ 1757 0143 75696E74 		.ascii	"uint8\000"
+ 1757      3800
+ 1758              	.LASF13:
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\cccvcXd6.s 			page 37
 
 
- 1747      616700
- 1748              	.LASF78:
- 1749 018e 43617053 		.ascii	"CapSense_1_TU_CMD_NONE_E\000"
- 1749      656E7365 
- 1749      5F315F54 
- 1749      555F434D 
- 1749      445F4E4F 
- 1750              	.LASF54:
- 1751 01a7 77646774 		.ascii	"wdgtStatus\000"
- 1751      53746174 
- 1751      757300
- 1752              	.LASF76:
- 1753 01b2 77646774 		.ascii	"wdgtArray\000"
- 1753      41727261 
- 1753      7900
- 1754              	.LASF40:
- 1755 01bc 62736C6E 		.ascii	"bsln\000"
- 1755      00
- 1756              	.LASF8:
- 1757 01c1 756E7369 		.ascii	"unsigned int\000"
- 1757      676E6564 
- 1757      20696E74 
- 1757      00
- 1758              	.LASF61:
- 1759 01ce 736E7254 		.ascii	"snrTestWidgetId\000"
- 1759      65737457 
- 1759      69646765 
- 1759      74496400 
- 1760              	.LASF90:
- 1761 01de 636F6D6D 		.ascii	"command\000"
- 1761      616E6400 
- 1762              	.LASF5:
- 1763 01e6 6C6F6E67 		.ascii	"long unsigned int\000"
- 1763      20756E73 
- 1763      69676E65 
- 1763      6420696E 
- 1763      7400
- 1764              	.LASF53:
- 1765 01f8 77646774 		.ascii	"wdgtEnable\000"
- 1765      456E6162 
- 1765      6C6500
- 1766              	.LASF86:
- 1767 0203 696E7465 		.ascii	"interruptState\000"
- 1767      72727570 
- 1767      74537461 
- 1767      746500
- 1768              	.LASF97:
- 1769 0212 4379456E 		.ascii	"CyEnterCriticalSection\000"
- 1769      74657243 
- 1769      72697469 
- 1769      63616C53 
- 1769      65637469 
- 1770              	.LASF25:
- 1771 0229 6C6F7742 		.ascii	"lowBslnRst\000"
- 1771      736C6E52 
- 1771      737400
- 1772              	.LASF93:
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccBo18Vh.s 			page 38
+ 1759 0149 646F7562 		.ascii	"double\000"
+ 1759      6C6500
+ 1760              	.LASF66:
+ 1761 0150 736E7254 		.ascii	"snrTestRawCount\000"
+ 1761      65737452 
+ 1761      6177436F 
+ 1761      756E7400 
+ 1762              	.LASF90:
+ 1763 0160 73656E73 		.ascii	"sensorId\000"
+ 1763      6F724964 
+ 1763      00
+ 1764              	.LASF11:
+ 1765 0169 75696E74 		.ascii	"uint32\000"
+ 1765      333200
+ 1766              	.LASF23:
+ 1767 0170 68797374 		.ascii	"hysteresis\000"
+ 1767      65726573 
+ 1767      697300
+ 1768              	.LASF43:
+ 1769 017b 62736C6E 		.ascii	"bslnExt\000"
+ 1769      45787400 
+ 1770              	.LASF91:
+ 1771 0183 75706461 		.ascii	"updateFlag\000"
+ 1771      7465466C 
+ 1771      616700
+ 1772              	.LASF80:
+ 1773 018e 43617053 		.ascii	"CapSense_1_TU_CMD_NONE_E\000"
+ 1773      656E7365 
+ 1773      5F315F54 
+ 1773      555F434D 
+ 1773      445F4E4F 
+ 1774              	.LASF56:
+ 1775 01a7 77646774 		.ascii	"wdgtStatus\000"
+ 1775      53746174 
+ 1775      757300
+ 1776              	.LASF78:
+ 1777 01b2 77646774 		.ascii	"wdgtArray\000"
+ 1777      41727261 
+ 1777      7900
+ 1778              	.LASF42:
+ 1779 01bc 62736C6E 		.ascii	"bsln\000"
+ 1779      00
+ 1780              	.LASF8:
+ 1781 01c1 756E7369 		.ascii	"unsigned int\000"
+ 1781      676E6564 
+ 1781      20696E74 
+ 1781      00
+ 1782              	.LASF63:
+ 1783 01ce 736E7254 		.ascii	"snrTestWidgetId\000"
+ 1783      65737457 
+ 1783      69646765 
+ 1783      74496400 
+ 1784              	.LASF92:
+ 1785 01de 636F6D6D 		.ascii	"command\000"
+ 1785      616E6400 
+ 1786              	.LASF5:
+ 1787 01e6 6C6F6E67 		.ascii	"long unsigned int\000"
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\cccvcXd6.s 			page 38
 
 
- 1773 0234 70747253 		.ascii	"ptrSnsTmp\000"
- 1773      6E73546D 
- 1773      7000
- 1774              	.LASF3:
- 1775 023e 73686F72 		.ascii	"short unsigned int\000"
- 1775      7420756E 
- 1775      7369676E 
- 1775      65642069 
- 1775      6E7400
- 1776              	.LASF28:
- 1777 0251 43617053 		.ascii	"CapSense_1_RAM_WD_BUTTON_STRUCT\000"
- 1777      656E7365 
- 1777      5F315F52 
- 1777      414D5F57 
- 1777      445F4255 
- 1778              	.LASF75:
- 1779 0271 43617053 		.ascii	"CapSense_1_FLASH_WD_STRUCT\000"
- 1779      656E7365 
- 1779      5F315F46 
- 1779      4C415348 
- 1779      5F57445F 
- 1780              	.LASF60:
- 1781 028c 736E734C 		.ascii	"snsList\000"
- 1781      69737400 
- 1782              	.LASF46:
- 1783 0294 43617053 		.ascii	"CapSense_1_RAM_SNS_LIST_STRUCT\000"
- 1783      656E7365 
- 1783      5F315F52 
- 1783      414D5F53 
- 1783      4E535F4C 
- 1784              	.LASF58:
- 1785 02b3 736E7343 		.ascii	"snsCsdClk\000"
- 1785      7364436C 
- 1785      6B00
- 1786              	.LASF56:
- 1787 02bd 63736430 		.ascii	"csd0Config\000"
- 1787      436F6E66 
- 1787      696700
- 1788              	.LASF67:
- 1789 02c8 70747232 		.ascii	"ptr2WdgtRam\000"
- 1789      57646774 
- 1789      52616D00 
- 1790              	.LASF48:
- 1791 02d4 64657669 		.ascii	"deviceId\000"
- 1791      63654964 
- 1791      00
- 1792              	.LASF84:
- 1793 02dd 43617053 		.ascii	"CapSense_1_TU_CMD_ONE_SCAN_E\000"
- 1793      656E7365 
- 1793      5F315F54 
- 1793      555F434D 
- 1793      445F4F4E 
- 1794              	.LASF87:
- 1795 02fa 77696467 		.ascii	"widgetId\000"
- 1795      65744964 
- 1795      00
- 1796              	.LASF26:
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccBo18Vh.s 			page 39
+ 1787      20756E73 
+ 1787      69676E65 
+ 1787      6420696E 
+ 1787      7400
+ 1788              	.LASF55:
+ 1789 01f8 77646774 		.ascii	"wdgtEnable\000"
+ 1789      456E6162 
+ 1789      6C6500
+ 1790              	.LASF88:
+ 1791 0203 696E7465 		.ascii	"interruptState\000"
+ 1791      72727570 
+ 1791      74537461 
+ 1791      746500
+ 1792              	.LASF99:
+ 1793 0212 4379456E 		.ascii	"CyEnterCriticalSection\000"
+ 1793      74657243 
+ 1793      72697469 
+ 1793      63616C53 
+ 1793      65637469 
+ 1794              	.LASF25:
+ 1795 0229 6C6F7742 		.ascii	"lowBslnRst\000"
+ 1795      736C6E52 
+ 1795      737400
+ 1796              	.LASF95:
+ 1797 0234 70747253 		.ascii	"ptrSnsTmp\000"
+ 1797      6E73546D 
+ 1797      7000
+ 1798              	.LASF3:
+ 1799 023e 73686F72 		.ascii	"short unsigned int\000"
+ 1799      7420756E 
+ 1799      7369676E 
+ 1799      65642069 
+ 1799      6E7400
+ 1800              	.LASF28:
+ 1801 0251 43617053 		.ascii	"CapSense_1_RAM_WD_BUTTON_STRUCT\000"
+ 1801      656E7365 
+ 1801      5F315F52 
+ 1801      414D5F57 
+ 1801      445F4255 
+ 1802              	.LASF77:
+ 1803 0271 43617053 		.ascii	"CapSense_1_FLASH_WD_STRUCT\000"
+ 1803      656E7365 
+ 1803      5F315F46 
+ 1803      4C415348 
+ 1803      5F57445F 
+ 1804              	.LASF62:
+ 1805 028c 736E734C 		.ascii	"snsList\000"
+ 1805      69737400 
+ 1806              	.LASF48:
+ 1807 0294 43617053 		.ascii	"CapSense_1_RAM_SNS_LIST_STRUCT\000"
+ 1807      656E7365 
+ 1807      5F315F52 
+ 1807      414D5F53 
+ 1807      4E535F4C 
+ 1808              	.LASF60:
+ 1809 02b3 736E7343 		.ascii	"snsCsdClk\000"
+ 1809      7364436C 
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\cccvcXd6.s 			page 39
 
 
- 1797 0303 69646163 		.ascii	"idacMod\000"
- 1797      4D6F6400 
- 1798              	.LASF81:
- 1799 030b 43617053 		.ascii	"CapSense_1_TU_CMD_RESTART_E\000"
- 1799      656E7365 
- 1799      5F315F54 
- 1799      555F434D 
- 1799      445F5245 
- 1800              	.LASF74:
- 1801 0327 6E756D43 		.ascii	"numCols\000"
- 1801      6F6C7300 
- 1802              	.LASF16:
- 1803 032f 73697A65 		.ascii	"sizetype\000"
- 1803      74797065 
- 1803      00
- 1804              	.LASF82:
- 1805 0338 43617053 		.ascii	"CapSense_1_TU_CMD_RUN_SNR_TEST_E\000"
- 1805      656E7365 
- 1805      5F315F54 
- 1805      555F434D 
- 1805      445F5255 
- 1806              	.LASF15:
- 1807 0359 6C6F6E67 		.ascii	"long double\000"
- 1807      20646F75 
- 1807      626C6500 
- 1808              	.LASF104:
- 1809 0365 43617053 		.ascii	"CapSense_1_RunTuner\000"
- 1809      656E7365 
- 1809      5F315F52 
- 1809      756E5475 
- 1809      6E657200 
- 1810              	.LASF71:
- 1811 0379 73746174 		.ascii	"staticConfig\000"
- 1811      6963436F 
- 1811      6E666967 
- 1811      00
- 1812              	.LASF22:
- 1813 0386 6E4E6F69 		.ascii	"nNoiseTh\000"
- 1813      73655468 
- 1813      00
- 1814              	.LASF79:
- 1815 038f 43617053 		.ascii	"CapSense_1_TU_CMD_SUSPEND_E\000"
- 1815      656E7365 
- 1815      5F315F54 
- 1815      555F434D 
- 1815      445F5355 
- 1816              	.LASF49:
- 1817 03ab 6877436C 		.ascii	"hwClock\000"
- 1817      6F636B00 
- 1818              	.LASF73:
- 1819 03b3 77646774 		.ascii	"wdgtType\000"
- 1819      54797065 
+ 1809      6B00
+ 1810              	.LASF58:
+ 1811 02bd 63736430 		.ascii	"csd0Config\000"
+ 1811      436F6E66 
+ 1811      696700
+ 1812              	.LASF69:
+ 1813 02c8 70747232 		.ascii	"ptr2WdgtRam\000"
+ 1813      57646774 
+ 1813      52616D00 
+ 1814              	.LASF50:
+ 1815 02d4 64657669 		.ascii	"deviceId\000"
+ 1815      63654964 
+ 1815      00
+ 1816              	.LASF86:
+ 1817 02dd 43617053 		.ascii	"CapSense_1_TU_CMD_ONE_SCAN_E\000"
+ 1817      656E7365 
+ 1817      5F315F54 
+ 1817      555F434D 
+ 1817      445F4F4E 
+ 1818              	.LASF89:
+ 1819 02fa 77696467 		.ascii	"widgetId\000"
+ 1819      65744964 
  1819      00
- 1820              	.LASF51:
- 1821 03bc 7363616E 		.ascii	"scanCounter\000"
- 1821      436F756E 
- 1821      74657200 
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccBo18Vh.s 			page 40
-
-
- 1822              	.LASF65:
- 1823 03c8 43617053 		.ascii	"CapSense_1_RAM_STRUCT\000"
+ 1820              	.LASF26:
+ 1821 0303 69646163 		.ascii	"idacMod\000"
+ 1821      4D6F6400 
+ 1822              	.LASF83:
+ 1823 030b 43617053 		.ascii	"CapSense_1_TU_CMD_RESTART_E\000"
  1823      656E7365 
- 1823      5F315F52 
- 1823      414D5F53 
- 1823      54525543 
- 1824              	.LASF50:
- 1825 03de 74756E65 		.ascii	"tunerCmd\000"
- 1825      72436D64 
- 1825      00
- 1826              	.LASF12:
- 1827 03e7 666C6F61 		.ascii	"float\000"
- 1827      7400
- 1828              	.LASF45:
- 1829 03ed 43617053 		.ascii	"CapSense_1_RAM_SNS_STRUCT\000"
+ 1823      5F315F54 
+ 1823      555F434D 
+ 1823      445F5245 
+ 1824              	.LASF76:
+ 1825 0327 6E756D43 		.ascii	"numCols\000"
+ 1825      6F6C7300 
+ 1826              	.LASF16:
+ 1827 032f 73697A65 		.ascii	"sizetype\000"
+ 1827      74797065 
+ 1827      00
+ 1828              	.LASF84:
+ 1829 0338 43617053 		.ascii	"CapSense_1_TU_CMD_RUN_SNR_TEST_E\000"
  1829      656E7365 
- 1829      5F315F52 
- 1829      414D5F53 
- 1829      4E535F53 
- 1830              	.LASF77:
- 1831 0407 43617053 		.ascii	"CapSense_1_FLASH_STRUCT\000"
- 1831      656E7365 
- 1831      5F315F46 
- 1831      4C415348 
- 1831      5F535452 
- 1832              	.LASF1:
- 1833 041f 756E7369 		.ascii	"unsigned char\000"
- 1833      676E6564 
- 1833      20636861 
- 1833      7200
- 1834              	.LASF80:
- 1835 042d 43617053 		.ascii	"CapSense_1_TU_CMD_RESUME_E\000"
- 1835      656E7365 
- 1835      5F315F54 
- 1835      555F434D 
- 1835      445F5245 
- 1836              	.LASF96:
- 1837 0448 43617053 		.ascii	"CapSense_1_dsFlash\000"
- 1837      656E7365 
- 1837      5F315F64 
- 1837      73466C61 
- 1837      736800
- 1838              	.LASF2:
- 1839 045b 73686F72 		.ascii	"short int\000"
- 1839      7420696E 
- 1839      7400
- 1840              	.LASF39:
- 1841 0465 43617053 		.ascii	"CapSense_1_RAM_WD_LIST_STRUCT\000"
- 1841      656E7365 
- 1841      5F315F52 
- 1841      414D5F57 
- 1841      445F4C49 
- 1842              	.LASF69:
- 1843 0483 70747232 		.ascii	"ptr2FltrHistory\000"
- 1843      466C7472 
- 1843      48697374 
- 1843      6F727900 
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccBo18Vh.s 			page 41
+ 1829      5F315F54 
+ 1829      555F434D 
+ 1829      445F5255 
+ 1830              	.LASF15:
+ 1831 0359 6C6F6E67 		.ascii	"long double\000"
+ 1831      20646F75 
+ 1831      626C6500 
+ 1832              	.LASF106:
+ 1833 0365 43617053 		.ascii	"CapSense_1_RunTuner\000"
+ 1833      656E7365 
+ 1833      5F315F52 
+ 1833      756E5475 
+ 1833      6E657200 
+ 1834              	.LASF73:
+ 1835 0379 73746174 		.ascii	"staticConfig\000"
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\cccvcXd6.s 			page 40
 
 
- 1844              	.LASF83:
- 1845 0493 43617053 		.ascii	"CapSense_1_TU_CMD_PING_E\000"
- 1845      656E7365 
- 1845      5F315F54 
- 1845      555F434D 
- 1845      445F5049 
- 1846              	.LASF101:
- 1847 04ac 47656E65 		.ascii	"Generated_Source\\PSoC4\\CapSense_1_Tuner.c\000"
- 1847      72617465 
- 1847      645F536F 
- 1847      75726365 
- 1847      5C50536F 
- 1848              	.LASF91:
- 1849 04d6 74756E65 		.ascii	"tunerStatus\000"
- 1849      72537461 
- 1849      74757300 
- 1850              	.LASF38:
- 1851 04e2 62757474 		.ascii	"button9\000"
- 1851      6F6E3900 
- 1852              	.LASF19:
- 1853 04ea 7265736F 		.ascii	"resolution\000"
- 1853      6C757469 
- 1853      6F6E00
- 1854              	.LASF59:
- 1855 04f5 77646774 		.ascii	"wdgtList\000"
- 1855      4C697374 
- 1855      00
- 1856              	.LASF100:
- 1857 04fe 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
- 1857      43313120 
- 1857      352E342E 
- 1857      31203230 
- 1857      31363036 
- 1858 0531 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m0plus -mthumb -"
- 1858      20726576 
- 1858      6973696F 
- 1858      6E203233 
- 1858      37373135 
- 1859 0564 67202D4F 		.ascii	"g -Og -ffunction-sections -ffat-lto-objects\000"
- 1859      67202D66 
- 1859      66756E63 
- 1859      74696F6E 
- 1859      2D736563 
- 1860              	.LASF14:
- 1861 0590 63686172 		.ascii	"char\000"
- 1861      00
- 1862              	.LASF24:
- 1863 0595 6F6E4465 		.ascii	"onDebounce\000"
- 1863      626F756E 
- 1863      636500
- 1864              	.LASF44:
- 1865 05a0 69646163 		.ascii	"idacComp\000"
- 1865      436F6D70 
- 1865      00
- 1866              	.LASF43:
- 1867 05a9 6E656742 		.ascii	"negBslnRstCnt\000"
- 1867      736C6E52 
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccBo18Vh.s 			page 42
+ 1835      6963436F 
+ 1835      6E666967 
+ 1835      00
+ 1836              	.LASF22:
+ 1837 0386 6E4E6F69 		.ascii	"nNoiseTh\000"
+ 1837      73655468 
+ 1837      00
+ 1838              	.LASF81:
+ 1839 038f 43617053 		.ascii	"CapSense_1_TU_CMD_SUSPEND_E\000"
+ 1839      656E7365 
+ 1839      5F315F54 
+ 1839      555F434D 
+ 1839      445F5355 
+ 1840              	.LASF51:
+ 1841 03ab 6877436C 		.ascii	"hwClock\000"
+ 1841      6F636B00 
+ 1842              	.LASF75:
+ 1843 03b3 77646774 		.ascii	"wdgtType\000"
+ 1843      54797065 
+ 1843      00
+ 1844              	.LASF53:
+ 1845 03bc 7363616E 		.ascii	"scanCounter\000"
+ 1845      436F756E 
+ 1845      74657200 
+ 1846              	.LASF67:
+ 1847 03c8 43617053 		.ascii	"CapSense_1_RAM_STRUCT\000"
+ 1847      656E7365 
+ 1847      5F315F52 
+ 1847      414D5F53 
+ 1847      54525543 
+ 1848              	.LASF52:
+ 1849 03de 74756E65 		.ascii	"tunerCmd\000"
+ 1849      72436D64 
+ 1849      00
+ 1850              	.LASF12:
+ 1851 03e7 666C6F61 		.ascii	"float\000"
+ 1851      7400
+ 1852              	.LASF47:
+ 1853 03ed 43617053 		.ascii	"CapSense_1_RAM_SNS_STRUCT\000"
+ 1853      656E7365 
+ 1853      5F315F52 
+ 1853      414D5F53 
+ 1853      4E535F53 
+ 1854              	.LASF79:
+ 1855 0407 43617053 		.ascii	"CapSense_1_FLASH_STRUCT\000"
+ 1855      656E7365 
+ 1855      5F315F46 
+ 1855      4C415348 
+ 1855      5F535452 
+ 1856              	.LASF1:
+ 1857 041f 756E7369 		.ascii	"unsigned char\000"
+ 1857      676E6564 
+ 1857      20636861 
+ 1857      7200
+ 1858              	.LASF82:
+ 1859 042d 43617053 		.ascii	"CapSense_1_TU_CMD_RESUME_E\000"
+ 1859      656E7365 
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\cccvcXd6.s 			page 41
 
 
- 1867      7374436E 
- 1867      7400
- 1868              	.LASF72:
- 1869 05b7 746F7461 		.ascii	"totalNumSns\000"
- 1869      6C4E756D 
- 1869      536E7300 
- 1870              	.LASF70:
- 1871 05c3 70747232 		.ascii	"ptr2DebounceArr\000"
- 1871      4465626F 
- 1871      756E6365 
- 1871      41727200 
- 1872              	.LASF94:
- 1873 05d3 74756E65 		.ascii	"tunerFsm\000"
- 1873      7246736D 
- 1873      00
- 1874              	.LASF52:
- 1875 05dc 73746174 		.ascii	"status\000"
- 1875      757300
- 1876              	.LASF102:
- 1877 05e3 433A5C55 		.ascii	"C:\\Users\\michael.machate\\Desktop\\Cypress_Firstt"
- 1877      73657273 
- 1877      5C6D6963 
- 1877      6861656C 
- 1877      2E6D6163 
- 1878 0612 65737473 		.ascii	"ests\\FirstTest.cydsn\000"
- 1878      5C466972 
- 1878      73745465 
- 1878      73742E63 
- 1878      7964736E 
- 1879              	.LASF99:
- 1880 0627 43617053 		.ascii	"CapSense_1_Start\000"
- 1880      656E7365 
- 1880      5F315F53 
- 1880      74617274 
- 1880      00
- 1881              	.LASF27:
- 1882 0638 736E7343 		.ascii	"snsClkSource\000"
- 1882      6C6B536F 
- 1882      75726365 
- 1882      00
- 1883              	.LASF92:
- 1884 0645 70747244 		.ascii	"ptrDsRam\000"
- 1884      7352616D 
- 1884      00
- 1885              	.LASF18:
- 1886 064e 43617053 		.ascii	"CapSense_1_LOW_BSLN_RST_TYPE\000"
- 1886      656E7365 
- 1886      5F315F4C 
- 1886      4F575F42 
- 1886      534C4E5F 
- 1887              	.LASF20:
- 1888 066b 66696E67 		.ascii	"fingerTh\000"
- 1888      65725468 
- 1888      00
- 1889              	.LASF63:
- 1890 0674 736E7254 		.ascii	"snrTestScanCounter\000"
- 1890      65737453 
-ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\ccBo18Vh.s 			page 43
+ 1859      5F315F54 
+ 1859      555F434D 
+ 1859      445F5245 
+ 1860              	.LASF98:
+ 1861 0448 43617053 		.ascii	"CapSense_1_dsFlash\000"
+ 1861      656E7365 
+ 1861      5F315F64 
+ 1861      73466C61 
+ 1861      736800
+ 1862              	.LASF2:
+ 1863 045b 73686F72 		.ascii	"short int\000"
+ 1863      7420696E 
+ 1863      7400
+ 1864              	.LASF41:
+ 1865 0465 43617053 		.ascii	"CapSense_1_RAM_WD_LIST_STRUCT\000"
+ 1865      656E7365 
+ 1865      5F315F52 
+ 1865      414D5F57 
+ 1865      445F4C49 
+ 1866              	.LASF71:
+ 1867 0483 70747232 		.ascii	"ptr2FltrHistory\000"
+ 1867      466C7472 
+ 1867      48697374 
+ 1867      6F727900 
+ 1868              	.LASF85:
+ 1869 0493 43617053 		.ascii	"CapSense_1_TU_CMD_PING_E\000"
+ 1869      656E7365 
+ 1869      5F315F54 
+ 1869      555F434D 
+ 1869      445F5049 
+ 1870              	.LASF103:
+ 1871 04ac 47656E65 		.ascii	"Generated_Source\\PSoC4\\CapSense_1_Tuner.c\000"
+ 1871      72617465 
+ 1871      645F536F 
+ 1871      75726365 
+ 1871      5C50536F 
+ 1872              	.LASF93:
+ 1873 04d6 74756E65 		.ascii	"tunerStatus\000"
+ 1873      72537461 
+ 1873      74757300 
+ 1874              	.LASF38:
+ 1875 04e2 62757474 		.ascii	"button9\000"
+ 1875      6F6E3900 
+ 1876              	.LASF19:
+ 1877 04ea 7265736F 		.ascii	"resolution\000"
+ 1877      6C757469 
+ 1877      6F6E00
+ 1878              	.LASF61:
+ 1879 04f5 77646774 		.ascii	"wdgtList\000"
+ 1879      4C697374 
+ 1879      00
+ 1880              	.LASF102:
+ 1881 04fe 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
+ 1881      43313120 
+ 1881      352E342E 
+ 1881      31203230 
+ 1881      31363036 
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\cccvcXd6.s 			page 42
 
 
- 1890      63616E43 
- 1890      6F756E74 
- 1890      657200
- 1891              	.LASF21:
- 1892 0687 6E6F6973 		.ascii	"noiseTh\000"
- 1892      65546800 
- 1893              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran
+ 1882 0531 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m0plus -mthumb -"
+ 1882      20726576 
+ 1882      6973696F 
+ 1882      6E203233 
+ 1882      37373135 
+ 1883 0564 67202D4F 		.ascii	"g -Og -ffunction-sections -ffat-lto-objects\000"
+ 1883      67202D66 
+ 1883      66756E63 
+ 1883      74696F6E 
+ 1883      2D736563 
+ 1884              	.LASF39:
+ 1885 0590 62757474 		.ascii	"button10\000"
+ 1885      6F6E3130 
+ 1885      00
+ 1886              	.LASF40:
+ 1887 0599 62757474 		.ascii	"button11\000"
+ 1887      6F6E3131 
+ 1887      00
+ 1888              	.LASF14:
+ 1889 05a2 63686172 		.ascii	"char\000"
+ 1889      00
+ 1890              	.LASF24:
+ 1891 05a7 6F6E4465 		.ascii	"onDebounce\000"
+ 1891      626F756E 
+ 1891      636500
+ 1892              	.LASF46:
+ 1893 05b2 69646163 		.ascii	"idacComp\000"
+ 1893      436F6D70 
+ 1893      00
+ 1894              	.LASF45:
+ 1895 05bb 6E656742 		.ascii	"negBslnRstCnt\000"
+ 1895      736C6E52 
+ 1895      7374436E 
+ 1895      7400
+ 1896              	.LASF74:
+ 1897 05c9 746F7461 		.ascii	"totalNumSns\000"
+ 1897      6C4E756D 
+ 1897      536E7300 
+ 1898              	.LASF72:
+ 1899 05d5 70747232 		.ascii	"ptr2DebounceArr\000"
+ 1899      4465626F 
+ 1899      756E6365 
+ 1899      41727200 
+ 1900              	.LASF96:
+ 1901 05e5 74756E65 		.ascii	"tunerFsm\000"
+ 1901      7246736D 
+ 1901      00
+ 1902              	.LASF54:
+ 1903 05ee 73746174 		.ascii	"status\000"
+ 1903      757300
+ 1904              	.LASF104:
+ 1905 05f5 433A5C55 		.ascii	"C:\\Users\\michael.machate\\Desktop\\Cypress_Firstt"
+ 1905      73657273 
+ 1905      5C6D6963 
+ 1905      6861656C 
+ 1905      2E6D6163 
+ 1906 0624 65737473 		.ascii	"ests\\FirstTest.cydsn\000"
+ARM GAS  C:\Users\MICHAE~1.MAC\AppData\Local\Temp\cccvcXd6.s 			page 43
+
+
+ 1906      5C466972 
+ 1906      73745465 
+ 1906      73742E63 
+ 1906      7964736E 
+ 1907              	.LASF101:
+ 1908 0639 43617053 		.ascii	"CapSense_1_Start\000"
+ 1908      656E7365 
+ 1908      5F315F53 
+ 1908      74617274 
+ 1908      00
+ 1909              	.LASF27:
+ 1910 064a 736E7343 		.ascii	"snsClkSource\000"
+ 1910      6C6B536F 
+ 1910      75726365 
+ 1910      00
+ 1911              	.LASF94:
+ 1912 0657 70747244 		.ascii	"ptrDsRam\000"
+ 1912      7352616D 
+ 1912      00
+ 1913              	.LASF18:
+ 1914 0660 43617053 		.ascii	"CapSense_1_LOW_BSLN_RST_TYPE\000"
+ 1914      656E7365 
+ 1914      5F315F4C 
+ 1914      4F575F42 
+ 1914      534C4E5F 
+ 1915              	.LASF20:
+ 1916 067d 66696E67 		.ascii	"fingerTh\000"
+ 1916      65725468 
+ 1916      00
+ 1917              	.LASF65:
+ 1918 0686 736E7254 		.ascii	"snrTestScanCounter\000"
+ 1918      65737453 
+ 1918      63616E43 
+ 1918      6F756E74 
+ 1918      657200
+ 1919              	.LASF21:
+ 1920 0699 6E6F6973 		.ascii	"noiseTh\000"
+ 1920      65546800 
+ 1921              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran

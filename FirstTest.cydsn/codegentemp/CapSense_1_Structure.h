@@ -305,6 +305,16 @@ typedef struct
      *  Button9 widget RAM structure
      */
     CapSense_1_RAM_WD_BUTTON_STRUCT button9;
+
+    /**
+     *  Button10 widget RAM structure
+     */
+    CapSense_1_RAM_WD_BUTTON_STRUCT button10;
+
+    /**
+     *  Button11 widget RAM structure
+     */
+    CapSense_1_RAM_WD_BUTTON_STRUCT button11;
 } CapSense_1_RAM_WD_LIST_STRUCT;
 
 
@@ -354,52 +364,62 @@ typedef struct
     /**
      *  Button0 sensors RAM structures array
      */
-    CapSense_1_RAM_SNS_STRUCT button0 [CapSense_1_BUTTON0_NUM_SENSORS];
+    CapSense_1_RAM_SNS_STRUCT button0  [CapSense_1_BUTTON0_NUM_SENSORS];
 
     /**
      *  Button1 sensors RAM structures array
      */
-    CapSense_1_RAM_SNS_STRUCT button1 [CapSense_1_BUTTON1_NUM_SENSORS];
+    CapSense_1_RAM_SNS_STRUCT button1  [CapSense_1_BUTTON1_NUM_SENSORS];
 
     /**
      *  Button2 sensors RAM structures array
      */
-    CapSense_1_RAM_SNS_STRUCT button2 [CapSense_1_BUTTON2_NUM_SENSORS];
+    CapSense_1_RAM_SNS_STRUCT button2  [CapSense_1_BUTTON2_NUM_SENSORS];
 
     /**
      *  Button3 sensors RAM structures array
      */
-    CapSense_1_RAM_SNS_STRUCT button3 [CapSense_1_BUTTON3_NUM_SENSORS];
+    CapSense_1_RAM_SNS_STRUCT button3  [CapSense_1_BUTTON3_NUM_SENSORS];
 
     /**
      *  Button4 sensors RAM structures array
      */
-    CapSense_1_RAM_SNS_STRUCT button4 [CapSense_1_BUTTON4_NUM_SENSORS];
+    CapSense_1_RAM_SNS_STRUCT button4  [CapSense_1_BUTTON4_NUM_SENSORS];
 
     /**
      *  Button5 sensors RAM structures array
      */
-    CapSense_1_RAM_SNS_STRUCT button5 [CapSense_1_BUTTON5_NUM_SENSORS];
+    CapSense_1_RAM_SNS_STRUCT button5  [CapSense_1_BUTTON5_NUM_SENSORS];
 
     /**
      *  Button6 sensors RAM structures array
      */
-    CapSense_1_RAM_SNS_STRUCT button6 [CapSense_1_BUTTON6_NUM_SENSORS];
+    CapSense_1_RAM_SNS_STRUCT button6  [CapSense_1_BUTTON6_NUM_SENSORS];
 
     /**
      *  Button7 sensors RAM structures array
      */
-    CapSense_1_RAM_SNS_STRUCT button7 [CapSense_1_BUTTON7_NUM_SENSORS];
+    CapSense_1_RAM_SNS_STRUCT button7  [CapSense_1_BUTTON7_NUM_SENSORS];
 
     /**
      *  Button8 sensors RAM structures array
      */
-    CapSense_1_RAM_SNS_STRUCT button8 [CapSense_1_BUTTON8_NUM_SENSORS];
+    CapSense_1_RAM_SNS_STRUCT button8  [CapSense_1_BUTTON8_NUM_SENSORS];
 
     /**
      *  Button9 sensors RAM structures array
      */
-    CapSense_1_RAM_SNS_STRUCT button9 [CapSense_1_BUTTON9_NUM_SENSORS];
+    CapSense_1_RAM_SNS_STRUCT button9  [CapSense_1_BUTTON9_NUM_SENSORS];
+
+    /**
+     *  Button10 sensors RAM structures array
+     */
+    CapSense_1_RAM_SNS_STRUCT button10 [CapSense_1_BUTTON10_NUM_SENSORS];
+
+    /**
+     *  Button11 sensors RAM structures array
+     */
+    CapSense_1_RAM_SNS_STRUCT button11 [CapSense_1_BUTTON11_NUM_SENSORS];
 } CapSense_1_RAM_SNS_LIST_STRUCT;
 
 
