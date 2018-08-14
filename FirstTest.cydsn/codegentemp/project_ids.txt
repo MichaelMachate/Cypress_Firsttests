@@ -1,6 +1,8 @@
-C:\Users\michael.machate\Desktop\Cypress_Firsttests\FirstTest.cydsn\FirstTest.cyprj|846e49cd-67c2-4a6c-8369-6bb99aed9df4
-C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|81272b16-6765-411d-b9a7-407ee2a769ac
-C:\Users\michael.machate\Documents\PSoC Creator\4.2\Downloads ( 4.2).cylib\Downloads ( 4.2).cyprj|d204c1cc-6744-42c7-8020-96e397a5963e
-C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|e0e9bc86-0385-4653-9b2b-dd5a691955ac
-C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|d63fd9bc-1f84-43b1-bd75-8b25e2503375
-C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|e35fa349-025a-4133-a5a3-ff2162706f89
+C:\Users\michael.machate\Desktop\Cypress_Firsttests\FirstTest.cydsn\FirstTest.cyprj|81266490-c7ab-47e2-a9fc-bfd1695a60d0
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|0eb0542a-d3c3-4341-83a5-52a79cbe055d
+C:\Users\michael.machate\Documents\PSoC Creator\4.2\Downloads ( 4.2).cylib\Downloads ( 4.2).cyprj|f9a19cf1-9603-457c-a246-975fc3537a1f
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|fbb7f9e7-8057-454d-92d8-fc27315f1ce2
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|cfed9004-9d99-4fa5-9147-6b740908d9e8
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|98689017-0fe0-484f-9f06-3f57c7df92f7
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\dev\psoc4\PSoC4AnalogDevice\psoc4arch.cydsn\psoc4arch.cyprj|4a3ace8c-2501-4551-9e5f-56bc63bb9192
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\default\CyReferenceLibrary\CyReferenceLibrary.cylib\CyReferenceLibrary.cyprj|a18f5ae4-9366-4426-8cd1-783f573d0680
